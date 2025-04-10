@@ -1,0 +1,46 @@
+.shop {
+    height: 100%;
+    overflow-y: scroll;
+}
+.products {
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2% 5%;
+    justify-content: space-evenly;
+    transition: opacity 0.5s ease-in-out;
+    row-gap: 5dvh;
+}
+.pages {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+    padding-bottom: 1%;
+}
+.page {
+    background-color: rgba(0,0,0, 0.1);
+    padding: 3% 4%;
+    border-radius: 10px;
+    transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
+}
+.page:hover {
+    background-color: #002244;
+    color: white;
+    cursor: pointer;
+}
+.arrow {
+    padding: 2% 1%;
+    border-radius: 10px;
+    transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
+}
+.arrow:hover {
+    background-color: #002244;
+    color: white;
+    cursor: pointer;
+}

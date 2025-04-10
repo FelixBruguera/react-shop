@@ -1,0 +1,48 @@
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.images {
+    width: 33%;
+}
+.image {
+    width: 100%;
+}
+.leftSide {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.button {
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    background-color: #002244;
+    color: white;
+    padding: 2%;
+    margin: 10px;
+    transition: background-color 0.15s ease-in-out;
+    font-weight: 600;
+}
+.button:hover {
+    background-color: black;
+}
+.mainText {
+    font-size: 2.5rem;
+    margin: 10px;
+}
+.subText {
+    color: rgba(0, 0, 0, 0.7);
+    margin: 10px;
+}
+.rightSide {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, #F1F2F3 5%, #ecedef 26%, #F1F2F3 95%);
+}

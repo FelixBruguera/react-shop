@@ -1,0 +1,21 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 15%;
+    font-size: 1.4rem;
+}
+.link {
+    text-decoration: none;
+    color: black;
+}
+.pending {
+    composes: link;
+    background-color: grey;
+}
+.active {
+    composes: link;
+    text-decoration: 5px underline #002244;
+    color: 002244;
+    font-weight: 600;
+}
