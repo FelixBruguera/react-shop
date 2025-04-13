@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "slug": "electronics",
+    "name": "Electronics"
+  },
+  {
+    "id": 2,
+    "slug": "clothing",
+    "name": "Clothing"
+  },
+  {
+    "id": 3,
+    "slug": "home-goods",
+    "name": "Home Goods"
+  },
+  {
+    "id": 4,
+    "slug": "books",
+    "name": "Books"
+  },
+  {
+    "id": 5,
+    "slug": "beauty-personal-care",
+    "name": "Beauty & Personal Care"
+  },
+  {
+    "id": 6,
+    "slug": "sports-outdoors",
+    "name": "Sports & Outdoors"
+  },
+  {
+    "id": 7,
+    "slug": "toys-games",
+    "name": "Toys & Games"
+  },
+  {
+    "id": 8,
+    "slug": "groceries",
+    "name": "Groceries"
+  },
+  {
+    "id": 9,
+    "slug": "automotive",
+    "name": "Automotive"
+  },
+  {
+    "id": 10,
+    "slug": "jewelry-watches",
+    "name": "Jewelry & Watches"
+  }
+]

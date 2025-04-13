@@ -13,34 +13,22 @@
     transition: opacity 0.5s ease-in-out;
     row-gap: 5dvh;
 }
-.pages {
+.options {
     display: flex;
+    width: 30%;
     align-items: center;
     justify-content: space-evenly;
-    width: 25%;
     margin-left: auto;
     margin-right: auto;
-    list-style: none;
-    padding-bottom: 1%;
 }
-.page {
-    background-color: rgba(0,0,0, 0.1);
-    padding: 3% 4%;
-    border-radius: 10px;
-    transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
+.option {
+    composes: button from './SmallProduct.module.css';
+    padding: 3% 0%;
+    width: 25%;
+    height: 7dvh;
 }
-.page:hover {
-    background-color: #002244;
-    color: white;
+.option:hover {
     cursor: pointer;
-}
-.arrow {
-    padding: 2% 1%;
-    border-radius: 10px;
-    transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
-}
-.arrow:hover {
-    background-color: #002244;
-    color: white;
-    cursor: pointer;
+    background-color: lightsteelblue;
+    color: black;
 }

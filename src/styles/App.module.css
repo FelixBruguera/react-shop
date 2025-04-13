@@ -6,6 +6,7 @@
 }
 :root {
     font-size: 20px;
+    --accent-color: #002244;
 }
 body {
     padding: 0;

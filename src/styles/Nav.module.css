@@ -15,7 +15,7 @@
 }
 .active {
     composes: link;
-    text-decoration: 5px underline #002244;
-    color: 002244;
+    text-decoration: 5px underline var(--accent-color);
+    color: var(--accent-color);
     font-weight: 600;
 }

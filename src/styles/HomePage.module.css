@@ -21,7 +21,7 @@
     text-decoration: none;
     border-radius: 10px;
     font-size: 1rem;
-    background-color: #002244;
+    background-color: var(--accent-color);
     color: white;
     padding: 2%;
     margin: 10px;

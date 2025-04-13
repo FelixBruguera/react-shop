@@ -1,0 +1,78 @@
+.filter {
+    position: fixed;
+    background-color: lightgrey;
+    left: 0%;
+    width: 23%;
+    z-index: 1;
+    padding-bottom: 5%;
+}
+.slideIn {
+    composes: filter;
+    opacity: 1;
+    animation: slideIn 0.5s ease-in-out;
+}
+.slideOut {
+    composes: filter;
+    animation: slideOut 0.5s ease-in-out forwards;
+}
+.categories {
+    display: flex;
+    flex-direction: column;
+    height: 40dvh;
+    overflow-y: scroll;
+}
+.title {
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: center;
+}
+.category {
+    font-size: 0.9rem;
+    transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
+    padding: 1% 1.6dvw 2% 1%;
+    width: fit-content;
+    border-radius: 10px;
+}
+.category:hover {
+    cursor: pointer;
+    background-color: var(--accent-color);
+    color: white;
+}
+input[type=checkbox]{
+    opacity: 0;
+}
+.prices {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 10%;
+}
+.priceInput {
+    width: 30%;
+    height: 3dvh;
+}
+.button {
+    composes: button from './SmallProduct.module.css';
+    margin-left: auto;
+    margin-right: auto;
+}
+.button:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+@keyframes slideOut {
+    90% {
+        opacity: 1;
+    }
+    100% {
+        translate: -100%;
+        opacity: 0;
+    }
+}
+@keyframes slideIn {
+    0% {
+        translate: -80%;
+        opacity: 0.8;
+    }
+}
