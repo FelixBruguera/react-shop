@@ -12,6 +12,12 @@ const Filters = ({ handleFilter, currentFilter }) => {
         const filter = {min: min, max: max, category: category}
         handleFilter(filter)
     }
+
+    const reset = () => {
+        setMin(0)
+        setMax(1000)
+        setCategory('all')
+    }
     return (
         <form className={styles.filter} onSubmit={handleSubmit}>
             <p className={styles.title}>Category</p>
@@ -20,7 +26,11 @@ const Filters = ({ handleFilter, currentFilter }) => {
                 <input type='radio' value='all' name='category' id='all' 
                 onChange={(e) => setCategory(e.target.value)}
                 checked={category === 'all' ? true : false }/>
-                <label htmlFor='all' className={styles.label}>All</label>
+                <label htmlFor='all' className={styles.label}>
+                <span className="material-symbols-outlined">
+                        store
+                </span>
+                <p className={styles.categoryName}>All</p></label>
                 </div>
                 { categories.map(cat => {
                     return (
@@ -29,7 +39,10 @@ const Filters = ({ handleFilter, currentFilter }) => {
                            onChange={(e) => setCategory(e.target.value)}
                            checked={category === cat.slug ? true : false }/>
                            <label htmlFor={cat.slug} className={styles.label}>
-                           {cat.name}</label>
+                            <span className="material-symbols-outlined">
+                                {cat.logo}
+                            </span>
+                            <p className={styles.categoryName}>{cat.name}</p></label>
                         </div>
                     )
                 }
@@ -59,7 +72,10 @@ const Filters = ({ handleFilter, currentFilter }) => {
                         onChange={(e) => setMax(e.target.value)}
                     />
             </div>
-            <button type="submit" className={styles.button}>Apply</button>
+            <div className={styles.buttons}>
+                <button type='button' className={styles.reset} onClick={() => reset()}>Reset</button>
+                <button type="submit" className={styles.button}>Apply</button>
+            </div>
         </form>
     )
 }

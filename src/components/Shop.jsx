@@ -54,6 +54,7 @@ export default function Shop() {
 
     return (
         <div className={styles.shop} ref={shopRef}>
+             <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=apparel,auto_stories,blender,desktop_windows,diamond,directions_car,grocery,self_care,sports_and_outdoors,store,toys_and_games"/>            
             {console.log('render')}
             <div className={styles.options}>
                 <button title="filter" aria-label="filter" 

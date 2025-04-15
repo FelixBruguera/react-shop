@@ -2,51 +2,61 @@
   {
     "id": 1,
     "slug": "electronics",
-    "name": "Electronics"
+    "name": "Electronics",
+    "logo": "desktop_windows"
   },
   {
     "id": 2,
     "slug": "clothing",
-    "name": "Clothing"
+    "name": "Clothing",
+    "logo": "apparel"
   },
   {
     "id": 3,
     "slug": "home-goods",
-    "name": "Home Goods"
+    "name": "Home Goods",
+    "logo": "blender"
   },
   {
     "id": 4,
     "slug": "books",
-    "name": "Books"
+    "name": "Books",
+    "logo": "auto_stories"
   },
   {
     "id": 5,
     "slug": "beauty-personal-care",
-    "name": "Beauty & Personal Care"
+    "name": "Beauty & Personal Care",
+    "logo": "self_care"
   },
   {
     "id": 6,
     "slug": "sports-outdoors",
-    "name": "Sports & Outdoors"
+    "name": "Sports & Outdoors",
+    "logo": "sports_and_outdoors"
   },
   {
     "id": 7,
     "slug": "toys-games",
-    "name": "Toys & Games"
+    "name": "Toys & Games",
+    "logo": "toys_and_games"
   },
   {
     "id": 8,
     "slug": "groceries",
-    "name": "Groceries"
+    "name": "Groceries",
+    "logo": "grocery"
   },
   {
     "id": 9,
     "slug": "automotive",
-    "name": "Automotive"
+    "name": "Automotive",
+    "logo": "directions_car"
   },
   {
     "id": 10,
     "slug": "jewelry-watches",
-    "name": "Jewelry & Watches"
+    "name": "Jewelry & Watches",
+    "logo": "diamond"
   }
 ]

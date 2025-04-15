@@ -9,6 +9,7 @@
     top: 0%;
     height: 100%;
     padding-top: 1%;
+    overflow: auto;
 }
 .slideIn {
     composes: menu;
