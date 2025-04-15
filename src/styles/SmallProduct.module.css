@@ -1,6 +1,7 @@
 .smallProduct {
     width: 18%;
-    display: flex;
+    display: grid;
+    grid-template: 5fr 2fr 1fr 2fr / 5fr 5fr;
     flex-direction: column;
     align-items: center;
     background-color: white;
@@ -35,6 +36,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    grid-area: 1 / 1 / 1 / 3;
 }
 .image {
     width: 100%;
@@ -50,7 +52,7 @@
 }
 .title {
     width: 90%;
-    grid-area: 1 / 1 / 1 / 1;
+    grid-area: 1 / 1 / 1 / 2;
     font-size: 1rem;
     font-weight: 600;
     text-align: center;
@@ -58,7 +60,7 @@
     margin-right: auto;
 }
 .category {
-    grid-area: 2 / 1 / 2 / 1;
+    grid-area: 2 / 1 / 2 / 2;
     font-size: 0.7rem;
     text-align: center;
     background-color: rgba(0,0,0, 0.1);
@@ -69,55 +71,12 @@
     border-radius: 10px;
     transition: background-color 0.15s ease-in-out;
 }
-.description {
-    font-size: 0.75rem;
-    color: rgba(0,0,0, 0.75);
-    text-align: center;
-    /* height: 6dvh; */
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-}
-.descriptionSmall {
-    composes: description;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-.descriptionFull {
-    composes: description;
-    height: fit-content;
-}
-.buttonWrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-.descriptionButton:hover {
-    cursor: pointer;
-    background-color: lightgrey;
-}
-.descriptionButton {
-    width: 60%;
-    height: 3.5dvh;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: lightgrey;
-    border: none;
-    color: var(--accent-color);
-    font-weight: 600;
-    text-align: center;
-    transition: background-color 0.15s ease-in-out;
-    display: none;
-}
 .price {
     font-weight: 600;
     font-size: 1.1rem;
     text-align: end;
     margin-right: 8%;
+    grid-area: 4 / 1 / 4 / 1;
 }
 .priceBuy {
     grid-area: 3 / 1 / 3 / 1;
@@ -127,19 +86,8 @@
     width: 16dvw;
 }
 .button {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    text-decoration: none;
-    border-radius: 10px;
-    font-size: 0.7rem;
-    background-color: var(--accent-color);
-    color: white;
-    padding: 3% 5%;
-    transition: background-color 0.15s ease-in-out;
-    font-weight: 600;
+    composes: button from './Shop.module.css';
     height: 6dvh;
     width: 5dvw;
     margin-left: 8%;
-    border: none;
 }

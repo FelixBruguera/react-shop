@@ -21,13 +21,27 @@
     margin-left: auto;
     margin-right: auto;
 }
-.option {
-    composes: button from './SmallProduct.module.css';
-    padding: 3% 0%;
-    width: 25%;
-    height: 7dvh;
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 0.7rem;
+    background-color: var(--accent-color);
+    color: white;
+    padding: 3% 5%;
+    transition: background-color 0.15s ease-in-out;
+    font-weight: 600;
+    border: none;
 }
-.option:hover {
+.option {
+    composes: button;
+    padding: 3% 0%;
+    width: 30%;
+    height: 6dvh;
+}
+.option:hover, .optionClicked {
     cursor: pointer;
     background-color: lightsteelblue;
     color: black;

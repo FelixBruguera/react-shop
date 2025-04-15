@@ -1,60 +1,71 @@
-.filter {
-    position: fixed;
-    background-color: lightgrey;
-    left: 0%;
-    width: 23%;
-    z-index: 1;
-    padding-bottom: 5%;
-}
-.slideIn {
-    composes: filter;
-    opacity: 1;
-    animation: slideIn 0.5s ease-in-out;
-}
-.slideOut {
-    composes: filter;
-    animation: slideOut 0.5s ease-in-out forwards;
-}
 .categories {
     display: flex;
     flex-direction: column;
-    height: 40dvh;
-    overflow-y: scroll;
+    /* height: 40dvh; */
+    overflow-y: auto;
+    row-gap: 20%;
 }
 .title {
     font-weight: 600;
     font-size: 1rem;
-    text-align: center;
+    margin: 0.8rem;
+    margin-top: 3%;
 }
 .category {
+    display: flex;
+    align-items: center;
     font-size: 0.9rem;
     transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
-    padding: 1% 1.6dvw 2% 1%;
-    width: fit-content;
+    padding: 2%;
+    width: 90%;
     border-radius: 10px;
+    margin: 1%;
+}
+.label {
+    display: flex;
+    width: 100%;
+}
+.category:has(input[type=radio]:checked) {
+    background-color: var(--accent-color);
+    color: white;
 }
 .category:hover {
     cursor: pointer;
     background-color: var(--accent-color);
     color: white;
 }
-input[type=checkbox]{
+.label:hover {
+    cursor: pointer;
+}
+input[type=radio]{
     opacity: 0;
+}
+.separator {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .prices {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .priceInput {
-    width: 30%;
-    height: 3dvh;
+    width: 25%;
+    height: 4dvh;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    font-size: 0.75rem;
 }
 .button {
     composes: button from './SmallProduct.module.css';
     margin-left: auto;
     margin-right: auto;
+    width: fit-content;
 }
 .button:hover {
     cursor: pointer;

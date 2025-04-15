@@ -1,0 +1,57 @@
+.menu {
+    display: grid;
+    grid-template-columns: 9fr 1fr;
+    position: fixed;
+    background-color: lightgrey;
+    left: 0%;
+    width: 23%;
+    z-index: 1;
+    top: 0%;
+    height: 100%;
+    padding-top: 1%;
+}
+.slideIn {
+    composes: menu;
+    opacity: 1;
+    animation: slideIn 0.5s ease-in-out;
+}
+.slideOut {
+    composes: menu;
+    animation: slideOut 0.5s ease-in-out forwards;
+}
+.button {
+    grid-area: 1 / 2 / 1 / 2;
+    height: fit-content;
+    display: flex;
+    background-color: transparent;
+    color: var(--accent-color);
+    border: none;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-top: 25%;
+    transition: background-color 0.15s ease-in-out;
+    padding: 10%;
+    justify-content: center;
+}
+.button:hover {
+    background-color: var(--accent-color);
+    color: lightgrey;
+    cursor: pointer;
+    /* font-weight: 500; */
+}
+@keyframes slideOut {
+    90% {
+        opacity: 1;
+    }
+    100% {
+        translate: -100%;
+        opacity: 0;
+    }
+}
+@keyframes slideIn {
+    0% {
+        translate: -80%;
+        opacity: 0.8;
+    }
+}
