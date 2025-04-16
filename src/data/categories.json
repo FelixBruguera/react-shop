@@ -1,21 +1,15 @@
 [
   {
-    "id": 1,
-    "slug": "electronics",
-    "name": "Electronics",
-    "logo": "desktop_windows"
+    "id": 9,
+    "slug": "automotive",
+    "name": "Automotive",
+    "logo": "directions_car"
   },
   {
-    "id": 2,
-    "slug": "clothing",
-    "name": "Clothing",
-    "logo": "apparel"
-  },
-  {
-    "id": 3,
-    "slug": "home-goods",
-    "name": "Home Goods",
-    "logo": "blender"
+    "id": 5,
+    "slug": "beauty-personal-care",
+    "name": "Beauty & Personal Care",
+    "logo": "self_care"
   },
   {
     "id": 4,
@@ -24,10 +18,34 @@
     "logo": "auto_stories"
   },
   {
-    "id": 5,
-    "slug": "beauty-personal-care",
-    "name": "Beauty & Personal Care",
-    "logo": "self_care"
+    "id": 2,
+    "slug": "clothing",
+    "name": "Clothing",
+    "logo": "apparel"
+  },
+  {
+    "id": 1,
+    "slug": "electronics",
+    "name": "Electronics",
+    "logo": "desktop_windows"
+  },
+  {
+    "id": 8,
+    "slug": "groceries",
+    "name": "Groceries",
+    "logo": "grocery"
+  },
+  {
+    "id": 3,
+    "slug": "home-goods",
+    "name": "Home Goods",
+    "logo": "blender"
+  },
+  {
+    "id": 10,
+    "slug": "jewelry-watches",
+    "name": "Jewelry & Watches",
+    "logo": "diamond"
   },
   {
     "id": 6,
@@ -40,23 +58,5 @@
     "slug": "toys-games",
     "name": "Toys & Games",
     "logo": "toys_and_games"
-  },
-  {
-    "id": 8,
-    "slug": "groceries",
-    "name": "Groceries",
-    "logo": "grocery"
-  },
-  {
-    "id": 9,
-    "slug": "automotive",
-    "name": "Automotive",
-    "logo": "directions_car"
-  },
-  {
-    "id": 10,
-    "slug": "jewelry-watches",
-    "name": "Jewelry & Watches",
-    "logo": "diamond"
   }
 ]

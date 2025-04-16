@@ -5,11 +5,12 @@ import Pages from "./Pages";
 import styles from '../styles/Shop.module.css'
 import { ListFilter, ArrowDownUp } from "lucide-react";
 import Filters from "./Filters";
+import Sort from "./Sort";
 import SlideMenu from "./SlideMenu";
 
 
 export default function Shop() {
-    const [currentUrl, setCurrentUrl] = useState('/api/products/?')
+    // const [currentUrl, setCurrentUrl] = useState('/api/products/?')
     const [products, setProducts] = useState(null)
     const [isLoading, setIsLoading] = useState(true)
     const [totalPages, setTotalPages] = useState(0)
@@ -17,11 +18,15 @@ export default function Shop() {
     const [filter, setFilter] = useState({min: 0, max: 1000, category: 'all'})
     const [filterOpen, setFilterOpen] = useState(false)
     const [filterClosing, setFilterClosing] = useState(false)
+    const [sort, setSort] = useState('category')
+    const [sortOpen, setSortOpen] = useState(false)
+    const [sortClosing, setSortClosing] = useState(false)
     const shopRef = useRef()
 
     useEffect(() => {
-        // setIsLoading(true)
-        fetch(`${currentUrl}&page=${currentPage}`)
+        setIsLoading(true)
+        const url = `/api/products/?min=${filter.min}&max=${filter.max}&category=${filter.category}&sortBy=${sort}&page=${currentPage}`
+        fetch(url)
         .then(response => response.json())
         .then(data => {
             setProducts(data['products'])
@@ -33,19 +38,28 @@ export default function Shop() {
             setIsLoading(false)
             error
         })
-    }, [currentPage, currentUrl])
+    }, [currentPage, filter, sort])
 
     const handleFilter = (filter) => {
-        const url = `/api/products/?min=${filter.min}&max=${filter.max}&category=${filter.category}`
-        setCurrentUrl(url)
+        // const url = `/api/products/?min=${filter.min}&max=${filter.max}&category=${filter.category}`
+        // setCurrentUrl(url)
         setCurrentPage(1)
         setFilterClosing(true)
         setFilter(filter)
+    }
+    const handleSort = (sort) => {
+        setCurrentPage(1)
+        setSortClosing(true)
+        setSort(sort)
     }
 
     const handleFilterClose = () => {
         setFilterOpen(false)
         setFilterClosing(false)
+    }
+    const handleSortClose = () => {
+        setSortOpen(false)
+        setSortClosing(false)
     }
 
     if (isLoading) {
@@ -54,21 +68,26 @@ export default function Shop() {
 
     return (
         <div className={styles.shop} ref={shopRef}>
-             <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=apparel,auto_stories,blender,desktop_windows,diamond,directions_car,grocery,self_care,sports_and_outdoors,store,toys_and_games"/>            
+             <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=apparel,auto_stories,blender,category_search,desktop_windows,diamond,directions_car,grocery,self_care,sort_by_alpha,sports_and_outdoors,store,toys_and_games,trending_down,trending_up"/>            
             {console.log('render')}
             <div className={styles.options}>
                 <button title="filter" aria-label="filter" 
-                className={`${styles.option} ${filterOpen ? styles.optionClicked : null}`} 
-                onClick={() => setFilterOpen(true)}>
+                    className={`${styles.option} ${filterOpen ? styles.optionClicked : null}`} 
+                    onClick={() => setFilterOpen(true)}>
                     <ListFilter size={24}/> Filter
                 </button>
-                <button title="sort" aria-label="sort" className={styles.option}>
+                <button title="sort" aria-label="sort" 
+                    className={`${styles.option} ${sortOpen ? styles.optionClicked : null}`} 
+                    onClick={() => setSortOpen(true)}>
                     <ArrowDownUp /> Sort
                 </button>
             </div>
             <section className={styles.products}>
                 <SlideMenu isOpen={filterOpen} isClosing={filterClosing} closeSlide={handleFilterClose} setIsClosing={setFilterClosing}>
                     <Filters handleFilter={handleFilter} currentFilter={filter}/>
+                </SlideMenu>
+                <SlideMenu isOpen={sortOpen} isClosing={sortClosing} closeSlide={handleSortClose} setIsClosing={setSortClosing}>
+                    <Sort handleSort={handleSort} currentSort={sort}/>
                 </SlideMenu>
                 {products.map(product => <SmallProduct data={product} />)}
             </section>

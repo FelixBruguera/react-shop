@@ -1,525 +1,5 @@
 [
   {
-    "id": 1,
-    "slug": "portable-bluetooth-speaker",
-    "title": "Portable Bluetooth Speaker",
-    "description": "Enjoy your favorite tunes on the go with this high-quality portable Bluetooth speaker.",
-    "price": 49,
-    "category": {
-      "id": 1,
-      "slug": "electronics",
-      "name": "Electronics"
-    },
-    "image": "public/portable-bluetooth-speaker.png"
-  },
-  {
-    "id": 2,
-    "slug": "wireless-noise-cancelling-headphones",
-    "title": "Wireless Noise-Cancelling Headphones",
-    "description": "Immerse yourself in sound with these comfortable and noise-cancelling wireless headphones.",
-    "price": 199,
-    "category": {
-      "id": 1,
-      "slug": "electronics",
-      "name": "Electronics"
-    },
-    "image": "public/wireless-noise-cancelling-headphones.png"
-  },
-  {
-    "id": 3,
-    "slug": "smart-tv-55-inch",
-    "title": "Smart TV 55-inch",
-    "description": "Experience stunning visuals and smart features with this 55-inch smart TV.",
-    "price": 599,
-    "category": {
-      "id": 1,
-      "slug": "electronics",
-      "name": "Electronics"
-    },
-    "image": "public/smart-tv-55-inch.png"
-  },
-  {
-    "id": 4,
-    "slug": "wireless-keyboard-mouse-combo",
-    "title": "Wireless Keyboard and Mouse Combo",
-    "description": "Increase your productivity with this comfortable and reliable wireless keyboard and mouse combo.",
-    "price": 35,
-    "category": {
-      "id": 1,
-      "slug": "electronics",
-      "name": "Electronics"
-    },
-    "image": "public/wireless-keyboard-mouse-combo.png"
-  },
-  {
-    "id": 5,
-    "slug": "fitness-tracker-watch",
-    "title": "Fitness Tracker Watch",
-    "description": "Monitor your activity levels and sleep patterns with this advanced fitness tracker watch.",
-    "price": 79,
-    "category": {
-      "id": 1,
-      "slug": "electronics",
-      "name": "Electronics"
-    },
-    "image": "public/fitness-tracker-watch.png"
-  },
-  {
-    "id": 6,
-    "slug": "mens-cotton-t-shirt",
-    "title": "Men's Cotton T-Shirt",
-    "description": "A comfortable and versatile cotton t-shirt perfect for everyday wear.",
-    "price": 15,
-    "category": {
-      "id": 2,
-      "slug": "clothing",
-      "name": "Clothing"
-    },
-    "image": "public/mens-cotton-t-shirt.png"
-  },
-  {
-    "id": 7,
-    "slug": "womens-denim-jeans",
-    "title": "Women's Denim Jeans",
-    "description": "Classic denim jeans for women, offering both style and comfort.",
-    "price": 45,
-    "category": {
-      "id": 2,
-      "slug": "clothing",
-      "name": "Clothing"
-    },
-    "image": "public/womens-denim-jeans.png"
-  },
-  {
-    "id": 8,
-    "slug": "kids-sneakers",
-    "title": "Kids' Sneakers",
-    "description": "Durable and comfortable sneakers for active kids.",
-    "price": 30,
-    "category": {
-      "id": 2,
-      "slug": "clothing",
-      "name": "Clothing"
-    },
-    "image": "public/kids-sneakers.png"
-  },
-  {
-    "id": 9,
-    "slug": "formal-dress-shirt",
-    "title": "Formal Dress Shirt",
-    "description": "A crisp and stylish dress shirt perfect for formal occasions.",
-    "price": 39,
-    "category": {
-      "id": 2,
-      "slug": "clothing",
-      "name": "Clothing"
-    },
-    "image": "public/formal-dress-shirt.png"
-  },
-  {
-    "id": 10,
-    "slug": "winter-scarf",
-    "title": "Winter Scarf",
-    "description": "Keep warm and stylish with this cozy winter scarf.",
-    "price": 20,
-    "category": {
-      "id": 2,
-      "slug": "clothing",
-      "name": "Clothing"
-    },
-    "image": "public/winter-scarf.png"
-  },
-  {
-    "id": 11,
-    "slug": "throw-pillow-set",
-    "title": "Throw Pillow Set",
-    "description": "Add a touch of comfort and style to your living space with this set of throw pillows.",
-    "price": 25,
-    "category": {
-      "id": 3,
-      "slug": "home-goods",
-      "name": "Home Goods"
-    },
-    "image": "public/throw-pillow-set.png"
-  },
-  {
-    "id": 12,
-    "slug": "ceramic-coffee-mug",
-    "title": "Ceramic Coffee Mug",
-    "description": "A durable and stylish ceramic coffee mug for your daily brew.",
-    "price": 8,
-    "category": {
-      "id": 3,
-      "slug": "home-goods",
-      "name": "Home Goods"
-    },
-    "image": "public/ceramic-coffee-mug.png"
-  },
-  {
-    "id": 13,
-    "slug": "scented-candle",
-    "title": "Scented Candle",
-    "description": "Create a relaxing ambiance with this beautifully scented candle.",
-    "price": 18,
-    "category": {
-      "id": 3,
-      "slug": "home-goods",
-      "name": "Home Goods"
-    },
-    "image": "public/scented-candle.png"
-  },
-  {
-    "id": 14,
-    "slug": "kitchen-knife-set",
-    "title": "Kitchen Knife Set",
-    "description": "A comprehensive set of high-quality kitchen knives for all your culinary needs.",
-    "price": 75,
-    "category": {
-      "id": 3,
-      "slug": "home-goods",
-      "name": "Home Goods"
-    },
-    "image": "public/kitchen-knife-set.png"
-  },
-  {
-    "id": 15,
-    "slug": "bath-towels-set",
-    "title": "Bath Towels Set",
-    "description": "A set of soft and absorbent bath towels for a luxurious feel.",
-    "price": 30,
-    "category": {
-      "id": 3,
-      "slug": "home-goods",
-      "name": "Home Goods"
-    },
-    "image": "public/bath-towels-set.png"
-  },
-  {
-    "id": 16,
-    "slug": "the-great-gatsby-book",
-    "title": "The Great Gatsby",
-    "description": "A classic novel by F. Scott Fitzgerald.",
-    "price": 10,
-    "category": {
-      "id": 4,
-      "slug": "books",
-      "name": "Books"
-    },
-    "image": "public/the-great-gatsby-book.png"
-  },
-  {
-    "id": 17,
-    "slug": "harry-potter-and-the-sorcerers-stone",
-    "title": "Harry Potter and the Sorcerer's Stone",
-    "description": "The first book in the beloved Harry Potter series by J.K. Rowling.",
-    "price": 12,
-    "category": {
-      "id": 4,
-      "slug": "books",
-      "name": "Books"
-    },
-    "image": "public/harry-potter-and-the-sorcerers-stone.png"
-  },
-  {
-    "id": 18,
-    "slug": "to-kill-a-mockingbird-book",
-    "title": "To Kill a Mockingbird",
-    "description": "A powerful and timeless novel by Harper Lee.",
-    "price": 11,
-    "category": {
-      "id": 4,
-      "slug": "books",
-      "name": "Books"
-    },
-    "image": "public/to-kill-a-mockingbird-book.png"
-  },
-  {
-    "id": 19,
-    "slug": "1984-book",
-    "title": "1984",
-    "description": "A dystopian masterpiece by George Orwell.",
-    "price": 9,
-    "category": {
-      "id": 4,
-      "slug": "books",
-      "name": "Books"
-    },
-    "image": "public/1984-book.png"
-  },
-  {
-    "id": 20,
-    "slug": "the-lord-of-the-rings-the-fellowship-of-the-ring",
-    "title": "The Lord of the Rings: The Fellowship of the Ring",
-    "description": "The first volume in J.R.R. Tolkien's epic fantasy trilogy.",
-    "price": 15,
-    "category": {
-      "id": 4,
-      "slug": "books",
-      "name": "Books"
-    },
-    "image": "public/the-lord-of-the-rings-the-fellowship-of-the-ring.png"
-  },
-  {
-    "id": 21,
-    "slug": "facial-cleanser",
-    "title": "Facial Cleanser",
-    "description": "A gentle and effective facial cleanser for daily use.",
-    "price": 18,
-    "category": {
-      "id": 5,
-      "slug": "beauty-personal-care",
-      "name": "Beauty & Personal Care"
-    },
-    "image": "public/facial-cleanser.png"
-  },
-  {
-    "id": 22,
-    "slug": "moisturizer-with-spf",
-    "title": "Moisturizer with SPF",
-    "description": "A hydrating moisturizer that also provides sun protection.",
-    "price": 25,
-    "category": {
-      "id": 5,
-      "slug": "beauty-personal-care",
-      "name": "Beauty & Personal Care"
-    },
-    "image": "public/moisturizer-with-spf.png"
-  },
-  {
-    "id": 23,
-    "slug": "shampoo-and-conditioner-set",
-    "title": "Shampoo and Conditioner Set",
-    "description": "A set of nourishing shampoo and conditioner for healthy hair.",
-    "price": 22,
-    "category": {
-      "id": 5,
-      "slug": "beauty-personal-care",
-      "name": "Beauty & Personal Care"
-    },
-    "image": "public/shampoo-and-conditioner-set.png"
-  },
-  {
-    "id": 24,
-    "slug": "makeup-brush-set",
-    "title": "Makeup Brush Set",
-    "description": "A comprehensive set of high-quality makeup brushes for flawless application.",
-    "price": 35,
-    "category": {
-      "id": 5,
-      "slug": "beauty-personal-care",
-      "name": "Beauty & Personal Care"
-    },
-    "image": "public/makeup-brush-set.png"
-  },
-  {
-    "id": 25,
-    "slug": "sunscreen-lotion",
-    "title": "Sunscreen Lotion",
-    "description": "Broad-spectrum sunscreen lotion to protect your skin from harmful UV rays.",
-    "price": 15,
-    "category": {
-      "id": 5,
-      "slug": "beauty-personal-care",
-      "name": "Beauty & Personal Care"
-    },
-    "image": "public/sunscreen-lotion.png"
-  },
-  {
-    "id": 26,
-    "slug": "yoga-mat",
-    "title": "Yoga Mat",
-    "description": "A non-slip and comfortable yoga mat for your practice.",
-    "price": 29,
-    "category": {
-      "id": 6,
-      "slug": "sports-outdoors",
-      "name": "Sports & Outdoors"
-    },
-    "image": "public/yoga-mat.png"
-  },
-  {
-    "id": 27,
-    "slug": "water-bottle",
-    "title": "Water Bottle",
-    "description": "A durable and reusable water bottle to stay hydrated.",
-    "price": 12,
-    "category": {
-      "id": 6,
-      "slug": "sports-outdoors",
-      "name": "Sports & Outdoors"
-    },
-    "image": "public/water-bottle.png"
-  },
-  {
-    "id": 28,
-    "slug": "hiking-backpack",
-    "title": "Hiking Backpack",
-    "description": "A comfortable and spacious backpack perfect for hiking adventures.",
-    "price": 65,
-    "category": {
-      "id": 6,
-      "slug": "sports-outdoors",
-      "name": "Sports & Outdoors"
-    },
-    "image": "public/hiking-backpack.png"
-  },
-  {
-    "id": 29,
-    "slug": "resistance-bands-set",
-    "title": "Resistance Bands Set",
-    "description": "A versatile set of resistance bands for various exercises.",
-    "price": 19,
-    "category": {
-      "id": 6,
-      "slug": "sports-outdoors",
-      "name": "Sports & Outdoors"
-    },
-    "image": "public/resistance-bands-set.png"
-  },
-  {
-    "id": 30,
-    "slug": "soccer-ball",
-    "title": "Soccer Ball",
-    "description": "A high-quality soccer ball for training and matches.",
-    "price": 25,
-    "category": {
-      "id": 6,
-      "slug": "sports-outdoors",
-      "name": "Sports & Outdoors"
-    },
-    "image": "public/soccer-ball.png"
-  },
-  {
-    "id": 31,
-    "slug": "building-blocks-set",
-    "title": "Building Blocks Set",
-    "description": "A classic set of building blocks for creative play.",
-    "price": 30,
-    "category": {
-      "id": 7,
-      "slug": "toys-games",
-      "name": "Toys & Games"
-    },
-    "image": "public/building-blocks-set.png"
-  },
-  {
-    "id": 32,
-    "slug": "board-game-strategy",
-    "title": "Strategy Board Game",
-    "description": "An engaging strategy board game for hours of fun.",
-    "price": 35,
-    "category": {
-      "id": 7,
-      "slug": "toys-games",
-      "name": "Toys & Games"
-    },
-    "image": "public/board-game-strategy.png"
-  },
-  {
-    "id": 33,
-    "slug": "action-figure",
-    "title": "Action Figure",
-    "description": "A collectible action figure from a popular franchise.",
-    "price": 15,
-    "category": {
-      "id": 7,
-      "slug": "toys-games",
-      "name": "Toys & Games"
-    },
-    "image": "public/action-figure.png"
-  },
-  {
-    "id": 34,
-    "slug": "puzzle-1000-pieces",
-    "title": "1000-Piece Puzzle",
-    "description": "A challenging and rewarding 1000-piece jigsaw puzzle.",
-    "price": 20,
-    "category": {
-      "id": 7,
-      "slug": "toys-games",
-      "name": "Toys & Games"
-    },
-    "image": "public/puzzle-1000-pieces.png"
-  },
-  {
-    "id": 35,
-    "slug": "stuffed-animal-teddy-bear",
-    "title": "Stuffed Animal Teddy Bear",
-    "description": "A soft and cuddly teddy bear perfect for children of all ages.",
-    "price": 22,
-    "category": {
-      "id": 7,
-      "slug": "toys-games",
-      "name": "Toys & Games"
-    },
-    "image": "public/stuffed-animal-teddy-bear.png"
-  },
-  {
-    "id": 36,
-    "slug": "organic-whole-milk",
-    "title": "Organic Whole Milk",
-    "description": "A gallon of fresh and nutritious organic whole milk.",
-    "price": 4,
-    "category": {
-      "id": 8,
-      "slug": "groceries",
-      "name": "Groceries"
-    },
-    "image": "public/organic-whole-milk.png"
-  },
-  {
-    "id": 37,
-    "slug": "fresh-apples-bag",
-    "title": "Fresh Apples (Bag)",
-    "description": "A bag of crisp and delicious fresh apples.",
-    "price": 5,
-    "category": {
-      "id": 8,
-      "slug": "groceries",
-      "name": "Groceries"
-    },
-    "image": "public/fresh-apples-bag.png"
-  },
-  {
-    "id": 38,
-    "slug": "whole-wheat-bread",
-    "title": "Whole Wheat Bread",
-    "description": "A loaf of healthy and nutritious whole wheat bread.",
-    "price": 3,
-    "category": {
-      "id": 8,
-      "slug": "groceries",
-      "name": "Groceries"
-    },
-    "image": "public/whole-wheat-bread.png"
-  },
-  {
-    "id": 39,
-    "slug": "ground-coffee-blend",
-    "title": "Ground Coffee Blend",
-    "description": "A bag of premium ground coffee blend for a rich and flavorful brew.",
-    "price": 8,
-    "category": {
-      "id": 8,
-      "slug": "groceries",
-      "name": "Groceries"
-    },
-    "image": "public/ground-coffee-blend.png"
-  },
-  {
-    "id": 40,
-    "slug": "pasta-spaghetti",
-    "title": "Pasta - Spaghetti",
-    "description": "A box of classic spaghetti pasta.",
-    "price": 2,
-    "category": {
-      "id": 8,
-      "slug": "groceries",
-      "name": "Groceries"
-    },
-    "image": "public/pasta-spaghetti.png"
-  },
-  {
     "id": 41,
     "slug": "car-windshield-wiper-blades-set-of-2",
     "title": "Car Windshield Wiper Blades (Set of 2)",
@@ -530,7 +10,7 @@
       "slug": "automotive",
       "name": "Automotive"
     },
-    "image": "public/car-windshield-wiper-blades-set-of-2.png"
+    "image": "/car-windshield-wiper-blades-set-of-2.png"
   },
   {
     "id": 42,
@@ -543,7 +23,7 @@
       "slug": "automotive",
       "name": "Automotive"
     },
-    "image": "public/car-phone-mount.png"
+    "image": "/car-phone-mount.png"
   },
   {
     "id": 43,
@@ -556,7 +36,7 @@
       "slug": "automotive",
       "name": "Automotive"
     },
-    "image": "public/car-air-freshener.png"
+    "image": "/car-air-freshener.png"
   },
   {
     "id": 44,
@@ -569,7 +49,7 @@
       "slug": "automotive",
       "name": "Automotive"
     },
-    "image": "public/car-wash-kit.png"
+    "image": "/car-wash-kit.png"
   },
   {
     "id": 45,
@@ -582,592 +62,7 @@
       "slug": "automotive",
       "name": "Automotive"
     },
-    "image": "public/tire-pressure-gauge.png"
-  },
-  {
-    "id": 46,
-    "slug": "mens-stainless-steel-watch",
-    "title": "Men's Stainless Steel Watch",
-    "description": "A stylish and durable stainless steel watch for men.",
-    "price": 120,
-    "category": {
-      "id": 10,
-      "slug": "jewelry-watches",
-      "name": "Jewelry & Watches"
-    },
-    "image": "public/mens-stainless-steel-watch.png"
-  },
-  {
-    "id": 47,
-    "slug": "womens-silver-necklace",
-    "title": "Women's Silver Necklace",
-    "description": "An elegant sterling silver necklace for women.",
-    "price": 85,
-    "category": {
-      "id": 10,
-      "slug": "jewelry-watches",
-      "name": "Jewelry & Watches"
-    },
-    "image": "public/womens-silver-necklace.png"
-  },
-  {
-    "id": 48,
-    "slug": "gold-stud-earrings",
-    "title": "Gold Stud Earrings",
-    "description": "Classic and versatile gold stud earrings.",
-    "price": 95,
-    "category": {
-      "id": 10,
-      "slug": "jewelry-watches",
-      "name": "Jewelry & Watches"
-    },
-    "image": "public/gold-stud-earrings.png"
-  },
-  {
-    "id": 49,
-    "slug": "leather-strap-watch",
-    "title": "Leather Strap Watch",
-    "description": "A sophisticated watch with a genuine leather strap.",
-    "price": 150,
-    "category": {
-      "id": 10,
-      "slug": "jewelry-watches",
-      "name": "Jewelry & Watches"
-    },
-    "image": "public/leather-strap-watch.png"
-  },
-  {
-    "id": 50,
-    "slug": "diamond-pendant",
-    "title": "Diamond Pendant",
-    "description": "A beautiful pendant featuring a sparkling diamond.",
-    "price": 299,
-    "category": {
-      "id": 10,
-      "slug": "jewelry-watches",
-      "name": "Jewelry & Watches"
-    },
-    "image": "public/diamond-pendant.png"
-  },
-  {
-    "id": 51,
-    "slug": "laptop-15-inch",
-    "title": "15-inch Laptop",
-    "description": "Powerful and versatile 15-inch laptop for work and entertainment.",
-    "price": 799,
-    "category": {
-      "id": 1,
-      "slug": "electronics",
-      "name": "Electronics"
-    },
-    "image": "public/laptop-15-inch.png"
-  },
-  {
-    "id": 52,
-    "slug": "smartphone-latest-model",
-    "title": "Latest Model Smartphone",
-    "description": "Cutting-edge smartphone with advanced features and a stunning display.",
-    "price": 999,
-    "category": {
-      "id": 1,
-      "slug": "electronics",
-      "name": "Electronics"
-    },
-    "image": "public/smartphone-latest-model.png"
-  },
-  {
-    "id": 53,
-    "slug": "tablet-10-inch",
-    "title": "10-inch Tablet",
-    "description": "Portable and powerful 10-inch tablet for Browse, streaming, and more.",
-    "price": 299,
-    "category": {
-      "id": 1,
-      "slug": "electronics",
-      "name": "Electronics"
-    },
-    "image": "public/tablet-10-inch.png"
-  },
-  {
-    "id": 54,
-    "slug": "camera-dslr",
-    "title": "Digital SLR Camera",
-    "description": "High-resolution DSLR camera for capturing professional-quality photos and videos.",
-    "price": 699,
-    "category": {
-      "id": 1,
-      "slug": "electronics",
-      "name": "Electronics"
-    },
-    "image": "public/camera-dslr.png"
-  },
-  {
-    "id": 55,
-    "slug": "smartwatch",
-    "title": "Smartwatch",
-    "description": "Feature-rich smartwatch that tracks your fitness, notifications, and more.",
-    "price": 199,
-    "category": {
-      "id": 1,
-      "slug": "electronics",
-      "name": "Electronics"
-    },
-    "image": "public/smartwatch.png"
-  },
-  {
-    "id": 56,
-    "slug": "womens-summer-dress",
-    "title": "Women's Summer Dress",
-    "description": "A light and breezy summer dress perfect for warm weather.",
-    "price": 35,
-    "category": {
-      "id": 2,
-      "slug": "clothing",
-      "name": "Clothing"
-    },
-    "image": "public/womens-summer-dress.png"
-  },
-  {
-    "id": 57,
-    "slug": "mens-casual-shorts",
-    "title": "Men's Casual Shorts",
-    "description": "Comfortable and stylish casual shorts for everyday wear.",
-    "price": 28,
-    "category": {
-      "id": 2,
-      "slug": "clothing",
-      "name": "Clothing"
-    },
-    "image": "public/mens-casual-shorts.png"
-  },
-  {
-    "id": 58,
-    "slug": "baby-onesies-pack",
-    "title": "Baby Onesies (Pack of 5)",
-    "description": "A pack of five soft and comfortable baby onesies.",
-    "price": 20,
-    "category": {
-      "id": 2,
-      "slug": "clothing",
-      "name": "Clothing"
-    },
-    "image": "public/baby-onesies-pack.png"
-  },
-  {
-    "id": 59,
-    "slug": "womens-yoga-pants",
-    "title": "Women's Yoga Pants",
-    "description": "Comfortable and flexible yoga pants for workouts or lounging.",
-    "price": 30,
-    "category": {
-      "id": 2,
-      "slug": "clothing",
-      "name": "Clothing"
-    },
-    "image": "public/womens-yoga-pants.png"
-  },
-  {
-    "id": 60,
-    "slug": "kids-raincoat",
-    "title": "Kids' Raincoat",
-    "description": "A waterproof and durable raincoat to keep kids dry.",
-    "price": 25,
-    "category": {
-      "id": 2,
-      "slug": "clothing",
-      "name": "Clothing"
-    },
-    "image": "public/kids-raincoat.png"
-  },
-  {
-    "id": 61,
-    "slug": "bed-sheet-set-queen",
-    "title": "Bed Sheet Set (Queen)",
-    "description": "A soft and comfortable queen-size bed sheet set.",
-    "price": 45,
-    "category": {
-      "id": 3,
-      "slug": "home-goods",
-      "name": "Home Goods"
-    },
-    "image": "public/bed-sheet-set-queen.png"
-  },
-  {
-    "id": 62,
-    "slug": "dinnerware-set-4-place",
-    "title": "Dinnerware Set (4-Place Setting)",
-    "description": "A stylish dinnerware set for four people.",
-    "price": 60,
-    "category": {
-      "id": 3,
-      "slug": "home-goods",
-      "name": "Home Goods"
-    },
-    "image": "public/dinnerware-set-4-place.png"
-  },
-  {
-    "id": 63,
-    "slug": "picture-frame-8x10",
-    "title": "Picture Frame (8x10)",
-    "description": "A classic 8x10 inch picture frame to display your memories.",
-    "price": 12,
-    "category": {
-      "id": 3,
-      "slug": "home-goods",
-      "name": "Home Goods"
-    },
-    "image": "public/picture-frame-8x10.png"
-  },
-  {
-    "id": 64,
-    "slug": "desk-lamp-led",
-    "title": "LED Desk Lamp",
-    "description": "An energy-efficient LED desk lamp with adjustable brightness.",
-    "price": 28,
-    "category": {
-      "id": 3,
-      "slug": "home-goods",
-      "name": "Home Goods"
-    },
-    "image": "public/desk-lamp-led.png"
-  },
-  {
-    "id": 65,
-    "slug": "area-rug-5x7",
-    "title": "Area Rug (5x7)",
-    "description": "A stylish 5x7 area rug to enhance your room decor.",
-    "price": 99,
-    "category": {
-      "id": 3,
-      "slug": "home-goods",
-      "name": "Home Goods"
-    },
-    "image": "public/area-rug-5x7.png"
-  },
-  {
-    "id": 66,
-    "slug": "the-catcher-in-the-rye-book",
-    "title": "The Catcher in the Rye",
-    "description": "A coming-of-age novel by J.D. Salinger.",
-    "price": 10,
-    "category": {
-      "id": 4,
-      "slug": "books",
-      "name": "Books"
-    },
-    "image": "public/the-catcher-in-the-rye-book.png"
-  },
-  {
-    "id": 67,
-    "slug": "pride-and-prejudice-book",
-    "title": "Pride and Prejudice",
-    "description": "A beloved novel by Jane Austen.",
-    "price": 11,
-    "category": {
-      "id": 4,
-      "slug": "books",
-      "name": "Books"
-    },
-    "image": "public/pride-and-prejudice-book.png"
-  },
-  {
-    "id": 68,
-    "slug": "the-hobbit-book",
-    "title": "The Hobbit",
-    "description": "A fantasy adventure novel by J.R.R. Tolkien.",
-    "price": 13,
-    "category": {
-      "id": 4,
-      "slug": "books",
-      "name": "Books"
-    },
-    "image": "public/the-hobbit-book.png"
-  },
-  {
-    "id": 69,
-    "slug": "animal-farm-book",
-    "title": "Animal Farm",
-    "description": "A satirical novella by George Orwell.",
-    "price": 9,
-    "category": {
-      "id": 4,
-      "slug": "books",
-      "name": "Books"
-    },
-    "image": "public/animal-farm-book.png"
-  },
-  {
-    "id": 70,
-    "slug": "the-chronicles-of-narnia",
-    "title": "The Chronicles of Narnia",
-    "description": "The first book in C.S. Lewis's classic fantasy series.",
-    "price": 12,
-    "category": {
-      "id": 4,
-      "slug": "books",
-      "name": "Books"
-    },
-    "image": "public/the-chronicles-of-narnia.png"
-  },
-  {
-    "id": 71,
-    "slug": "eye-cream",
-    "title": "Eye Cream",
-    "description": "A hydrating eye cream to reduce the appearance of fine lines and wrinkles.",
-    "price": 28,
-    "category": {
-      "id": 5,
-      "slug": "beauty-personal-care",
-      "name": "Beauty & Personal Care"
-    },
-    "image": "public/eye-cream.png"
-  },
-  {
-    "id": 72,
-    "slug": "nourishing-hair-mask-argan-oil",
-    "title": "Nourishing Hair Mask with Argan Oil",
-    "description": "A deeply nourishing hair mask enriched with argan oil to revitalize dry, damaged, and brittle hair. This luxurious treatment helps to restore moisture, improve shine, and reduce frizz, leaving your hair feeling soft, smooth, and healthy. The rich formula penetrates deeply into the hair shaft to repair damage caused by heat styling, chemical treatments, and environmental stressors. Regular use can help to strengthen hair, prevent breakage, and promote overall hair health. Suitable for all hair types, especially those in need of intense hydration and repair. Apply to damp hair after shampooing, leave on for 10-15 minutes, and rinse thoroughly for salon-quality results at home.",
-    "price": 22,
-    "category": {
-      "id": 5,
-      "slug": "beauty-personal-care",
-      "name": "Beauty & Personal Care"
-    },
-    "image": "public/nourishing-hair-mask-argan-oil.png"
-  },
-  {
-    "id": 73,
-    "slug": "hair-dryer",
-    "title": "Hair Dryer",
-    "description": "A powerful hair dryer for quick and efficient styling.",
-    "price": 40,
-    "category": {
-      "id": 5,
-      "slug": "beauty-personal-care",
-      "name": "Beauty & Personal Care"
-    },
-    "image": "public/hair-dryer.png"
-  },
-  {
-    "id": 74,
-    "slug": "lip-balm",
-    "title": "Lip Balm",
-    "description": "A moisturizing lip balm to protect and hydrate your lips.",
-    "price": 5,
-    "category": {
-      "id": 5,
-      "slug": "beauty-personal-care",
-      "name": "Beauty & Personal Care"
-    },
-    "image": "public/lip-balm.png"
-  },
-  {
-    "id": 75,
-    "slug": "nail-polish-set",
-    "title": "Nail Polish Set",
-    "description": "A set of vibrant and long-lasting nail polishes.",
-    "price": 20,
-    "category": {
-      "id": 5,
-      "slug": "beauty-personal-care",
-      "name": "Beauty & Personal Care"
-    },
-    "image": "public/nail-polish-set.png"
-  },
-  {
-    "id": 76,
-    "slug": "running-shoes-mens",
-    "title": "Men's Running Shoes",
-    "description": "Comfortable and supportive running shoes for men.",
-    "price": 80,
-    "category": {
-      "id": 6,
-      "slug": "sports-outdoors",
-      "name": "Sports & Outdoors"
-    },
-    "image": "public/running-shoes-mens.png"
-  },
-  {
-    "id": 77,
-    "slug": "camping-tent-2-person",
-    "title": "2-Person Camping Tent",
-    "description": "A lightweight and easy-to-set-up camping tent for two people.",
-    "price": 70,
-    "category": {
-      "id": 6,
-      "slug": "sports-outdoors",
-      "name": "Sports & Outdoors"
-    },
-    "image": "public/camping-tent-2-person.png"
-  },
-  {
-    "id": 78,
-    "slug": "dumbbell-set",
-    "title": "Dumbbell Set",
-    "description": "A set of adjustable dumbbells for home workouts.",
-    "price": 99,
-    "category": {
-      "id": 6,
-      "slug": "sports-outdoors",
-      "name": "Sports & Outdoors"
-    },
-    "image": "public/dumbbell-set.png"
-  },
-  {
-    "id": 79,
-    "slug": "bicycle-helmet",
-    "title": "Bicycle Helmet",
-    "description": "A safe and comfortable helmet for cycling.",
-    "price": 45,
-    "category": {
-      "id": 6,
-      "slug": "sports-outdoors",
-      "name": "Sports & Outdoors"
-    },
-    "image": "public/bicycle-helmet.png"
-  },
-  {
-    "id": 80,
-    "slug": "fishing-rod-and-reel-combo",
-    "title": "Fishing Rod and Reel Combo",
-    "description": "A complete fishing rod and reel combo for beginners.",
-    "price": 55,
-    "category": {
-      "id": 6,
-      "slug": "sports-outdoors",
-      "name": "Sports & Outdoors"
-    },
-    "image": "public/fishing-rod-and-reel-combo.png"
-  },
-  {
-    "id": 81,
-    "slug": "remote-control-car",
-    "title": "Remote Control Car",
-    "description": "A fun and fast remote control car for kids and adults.",
-    "price": 40,
-    "category": {
-      "id": 7,
-      "slug": "toys-games",
-      "name": "Toys & Games"
-    },
-    "image": "public/remote-control-car.png"
-  },
-  {
-    "id": 82,
-    "slug": "doll-with-accessories",
-    "title": "Doll with Accessories",
-    "description": "A beautiful doll with various outfits and accessories.",
-    "price": 28,
-    "category": {
-      "id": 7,
-      "slug": "toys-games",
-      "name": "Toys & Games"
-    },
-    "image": "public/doll-with-accessories.png"
-  },
-  {
-    "id": 83,
-    "slug": "educational-toy-for-toddlers",
-    "title": "Educational Toy for Toddlers",
-    "description": "A fun and engaging educational toy for toddlers.",
-    "price": 25,
-    "category": {
-      "id": 7,
-      "slug": "toys-games",
-      "name": "Toys & Games"
-    },
-    "image": "public/educational-toy-for-toddlers.png"
-  },
-  {
-    "id": 84,
-    "slug": "coloring-book-and-crayons",
-    "title": "Coloring Book and Crayons Set",
-    "description": "A set of coloring book and crayons for creative fun.",
-    "price": 10,
-    "category": {
-      "id": 7,
-      "slug": "toys-games",
-      "name": "Toys & Games"
-    },
-    "image": "public/coloring-book-and-crayons.png"
-  },
-  {
-    "id": 85,
-    "slug": "jigsaw-puzzle-500-pieces",
-    "title": "500-Piece Jigsaw Puzzle",
-    "description": "A moderately challenging 500-piece jigsaw puzzle.",
-    "price": 15,
-    "category": {
-      "id": 7,
-      "slug": "toys-games",
-      "name": "Toys & Games"
-    },
-    "image": "public/jigsaw-puzzle-500-pieces.png"
-  },
-  {
-    "id": 86,
-    "slug": "dozen-large-eggs",
-    "title": "Dozen Large Eggs",
-    "description": "A carton of one dozen large, fresh eggs.",
-    "price": 3,
-    "category": {
-      "id": 8,
-      "slug": "groceries",
-      "name": "Groceries"
-    },
-    "image": "public/dozen-large-eggs.png"
-  },
-  {
-    "id": 87,
-    "slug": "cheddar-cheese-block",
-    "title": "Cheddar Cheese Block",
-    "description": "A block of sharp cheddar cheese.",
-    "price": 6,
-    "category": {
-      "id": 8,
-      "slug": "groceries",
-      "name": "Groceries"
-    },
-    "image": "public/cheddar-cheese-block.png"
-  },
-  {
-    "id": 88,
-    "slug": "fresh-bananas-bunch",
-    "title": "Fresh Bananas (Bunch)",
-    "description": "A bunch of ripe and delicious fresh bananas.",
-    "price": 3,
-    "category": {
-      "id": 8,
-      "slug": "groceries",
-      "name": "Groceries"
-    },
-    "image": "public/fresh-bananas-bunch.png"
-  },
-  {
-    "id": 89,
-    "slug": "chicken-breasts-boneless-skinless",
-    "title": "Chicken Breasts (Boneless, Skinless)",
-    "description": "A package of boneless and skinless chicken breasts.",
-    "price": 12,
-    "category": {
-      "id": 8,
-      "slug": "groceries",
-      "name": "Groceries"
-    },
-    "image": "public/chicken-breasts-boneless-skinless.png"
-  },
-  {
-    "id": 90,
-    "slug": "orange-juice-carton",
-    "title": "Orange Juice (Carton)",
-    "description": "A carton of fresh and refreshing orange juice.",
-    "price": 4,
-    "category": {
-      "id": 8,
-      "slug": "groceries",
-      "name": "Groceries"
-    },
-    "image": "public/orange-juice-carton.png"
+    "image": "/tire-pressure-gauge.png"
   },
   {
     "id": 91,
@@ -1180,7 +75,7 @@
       "slug": "automotive",
       "name": "Automotive"
     },
-    "image": "public/car-battery.png"
+    "image": "/car-battery.png"
   },
   {
     "id": 92,
@@ -1193,7 +88,7 @@
       "slug": "automotive",
       "name": "Automotive"
     },
-    "image": "public/motor-oil-synthetic.png"
+    "image": "/motor-oil-synthetic.png"
   },
   {
     "id": 93,
@@ -1206,7 +101,7 @@
       "slug": "automotive",
       "name": "Automotive"
     },
-    "image": "public/car-floor-mats-set.png"
+    "image": "/car-floor-mats-set.png"
   },
   {
     "id": 94,
@@ -1219,7 +114,7 @@
       "slug": "automotive",
       "name": "Automotive"
     },
-    "image": "public/headlight-bulb.png"
+    "image": "/headlight-bulb.png"
   },
   {
     "id": 95,
@@ -1232,293 +127,7 @@
       "slug": "automotive",
       "name": "Automotive"
     },
-    "image": "public/car-vacuum-cleaner.png"
-  },
-  {
-    "id": 96,
-    "slug": "womens-gold-bracelet",
-    "title": "Women's Gold Bracelet",
-    "description": "A delicate and elegant gold bracelet for women.",
-    "price": 180,
-    "category": {
-      "id": 10,
-      "slug": "jewelry-watches",
-      "name": "Jewelry & Watches"
-    },
-    "image": "public/womens-gold-bracelet.png"
-  },
-  {
-    "id": 97,
-    "slug": "mens-cufflinks-set",
-    "title": "Men's Cufflinks Set",
-    "description": "A stylish set of cufflinks for formal occasions.",
-    "price": 55,
-    "category": {
-      "id": 10,
-      "slug": "jewelry-watches",
-      "name": "Jewelry & Watches"
-    },
-    "image": "public/mens-cufflinks-set.png"
-  },
-  {
-    "id": 98,
-    "slug": "silver-hoop-earrings",
-    "title": "Silver Hoop Earrings",
-    "description": "Classic and versatile silver hoop earrings.",
-    "price": 40,
-    "category": {
-      "id": 10,
-      "slug": "jewelry-watches",
-      "name": "Jewelry & Watches"
-    },
-    "image": "public/silver-hoop-earrings.png"
-  },
-  {
-    "id": 99,
-    "slug": "smart-band",
-    "title": "Smart Band",
-    "description": "A sleek and functional smart band for fitness tracking and notifications.",
-    "price": 60,
-    "category": {
-      "id": 10,
-      "slug": "jewelry-watches",
-      "name": "Jewelry & Watches"
-    },
-    "image": "public/smart-band.png"
-  },
-  {
-    "id": 100,
-    "slug": "pearl-necklace",
-    "title": "Pearl Necklace",
-    "description": "A timeless and elegant pearl necklace.",
-    "price": 250,
-    "category": {
-      "id": 10,
-      "slug": "jewelry-watches",
-      "name": "Jewelry & Watches"
-    },
-    "image": "public/pearl-necklace.png"
-  },
-  {
-    "id": 101,
-    "slug": "true-wireless-earbuds",
-    "title": "True Wireless Earbuds",
-    "description": "Experience complete freedom of movement with these true wireless earbuds. Enjoy high-fidelity sound and a secure, comfortable fit thanks to the multiple ear tip sizes included. The included compact charging case provides multiple additional charges, ensuring your music keeps playing throughout the day. Perfect for workouts, commutes, and everyday use, these earbuds also feature touch controls for easy management of music and calls, and some models include active noise cancellation for an even more immersive audio experience.",
-    "price": 79,
-    "category": {
-      "id": 1,
-      "slug": "electronics",
-      "name": "Electronics"
-    },
-    "image": "public/true-wireless-earbuds.png"
-  },
-  {
-    "id": 102,
-    "slug": "4k-ultra-hd-smart-tv",
-    "title": "4K Ultra HD Smart TV",
-    "description": "Bring your entertainment to life with this stunning 4K Ultra HD Smart TV. Enjoy breathtaking picture quality with vibrant colors, sharp details, and high dynamic range (HDR) support for an immersive viewing experience. Access your favorite streaming services like Netflix, Hulu, and Disney+ directly through the built-in smart platform. Connect your other devices seamlessly with multiple HDMI and USB ports. The immersive sound system with integrated speakers provides rich audio to complete the cinematic experience in your own home. Features voice control capabilities for added convenience.",
-    "price": 499,
-    "category": {
-      "id": 1,
-      "slug": "electronics",
-      "name": "Electronics"
-    },
-    "image": "public/4k-ultra-hd-smart-tv.png"
-  },
-  {
-    "id": 103,
-    "slug": "digital-camera-high-zoom",
-    "title": "Digital Camera with High Zoom",
-    "description": "Capture every moment in stunning detail with this digital camera featuring a powerful high zoom lens, allowing you to get closer to the action without losing image quality. Perfect for travel, wildlife photography, or capturing family memories. The intuitive controls and various shooting modes, including automatic and manual settings, make it easy to take professional-looking photos and videos. Share your creations instantly with built-in Wi-Fi and Bluetooth connectivity. Includes image stabilization to reduce blur and ensure crisp photos even at high zoom levels.",
-    "price": 299,
-    "category": {
-      "id": 1,
-      "slug": "electronics",
-      "name": "Electronics"
-    },
-    "image": "public/digital-camera-high-zoom.png"
-  },
-  {
-    "id": 104,
-    "slug": "portable-external-ssd-drive",
-    "title": "Portable External SSD Drive",
-    "description": "Store and transfer your files quickly and securely with this portable external SSD drive. Its compact and lightweight design makes it easy to carry with you wherever you go, while the solid-state technology ensures blazing-fast read and write speeds, significantly faster than traditional hard drives. Ideal for backing up important data, transferring large files like photos and videos, or expanding your device's storage capacity. Its durable construction offers protection against bumps and drops, ensuring your data remains safe.",
-    "price": 129,
-    "category": {
-      "id": 1,
-      "slug": "electronics",
-      "name": "Electronics"
-    },
-    "image": "public/portable-external-ssd-drive.png"
-  },
-  {
-    "id": 105,
-    "slug": "wireless-charging-pad",
-    "title": "Wireless Charging Pad",
-    "description": "Simplify your charging experience with this sleek and convenient wireless charging pad. Simply place your Qi-enabled smartphone or other compatible devices on the pad to start charging automatically. No more tangled cables or fumbling with connectors, making it perfect for your nightstand, desk, or any other convenient location. Its slim and elegant design fits seamlessly into any home or office environment. Some models may also feature fast wireless charging capabilities for compatible devices.",
-    "price": 29,
-    "category": {
-      "id": 1,
-      "slug": "electronics",
-      "name": "Electronics"
-    },
-    "image": "public/wireless-charging-pad.png"
-  },
-  {
-    "id": 106,
-    "slug": "gaming-mouse-customizable-rgb",
-    "title": "Gaming Mouse with Customizable RGB",
-    "description": "Enhance your gaming performance with this high-precision gaming mouse. Featuring customizable RGB lighting with a wide spectrum of colors and effects, programmable buttons that can be tailored to your favorite games, and adjustable DPI settings for precise control. Its ergonomic design ensures comfort during long gaming sessions, giving you the edge you need to conquer your opponents. The mouse also boasts a high polling rate for minimal input lag and durable switches designed to withstand intense gaming.",
-    "price": 59,
-    "category": {
-      "id": 1,
-      "slug": "electronics",
-      "name": "Electronics"
-    },
-    "image": "public/gaming-mouse-customizable-rgb.png"
-  },
-  {
-    "id": 107,
-    "slug": "smart-home-security-camera",
-    "title": "Smart Home Security Camera",
-    "description": "Keep your home safe and secure with this smart home security camera. Monitor your property remotely in real-time via your smartphone or tablet, providing peace of mind whether you're at home or away. Key features include motion detection with customizable alerts, clear night vision to see what's happening even in the dark, and two-way audio, allowing you to see, hear, and speak to anyone on your property. Easy to set up and integrate with other smart home devices for a comprehensive security system. Some models offer cloud storage for recorded footage.",
-    "price": 89,
-    "category": {
-      "id": 1,
-      "slug": "electronics",
-      "name": "Electronics"
-    },
-    "image": "public/smart-home-security-camera.png"
-  },
-  {
-    "id": 108,
-    "slug": "mens-casual-denim-jeans",
-    "title": "Men's Casual Denim Jeans",
-    "description": "These men's casual denim jeans offer a comfortable and stylish option for everyday wear. Made from durable denim fabric with a touch of stretch for added comfort and flexibility, they feature a classic five-pocket design and a versatile straight fit that suits various body types. Perfect for pairing with t-shirts, sweaters, or button-down shirts for a relaxed yet put-together look. Available in various washes and sizes to find your ideal style and fit. These jeans are designed to be a long-lasting staple in your wardrobe.",
-    "price": 45,
-    "category": {
-      "id": 2,
-      "slug": "clothing",
-      "name": "Clothing"
-    },
-    "image": "public/mens-casual-denim-jeans.png"
-  },
-  {
-    "id": 109,
-    "slug": "mens-lightweight-hoodie",
-    "title": "Men's Lightweight Hoodie",
-    "description": "A comfortable and stylish men's lightweight hoodie, ideal for layering or wearing on its own during mild weather. Crafted from a soft and breathable fabric blend, this hoodie features an adjustable drawstring hood, a front kangaroo pocket for added convenience, and ribbed cuffs and hem for a secure and comfortable fit. Perfect for workouts, casual outings, or simply lounging at home. Available in a range of modern colors to easily complement your existing wardrobe. Easy to care for and designed for everyday comfort and style.",
-    "price": 35,
-    "category": {
-      "id": 2,
-      "slug": "clothing",
-      "name": "Clothing"
-    },
-    "image": "public/mens-lightweight-hoodie.png"
-  },
-  {
-    "id": 110,
-    "slug": "mens-dress-socks-pack-of-3",
-    "title": "Men's Dress Socks (Pack of 3)",
-    "description": "This pack of three pairs of men's dress socks provides a comfortable and stylish foundation for any formal or business attire. Made from a premium blend of soft and durable materials, these socks offer a comfortable fit that lasts all day without slipping. Featuring a classic ribbed design and reinforced heel and toe for added durability and longevity. Available in a variety of classic and versatile colors to perfectly match your dress shoes and trousers, making them an essential addition to any well-dressed man's wardrobe.",
-    "price": 20,
-    "category": {
-      "id": 2,
-      "slug": "clothing",
-      "name": "Clothing"
-    },
-    "image": "public/mens-dress-socks-pack-of-3.png"
-  },
-  {
-    "id": 111,
-    "slug": "mens-casual-chino-shorts",
-    "title": "Men's Casual Chino Shorts",
-    "description": "These men's casual chino shorts offer a comfortable and versatile option for warm weather and relaxed occasions. Made from a lightweight and breathable cotton blend, they feature a classic flat-front design, belt loops for optional accessorizing, and multiple pockets including front slash pockets and back welt pockets for convenient storage. Perfect for casual outings, weekend activities, or simply relaxing in the sun. Available in a variety of stylish and easy-to-pair colors to suit your personal taste. Easy to care for and designed for both comfort and style during the warmer months.",
-    "price": 30,
-    "category": {
-      "id": 2,
-      "slug": "clothing",
-      "name": "Clothing"
-    },
-    "image": "public/mens-casual-chino-shorts.png"
-  },
-  {
-    "id": 112,
-    "slug": "decorative-throw-pillow-set",
-    "title": "Decorative Throw Pillow Set",
-    "description": "Add a touch of comfort and style to your living space with this set of decorative throw pillows. This set includes two coordinating pillows, each featuring a unique yet complementary design and texture. Crafted from high-quality, soft fabrics, these pillows are perfect for adding a pop of color and personality to your sofa, bed, or armchairs. Their plump filling ensures lasting shape and comfort, making them both aesthetically pleasing and functional. Easily refresh your home décor with this versatile pillow set.",
-    "price": 39,
-    "category": {
-      "id": 3,
-      "slug": "home-goods",
-      "name": "Home Goods"
-    },
-    "image": "public/decorative-throw-pillow-set.png"
-  },
-  {
-    "id": 113,
-    "slug": "soft-cotton-bedding-set-queen",
-    "title": "Soft Cotton Bedding Set (Queen)",
-    "description": "Indulge in a restful night's sleep with this luxurious soft cotton bedding set. Designed for a queen-sized bed, this set includes a flat sheet, a fitted sheet, and two pillowcases, all made from 100% premium cotton. The breathable and gentle fabric ensures exceptional comfort and a cozy feel throughout the night. Its classic and timeless design will complement any bedroom décor. Easy to care for and machine washable, this bedding set is a perfect blend of comfort, quality, and style for your bedroom sanctuary.",
-    "price": 79,
-    "category": {
-      "id": 3,
-      "slug": "home-goods",
-      "name": "Home Goods"
-    },
-    "image": "public/soft-cotton-bedding-set-queen.png"
-  },
-  {
-    "id": 114,
-    "slug": "scented-candle-large",
-    "title": "Scented Candle (Large)",
-    "description": "Create a warm and inviting ambiance in your home with this large scented candle. Infused with natural essential oils, this candle releases a long-lasting and delightful fragrance that fills any room with a soothing and relaxing atmosphere. Made with high-quality wax and a lead-free cotton wick for a clean and even burn. Its elegant glass jar adds a touch of sophistication to your décor. Perfect for unwinding after a long day or setting a cozy mood for any occasion. Enjoy hours of aromatic pleasure with this beautifully crafted scented candle.",
-    "price": 19,
-    "category": {
-      "id": 3,
-      "slug": "home-goods",
-      "name": "Home Goods"
-    },
-    "image": "public/scented-candle-large.png"
-  },
-  {
-    "id": 115,
-    "slug": "eco-friendly-yoga-mat",
-    "title": "Eco-Friendly Yoga Mat",
-    "description": "A non-slip and comfortable eco-friendly yoga mat perfect for your practice. Made from sustainable and non-toxic materials like natural rubber and jute, this mat provides excellent cushioning and grip to support you through various yoga poses, from beginner to advanced. Its lightweight design makes it easy to carry to and from classes, and its durable construction ensures long-lasting use. Ideal for yogis of all levels looking for a mat that is both good for their practice and the planet. Easy to clean and maintain for a hygienic workout experience.",
-    "price": 49,
-    "category": {
-      "id": 6,
-      "slug": "sports-outdoors",
-      "name": "Sports & Outdoors"
-    },
-    "image": "public/eco-friendly-yoga-mat.png"
-  },
-  {
-    "id": 116,
-    "slug": "waterproof-hiking-backpack-30l",
-    "title": "Waterproof Hiking Backpack (30L)",
-    "description": "Embark on your outdoor adventures with this durable and waterproof hiking backpack. With a 30-liter capacity, it offers ample space for your essentials, including water bottles, snacks, extra layers of clothing, and small camping gear. Featuring padded shoulder straps, an adjustable chest strap, and a ventilated back panel for comfortable carrying, even on long and challenging treks. Its high-quality waterproof material and included rain cover ensure your belongings stay dry and protected in any weather conditions. Equipped with multiple compartments, including side pockets, front pockets, and internal organizers, along with adjustable compression straps for a secure and balanced load. Perfect for day hikes, camping trips, and other outdoor activities.",
-    "price": 69,
-    "category": {
-      "id": 6,
-      "slug": "sports-outdoors",
-      "name": "Sports & Outdoors"
-    },
-    "image": "public/waterproof-hiking-backpack-30l.png"
-  },
-  {
-    "id": 117,
-    "slug": "portable-camping-tent-2-person",
-    "title": "Portable Camping Tent (2 Person)",
-    "description": "Enjoy comfortable shelter on your camping trips with this lightweight and portable 2-person camping tent. Designed for easy and quick setup and takedown, it features a durable and water-resistant construction with taped seams to protect you from rain and moisture. Its compact size and included carrying bag make it ideal for backpacking, hiking, and travel. Offers good ventilation with mesh windows and a zippered door to keep you comfortable throughout the night and prevent condensation. Perfect for weekend getaways, hiking adventures, and enjoying the great outdoors with a friend or partner. Includes stakes and guylines for added stability in windy conditions.",
-    "price": 89,
-    "category": {
-      "id": 6,
-      "slug": "sports-outdoors",
-      "name": "Sports & Outdoors"
-    },
-    "image": "public/portable-camping-tent-2-person.png"
+    "image": "/car-vacuum-cleaner.png"
   },
   {
     "id": 118,
@@ -1531,6 +140,1397 @@
       "slug": "automotive",
       "name": "Automotive"
     },
-    "image": "public/portable-car-tire-inflator-air-compressor.png"
+    "image": "/portable-car-tire-inflator-air-compressor.png"
+  },
+  {
+    "id": 21,
+    "slug": "facial-cleanser",
+    "title": "Facial Cleanser",
+    "description": "A gentle and effective facial cleanser for daily use.",
+    "price": 18,
+    "category": {
+      "id": 5,
+      "slug": "beauty-personal-care",
+      "name": "Beauty & Personal Care"
+    },
+    "image": "/facial-cleanser.png"
+  },
+  {
+    "id": 22,
+    "slug": "moisturizer-with-spf",
+    "title": "Moisturizer with SPF",
+    "description": "A hydrating moisturizer that also provides sun protection.",
+    "price": 25,
+    "category": {
+      "id": 5,
+      "slug": "beauty-personal-care",
+      "name": "Beauty & Personal Care"
+    },
+    "image": "/moisturizer-with-spf.png"
+  },
+  {
+    "id": 23,
+    "slug": "shampoo-and-conditioner-set",
+    "title": "Shampoo and Conditioner Set",
+    "description": "A set of nourishing shampoo and conditioner for healthy hair.",
+    "price": 22,
+    "category": {
+      "id": 5,
+      "slug": "beauty-personal-care",
+      "name": "Beauty & Personal Care"
+    },
+    "image": "/shampoo-and-conditioner-set.png"
+  },
+  {
+    "id": 24,
+    "slug": "makeup-brush-set",
+    "title": "Makeup Brush Set",
+    "description": "A comprehensive set of high-quality makeup brushes for flawless application.",
+    "price": 35,
+    "category": {
+      "id": 5,
+      "slug": "beauty-personal-care",
+      "name": "Beauty & Personal Care"
+    },
+    "image": "/makeup-brush-set.png"
+  },
+  {
+    "id": 25,
+    "slug": "sunscreen-lotion",
+    "title": "Sunscreen Lotion",
+    "description": "Broad-spectrum sunscreen lotion to protect your skin from harmful UV rays.",
+    "price": 15,
+    "category": {
+      "id": 5,
+      "slug": "beauty-personal-care",
+      "name": "Beauty & Personal Care"
+    },
+    "image": "/sunscreen-lotion.png"
+  },
+  {
+    "id": 71,
+    "slug": "eye-cream",
+    "title": "Eye Cream",
+    "description": "A hydrating eye cream to reduce the appearance of fine lines and wrinkles.",
+    "price": 28,
+    "category": {
+      "id": 5,
+      "slug": "beauty-personal-care",
+      "name": "Beauty & Personal Care"
+    },
+    "image": "/eye-cream.png"
+  },
+  {
+    "id": 72,
+    "slug": "nourishing-hair-mask-argan-oil",
+    "title": "Nourishing Hair Mask with Argan Oil",
+    "description": "A deeply nourishing hair mask enriched with argan oil to revitalize dry, damaged, and brittle hair. This luxurious treatment helps to restore moisture, improve shine, and reduce frizz, leaving your hair feeling soft, smooth, and healthy. The rich formula penetrates deeply into the hair shaft to repair damage caused by heat styling, chemical treatments, and environmental stressors. Regular use can help to strengthen hair, prevent breakage, and promote overall hair health. Suitable for all hair types, especially those in need of intense hydration and repair. Apply to damp hair after shampooing, leave on for 10-15 minutes, and rinse thoroughly for salon-quality results at home.",
+    "price": 22,
+    "category": {
+      "id": 5,
+      "slug": "beauty-personal-care",
+      "name": "Beauty & Personal Care"
+    },
+    "image": "/nourishing-hair-mask-argan-oil.png"
+  },
+  {
+    "id": 73,
+    "slug": "hair-dryer",
+    "title": "Hair Dryer",
+    "description": "A powerful hair dryer for quick and efficient styling.",
+    "price": 40,
+    "category": {
+      "id": 5,
+      "slug": "beauty-personal-care",
+      "name": "Beauty & Personal Care"
+    },
+    "image": "/hair-dryer.png"
+  },
+  {
+    "id": 74,
+    "slug": "lip-balm",
+    "title": "Lip Balm",
+    "description": "A moisturizing lip balm to protect and hydrate your lips.",
+    "price": 5,
+    "category": {
+      "id": 5,
+      "slug": "beauty-personal-care",
+      "name": "Beauty & Personal Care"
+    },
+    "image": "/lip-balm.png"
+  },
+  {
+    "id": 75,
+    "slug": "nail-polish-set",
+    "title": "Nail Polish Set",
+    "description": "A set of vibrant and long-lasting nail polishes.",
+    "price": 20,
+    "category": {
+      "id": 5,
+      "slug": "beauty-personal-care",
+      "name": "Beauty & Personal Care"
+    },
+    "image": "/nail-polish-set.png"
+  },
+  {
+    "id": 16,
+    "slug": "the-great-gatsby-book",
+    "title": "The Great Gatsby",
+    "description": "A classic novel by F. Scott Fitzgerald.",
+    "price": 10,
+    "category": {
+      "id": 4,
+      "slug": "books",
+      "name": "Books"
+    },
+    "image": "/the-great-gatsby-book.png"
+  },
+  {
+    "id": 17,
+    "slug": "harry-potter-and-the-sorcerers-stone",
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "description": "The first book in the beloved Harry Potter series by J.K. Rowling.",
+    "price": 12,
+    "category": {
+      "id": 4,
+      "slug": "books",
+      "name": "Books"
+    },
+    "image": "/harry-potter-and-the-sorcerers-stone.png"
+  },
+  {
+    "id": 18,
+    "slug": "to-kill-a-mockingbird-book",
+    "title": "To Kill a Mockingbird",
+    "description": "A powerful and timeless novel by Harper Lee.",
+    "price": 11,
+    "category": {
+      "id": 4,
+      "slug": "books",
+      "name": "Books"
+    },
+    "image": "/to-kill-a-mockingbird-book.png"
+  },
+  {
+    "id": 19,
+    "slug": "1984-book",
+    "title": "1984",
+    "description": "A dystopian masterpiece by George Orwell.",
+    "price": 9,
+    "category": {
+      "id": 4,
+      "slug": "books",
+      "name": "Books"
+    },
+    "image": "/1984-book.png"
+  },
+  {
+    "id": 20,
+    "slug": "the-lord-of-the-rings-the-fellowship-of-the-ring",
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "description": "The first volume in J.R.R. Tolkien's epic fantasy trilogy.",
+    "price": 15,
+    "category": {
+      "id": 4,
+      "slug": "books",
+      "name": "Books"
+    },
+    "image": "/the-lord-of-the-rings-the-fellowship-of-the-ring.png"
+  },
+  {
+    "id": 66,
+    "slug": "the-catcher-in-the-rye-book",
+    "title": "The Catcher in the Rye",
+    "description": "A coming-of-age novel by J.D. Salinger.",
+    "price": 10,
+    "category": {
+      "id": 4,
+      "slug": "books",
+      "name": "Books"
+    },
+    "image": "/the-catcher-in-the-rye-book.png"
+  },
+  {
+    "id": 67,
+    "slug": "pride-and-prejudice-book",
+    "title": "Pride and Prejudice",
+    "description": "A beloved novel by Jane Austen.",
+    "price": 11,
+    "category": {
+      "id": 4,
+      "slug": "books",
+      "name": "Books"
+    },
+    "image": "/pride-and-prejudice-book.png"
+  },
+  {
+    "id": 68,
+    "slug": "the-hobbit-book",
+    "title": "The Hobbit",
+    "description": "A fantasy adventure novel by J.R.R. Tolkien.",
+    "price": 13,
+    "category": {
+      "id": 4,
+      "slug": "books",
+      "name": "Books"
+    },
+    "image": "/the-hobbit-book.png"
+  },
+  {
+    "id": 69,
+    "slug": "animal-farm-book",
+    "title": "Animal Farm",
+    "description": "A satirical novella by George Orwell.",
+    "price": 9,
+    "category": {
+      "id": 4,
+      "slug": "books",
+      "name": "Books"
+    },
+    "image": "/animal-farm-book.png"
+  },
+  {
+    "id": 70,
+    "slug": "the-chronicles-of-narnia",
+    "title": "The Chronicles of Narnia",
+    "description": "The first book in C.S. Lewis's classic fantasy series.",
+    "price": 12,
+    "category": {
+      "id": 4,
+      "slug": "books",
+      "name": "Books"
+    },
+    "image": "/the-chronicles-of-narnia.png"
+  },
+  {
+    "id": 6,
+    "slug": "mens-cotton-t-shirt",
+    "title": "Men's Cotton T-Shirt",
+    "description": "A comfortable and versatile cotton t-shirt perfect for everyday wear.",
+    "price": 15,
+    "category": {
+      "id": 2,
+      "slug": "clothing",
+      "name": "Clothing"
+    },
+    "image": "/mens-cotton-t-shirt.png"
+  },
+  {
+    "id": 7,
+    "slug": "womens-denim-jeans",
+    "title": "Women's Denim Jeans",
+    "description": "Classic denim jeans for women, offering both style and comfort.",
+    "price": 45,
+    "category": {
+      "id": 2,
+      "slug": "clothing",
+      "name": "Clothing"
+    },
+    "image": "/womens-denim-jeans.png"
+  },
+  {
+    "id": 8,
+    "slug": "kids-sneakers",
+    "title": "Kids' Sneakers",
+    "description": "Durable and comfortable sneakers for active kids.",
+    "price": 30,
+    "category": {
+      "id": 2,
+      "slug": "clothing",
+      "name": "Clothing"
+    },
+    "image": "/kids-sneakers.png"
+  },
+  {
+    "id": 9,
+    "slug": "formal-dress-shirt",
+    "title": "Formal Dress Shirt",
+    "description": "A crisp and stylish dress shirt perfect for formal occasions.",
+    "price": 39,
+    "category": {
+      "id": 2,
+      "slug": "clothing",
+      "name": "Clothing"
+    },
+    "image": "/formal-dress-shirt.png"
+  },
+  {
+    "id": 10,
+    "slug": "winter-scarf",
+    "title": "Winter Scarf",
+    "description": "Keep warm and stylish with this cozy winter scarf.",
+    "price": 20,
+    "category": {
+      "id": 2,
+      "slug": "clothing",
+      "name": "Clothing"
+    },
+    "image": "/winter-scarf.png"
+  },
+  {
+    "id": 56,
+    "slug": "womens-summer-dress",
+    "title": "Women's Summer Dress",
+    "description": "A light and breezy summer dress perfect for warm weather.",
+    "price": 35,
+    "category": {
+      "id": 2,
+      "slug": "clothing",
+      "name": "Clothing"
+    },
+    "image": "/womens-summer-dress.png"
+  },
+  {
+    "id": 57,
+    "slug": "mens-casual-shorts",
+    "title": "Men's Casual Shorts",
+    "description": "Comfortable and stylish casual shorts for everyday wear.",
+    "price": 28,
+    "category": {
+      "id": 2,
+      "slug": "clothing",
+      "name": "Clothing"
+    },
+    "image": "/mens-casual-shorts.png"
+  },
+  {
+    "id": 58,
+    "slug": "baby-onesies-pack",
+    "title": "Baby Onesies (Pack of 5)",
+    "description": "A pack of five soft and comfortable baby onesies.",
+    "price": 20,
+    "category": {
+      "id": 2,
+      "slug": "clothing",
+      "name": "Clothing"
+    },
+    "image": "/baby-onesies-pack.png"
+  },
+  {
+    "id": 59,
+    "slug": "womens-yoga-pants",
+    "title": "Women's Yoga Pants",
+    "description": "Comfortable and flexible yoga pants for workouts or lounging.",
+    "price": 30,
+    "category": {
+      "id": 2,
+      "slug": "clothing",
+      "name": "Clothing"
+    },
+    "image": "/womens-yoga-pants.png"
+  },
+  {
+    "id": 60,
+    "slug": "kids-raincoat",
+    "title": "Kids' Raincoat",
+    "description": "A waterproof and durable raincoat to keep kids dry.",
+    "price": 25,
+    "category": {
+      "id": 2,
+      "slug": "clothing",
+      "name": "Clothing"
+    },
+    "image": "/kids-raincoat.png"
+  },
+  {
+    "id": 108,
+    "slug": "mens-casual-denim-jeans",
+    "title": "Men's Casual Denim Jeans",
+    "description": "These men's casual denim jeans offer a comfortable and stylish option for everyday wear. Made from durable denim fabric with a touch of stretch for added comfort and flexibility, they feature a classic five-pocket design and a versatile straight fit that suits various body types. Perfect for pairing with t-shirts, sweaters, or button-down shirts for a relaxed yet put-together look. Available in various washes and sizes to find your ideal style and fit. These jeans are designed to be a long-lasting staple in your wardrobe.",
+    "price": 45,
+    "category": {
+      "id": 2,
+      "slug": "clothing",
+      "name": "Clothing"
+    },
+    "image": "/mens-casual-denim-jeans.png"
+  },
+  {
+    "id": 109,
+    "slug": "mens-lightweight-hoodie",
+    "title": "Men's Lightweight Hoodie",
+    "description": "A comfortable and stylish men's lightweight hoodie, ideal for layering or wearing on its own during mild weather. Crafted from a soft and breathable fabric blend, this hoodie features an adjustable drawstring hood, a front kangaroo pocket for added convenience, and ribbed cuffs and hem for a secure and comfortable fit. Perfect for workouts, casual outings, or simply lounging at home. Available in a range of modern colors to easily complement your existing wardrobe. Easy to care for and designed for everyday comfort and style.",
+    "price": 35,
+    "category": {
+      "id": 2,
+      "slug": "clothing",
+      "name": "Clothing"
+    },
+    "image": "/mens-lightweight-hoodie.png"
+  },
+  {
+    "id": 110,
+    "slug": "mens-dress-socks-pack-of-3",
+    "title": "Men's Dress Socks (Pack of 3)",
+    "description": "This pack of three pairs of men's dress socks provides a comfortable and stylish foundation for any formal or business attire. Made from a premium blend of soft and durable materials, these socks offer a comfortable fit that lasts all day without slipping. Featuring a classic ribbed design and reinforced heel and toe for added durability and longevity. Available in a variety of classic and versatile colors to perfectly match your dress shoes and trousers, making them an essential addition to any well-dressed man's wardrobe.",
+    "price": 20,
+    "category": {
+      "id": 2,
+      "slug": "clothing",
+      "name": "Clothing"
+    },
+    "image": "/mens-dress-socks-pack-of-3.png"
+  },
+  {
+    "id": 111,
+    "slug": "mens-casual-chino-shorts",
+    "title": "Men's Casual Chino Shorts",
+    "description": "These men's casual chino shorts offer a comfortable and versatile option for warm weather and relaxed occasions. Made from a lightweight and breathable cotton blend, they feature a classic flat-front design, belt loops for optional accessorizing, and multiple pockets including front slash pockets and back welt pockets for convenient storage. Perfect for casual outings, weekend activities, or simply relaxing in the sun. Available in a variety of stylish and easy-to-pair colors to suit your personal taste. Easy to care for and designed for both comfort and style during the warmer months.",
+    "price": 30,
+    "category": {
+      "id": 2,
+      "slug": "clothing",
+      "name": "Clothing"
+    },
+    "image": "/mens-casual-chino-shorts.png"
+  },
+  {
+    "id": 1,
+    "slug": "portable-bluetooth-speaker",
+    "title": "Portable Bluetooth Speaker",
+    "description": "Enjoy your favorite tunes on the go with this high-quality portable Bluetooth speaker.",
+    "price": 49,
+    "category": {
+      "id": 1,
+      "slug": "electronics",
+      "name": "Electronics"
+    },
+    "image": "/portable-bluetooth-speaker.png"
+  },
+  {
+    "id": 2,
+    "slug": "wireless-noise-cancelling-headphones",
+    "title": "Wireless Noise-Cancelling Headphones",
+    "description": "Immerse yourself in sound with these comfortable and noise-cancelling wireless headphones.",
+    "price": 199,
+    "category": {
+      "id": 1,
+      "slug": "electronics",
+      "name": "Electronics"
+    },
+    "image": "/wireless-noise-cancelling-headphones.png"
+  },
+  {
+    "id": 3,
+    "slug": "smart-tv-55-inch",
+    "title": "Smart TV 55-inch",
+    "description": "Experience stunning visuals and smart features with this 55-inch smart TV.",
+    "price": 599,
+    "category": {
+      "id": 1,
+      "slug": "electronics",
+      "name": "Electronics"
+    },
+    "image": "/smart-tv-55-inch.png"
+  },
+  {
+    "id": 4,
+    "slug": "wireless-keyboard-mouse-combo",
+    "title": "Wireless Keyboard and Mouse Combo",
+    "description": "Increase your productivity with this comfortable and reliable wireless keyboard and mouse combo.",
+    "price": 35,
+    "category": {
+      "id": 1,
+      "slug": "electronics",
+      "name": "Electronics"
+    },
+    "image": "/wireless-keyboard-mouse-combo.png"
+  },
+  {
+    "id": 5,
+    "slug": "fitness-tracker-watch",
+    "title": "Fitness Tracker Watch",
+    "description": "Monitor your activity levels and sleep patterns with this advanced fitness tracker watch.",
+    "price": 79,
+    "category": {
+      "id": 1,
+      "slug": "electronics",
+      "name": "Electronics"
+    },
+    "image": "/fitness-tracker-watch.png"
+  },
+  {
+    "id": 51,
+    "slug": "laptop-15-inch",
+    "title": "15-inch Laptop",
+    "description": "Powerful and versatile 15-inch laptop for work and entertainment.",
+    "price": 799,
+    "category": {
+      "id": 1,
+      "slug": "electronics",
+      "name": "Electronics"
+    },
+    "image": "/laptop-15-inch.png"
+  },
+  {
+    "id": 52,
+    "slug": "smartphone-latest-model",
+    "title": "Latest Model Smartphone",
+    "description": "Cutting-edge smartphone with advanced features and a stunning display.",
+    "price": 999,
+    "category": {
+      "id": 1,
+      "slug": "electronics",
+      "name": "Electronics"
+    },
+    "image": "/smartphone-latest-model.png"
+  },
+  {
+    "id": 53,
+    "slug": "tablet-10-inch",
+    "title": "10-inch Tablet",
+    "description": "Portable and powerful 10-inch tablet for Browse, streaming, and more.",
+    "price": 299,
+    "category": {
+      "id": 1,
+      "slug": "electronics",
+      "name": "Electronics"
+    },
+    "image": "/tablet-10-inch.png"
+  },
+  {
+    "id": 54,
+    "slug": "camera-dslr",
+    "title": "Digital SLR Camera",
+    "description": "High-resolution DSLR camera for capturing professional-quality photos and videos.",
+    "price": 699,
+    "category": {
+      "id": 1,
+      "slug": "electronics",
+      "name": "Electronics"
+    },
+    "image": "/camera-dslr.png"
+  },
+  {
+    "id": 55,
+    "slug": "smartwatch",
+    "title": "Smartwatch",
+    "description": "Feature-rich smartwatch that tracks your fitness, notifications, and more.",
+    "price": 199,
+    "category": {
+      "id": 1,
+      "slug": "electronics",
+      "name": "Electronics"
+    },
+    "image": "/smartwatch.png"
+  },
+  {
+    "id": 101,
+    "slug": "true-wireless-earbuds",
+    "title": "True Wireless Earbuds",
+    "description": "Experience complete freedom of movement with these true wireless earbuds. Enjoy high-fidelity sound and a secure, comfortable fit thanks to the multiple ear tip sizes included. The included compact charging case provides multiple additional charges, ensuring your music keeps playing throughout the day. Perfect for workouts, commutes, and everyday use, these earbuds also feature touch controls for easy management of music and calls, and some models include active noise cancellation for an even more immersive audio experience.",
+    "price": 79,
+    "category": {
+      "id": 1,
+      "slug": "electronics",
+      "name": "Electronics"
+    },
+    "image": "/true-wireless-earbuds.png"
+  },
+  {
+    "id": 102,
+    "slug": "4k-ultra-hd-smart-tv",
+    "title": "4K Ultra HD Smart TV",
+    "description": "Bring your entertainment to life with this stunning 4K Ultra HD Smart TV. Enjoy breathtaking picture quality with vibrant colors, sharp details, and high dynamic range (HDR) support for an immersive viewing experience. Access your favorite streaming services like Netflix, Hulu, and Disney+ directly through the built-in smart platform. Connect your other devices seamlessly with multiple HDMI and USB ports. The immersive sound system with integrated speakers provides rich audio to complete the cinematic experience in your own home. Features voice control capabilities for added convenience.",
+    "price": 499,
+    "category": {
+      "id": 1,
+      "slug": "electronics",
+      "name": "Electronics"
+    },
+    "image": "/4k-ultra-hd-smart-tv.png"
+  },
+  {
+    "id": 103,
+    "slug": "digital-camera-high-zoom",
+    "title": "Digital Camera with High Zoom",
+    "description": "Capture every moment in stunning detail with this digital camera featuring a powerful high zoom lens, allowing you to get closer to the action without losing image quality. Perfect for travel, wildlife photography, or capturing family memories. The intuitive controls and various shooting modes, including automatic and manual settings, make it easy to take professional-looking photos and videos. Share your creations instantly with built-in Wi-Fi and Bluetooth connectivity. Includes image stabilization to reduce blur and ensure crisp photos even at high zoom levels.",
+    "price": 299,
+    "category": {
+      "id": 1,
+      "slug": "electronics",
+      "name": "Electronics"
+    },
+    "image": "/digital-camera-high-zoom.png"
+  },
+  {
+    "id": 104,
+    "slug": "portable-external-ssd-drive",
+    "title": "Portable External SSD Drive",
+    "description": "Store and transfer your files quickly and securely with this portable external SSD drive. Its compact and lightweight design makes it easy to carry with you wherever you go, while the solid-state technology ensures blazing-fast read and write speeds, significantly faster than traditional hard drives. Ideal for backing up important data, transferring large files like photos and videos, or expanding your device's storage capacity. Its durable construction offers protection against bumps and drops, ensuring your data remains safe.",
+    "price": 129,
+    "category": {
+      "id": 1,
+      "slug": "electronics",
+      "name": "Electronics"
+    },
+    "image": "/portable-external-ssd-drive.png"
+  },
+  {
+    "id": 105,
+    "slug": "wireless-charging-pad",
+    "title": "Wireless Charging Pad",
+    "description": "Simplify your charging experience with this sleek and convenient wireless charging pad. Simply place your Qi-enabled smartphone or other compatible devices on the pad to start charging automatically. No more tangled cables or fumbling with connectors, making it perfect for your nightstand, desk, or any other convenient location. Its slim and elegant design fits seamlessly into any home or office environment. Some models may also feature fast wireless charging capabilities for compatible devices.",
+    "price": 29,
+    "category": {
+      "id": 1,
+      "slug": "electronics",
+      "name": "Electronics"
+    },
+    "image": "/wireless-charging-pad.png"
+  },
+  {
+    "id": 106,
+    "slug": "gaming-mouse-customizable-rgb",
+    "title": "Gaming Mouse with Customizable RGB",
+    "description": "Enhance your gaming performance with this high-precision gaming mouse. Featuring customizable RGB lighting with a wide spectrum of colors and effects, programmable buttons that can be tailored to your favorite games, and adjustable DPI settings for precise control. Its ergonomic design ensures comfort during long gaming sessions, giving you the edge you need to conquer your opponents. The mouse also boasts a high polling rate for minimal input lag and durable switches designed to withstand intense gaming.",
+    "price": 59,
+    "category": {
+      "id": 1,
+      "slug": "electronics",
+      "name": "Electronics"
+    },
+    "image": "/gaming-mouse-customizable-rgb.png"
+  },
+  {
+    "id": 107,
+    "slug": "smart-home-security-camera",
+    "title": "Smart Home Security Camera",
+    "description": "Keep your home safe and secure with this smart home security camera. Monitor your property remotely in real-time via your smartphone or tablet, providing peace of mind whether you're at home or away. Key features include motion detection with customizable alerts, clear night vision to see what's happening even in the dark, and two-way audio, allowing you to see, hear, and speak to anyone on your property. Easy to set up and integrate with other smart home devices for a comprehensive security system. Some models offer cloud storage for recorded footage.",
+    "price": 89,
+    "category": {
+      "id": 1,
+      "slug": "electronics",
+      "name": "Electronics"
+    },
+    "image": "/smart-home-security-camera.png"
+  },
+  {
+    "id": 36,
+    "slug": "organic-whole-milk",
+    "title": "Organic Whole Milk",
+    "description": "A gallon of fresh and nutritious organic whole milk.",
+    "price": 4,
+    "category": {
+      "id": 8,
+      "slug": "groceries",
+      "name": "Groceries"
+    },
+    "image": "/organic-whole-milk.png"
+  },
+  {
+    "id": 37,
+    "slug": "fresh-apples-bag",
+    "title": "Fresh Apples (Bag)",
+    "description": "A bag of crisp and delicious fresh apples.",
+    "price": 5,
+    "category": {
+      "id": 8,
+      "slug": "groceries",
+      "name": "Groceries"
+    },
+    "image": "/fresh-apples-bag.png"
+  },
+  {
+    "id": 38,
+    "slug": "whole-wheat-bread",
+    "title": "Whole Wheat Bread",
+    "description": "A loaf of healthy and nutritious whole wheat bread.",
+    "price": 3,
+    "category": {
+      "id": 8,
+      "slug": "groceries",
+      "name": "Groceries"
+    },
+    "image": "/whole-wheat-bread.png"
+  },
+  {
+    "id": 39,
+    "slug": "ground-coffee-blend",
+    "title": "Ground Coffee Blend",
+    "description": "A bag of premium ground coffee blend for a rich and flavorful brew.",
+    "price": 8,
+    "category": {
+      "id": 8,
+      "slug": "groceries",
+      "name": "Groceries"
+    },
+    "image": "/ground-coffee-blend.png"
+  },
+  {
+    "id": 40,
+    "slug": "pasta-spaghetti",
+    "title": "Pasta - Spaghetti",
+    "description": "A box of classic spaghetti pasta.",
+    "price": 2,
+    "category": {
+      "id": 8,
+      "slug": "groceries",
+      "name": "Groceries"
+    },
+    "image": "/pasta-spaghetti.png"
+  },
+  {
+    "id": 86,
+    "slug": "dozen-large-eggs",
+    "title": "Dozen Large Eggs",
+    "description": "A carton of one dozen large, fresh eggs.",
+    "price": 3,
+    "category": {
+      "id": 8,
+      "slug": "groceries",
+      "name": "Groceries"
+    },
+    "image": "/dozen-large-eggs.png"
+  },
+  {
+    "id": 87,
+    "slug": "cheddar-cheese-block",
+    "title": "Cheddar Cheese Block",
+    "description": "A block of sharp cheddar cheese.",
+    "price": 6,
+    "category": {
+      "id": 8,
+      "slug": "groceries",
+      "name": "Groceries"
+    },
+    "image": "/cheddar-cheese-block.png"
+  },
+  {
+    "id": 88,
+    "slug": "fresh-bananas-bunch",
+    "title": "Fresh Bananas (Bunch)",
+    "description": "A bunch of ripe and delicious fresh bananas.",
+    "price": 3,
+    "category": {
+      "id": 8,
+      "slug": "groceries",
+      "name": "Groceries"
+    },
+    "image": "/fresh-bananas-bunch.png"
+  },
+  {
+    "id": 89,
+    "slug": "chicken-breasts-boneless-skinless",
+    "title": "Chicken Breasts (Boneless, Skinless)",
+    "description": "A package of boneless and skinless chicken breasts.",
+    "price": 12,
+    "category": {
+      "id": 8,
+      "slug": "groceries",
+      "name": "Groceries"
+    },
+    "image": "/chicken-breasts-boneless-skinless.png"
+  },
+  {
+    "id": 90,
+    "slug": "orange-juice-carton",
+    "title": "Orange Juice (Carton)",
+    "description": "A carton of fresh and refreshing orange juice.",
+    "price": 4,
+    "category": {
+      "id": 8,
+      "slug": "groceries",
+      "name": "Groceries"
+    },
+    "image": "/orange-juice-carton.png"
+  },
+  {
+    "id": 11,
+    "slug": "throw-pillow-set",
+    "title": "Throw Pillow Set",
+    "description": "Add a touch of comfort and style to your living space with this set of throw pillows.",
+    "price": 25,
+    "category": {
+      "id": 3,
+      "slug": "home-goods",
+      "name": "Home Goods"
+    },
+    "image": "/throw-pillow-set.png"
+  },
+  {
+    "id": 12,
+    "slug": "ceramic-coffee-mug",
+    "title": "Ceramic Coffee Mug",
+    "description": "A durable and stylish ceramic coffee mug for your daily brew.",
+    "price": 8,
+    "category": {
+      "id": 3,
+      "slug": "home-goods",
+      "name": "Home Goods"
+    },
+    "image": "/ceramic-coffee-mug.png"
+  },
+  {
+    "id": 13,
+    "slug": "scented-candle",
+    "title": "Scented Candle",
+    "description": "Create a relaxing ambiance with this beautifully scented candle.",
+    "price": 18,
+    "category": {
+      "id": 3,
+      "slug": "home-goods",
+      "name": "Home Goods"
+    },
+    "image": "/scented-candle.png"
+  },
+  {
+    "id": 14,
+    "slug": "kitchen-knife-set",
+    "title": "Kitchen Knife Set",
+    "description": "A comprehensive set of high-quality kitchen knives for all your culinary needs.",
+    "price": 75,
+    "category": {
+      "id": 3,
+      "slug": "home-goods",
+      "name": "Home Goods"
+    },
+    "image": "/kitchen-knife-set.png"
+  },
+  {
+    "id": 15,
+    "slug": "bath-towels-set",
+    "title": "Bath Towels Set",
+    "description": "A set of soft and absorbent bath towels for a luxurious feel.",
+    "price": 30,
+    "category": {
+      "id": 3,
+      "slug": "home-goods",
+      "name": "Home Goods"
+    },
+    "image": "/bath-towels-set.png"
+  },
+  {
+    "id": 61,
+    "slug": "bed-sheet-set-queen",
+    "title": "Bed Sheet Set (Queen)",
+    "description": "A soft and comfortable queen-size bed sheet set.",
+    "price": 45,
+    "category": {
+      "id": 3,
+      "slug": "home-goods",
+      "name": "Home Goods"
+    },
+    "image": "/bed-sheet-set-queen.png"
+  },
+  {
+    "id": 62,
+    "slug": "dinnerware-set-4-place",
+    "title": "Dinnerware Set (4-Place Setting)",
+    "description": "A stylish dinnerware set for four people.",
+    "price": 60,
+    "category": {
+      "id": 3,
+      "slug": "home-goods",
+      "name": "Home Goods"
+    },
+    "image": "/dinnerware-set-4-place.png"
+  },
+  {
+    "id": 63,
+    "slug": "picture-frame-8x10",
+    "title": "Picture Frame (8x10)",
+    "description": "A classic 8x10 inch picture frame to display your memories.",
+    "price": 12,
+    "category": {
+      "id": 3,
+      "slug": "home-goods",
+      "name": "Home Goods"
+    },
+    "image": "/picture-frame-8x10.png"
+  },
+  {
+    "id": 64,
+    "slug": "desk-lamp-led",
+    "title": "LED Desk Lamp",
+    "description": "An energy-efficient LED desk lamp with adjustable brightness.",
+    "price": 28,
+    "category": {
+      "id": 3,
+      "slug": "home-goods",
+      "name": "Home Goods"
+    },
+    "image": "/desk-lamp-led.png"
+  },
+  {
+    "id": 65,
+    "slug": "area-rug-5x7",
+    "title": "Area Rug (5x7)",
+    "description": "A stylish 5x7 area rug to enhance your room decor.",
+    "price": 99,
+    "category": {
+      "id": 3,
+      "slug": "home-goods",
+      "name": "Home Goods"
+    },
+    "image": "/area-rug-5x7.png"
+  },
+  {
+    "id": 112,
+    "slug": "decorative-throw-pillow-set",
+    "title": "Decorative Throw Pillow Set",
+    "description": "Add a touch of comfort and style to your living space with this set of decorative throw pillows. This set includes two coordinating pillows, each featuring a unique yet complementary design and texture. Crafted from high-quality, soft fabrics, these pillows are perfect for adding a pop of color and personality to your sofa, bed, or armchairs. Their plump filling ensures lasting shape and comfort, making them both aesthetically pleasing and functional. Easily refresh your home décor with this versatile pillow set.",
+    "price": 39,
+    "category": {
+      "id": 3,
+      "slug": "home-goods",
+      "name": "Home Goods"
+    },
+    "image": "/decorative-throw-pillow-set.png"
+  },
+  {
+    "id": 113,
+    "slug": "soft-cotton-bedding-set-queen",
+    "title": "Soft Cotton Bedding Set (Queen)",
+    "description": "Indulge in a restful night's sleep with this luxurious soft cotton bedding set. Designed for a queen-sized bed, this set includes a flat sheet, a fitted sheet, and two pillowcases, all made from 100% premium cotton. The breathable and gentle fabric ensures exceptional comfort and a cozy feel throughout the night. Its classic and timeless design will complement any bedroom décor. Easy to care for and machine washable, this bedding set is a perfect blend of comfort, quality, and style for your bedroom sanctuary.",
+    "price": 79,
+    "category": {
+      "id": 3,
+      "slug": "home-goods",
+      "name": "Home Goods"
+    },
+    "image": "/soft-cotton-bedding-set-queen.png"
+  },
+  {
+    "id": 114,
+    "slug": "scented-candle-large",
+    "title": "Scented Candle (Large)",
+    "description": "Create a warm and inviting ambiance in your home with this large scented candle. Infused with natural essential oils, this candle releases a long-lasting and delightful fragrance that fills any room with a soothing and relaxing atmosphere. Made with high-quality wax and a lead-free cotton wick for a clean and even burn. Its elegant glass jar adds a touch of sophistication to your décor. Perfect for unwinding after a long day or setting a cozy mood for any occasion. Enjoy hours of aromatic pleasure with this beautifully crafted scented candle.",
+    "price": 19,
+    "category": {
+      "id": 3,
+      "slug": "home-goods",
+      "name": "Home Goods"
+    },
+    "image": "/scented-candle-large.png"
+  },
+  {
+    "id": 46,
+    "slug": "mens-stainless-steel-watch",
+    "title": "Men's Stainless Steel Watch",
+    "description": "A stylish and durable stainless steel watch for men.",
+    "price": 120,
+    "category": {
+      "id": 10,
+      "slug": "jewelry-watches",
+      "name": "Jewelry & Watches"
+    },
+    "image": "/mens-stainless-steel-watch.png"
+  },
+  {
+    "id": 47,
+    "slug": "womens-silver-necklace",
+    "title": "Women's Silver Necklace",
+    "description": "An elegant sterling silver necklace for women.",
+    "price": 85,
+    "category": {
+      "id": 10,
+      "slug": "jewelry-watches",
+      "name": "Jewelry & Watches"
+    },
+    "image": "/womens-silver-necklace.png"
+  },
+  {
+    "id": 48,
+    "slug": "gold-stud-earrings",
+    "title": "Gold Stud Earrings",
+    "description": "Classic and versatile gold stud earrings.",
+    "price": 95,
+    "category": {
+      "id": 10,
+      "slug": "jewelry-watches",
+      "name": "Jewelry & Watches"
+    },
+    "image": "/gold-stud-earrings.png"
+  },
+  {
+    "id": 49,
+    "slug": "leather-strap-watch",
+    "title": "Leather Strap Watch",
+    "description": "A sophisticated watch with a genuine leather strap.",
+    "price": 150,
+    "category": {
+      "id": 10,
+      "slug": "jewelry-watches",
+      "name": "Jewelry & Watches"
+    },
+    "image": "/leather-strap-watch.png"
+  },
+  {
+    "id": 50,
+    "slug": "diamond-pendant",
+    "title": "Diamond Pendant",
+    "description": "A beautiful pendant featuring a sparkling diamond.",
+    "price": 299,
+    "category": {
+      "id": 10,
+      "slug": "jewelry-watches",
+      "name": "Jewelry & Watches"
+    },
+    "image": "/diamond-pendant.png"
+  },
+  {
+    "id": 96,
+    "slug": "womens-gold-bracelet",
+    "title": "Women's Gold Bracelet",
+    "description": "A delicate and elegant gold bracelet for women.",
+    "price": 180,
+    "category": {
+      "id": 10,
+      "slug": "jewelry-watches",
+      "name": "Jewelry & Watches"
+    },
+    "image": "/womens-gold-bracelet.png"
+  },
+  {
+    "id": 97,
+    "slug": "mens-cufflinks-set",
+    "title": "Men's Cufflinks Set",
+    "description": "A stylish set of cufflinks for formal occasions.",
+    "price": 55,
+    "category": {
+      "id": 10,
+      "slug": "jewelry-watches",
+      "name": "Jewelry & Watches"
+    },
+    "image": "/mens-cufflinks-set.png"
+  },
+  {
+    "id": 98,
+    "slug": "silver-hoop-earrings",
+    "title": "Silver Hoop Earrings",
+    "description": "Classic and versatile silver hoop earrings.",
+    "price": 40,
+    "category": {
+      "id": 10,
+      "slug": "jewelry-watches",
+      "name": "Jewelry & Watches"
+    },
+    "image": "/silver-hoop-earrings.png"
+  },
+  {
+    "id": 99,
+    "slug": "smart-band",
+    "title": "Smart Band",
+    "description": "A sleek and functional smart band for fitness tracking and notifications.",
+    "price": 60,
+    "category": {
+      "id": 10,
+      "slug": "jewelry-watches",
+      "name": "Jewelry & Watches"
+    },
+    "image": "/smart-band.png"
+  },
+  {
+    "id": 100,
+    "slug": "pearl-necklace",
+    "title": "Pearl Necklace",
+    "description": "A timeless and elegant pearl necklace.",
+    "price": 250,
+    "category": {
+      "id": 10,
+      "slug": "jewelry-watches",
+      "name": "Jewelry & Watches"
+    },
+    "image": "/pearl-necklace.png"
+  },
+  {
+    "id": 26,
+    "slug": "yoga-mat",
+    "title": "Yoga Mat",
+    "description": "A non-slip and comfortable yoga mat for your practice.",
+    "price": 29,
+    "category": {
+      "id": 6,
+      "slug": "sports-outdoors",
+      "name": "Sports & Outdoors"
+    },
+    "image": "/yoga-mat.png"
+  },
+  {
+    "id": 27,
+    "slug": "water-bottle",
+    "title": "Water Bottle",
+    "description": "A durable and reusable water bottle to stay hydrated.",
+    "price": 12,
+    "category": {
+      "id": 6,
+      "slug": "sports-outdoors",
+      "name": "Sports & Outdoors"
+    },
+    "image": "/water-bottle.png"
+  },
+  {
+    "id": 28,
+    "slug": "hiking-backpack",
+    "title": "Hiking Backpack",
+    "description": "A comfortable and spacious backpack perfect for hiking adventures.",
+    "price": 65,
+    "category": {
+      "id": 6,
+      "slug": "sports-outdoors",
+      "name": "Sports & Outdoors"
+    },
+    "image": "/hiking-backpack.png"
+  },
+  {
+    "id": 29,
+    "slug": "resistance-bands-set",
+    "title": "Resistance Bands Set",
+    "description": "A versatile set of resistance bands for various exercises.",
+    "price": 19,
+    "category": {
+      "id": 6,
+      "slug": "sports-outdoors",
+      "name": "Sports & Outdoors"
+    },
+    "image": "/resistance-bands-set.png"
+  },
+  {
+    "id": 30,
+    "slug": "soccer-ball",
+    "title": "Soccer Ball",
+    "description": "A high-quality soccer ball for training and matches.",
+    "price": 25,
+    "category": {
+      "id": 6,
+      "slug": "sports-outdoors",
+      "name": "Sports & Outdoors"
+    },
+    "image": "/soccer-ball.png"
+  },
+  {
+    "id": 76,
+    "slug": "running-shoes-mens",
+    "title": "Men's Running Shoes",
+    "description": "Comfortable and supportive running shoes for men.",
+    "price": 80,
+    "category": {
+      "id": 6,
+      "slug": "sports-outdoors",
+      "name": "Sports & Outdoors"
+    },
+    "image": "/running-shoes-mens.png"
+  },
+  {
+    "id": 77,
+    "slug": "camping-tent-2-person",
+    "title": "2-Person Camping Tent",
+    "description": "A lightweight and easy-to-set-up camping tent for two people.",
+    "price": 70,
+    "category": {
+      "id": 6,
+      "slug": "sports-outdoors",
+      "name": "Sports & Outdoors"
+    },
+    "image": "/camping-tent-2-person.png"
+  },
+  {
+    "id": 78,
+    "slug": "dumbbell-set",
+    "title": "Dumbbell Set",
+    "description": "A set of adjustable dumbbells for home workouts.",
+    "price": 99,
+    "category": {
+      "id": 6,
+      "slug": "sports-outdoors",
+      "name": "Sports & Outdoors"
+    },
+    "image": "/dumbbell-set.png"
+  },
+  {
+    "id": 79,
+    "slug": "bicycle-helmet",
+    "title": "Bicycle Helmet",
+    "description": "A safe and comfortable helmet for cycling.",
+    "price": 45,
+    "category": {
+      "id": 6,
+      "slug": "sports-outdoors",
+      "name": "Sports & Outdoors"
+    },
+    "image": "/bicycle-helmet.png"
+  },
+  {
+    "id": 80,
+    "slug": "fishing-rod-and-reel-combo",
+    "title": "Fishing Rod and Reel Combo",
+    "description": "A complete fishing rod and reel combo for beginners.",
+    "price": 55,
+    "category": {
+      "id": 6,
+      "slug": "sports-outdoors",
+      "name": "Sports & Outdoors"
+    },
+    "image": "/fishing-rod-and-reel-combo.png"
+  },
+  {
+    "id": 115,
+    "slug": "eco-friendly-yoga-mat",
+    "title": "Eco-Friendly Yoga Mat",
+    "description": "A non-slip and comfortable eco-friendly yoga mat perfect for your practice. Made from sustainable and non-toxic materials like natural rubber and jute, this mat provides excellent cushioning and grip to support you through various yoga poses, from beginner to advanced. Its lightweight design makes it easy to carry to and from classes, and its durable construction ensures long-lasting use. Ideal for yogis of all levels looking for a mat that is both good for their practice and the planet. Easy to clean and maintain for a hygienic workout experience.",
+    "price": 49,
+    "category": {
+      "id": 6,
+      "slug": "sports-outdoors",
+      "name": "Sports & Outdoors"
+    },
+    "image": "/eco-friendly-yoga-mat.png"
+  },
+  {
+    "id": 116,
+    "slug": "waterproof-hiking-backpack-30l",
+    "title": "Waterproof Hiking Backpack (30L)",
+    "description": "Embark on your outdoor adventures with this durable and waterproof hiking backpack. With a 30-liter capacity, it offers ample space for your essentials, including water bottles, snacks, extra layers of clothing, and small camping gear. Featuring padded shoulder straps, an adjustable chest strap, and a ventilated back panel for comfortable carrying, even on long and challenging treks. Its high-quality waterproof material and included rain cover ensure your belongings stay dry and protected in any weather conditions. Equipped with multiple compartments, including side pockets, front pockets, and internal organizers, along with adjustable compression straps for a secure and balanced load. Perfect for day hikes, camping trips, and other outdoor activities.",
+    "price": 69,
+    "category": {
+      "id": 6,
+      "slug": "sports-outdoors",
+      "name": "Sports & Outdoors"
+    },
+    "image": "/waterproof-hiking-backpack-30l.png"
+  },
+  {
+    "id": 117,
+    "slug": "portable-camping-tent-2-person",
+    "title": "Portable Camping Tent (2 Person)",
+    "description": "Enjoy comfortable shelter on your camping trips with this lightweight and portable 2-person camping tent. Designed for easy and quick setup and takedown, it features a durable and water-resistant construction with taped seams to protect you from rain and moisture. Its compact size and included carrying bag make it ideal for backpacking, hiking, and travel. Offers good ventilation with mesh windows and a zippered door to keep you comfortable throughout the night and prevent condensation. Perfect for weekend getaways, hiking adventures, and enjoying the great outdoors with a friend or partner. Includes stakes and guylines for added stability in windy conditions.",
+    "price": 89,
+    "category": {
+      "id": 6,
+      "slug": "sports-outdoors",
+      "name": "Sports & Outdoors"
+    },
+    "image": "/portable-camping-tent-2-person.png"
+  },
+  {
+    "id": 31,
+    "slug": "building-blocks-set",
+    "title": "Building Blocks Set",
+    "description": "A classic set of building blocks for creative play.",
+    "price": 30,
+    "category": {
+      "id": 7,
+      "slug": "toys-games",
+      "name": "Toys & Games"
+    },
+    "image": "/building-blocks-set.png"
+  },
+  {
+    "id": 32,
+    "slug": "board-game-strategy",
+    "title": "Strategy Board Game",
+    "description": "An engaging strategy board game for hours of fun.",
+    "price": 35,
+    "category": {
+      "id": 7,
+      "slug": "toys-games",
+      "name": "Toys & Games"
+    },
+    "image": "/board-game-strategy.png"
+  },
+  {
+    "id": 33,
+    "slug": "action-figure",
+    "title": "Action Figure",
+    "description": "A collectible action figure from a popular franchise.",
+    "price": 15,
+    "category": {
+      "id": 7,
+      "slug": "toys-games",
+      "name": "Toys & Games"
+    },
+    "image": "/action-figure.png"
+  },
+  {
+    "id": 34,
+    "slug": "puzzle-1000-pieces",
+    "title": "1000-Piece Puzzle",
+    "description": "A challenging and rewarding 1000-piece jigsaw puzzle.",
+    "price": 20,
+    "category": {
+      "id": 7,
+      "slug": "toys-games",
+      "name": "Toys & Games"
+    },
+    "image": "/puzzle-1000-pieces.png"
+  },
+  {
+    "id": 35,
+    "slug": "stuffed-animal-teddy-bear",
+    "title": "Stuffed Animal Teddy Bear",
+    "description": "A soft and cuddly teddy bear perfect for children of all ages.",
+    "price": 22,
+    "category": {
+      "id": 7,
+      "slug": "toys-games",
+      "name": "Toys & Games"
+    },
+    "image": "/stuffed-animal-teddy-bear.png"
+  },
+  {
+    "id": 81,
+    "slug": "remote-control-car",
+    "title": "Remote Control Car",
+    "description": "A fun and fast remote control car for kids and adults.",
+    "price": 40,
+    "category": {
+      "id": 7,
+      "slug": "toys-games",
+      "name": "Toys & Games"
+    },
+    "image": "/remote-control-car.png"
+  },
+  {
+    "id": 82,
+    "slug": "doll-with-accessories",
+    "title": "Doll with Accessories",
+    "description": "A beautiful doll with various outfits and accessories.",
+    "price": 28,
+    "category": {
+      "id": 7,
+      "slug": "toys-games",
+      "name": "Toys & Games"
+    },
+    "image": "/doll-with-accessories.png"
+  },
+  {
+    "id": 83,
+    "slug": "educational-toy-for-toddlers",
+    "title": "Educational Toy for Toddlers",
+    "description": "A fun and engaging educational toy for toddlers.",
+    "price": 25,
+    "category": {
+      "id": 7,
+      "slug": "toys-games",
+      "name": "Toys & Games"
+    },
+    "image": "/educational-toy-for-toddlers.png"
+  },
+  {
+    "id": 84,
+    "slug": "coloring-book-and-crayons",
+    "title": "Coloring Book and Crayons Set",
+    "description": "A set of coloring book and crayons for creative fun.",
+    "price": 10,
+    "category": {
+      "id": 7,
+      "slug": "toys-games",
+      "name": "Toys & Games"
+    },
+    "image": "/coloring-book-and-crayons.png"
+  },
+  {
+    "id": 85,
+    "slug": "jigsaw-puzzle-500-pieces",
+    "title": "500-Piece Jigsaw Puzzle",
+    "description": "A moderately challenging 500-piece jigsaw puzzle.",
+    "price": 15,
+    "category": {
+      "id": 7,
+      "slug": "toys-games",
+      "name": "Toys & Games"
+    },
+    "image": "/jigsaw-puzzle-500-pieces.png"
   }
 ]
