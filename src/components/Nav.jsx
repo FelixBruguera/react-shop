@@ -4,7 +4,7 @@ import styles from '../styles/Nav.module.css'
 const Nav = () => {
     const linkClass = ({ isActive, isPending }) => isPending ? styles.pending : isActive ? styles.active : styles.link
     return (
-        <nav className={styles.nav}>
+        <nav className={styles.nav} aria-label='Top menu'>
             <NavLink 
             to="home"
             className={(isActive, isPending) => linkClass(isActive, isPending)}> 

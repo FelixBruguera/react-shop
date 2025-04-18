@@ -7,19 +7,32 @@ const Pages = ({ pageTotal, currentPage, setPage }) => {
     const previousPage = () => { if (currentPage > 1) setPage(currentPage - 1) }
     const nextPage = () => { if (currentPage < pageTotal) setPage(currentPage + 1) }
     return (
-        <section title="pages">
+        <nav aria-label="pages">
             <ul className={styles.pages}>
-                <li key={'back'} className={styles.arrow} onClick={previousPage}><ArrowLeft size={20}/></li>
-                { numbers.map(i => 
-                    <li key={i} 
+                <li key={'back'}
+                    className={styles.arrow}
+                    onClick={previousPage}
+                    aria-label="previous page">
+                        <ArrowLeft size={20}/>
+                </li>
+                { numbers.map(i =>
+                    <li key={i}
+                    aria-label={`page ${i}`}
+                    aria-current={i === currentPage ? 'page' : null}
+                    title={`page ${i}`}
                     className={i === currentPage ? styles.currentPage : styles.page}
                     onClick={() => setPage(i)}>
                     {i}
                     </li>
                 )}
-                <li key={'next'} className={styles.arrow} onClick={nextPage}><ArrowRight size={20}/></li>
+                <li key={'next'}
+                    className={styles.arrow}
+                    onClick={nextPage}
+                    aria-label="next page">
+                        <ArrowRight size={20}/>
+                </li>
             </ul>
-        </section>
+        </nav>
     )
 }
 

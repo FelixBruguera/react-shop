@@ -25,7 +25,7 @@ const Sort = ({ handleSort, currentSort }) => {
             { options.map(opt => {
                 return (
                     <div className={styles.category}>
-                    <input type='radio' value={opt.slug} name='option' id={opt.slug} 
+                    <input type='radio' value={opt.slug} name='option' id={opt.slug} aria-label={opt.name}
                     onChange={(e) => setOption(e.target.value)}
                     checked={option === opt.slug ? true : false }/>
                     <label htmlFor={opt.slug} className={styles.label}>

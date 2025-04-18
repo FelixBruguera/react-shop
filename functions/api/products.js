@@ -9,7 +9,12 @@ export function onRequestGet(request) {
     const category = params.get('category')
     const sort = params.get('sortBy')
     if (minPrice > 0 || maxPrice < 1000 || category !== 'all') {
-        products = data.filter(product => product.price >= minPrice && product.price <= maxPrice && product.category.slug === category)
+        if (category === 'all') {
+            products = products.filter(product => product.price >= minPrice && product.price <= maxPrice)
+        }
+        else {
+            products = products.filter(product => product.price >= minPrice && product.price <= maxPrice && product.category.slug === category)
+        }
     }
     if (sort !== 'category') {
         switch(sort) {

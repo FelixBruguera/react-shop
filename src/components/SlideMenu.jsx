@@ -5,10 +5,18 @@ const SlideMenu = ({ children, isOpen, isClosing, closeSlide, setIsClosing}) => 
 
     return (
         <div
+        aria-label='sliding menu'
         className={isClosing ? styles.slideOut : isOpen ? styles.slideIn : null} 
         onAnimationEnd={isClosing ? () => closeSlide() : null}
         >
-        <button type="button" className={styles.button} onClick={() => setIsClosing(true)}>X</button>
+        <button 
+            aria-label='close slide'
+            title='close slide'
+            type="button" 
+            className={styles.button} 
+            onClick={() => setIsClosing(true)}>
+            X
+        </button>
         {children}
         </div>
     )

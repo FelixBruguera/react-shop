@@ -19,13 +19,14 @@ const Filters = ({ handleFilter, currentFilter }) => {
         setCategory('all')
     }
     return (
-        <form className={styles.filter} onSubmit={handleSubmit}>
+        <form aria-label='filters form' className={styles.filter} onSubmit={handleSubmit}>
             <p className={styles.title}>Category</p>
             <div name='categories' className={styles.categories}>
                 <div className={styles.category}>
-                <input type='radio' value='all' name='category' id='all' 
-                onChange={(e) => setCategory(e.target.value)}
-                checked={category === 'all' ? true : false }/>
+                <input type='radio' aria-label="All" value='all' name='category' id='all'
+                    onChange={(e) => setCategory(e.target.value)}
+                    checked={category === 'all' ? true : false }
+                />
                 <label htmlFor='all' className={styles.label}>
                 <span className="material-symbols-outlined">
                         store
@@ -35,7 +36,7 @@ const Filters = ({ handleFilter, currentFilter }) => {
                 { categories.map(cat => {
                     return (
                         <div className={styles.category}>
-                           <input type='radio' value={cat.slug} name='category' id={cat.slug} 
+                           <input type='radio' aria-label={cat.name} value={cat.slug} name='category' id={cat.slug} 
                            onChange={(e) => setCategory(e.target.value)}
                            checked={category === cat.slug ? true : false }/>
                            <label htmlFor={cat.slug} className={styles.label}>
@@ -60,7 +61,7 @@ const Filters = ({ handleFilter, currentFilter }) => {
                         value={min} 
                         onChange={(e)=> setMin(e.target.value)}
                     />
-                    <span className={styles.separator}>-</span>
+                    <span className={styles.separator} aria-label='separator'>-</span>
                     <input 
                         className={styles.priceInput} 
                         type="number" 

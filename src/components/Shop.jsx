@@ -10,7 +10,6 @@ import SlideMenu from "./SlideMenu";
 
 
 export default function Shop() {
-    // const [currentUrl, setCurrentUrl] = useState('/api/products/?')
     const [products, setProducts] = useState(null)
     const [isLoading, setIsLoading] = useState(true)
     const [totalPages, setTotalPages] = useState(0)
@@ -41,8 +40,6 @@ export default function Shop() {
     }, [currentPage, filter, sort])
 
     const handleFilter = (filter) => {
-        // const url = `/api/products/?min=${filter.min}&max=${filter.max}&category=${filter.category}`
-        // setCurrentUrl(url)
         setCurrentPage(1)
         setFilterClosing(true)
         setFilter(filter)
@@ -82,7 +79,7 @@ export default function Shop() {
                     <ArrowDownUp /> Sort
                 </button>
             </div>
-            <section className={styles.products}>
+            <section className={styles.products} aria-label="products">
                 <SlideMenu isOpen={filterOpen} isClosing={filterClosing} closeSlide={handleFilterClose} setIsClosing={setFilterClosing}>
                     <Filters handleFilter={handleFilter} currentFilter={filter}/>
                 </SlideMenu>
