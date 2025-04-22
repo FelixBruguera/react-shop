@@ -63,7 +63,7 @@
     font-size: 0.7rem;
     text-align: center;
     background-color: rgba(0,0,0, 0.1);
-    color: black;
+    color: rgba(0,0,0,0.75);
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
@@ -90,4 +90,10 @@
     height: 6dvh;
     width: 5dvw;
     margin-left: 8%;
+    background-color: var(--accent-color);
+    color: white;
+}
+.buttonRed {
+    composes: button;
+    background-color: darkred;
 }

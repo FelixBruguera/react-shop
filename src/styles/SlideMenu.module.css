@@ -2,23 +2,40 @@
     display: grid;
     grid-template-columns: 9fr 1fr;
     position: fixed;
-    background-color: lightgrey;
-    left: 0%;
-    width: 23%;
+    background-color: #e8e8e8;
+    width: 23.5%;
     z-index: 1;
     top: 0%;
     height: 100%;
     padding-top: 1%;
     overflow: auto;
+    border: 1px solid rgba(0,0,0,0.2);
 }
-.slideIn {
+.menuLeft {
     composes: menu;
+    left: 0%;
+}
+.menuRight {
+    composes: menu;
+    right: 0%;
+}
+.slideInLeft {
+    composes: menuLeft;
     opacity: 1;
-    animation: slideIn 0.5s ease-in-out;
+    animation: slideInLeft 0.5s ease-in-out;
 }
-.slideOut {
-    composes: menu;
-    animation: slideOut 0.5s ease-in-out forwards;
+.slideOutLeft {
+    composes: menuLeft;
+    animation: slideOutLeft 0.5s ease-in-out forwards;
+}
+.slideInRight {
+    composes: menuRight;
+    opacity: 1;
+    animation: slideInRight 0.5s ease-in-out;
+}
+.slideOutRight {
+    composes: menuRight;
+    animation: slideOutRight 0.5s ease-in-out forwards;
 }
 .button {
     grid-area: 1 / 2 / 1 / 2;
@@ -36,12 +53,11 @@
     justify-content: center;
 }
 .button:hover {
-    background-color: var(--accent-color);
-    color: lightgrey;
+    color: #ED1C24;
     cursor: pointer;
     /* font-weight: 500; */
 }
-@keyframes slideOut {
+@keyframes slideOutLeft {
     90% {
         opacity: 1;
     }
@@ -50,9 +66,24 @@
         opacity: 0;
     }
 }
-@keyframes slideIn {
+@keyframes slideInLeft {
     0% {
         translate: -80%;
+        opacity: 0.8;
+    }
+}
+@keyframes slideOutRight {
+    90% {
+        opacity: 1;
+    }
+    100% {
+        translate: 100%;
+        opacity: 0;
+    }
+}
+@keyframes slideInRight {
+    0% {
+        translate: 80%;
         opacity: 0.8;
     }
 }

@@ -28,8 +28,6 @@
     text-decoration: none;
     border-radius: 10px;
     font-size: 0.8rem;
-    background-color: var(--accent-color);
-    color: white;
     padding: 3% 5%;
     transition: background-color 0.15s ease-in-out;
     font-weight: 600;
@@ -37,12 +35,18 @@
 }
 .option {
     composes: button;
+    color: black;
+    border: 1px solid rgba(0,0,0,0.15);
     padding: 3% 0%;
     width: 30%;
     height: 6dvh;
 }
 .option:hover, .optionClicked {
     cursor: pointer;
-    background-color: lightsteelblue;
-    color: black;
+    background-color: var(--accent-color);
+    color: white;
+}
+.noResults {
+    text-align: center;
+    padding: 10%;
 }

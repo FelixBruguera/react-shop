@@ -79,6 +79,8 @@ input[type=radio]{
 }
 .button {
     composes: button from './SmallProduct.module.css';
+    background-color: var(--accent-color);
+    color: white;
     margin-left: auto;
     margin-right: auto;
     width: fit-content;
@@ -91,7 +93,6 @@ input[type=radio]{
 .reset {
     composes: button;
     background-color: white;
-    /* border: 1px solid rgba(0, 0, 0, 0.3); */
+    border: 1px solid rgba(0, 0, 0, 0.2);
     color: black;
-    
 }

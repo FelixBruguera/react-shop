@@ -58,6 +58,7 @@ const Filters = ({ handleFilter, currentFilter }) => {
                         placeholder='Min'
                         aria-label='minimum price'
                         min={0}
+                        max={1000}
                         value={min} 
                         onChange={(e)=> setMin(e.target.value)}
                     />
@@ -69,6 +70,7 @@ const Filters = ({ handleFilter, currentFilter }) => {
                         placeholder='Max'
                         aria-label='maximum price' 
                         min={1}
+                        max={1000}
                         value={max} 
                         onChange={(e) => setMax(e.target.value)}
                     />

@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from "react";
+import { useOutletContext } from "react-router";
 import SmallProduct from "./SmallProduct";
 import Loading from "./Loading";
 import Pages from "./Pages";
@@ -16,10 +17,9 @@ export default function Shop() {
     const [currentPage, setCurrentPage] = useState(1)
     const [filter, setFilter] = useState({min: 0, max: 1000, category: 'all'})
     const [filterOpen, setFilterOpen] = useState(false)
-    const [filterClosing, setFilterClosing] = useState(false)
     const [sort, setSort] = useState('category')
     const [sortOpen, setSortOpen] = useState(false)
-    const [sortClosing, setSortClosing] = useState(false)
+    const [cart, setCart] = useOutletContext()
     const shopRef = useRef()
 
     useEffect(() => {
@@ -39,24 +39,24 @@ export default function Shop() {
         })
     }, [currentPage, filter, sort])
 
+    const cartIds = cart.length > 0 ? cart.map(product => product.id) : []
+
     const handleFilter = (filter) => {
         setCurrentPage(1)
-        setFilterClosing(true)
         setFilter(filter)
+        setFilterOpen(false)
     }
     const handleSort = (sort) => {
         setCurrentPage(1)
-        setSortClosing(true)
         setSort(sort)
+        setSortOpen(false)
     }
 
     const handleFilterClose = () => {
         setFilterOpen(false)
-        setFilterClosing(false)
     }
     const handleSortClose = () => {
         setSortOpen(false)
-        setSortClosing(false)
     }
 
     if (isLoading) {
@@ -79,15 +79,16 @@ export default function Shop() {
                     <ArrowDownUp /> Sort
                 </button>
             </div>
-            <section className={styles.products} aria-label="products">
-                <SlideMenu isOpen={filterOpen} isClosing={filterClosing} closeSlide={handleFilterClose} setIsClosing={setFilterClosing}>
+            {products.length === 0 ? <h2 className={styles.noResults}>No results</h2>: null}
+            <ul className={styles.products} aria-label="products">
+                <SlideMenu isOpen={filterOpen} /*isClosing={filterClosing}*/ closeSlide={handleFilterClose} /*setIsClosing={setFilterClosing}*/ position='left'>
                     <Filters handleFilter={handleFilter} currentFilter={filter}/>
                 </SlideMenu>
-                <SlideMenu isOpen={sortOpen} isClosing={sortClosing} closeSlide={handleSortClose} setIsClosing={setSortClosing}>
+                <SlideMenu isOpen={sortOpen} /*isClosing={sortClosing}*/ closeSlide={handleSortClose} /*setIsClosing={setSortClosing}*/ position='left'>
                     <Sort handleSort={handleSort} currentSort={sort}/>
                 </SlideMenu>
-                {products.map(product => <SmallProduct data={product} />)}
-            </section>
+                {products.map(product => <SmallProduct key={product.id} data={product} setCart={setCart} isInCart={cartIds.includes(product.id)} />)}
+            </ul>
             <Pages pageTotal={totalPages} currentPage={currentPage} setPage={setCurrentPage}/>
         </div>
     )

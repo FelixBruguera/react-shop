@@ -1,0 +1,128 @@
+.title {
+    composes: title from './Filters.module.css';
+}
+.empty {
+    composes: title;
+    text-align: center;
+    color: rgba(0,0,0,0.5);
+}
+.cart {
+    grid-area: 1/1/2/3;
+}
+.cartProducts {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 0dvh;
+    margin-top: 3%;
+}
+.titleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3%;
+}
+.reset {
+    composes: button from "./Shop.module.css";
+    background-color: white;
+    color: black;
+    margin: 0% 3%;
+}
+.product {
+    grid-template: 8dvh 4dvh 4dvh / 15dvh 10dvh 12dvh 3dvh;
+    display: grid;
+    align-items: center;
+    gap: 1dvh;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
+    padding: 2% 8% 2% 5%;
+    border-radius: 5px;
+}
+.product:hover {
+    background-color: var(--accent-color);
+    color: white;
+    cursor: pointer;
+    .price, .quantity, .removeButton {
+        color: rgba(255,255,255,0.75);
+    }
+    .removeButton:hover {
+        cursor: pointer;
+        color: #ED1C24;
+    }
+}
+.image {
+    grid-area: 1/1/4/1;
+    width: 100%;
+    height: 80%;
+    border-radius: 5px;
+}
+.productTitle {
+    grid-area: 1/2/1/4;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.price {
+    grid-area: 2/2/4/2;
+    font-size: 0.9rem;
+    color: rgba(0,0,0,0.75);
+}
+.removeButton {
+    grid-area: 1/4/1/4;
+    background-color: transparent;
+    border: none;
+    width: fit-content;
+    color: rgba(0,0,0,0.75);
+}
+.checkout {
+    height: 6dvh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    background-color: var(--accent-color);
+    color: white;
+    transition: background-color 0.15s ease-in-out;
+    font-weight: 600;
+    border: none;
+}
+.checkout:hover, .reset:hover {
+    background-color: black;
+    cursor: pointer;
+    color: white;
+}
+.totalPrice {
+    composes: title;
+}
+.cartTotal {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.quantity, .total {
+    font-size: 0.8rem;
+    color: rgba(0,0,0,0.7);
+}
+.total {
+    margin: 0.25rem;
+}
+.quantity {
+    margin: 0;
+}
+.quantityInput {
+    grid-area: 1/2/2/2;
+    width: 35%;
+    font-size: 0.9rem;
+}
+.totalCheckout {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3%;
+}

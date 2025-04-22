@@ -3,9 +3,10 @@ import { Link } from "react-router";
 import styles from '../styles/Pages.module.css'
 
 const Pages = ({ pageTotal, currentPage, setPage }) => {
-    const numbers = [...Array(pageTotal).keys()].map(n => n + 1)
+    const pages = [...Array(pageTotal).keys()].map(n => n + 1)
     const previousPage = () => { if (currentPage > 1) setPage(currentPage - 1) }
     const nextPage = () => { if (currentPage < pageTotal) setPage(currentPage + 1) }
+    if (pages.length === 0) { return null }
     return (
         <nav aria-label="pages">
             <ul className={styles.pages}>
@@ -15,7 +16,7 @@ const Pages = ({ pageTotal, currentPage, setPage }) => {
                     aria-label="previous page">
                         <ArrowLeft size={20}/>
                 </li>
-                { numbers.map(i =>
+                { pages.map(i =>
                     <li key={i}
                     aria-label={`page ${i}`}
                     aria-current={i === currentPage ? 'page' : null}
