@@ -3,1534 +3,1534 @@
     "id": 41,
     "slug": "car-windshield-wiper-blades-set-of-2",
     "title": "Car Windshield Wiper Blades (Set of 2)",
-    "description": "Ensure clear visibility during rain, snow, and sleet with this set of two high-quality car windshield wiper blades. Designed for optimal performance and durability, these blades provide a streak-free wipe for a safer driving experience. Made from premium rubber that resists cracking and tearing, they are built to withstand harsh weather conditions. Easy to install and compatible with most vehicle makes and models. Regularly replacing your wiper blades is crucial for maintaining clear vision and driving safety. Check your vehicle's manual for the correct size for your car.",
+    "description": "Ensure clear visibility in any weather with this set of two premium car windshield wiper blades. Engineered for optimal contact and long-lasting performance, they deliver a streak-free wipe, enhancing driving safety. Crafted from durable rubber, resisting cracks and tears from sun and ice. Simple to install and fits most vehicle models. Regular replacement ensures safe, clear vision.",
     "price": 25,
     "category": {
       "id": 9,
       "slug": "automotive",
       "name": "Automotive"
     },
-    "image": "/car-windshield-wiper-blades-set-of-2.png"
+    "image": "/car-windshield-wiper-blades-set-of-2.webp"
   },
   {
     "id": 42,
     "slug": "car-phone-mount",
     "title": "Car Phone Mount",
-    "description": "A secure and convenient phone mount for your car.",
+    "description": "Keep your phone secure and accessible while driving with this convenient car phone mount. Designed for easy one-hand operation, it provides a stable hold for various phone sizes. Enjoy hands-free navigation and calls, enhancing your driving safety and convenience. Installs easily in your car's air vent or dashboard.",
     "price": 15,
     "category": {
       "id": 9,
       "slug": "automotive",
       "name": "Automotive"
     },
-    "image": "/car-phone-mount.png"
+    "image": "/car-phone-mount.webp"
   },
   {
     "id": 43,
     "slug": "car-air-freshener",
     "title": "Car Air Freshener",
-    "description": "Keep your car smelling fresh with this long-lasting air freshener.",
+    "description": "Infuse your car with a refreshing scent using this long-lasting air freshener. Its subtle fragrance creates a pleasant driving environment, eliminating unwanted odors. Easy to use and discreet, it keeps your vehicle smelling clean and inviting for weeks. Choose from a variety of captivating scents to personalize your ride.",
     "price": 5,
     "category": {
       "id": 9,
       "slug": "automotive",
       "name": "Automotive"
     },
-    "image": "/car-air-freshener.png"
+    "image": "/car-air-freshener.webp"
   },
   {
     "id": 44,
     "slug": "car-wash-kit",
     "title": "Car Wash Kit",
-    "description": "A complete kit for washing and detailing your car.",
+    "description": "Achieve a showroom shine at home with this complete car wash kit. Includes all essentials for washing, waxing, and detailing your vehicle. Features premium quality soap for effective cleaning, a soft wash mitt, durable drying towel, and specialized wax for a protective finish. Keep your car looking its best with this convenient set.",
     "price": 40,
     "category": {
       "id": 9,
       "slug": "automotive",
       "name": "Automotive"
     },
-    "image": "/car-wash-kit.png"
+    "image": "/car-wash-kit.webp"
   },
   {
     "id": 45,
     "slug": "tire-pressure-gauge",
     "title": "Tire Pressure Gauge",
-    "description": "A reliable tire pressure gauge to ensure optimal tire inflation.",
+    "description": "Ensure optimal tire inflation and safety with this reliable tire pressure gauge. Its accurate readings help improve fuel efficiency and extend tire life. Compact and easy to use, it's an essential tool for every car owner. Regularly checking your tire pressure contributes to a smoother and safer driving experience.",
     "price": 10,
     "category": {
       "id": 9,
       "slug": "automotive",
       "name": "Automotive"
     },
-    "image": "/tire-pressure-gauge.png"
+    "image": "/tire-pressure-gauge.webp"
   },
   {
     "id": 91,
     "slug": "car-battery",
     "title": "Car Battery",
-    "description": "A reliable car battery with long-lasting performance.",
+    "description": "Power your vehicle reliably with this long-lasting car battery. Engineered for consistent performance and durability, it provides the necessary starting power in various weather conditions. Its robust construction ensures a prolonged lifespan, offering peace of mind on the road. Choose this dependable battery for your car's power needs.",
     "price": 99,
     "category": {
       "id": 9,
       "slug": "automotive",
       "name": "Automotive"
     },
-    "image": "/car-battery.png"
+    "image": "/car-battery.webp"
   },
   {
     "id": 92,
     "slug": "motor-oil-synthetic",
     "title": "Synthetic Motor Oil",
-    "description": "High-quality synthetic motor oil for optimal engine protection.",
+    "description": "Provide superior protection to your engine with this high-quality synthetic motor oil. Formulated for optimal performance, it reduces friction and wear, extending engine life and improving fuel efficiency. Suitable for a wide range of vehicles, this synthetic oil ensures smooth operation and protection against extreme temperatures.",
     "price": 35,
     "category": {
       "id": 9,
       "slug": "automotive",
       "name": "Automotive"
     },
-    "image": "/motor-oil-synthetic.png"
+    "image": "/motor-oil-synthetic.webp"
   },
   {
     "id": 93,
     "slug": "car-floor-mats-set",
     "title": "Car Floor Mats (Set of 4)",
-    "description": "A set of four durable car floor mats to protect your vehicle's interior.",
+    "description": "Protect your car's interior with this set of four durable floor mats. Designed to trap dirt, mud, and spills, they help keep your vehicle clean and well-maintained. Made from high-quality materials for long-lasting use and easy cleaning. A practical addition to any car, preserving its value and appearance.",
     "price": 30,
     "category": {
       "id": 9,
       "slug": "automotive",
       "name": "Automotive"
     },
-    "image": "/car-floor-mats-set.png"
+    "image": "/car-floor-mats-set.webp"
   },
   {
     "id": 94,
     "slug": "headlight-bulb",
     "title": "Headlight Bulb",
-    "description": "A bright and reliable headlight bulb for safe driving.",
+    "description": "Ensure safe nighttime driving with this bright and reliable headlight bulb. Providing excellent visibility, it enhances your safety on the road. Easy to install and designed for long-lasting performance. Replace your old or dim bulbs to maintain optimal lighting for clear vision during your travels.",
     "price": 18,
     "category": {
       "id": 9,
       "slug": "automotive",
       "name": "Automotive"
     },
-    "image": "/headlight-bulb.png"
+    "image": "/headlight-bulb.webp"
   },
   {
     "id": 95,
     "slug": "car-vacuum-cleaner",
     "title": "Car Vacuum Cleaner",
-    "description": "A portable and powerful vacuum cleaner for keeping your car interior clean.",
+    "description": "Keep your car interior spotless with this portable and powerful vacuum cleaner. Designed specifically for vehicles, it easily removes dirt, crumbs, and debris from seats and carpets. Lightweight and easy to maneuver, it comes with attachments for reaching tight spaces. A convenient solution for maintaining a clean car environment.",
     "price": 30,
     "category": {
       "id": 9,
       "slug": "automotive",
       "name": "Automotive"
     },
-    "image": "/car-vacuum-cleaner.png"
+    "image": "/car-vacuum-cleaner.webp"
   },
   {
     "id": 118,
     "slug": "portable-car-tire-inflator-air-compressor",
     "title": "Portable Car Tire Inflator Air Compressor",
-    "description": "Be prepared for flat tires and maintain optimal tire pressure with this portable car tire inflator air compressor. This compact and easy-to-use device plugs directly into your car's 12V power outlet, allowing you to inflate tires quickly and efficiently on the go. It features a built-in pressure gauge for accurate inflation and comes with various nozzle attachments for inflating tires on cars, bikes, motorcycles, and even sports equipment. A must-have tool for any driver, ensuring safety and fuel efficiency by maintaining proper tire inflation.",
+    "description": "Stay prepared on the road with this portable air compressor. Compact and user-friendly, it plugs into your car's 12V outlet for quick tire inflation. Features an integrated pressure gauge for accuracy and comes with multiple nozzles for cars, bikes, and sports gear. A vital tool for safety and maintaining fuel efficiency.",
     "price": 39,
     "category": {
       "id": 9,
       "slug": "automotive",
       "name": "Automotive"
     },
-    "image": "/portable-car-tire-inflator-air-compressor.png"
+    "image": "/portable-car-tire-inflator-air-compressor.webp"
   },
   {
     "id": 21,
     "slug": "facial-cleanser",
     "title": "Facial Cleanser",
-    "description": "A gentle and effective facial cleanser for daily use.",
+    "description": "Start your skincare routine with this gentle yet effective facial cleanser. Formulated for daily use, it removes impurities and leaves your skin feeling refreshed and clean without over-drying. Suitable for various skin types.",
     "price": 18,
     "category": {
       "id": 5,
       "slug": "beauty-personal-care",
       "name": "Beauty & Personal Care"
     },
-    "image": "/facial-cleanser.png"
+    "image": "/facial-cleanser.webp"
   },
   {
     "id": 22,
     "slug": "moisturizer-with-spf",
     "title": "Moisturizer with SPF",
-    "description": "A hydrating moisturizer that also provides sun protection.",
+    "description": "Hydrate and protect your skin in one step with this moisturizer featuring SPF. This dual-action formula nourishes your skin while shielding it from harmful sun rays, making it an essential part of your daily sun protection regimen.",
     "price": 25,
     "category": {
       "id": 5,
       "slug": "beauty-personal-care",
       "name": "Beauty & Personal Care"
     },
-    "image": "/moisturizer-with-spf.png"
+    "image": "/moisturizer-with-spf.webp"
   },
   {
     "id": 23,
     "slug": "shampoo-and-conditioner-set",
     "title": "Shampoo and Conditioner Set",
-    "description": "A set of nourishing shampoo and conditioner for healthy hair.",
+    "description": "Achieve healthy, lustrous hair with this nourishing shampoo and conditioner set. The balanced formulas work together to cleanse, hydrate, and detangle your hair, leaving it feeling soft, smooth, and manageable. Ideal for everyday use.",
     "price": 22,
     "category": {
       "id": 5,
       "slug": "beauty-personal-care",
       "name": "Beauty & Personal Care"
     },
-    "image": "/shampoo-and-conditioner-set.png"
+    "image": "/shampoo-and-conditioner-set.webp"
   },
   {
     "id": 24,
     "slug": "makeup-brush-set",
     "title": "Makeup Brush Set",
-    "description": "A comprehensive set of high-quality makeup brushes for flawless application.",
+    "description": "Create flawless looks with this comprehensive set of high-quality makeup brushes. Each brush is designed for precise application of various makeup products, from foundation to eyeshadow. Durable and easy to clean, they are perfect for both beginners and professionals.",
     "price": 35,
     "category": {
       "id": 5,
       "slug": "beauty-personal-care",
       "name": "Beauty & Personal Care"
     },
-    "image": "/makeup-brush-set.png"
+    "image": "/makeup-brush-set.webp"
   },
   {
     "id": 25,
     "slug": "sunscreen-lotion",
     "title": "Sunscreen Lotion",
-    "description": "Broad-spectrum sunscreen lotion to protect your skin from harmful UV rays.",
+    "description": "Protect your skin from the sun's harmful UV rays with this broad-spectrum sunscreen lotion. Its lightweight formula absorbs quickly and provides effective protection, helping to prevent sunburn and long-term skin damage. Essential for daily use, especially during outdoor activities.",
     "price": 15,
     "category": {
       "id": 5,
       "slug": "beauty-personal-care",
       "name": "Beauty & Personal Care"
     },
-    "image": "/sunscreen-lotion.png"
+    "image": "/sunscreen-lotion.webp"
   },
   {
     "id": 71,
     "slug": "eye-cream",
     "title": "Eye Cream",
-    "description": "A hydrating eye cream to reduce the appearance of fine lines and wrinkles.",
+    "description": "Target the delicate skin around your eyes with this hydrating eye cream. Formulated to reduce the appearance of fine lines, wrinkles, and puffiness, it helps to rejuvenate and brighten the under-eye area for a more youthful look.",
     "price": 28,
     "category": {
       "id": 5,
       "slug": "beauty-personal-care",
       "name": "Beauty & Personal Care"
     },
-    "image": "/eye-cream.png"
+    "image": "/eye-cream.webp"
   },
   {
     "id": 72,
     "slug": "nourishing-hair-mask-argan-oil",
     "title": "Nourishing Hair Mask with Argan Oil",
-    "description": "A deeply nourishing hair mask enriched with argan oil to revitalize dry, damaged, and brittle hair. This luxurious treatment helps to restore moisture, improve shine, and reduce frizz, leaving your hair feeling soft, smooth, and healthy. The rich formula penetrates deeply into the hair shaft to repair damage caused by heat styling, chemical treatments, and environmental stressors. Regular use can help to strengthen hair, prevent breakage, and promote overall hair health. Suitable for all hair types, especially those in need of intense hydration and repair. Apply to damp hair after shampooing, leave on for 10-15 minutes, and rinse thoroughly for salon-quality results at home.",
+    "description": "Revitalize your hair with this deeply nourishing mask enriched with argan oil. It works to restore moisture, enhance shine, and tame frizz, leaving hair soft and healthy. Ideal for dry or damaged hair, providing intense repair and promoting overall hair health.",
     "price": 22,
     "category": {
       "id": 5,
       "slug": "beauty-personal-care",
       "name": "Beauty & Personal Care"
     },
-    "image": "/nourishing-hair-mask-argan-oil.png"
+    "image": "/nourishing-hair-mask-argan-oil.webp"
   },
   {
     "id": 73,
     "slug": "hair-dryer",
     "title": "Hair Dryer",
-    "description": "A powerful hair dryer for quick and efficient styling.",
+    "description": "Achieve your desired hairstyle quickly and efficiently with this powerful hair dryer. Designed with multiple heat and speed settings, it offers versatility for various hair types and styling needs. Its ergonomic design ensures comfortable use.",
     "price": 40,
     "category": {
       "id": 5,
       "slug": "beauty-personal-care",
       "name": "Beauty & Personal Care"
     },
-    "image": "/hair-dryer.png"
+    "image": "/hair-dryer.webp"
   },
   {
     "id": 74,
     "slug": "lip-balm",
     "title": "Lip Balm",
-    "description": "A moisturizing lip balm to protect and hydrate your lips.",
+    "description": "Keep your lips soft, smooth, and hydrated with this moisturizing lip balm. Formulated to protect against dryness and chapping, it's a convenient essential for daily lip care, especially in harsh weather conditions.",
     "price": 5,
     "category": {
       "id": 5,
       "slug": "beauty-personal-care",
       "name": "Beauty & Personal Care"
     },
-    "image": "/lip-balm.png"
+    "image": "/lip-balm.webp"
   },
   {
     "id": 75,
     "slug": "nail-polish-set",
     "title": "Nail Polish Set",
-    "description": "A set of vibrant and long-lasting nail polishes.",
+    "description": "Express your style with this set of vibrant and long-lasting nail polishes. Featuring a range of trendy colors, these polishes deliver a smooth, chip-resistant finish for beautiful nails that last. Perfect for creating your own unique manicures.",
     "price": 20,
     "category": {
       "id": 5,
       "slug": "beauty-personal-care",
       "name": "Beauty & Personal Care"
     },
-    "image": "/nail-polish-set.png"
+    "image": "/nail-polish-set.webp"
   },
   {
     "id": 16,
     "slug": "the-great-gatsby-book",
     "title": "The Great Gatsby",
-    "description": "A classic novel by F. Scott Fitzgerald.",
+    "description": "Delve into the Roaring Twenties with F. Scott Fitzgerald's classic novel, The Great Gatsby. A poignant tale of wealth, love, and the American Dream, it remains a powerful exploration of societal ideals and disillusionment.",
     "price": 10,
     "category": {
       "id": 4,
       "slug": "books",
       "name": "Books"
     },
-    "image": "/the-great-gatsby-book.png"
+    "image": "/the-great-gatsby-book.webp"
   },
   {
     "id": 17,
     "slug": "harry-potter-and-the-sorcerers-stone",
     "title": "Harry Potter and the Sorcerer's Stone",
-    "description": "The first book in the beloved Harry Potter series by J.K. Rowling.",
+    "description": "Embark on a magical journey with the first book in J.K. Rowling's beloved Harry Potter series. Discover the enchanting world of Hogwarts through the eyes of a young wizard, filled with adventure, friendship, and wonder.",
     "price": 12,
     "category": {
       "id": 4,
       "slug": "books",
       "name": "Books"
     },
-    "image": "/harry-potter-and-the-sorcerers-stone.png"
+    "image": "/harry-potter-and-the-sorcerers-stone.webp"
   },
   {
     "id": 18,
     "slug": "to-kill-a-mockingbird-book",
     "title": "To Kill a Mockingbird",
-    "description": "A powerful and timeless novel by Harper Lee.",
+    "description": "Experience Harper Lee's powerful and timeless novel, To Kill a Mockingbird. Set in the American South, this story explores themes of justice, prejudice, and compassion through the innocent perspective of a child.",
     "price": 11,
     "category": {
       "id": 4,
       "slug": "books",
       "name": "Books"
     },
-    "image": "/to-kill-a-mockingbird-book.png"
+    "image": "/to-kill-a-mockingbird-book.webp"
   },
   {
     "id": 19,
     "slug": "1984-book",
     "title": "1984",
-    "description": "A dystopian masterpiece by George Orwell.",
+    "description": "Explore a chilling vision of a totalitarian future in George Orwell's dystopian masterpiece, 1984. This thought-provoking novel delves into themes of surveillance, control, and the power of language.",
     "price": 9,
     "category": {
       "id": 4,
       "slug": "books",
       "name": "Books"
     },
-    "image": "/1984-book.png"
+    "image": "/1984-book.webp"
   },
   {
     "id": 20,
     "slug": "the-lord-of-the-rings-the-fellowship-of-the-ring",
     "title": "The Lord of the Rings: The Fellowship of the Ring",
-    "description": "The first volume in J.R.R. Tolkien's epic fantasy trilogy.",
+    "description": "Begin the epic adventure with the first volume of J.R.R. Tolkien's fantasy trilogy. The Fellowship of the Ring introduces a rich world, compelling characters, and a perilous quest to save Middle-earth.",
     "price": 15,
     "category": {
       "id": 4,
       "slug": "books",
       "name": "Books"
     },
-    "image": "/the-lord-of-the-rings-the-fellowship-of-the-ring.png"
+    "image": "/the-lord-of-the-rings-the-fellowship-of-the-ring.webp"
   },
   {
     "id": 66,
     "slug": "the-catcher-in-the-rye-book",
     "title": "The Catcher in the Rye",
-    "description": "A coming-of-age novel by J.D. Salinger.",
+    "description": "Follow the introspective journey of Holden Caulfield in J.D. Salinger's iconic coming-of-age novel. The Catcher in the Rye explores themes of adolescence, alienation, and the search for authenticity.",
     "price": 10,
     "category": {
       "id": 4,
       "slug": "books",
       "name": "Books"
     },
-    "image": "/the-catcher-in-the-rye-book.png"
+    "image": "/the-catcher-in-the-rye-book.webp"
   },
   {
     "id": 67,
     "slug": "pride-and-prejudice-book",
     "title": "Pride and Prejudice",
-    "description": "A beloved novel by Jane Austen.",
+    "description": "Immerse yourself in the witty world of Jane Austen's beloved novel, Pride and Prejudice. This timeless story explores societal expectations, class distinctions, and the complexities of love and marriage in 19th-century England.",
     "price": 11,
     "category": {
       "id": 4,
       "slug": "books",
       "name": "Books"
     },
-    "image": "/pride-and-prejudice-book.png"
+    "image": "/pride-and-prejudice-book.webp"
   },
   {
     "id": 68,
     "slug": "the-hobbit-book",
     "title": "The Hobbit",
-    "description": "A fantasy adventure novel by J.R.R. Tolkien.",
+    "description": "Join Bilbo Baggins on an unforgettable adventure in J.R.R. Tolkien's classic fantasy novel, The Hobbit. This enchanting tale of dragons, treasures, and unexpected heroism is a perfect introduction to Middle-earth.",
     "price": 13,
     "category": {
       "id": 4,
       "slug": "books",
       "name": "Books"
     },
-    "image": "/the-hobbit-book.png"
+    "image": "/the-hobbit-book.webp"
   },
   {
     "id": 69,
     "slug": "animal-farm-book",
     "title": "Animal Farm",
-    "description": "A satirical novella by George Orwell.",
+    "description": "Discover George Orwell's sharp and satirical novella, Animal Farm. This allegorical tale uses barnyard animals to critique political systems and the corrupting nature of power.",
     "price": 9,
     "category": {
       "id": 4,
       "slug": "books",
       "name": "Books"
     },
-    "image": "/animal-farm-book.png"
+    "image": "/animal-farm-book.webp"
   },
   {
     "id": 70,
     "slug": "the-chronicles-of-narnia",
     "title": "The Chronicles of Narnia",
-    "description": "The first book in C.S. Lewis's classic fantasy series.",
+    "description": "Begin a fantastical journey with The Lion, the Witch and the Wardrobe, the first book in C.S. Lewis's beloved Chronicles of Narnia series. Enter a world of magic, talking animals, and epic battles between good and evil.",
     "price": 12,
     "category": {
       "id": 4,
       "slug": "books",
       "name": "Books"
     },
-    "image": "/the-chronicles-of-narnia.png"
+    "image": "/the-chronicles-of-narnia.webp"
   },
   {
     "id": 6,
     "slug": "mens-cotton-t-shirt",
     "title": "Men's Cotton T-Shirt",
-    "description": "A comfortable and versatile cotton t-shirt perfect for everyday wear.",
+    "description": "A wardrobe essential, this men's cotton t-shirt offers both comfort and versatility for everyday wear. Made from soft, breathable cotton, it's perfect for casual outings or layering under other garments.",
     "price": 15,
     "category": {
       "id": 2,
       "slug": "clothing",
       "name": "Clothing"
     },
-    "image": "/mens-cotton-t-shirt.png"
+    "image": "/mens-cotton-t-shirt.webp"
   },
   {
     "id": 7,
     "slug": "womens-denim-jeans",
     "title": "Women's Denim Jeans",
-    "description": "Classic denim jeans for women, offering both style and comfort.",
+    "description": "These classic denim jeans for women provide a stylish and comfortable fit. Crafted from durable denim, they are perfect for various occasions, offering timeless style and all-day comfort. Available in different washes and sizes.",
     "price": 45,
     "category": {
       "id": 2,
       "slug": "clothing",
       "name": "Clothing"
     },
-    "image": "/womens-denim-jeans.png"
+    "image": "/womens-denim-jeans.webp"
   },
   {
     "id": 8,
     "slug": "kids-sneakers",
     "title": "Kids' Sneakers",
-    "description": "Durable and comfortable sneakers for active kids.",
+    "description": "Designed for active kids, these sneakers offer durability and comfort for all their adventures. With a supportive fit and sturdy construction, they are perfect for running, playing, and everyday activities.",
     "price": 30,
     "category": {
       "id": 2,
       "slug": "clothing",
       "name": "Clothing"
     },
-    "image": "/kids-sneakers.png"
+    "image": "/kids-sneakers.webp"
   },
   {
     "id": 9,
     "slug": "formal-dress-shirt",
     "title": "Formal Dress Shirt",
-    "description": "A crisp and stylish dress shirt perfect for formal occasions.",
+    "description": "A crisp and stylish dress shirt, ideal for making a polished impression at formal occasions. Tailored for a sophisticated fit, it pairs perfectly with suits and ties for a sharp and professional look.",
     "price": 39,
     "category": {
       "id": 2,
       "slug": "clothing",
       "name": "Clothing"
     },
-    "image": "/formal-dress-shirt.png"
+    "image": "/formal-dress-shirt.webp"
   },
   {
     "id": 10,
     "slug": "winter-scarf",
     "title": "Winter Scarf",
-    "description": "Keep warm and stylish with this cozy winter scarf.",
+    "description": "Stay warm and add a touch of style with this cozy winter scarf. Made from soft and insulating materials, it provides excellent protection against the cold while complementing your winter outfits.",
     "price": 20,
     "category": {
       "id": 2,
       "slug": "clothing",
       "name": "Clothing"
     },
-    "image": "/winter-scarf.png"
+    "image": "/winter-scarf.webp"
   },
   {
     "id": 56,
     "slug": "womens-summer-dress",
     "title": "Women's Summer Dress",
-    "description": "A light and breezy summer dress perfect for warm weather.",
+    "description": "Embrace the warm weather in this light and breezy summer dress. Perfect for sunny days and casual outings, its comfortable fabric and stylish design will keep you cool and fashionable.",
     "price": 35,
     "category": {
       "id": 2,
       "slug": "clothing",
       "name": "Clothing"
     },
-    "image": "/womens-summer-dress.png"
+    "image": "/womens-summer-dress.webp"
   },
   {
     "id": 57,
     "slug": "mens-casual-shorts",
     "title": "Men's Casual Shorts",
-    "description": "Comfortable and stylish casual shorts for everyday wear.",
+    "description": "These comfortable and stylish casual shorts are a great addition to your warm-weather wardrobe. Perfect for everyday wear, they offer a relaxed fit and practical design for various activities.",
     "price": 28,
     "category": {
       "id": 2,
       "slug": "clothing",
       "name": "Clothing"
     },
-    "image": "/mens-casual-shorts.png"
+    "image": "/mens-casual-shorts.webp"
   },
   {
     "id": 58,
     "slug": "baby-onesies-pack",
     "title": "Baby Onesies (Pack of 5)",
-    "description": "A pack of five soft and comfortable baby onesies.",
+    "description": "This pack includes five soft and comfortable baby onesies, perfect for everyday wear. Made from gentle fabrics, they ensure your baby stays cozy and happy. Easy to wash and change.",
     "price": 20,
     "category": {
       "id": 2,
       "slug": "clothing",
       "name": "Clothing"
     },
-    "image": "/baby-onesies-pack.png"
+    "image": "/baby-onesies-pack.webp"
   },
   {
     "id": 59,
     "slug": "womens-yoga-pants",
     "title": "Women's Yoga Pants",
-    "description": "Comfortable and flexible yoga pants for workouts or lounging.",
+    "description": "Experience ultimate comfort and flexibility with these women's yoga pants. Ideal for workouts, yoga sessions, or simply lounging at home, they offer a supportive and flattering fit.",
     "price": 30,
     "category": {
       "id": 2,
       "slug": "clothing",
       "name": "Clothing"
     },
-    "image": "/womens-yoga-pants.png"
+    "image": "/womens-yoga-pants.webp"
   },
   {
     "id": 60,
     "slug": "kids-raincoat",
     "title": "Kids' Raincoat",
-    "description": "A waterproof and durable raincoat to keep kids dry.",
+    "description": "Keep your little ones dry and happy even on rainy days with this waterproof and durable raincoat. Designed for comfort and practicality, it's perfect for school trips and outdoor adventures.",
     "price": 25,
     "category": {
       "id": 2,
       "slug": "clothing",
       "name": "Clothing"
     },
-    "image": "/kids-raincoat.png"
+    "image": "/kids-raincoat.webp"
   },
   {
     "id": 108,
     "slug": "mens-casual-denim-jeans",
     "title": "Men's Casual Denim Jeans",
-    "description": "These men's casual denim jeans offer a comfortable and stylish option for everyday wear. Made from durable denim fabric with a touch of stretch for added comfort and flexibility, they feature a classic five-pocket design and a versatile straight fit that suits various body types. Perfect for pairing with t-shirts, sweaters, or button-down shirts for a relaxed yet put-together look. Available in various washes and sizes to find your ideal style and fit. These jeans are designed to be a long-lasting staple in your wardrobe.",
+    "description": "These men's casual denim jeans offer a comfortable and stylish option for everyday wear. Made from durable denim with a touch of stretch, they feature a classic five-pocket design and a versatile straight fit. A long-lasting wardrobe staple.",
     "price": 45,
     "category": {
       "id": 2,
       "slug": "clothing",
       "name": "Clothing"
     },
-    "image": "/mens-casual-denim-jeans.png"
+    "image": "/mens-casual-denim-jeans.webp"
   },
   {
     "id": 109,
     "slug": "mens-lightweight-hoodie",
     "title": "Men's Lightweight Hoodie",
-    "description": "A comfortable and stylish men's lightweight hoodie, ideal for layering or wearing on its own during mild weather. Crafted from a soft and breathable fabric blend, this hoodie features an adjustable drawstring hood, a front kangaroo pocket for added convenience, and ribbed cuffs and hem for a secure and comfortable fit. Perfect for workouts, casual outings, or simply lounging at home. Available in a range of modern colors to easily complement your existing wardrobe. Easy to care for and designed for everyday comfort and style.",
+    "description": "Ideal for layering, this men's lightweight hoodie is crafted from a soft and breathable fabric blend. Features an adjustable hood, kangaroo pocket, and ribbed details for a comfortable fit. Perfect for casual wear or workouts.",
     "price": 35,
     "category": {
       "id": 2,
       "slug": "clothing",
       "name": "Clothing"
     },
-    "image": "/mens-lightweight-hoodie.png"
+    "image": "/mens-lightweight-hoodie.webp"
   },
   {
     "id": 110,
     "slug": "mens-dress-socks-pack-of-3",
     "title": "Men's Dress Socks (Pack of 3)",
-    "description": "This pack of three pairs of men's dress socks provides a comfortable and stylish foundation for any formal or business attire. Made from a premium blend of soft and durable materials, these socks offer a comfortable fit that lasts all day without slipping. Featuring a classic ribbed design and reinforced heel and toe for added durability and longevity. Available in a variety of classic and versatile colors to perfectly match your dress shoes and trousers, making them an essential addition to any well-dressed man's wardrobe.",
+    "description": "This pack of three men's dress socks offers a comfortable and stylish foundation for formal attire. Made from a premium blend, they feature a classic ribbed design and reinforced heel and toe for durability. Essential for any well-dressed man.",
     "price": 20,
     "category": {
       "id": 2,
       "slug": "clothing",
       "name": "Clothing"
     },
-    "image": "/mens-dress-socks-pack-of-3.png"
+    "image": "/mens-dress-socks-pack-of-3.webp"
   },
   {
     "id": 111,
     "slug": "mens-casual-chino-shorts",
     "title": "Men's Casual Chino Shorts",
-    "description": "These men's casual chino shorts offer a comfortable and versatile option for warm weather and relaxed occasions. Made from a lightweight and breathable cotton blend, they feature a classic flat-front design, belt loops for optional accessorizing, and multiple pockets including front slash pockets and back welt pockets for convenient storage. Perfect for casual outings, weekend activities, or simply relaxing in the sun. Available in a variety of stylish and easy-to-pair colors to suit your personal taste. Easy to care for and designed for both comfort and style during the warmer months.",
+    "description": "These men's casual chino shorts provide a comfortable and versatile option for warm weather. Made from a lightweight cotton blend, they feature a flat-front design and multiple pockets. Perfect for relaxed occasions.",
     "price": 30,
     "category": {
       "id": 2,
       "slug": "clothing",
       "name": "Clothing"
     },
-    "image": "/mens-casual-chino-shorts.png"
+    "image": "/mens-casual-chino-shorts.webp"
   },
   {
     "id": 1,
     "slug": "portable-bluetooth-speaker",
     "title": "Portable Bluetooth Speaker",
-    "description": "Enjoy your favorite tunes on the go with this high-quality portable Bluetooth speaker.",
+    "description": "Take your music anywhere with this high-quality portable Bluetooth speaker. Enjoy rich sound and a reliable connection, perfect for outdoor adventures or indoor gatherings.",
     "price": 49,
     "category": {
       "id": 1,
       "slug": "electronics",
       "name": "Electronics"
     },
-    "image": "/portable-bluetooth-speaker.png"
+    "image": "/portable-bluetooth-speaker.webp"
   },
   {
     "id": 2,
     "slug": "wireless-noise-cancelling-headphones",
     "title": "Wireless Noise-Cancelling Headphones",
-    "description": "Immerse yourself in sound with these comfortable and noise-cancelling wireless headphones.",
+    "description": "Immerse yourself in pure audio bliss with these comfortable wireless headphones featuring advanced noise-cancelling technology. Enjoy crystal-clear sound without distractions.",
     "price": 199,
     "category": {
       "id": 1,
       "slug": "electronics",
       "name": "Electronics"
     },
-    "image": "/wireless-noise-cancelling-headphones.png"
+    "image": "/wireless-noise-cancelling-headphones.webp"
   },
   {
     "id": 3,
     "slug": "smart-tv-55-inch",
     "title": "Smart TV 55-inch",
-    "description": "Experience stunning visuals and smart features with this 55-inch smart TV.",
+    "description": "Experience stunning visuals and a world of entertainment with this 55-inch smart TV. Enjoy your favorite streaming services and vibrant picture quality for an immersive viewing experience.",
     "price": 599,
     "category": {
       "id": 1,
       "slug": "electronics",
       "name": "Electronics"
     },
-    "image": "/smart-tv-55-inch.png"
+    "image": "/smart-tv-55-inch.webp"
   },
   {
     "id": 4,
     "slug": "wireless-keyboard-mouse-combo",
     "title": "Wireless Keyboard and Mouse Combo",
-    "description": "Increase your productivity with this comfortable and reliable wireless keyboard and mouse combo.",
+    "description": "Boost your productivity with this comfortable and reliable wireless keyboard and mouse combo. Enjoy freedom of movement and a clutter-free workspace for efficient work.",
     "price": 35,
     "category": {
       "id": 1,
       "slug": "electronics",
       "name": "Electronics"
     },
-    "image": "/wireless-keyboard-mouse-combo.png"
+    "image": "/wireless-keyboard-mouse-combo.webp"
   },
   {
     "id": 5,
     "slug": "fitness-tracker-watch",
     "title": "Fitness Tracker Watch",
-    "description": "Monitor your activity levels and sleep patterns with this advanced fitness tracker watch.",
+    "description": "Monitor your health and activity levels with this advanced fitness tracker watch. Track steps, sleep, heart rate, and more to help you achieve your wellness goals.",
     "price": 79,
     "category": {
       "id": 1,
       "slug": "electronics",
       "name": "Electronics"
     },
-    "image": "/fitness-tracker-watch.png"
+    "image": "/fitness-tracker-watch.webp"
   },
   {
     "id": 51,
     "slug": "laptop-15-inch",
     "title": "15-inch Laptop",
-    "description": "Powerful and versatile 15-inch laptop for work and entertainment.",
+    "description": "This powerful and versatile 15-inch laptop is designed for both work and entertainment. Featuring a vibrant display and robust performance, it's perfect for multitasking, creative projects, and enjoying multimedia content on the go.",
     "price": 799,
     "category": {
       "id": 1,
       "slug": "electronics",
       "name": "Electronics"
     },
-    "image": "/laptop-15-inch.png"
+    "image": "/laptop-15-inch.webp"
   },
   {
     "id": 52,
     "slug": "smartphone-latest-model",
     "title": "Latest Model Smartphone",
-    "description": "Cutting-edge smartphone with advanced features and a stunning display.",
+    "description": "Experience the future in your hands with this cutting-edge smartphone. Boasting advanced features, a stunning display, and a powerful camera system, it redefines mobile technology and keeps you connected in style.",
     "price": 999,
     "category": {
       "id": 1,
       "slug": "electronics",
       "name": "Electronics"
     },
-    "image": "/smartphone-latest-model.png"
+    "image": "/smartphone-latest-model.webp"
   },
   {
     "id": 53,
     "slug": "tablet-10-inch",
     "title": "10-inch Tablet",
-    "description": "Portable and powerful 10-inch tablet for Browse, streaming, and more.",
+    "description": "This portable and powerful 10-inch tablet is your ideal companion for browsing the web, streaming videos, reading, and staying productive on the go. Its sleek design and intuitive interface make it a joy to use.",
     "price": 299,
     "category": {
       "id": 1,
       "slug": "electronics",
       "name": "Electronics"
     },
-    "image": "/tablet-10-inch.png"
+    "image": "/tablet-10-inch.webp"
   },
   {
     "id": 54,
     "slug": "camera-dslr",
     "title": "Digital SLR Camera",
-    "description": "High-resolution DSLR camera for capturing professional-quality photos and videos.",
+    "description": "Capture professional-quality photos and videos with this high-resolution DSLR camera. Offering manual controls and versatile shooting modes, it's perfect for enthusiasts and aspiring photographers alike.",
     "price": 699,
     "category": {
       "id": 1,
       "slug": "electronics",
       "name": "Electronics"
     },
-    "image": "/camera-dslr.png"
+    "image": "/camera-dslr.webp"
   },
   {
     "id": 55,
     "slug": "smartwatch",
     "title": "Smartwatch",
-    "description": "Feature-rich smartwatch that tracks your fitness, notifications, and more.",
+    "description": "Stay connected and monitor your well-being with this feature-rich smartwatch. Track your fitness activities, receive notifications, and manage calls, all from your wrist. A stylish and practical companion for your daily life.",
     "price": 199,
     "category": {
       "id": 1,
       "slug": "electronics",
       "name": "Electronics"
     },
-    "image": "/smartwatch.png"
+    "image": "/smartwatch.webp"
   },
   {
     "id": 101,
     "slug": "true-wireless-earbuds",
     "title": "True Wireless Earbuds",
-    "description": "Experience complete freedom of movement with these true wireless earbuds. Enjoy high-fidelity sound and a secure, comfortable fit thanks to the multiple ear tip sizes included. The included compact charging case provides multiple additional charges, ensuring your music keeps playing throughout the day. Perfect for workouts, commutes, and everyday use, these earbuds also feature touch controls for easy management of music and calls, and some models include active noise cancellation for an even more immersive audio experience.",
+    "description": "Enjoy freedom with these true wireless earbuds, delivering high-fidelity sound and a secure fit with multiple ear tips. The charging case extends playtime, making them ideal for workouts and commutes. Touch controls and optional noise cancellation enhance the experience.",
     "price": 79,
     "category": {
       "id": 1,
       "slug": "electronics",
       "name": "Electronics"
     },
-    "image": "/true-wireless-earbuds.png"
+    "image": "/true-wireless-earbuds.webp"
   },
   {
     "id": 102,
     "slug": "4k-ultra-hd-smart-tv",
     "title": "4K Ultra HD Smart TV",
-    "description": "Bring your entertainment to life with this stunning 4K Ultra HD Smart TV. Enjoy breathtaking picture quality with vibrant colors, sharp details, and high dynamic range (HDR) support for an immersive viewing experience. Access your favorite streaming services like Netflix, Hulu, and Disney+ directly through the built-in smart platform. Connect your other devices seamlessly with multiple HDMI and USB ports. The immersive sound system with integrated speakers provides rich audio to complete the cinematic experience in your own home. Features voice control capabilities for added convenience.",
+    "description": "Immerse yourself in stunning visuals with this 4K Ultra HD Smart TV. Experience vibrant colors, sharp details, and HDR support. Access streaming services easily and enjoy rich audio for a cinematic experience at home. Features voice control for convenience.",
     "price": 499,
     "category": {
       "id": 1,
       "slug": "electronics",
       "name": "Electronics"
     },
-    "image": "/4k-ultra-hd-smart-tv.png"
+    "image": "/4k-ultra-hd-smart-tv.webp"
   },
   {
     "id": 103,
     "slug": "digital-camera-high-zoom",
     "title": "Digital Camera with High Zoom",
-    "description": "Capture every moment in stunning detail with this digital camera featuring a powerful high zoom lens, allowing you to get closer to the action without losing image quality. Perfect for travel, wildlife photography, or capturing family memories. The intuitive controls and various shooting modes, including automatic and manual settings, make it easy to take professional-looking photos and videos. Share your creations instantly with built-in Wi-Fi and Bluetooth connectivity. Includes image stabilization to reduce blur and ensure crisp photos even at high zoom levels.",
+    "description": "Capture distant subjects with incredible detail using this digital camera's powerful high zoom lens. Perfect for travel and wildlife, it offers intuitive controls and various modes for stunning photos and videos. Features Wi-Fi, Bluetooth, and image stabilization.",
     "price": 299,
     "category": {
       "id": 1,
       "slug": "electronics",
       "name": "Electronics"
     },
-    "image": "/digital-camera-high-zoom.png"
+    "image": "/digital-camera-high-zoom.webp"
   },
   {
     "id": 104,
     "slug": "portable-external-ssd-drive",
     "title": "Portable External SSD Drive",
-    "description": "Store and transfer your files quickly and securely with this portable external SSD drive. Its compact and lightweight design makes it easy to carry with you wherever you go, while the solid-state technology ensures blazing-fast read and write speeds, significantly faster than traditional hard drives. Ideal for backing up important data, transferring large files like photos and videos, or expanding your device's storage capacity. Its durable construction offers protection against bumps and drops, ensuring your data remains safe.",
+    "description": "Transfer files at lightning speed and keep your data secure with this portable external SSD drive. Its compact design makes it easy to carry, while the solid-state technology ensures fast performance and durability for all your storage needs.",
     "price": 129,
     "category": {
       "id": 1,
       "slug": "electronics",
       "name": "Electronics"
     },
-    "image": "/portable-external-ssd-drive.png"
+    "image": "/portable-external-ssd-drive.webp"
   },
   {
     "id": 105,
     "slug": "wireless-charging-pad",
     "title": "Wireless Charging Pad",
-    "description": "Simplify your charging experience with this sleek and convenient wireless charging pad. Simply place your Qi-enabled smartphone or other compatible devices on the pad to start charging automatically. No more tangled cables or fumbling with connectors, making it perfect for your nightstand, desk, or any other convenient location. Its slim and elegant design fits seamlessly into any home or office environment. Some models may also feature fast wireless charging capabilities for compatible devices.",
+    "description": "Simplify your charging setup with this sleek wireless charging pad. Just place your Qi-enabled device on the pad for effortless power. Its slim design fits any space, eliminating cable clutter for a clean and convenient charging solution.",
     "price": 29,
     "category": {
       "id": 1,
       "slug": "electronics",
       "name": "Electronics"
     },
-    "image": "/wireless-charging-pad.png"
+    "image": "/wireless-charging-pad.webp"
   },
   {
     "id": 106,
     "slug": "gaming-mouse-customizable-rgb",
     "title": "Gaming Mouse with Customizable RGB",
-    "description": "Enhance your gaming performance with this high-precision gaming mouse. Featuring customizable RGB lighting with a wide spectrum of colors and effects, programmable buttons that can be tailored to your favorite games, and adjustable DPI settings for precise control. Its ergonomic design ensures comfort during long gaming sessions, giving you the edge you need to conquer your opponents. The mouse also boasts a high polling rate for minimal input lag and durable switches designed to withstand intense gaming.",
+    "description": "Elevate your gameplay with this high-precision gaming mouse featuring customizable RGB lighting for a personalized look. Programmable buttons and adjustable DPI offer precise control, while the ergonomic design ensures comfort during long sessions. Durable switches and high polling rate provide a competitive edge.",
     "price": 59,
     "category": {
       "id": 1,
       "slug": "electronics",
       "name": "Electronics"
     },
-    "image": "/gaming-mouse-customizable-rgb.png"
+    "image": "/gaming-mouse-customizable-rgb.webp"
   },
   {
     "id": 107,
     "slug": "smart-home-security-camera",
     "title": "Smart Home Security Camera",
-    "description": "Keep your home safe and secure with this smart home security camera. Monitor your property remotely in real-time via your smartphone or tablet, providing peace of mind whether you're at home or away. Key features include motion detection with customizable alerts, clear night vision to see what's happening even in the dark, and two-way audio, allowing you to see, hear, and speak to anyone on your property. Easy to set up and integrate with other smart home devices for a comprehensive security system. Some models offer cloud storage for recorded footage.",
+    "description": "Secure your home with this smart camera, offering remote real-time monitoring via your device. Features include motion detection with alerts, clear night vision, and two-way audio. Easy setup and integration with smart home systems provide comprehensive security.",
     "price": 89,
     "category": {
       "id": 1,
       "slug": "electronics",
       "name": "Electronics"
     },
-    "image": "/smart-home-security-camera.png"
+    "image": "/smart-home-security-camera.webp"
   },
   {
     "id": 36,
     "slug": "organic-whole-milk",
     "title": "Organic Whole Milk",
-    "description": "A gallon of fresh and nutritious organic whole milk.",
+    "description": "Enjoy the pure and creamy taste of this gallon of fresh and nutritious organic whole milk. Sourced from pasture-raised cows, it's a wholesome addition to your family's diet.",
     "price": 4,
     "category": {
       "id": 8,
       "slug": "groceries",
       "name": "Groceries"
     },
-    "image": "/organic-whole-milk.png"
+    "image": "/organic-whole-milk.webp"
   },
   {
     "id": 37,
     "slug": "fresh-apples-bag",
     "title": "Fresh Apples (Bag)",
-    "description": "A bag of crisp and delicious fresh apples.",
+    "description": "A bag filled with crisp and delicious fresh apples, perfect for snacking, baking, or adding to your favorite recipes. Enjoy the natural sweetness and satisfying crunch.",
     "price": 5,
     "category": {
       "id": 8,
       "slug": "groceries",
       "name": "Groceries"
     },
-    "image": "/fresh-apples-bag.png"
+    "image": "/fresh-apples-bag.webp"
   },
   {
     "id": 38,
     "slug": "whole-wheat-bread",
     "title": "Whole Wheat Bread",
-    "description": "A loaf of healthy and nutritious whole wheat bread.",
+    "description": "A loaf of healthy and nutritious whole wheat bread, baked with wholesome grains for a naturally rich flavor and satisfying texture. A great choice for sandwiches and toast.",
     "price": 3,
     "category": {
       "id": 8,
       "slug": "groceries",
       "name": "Groceries"
     },
-    "image": "/whole-wheat-bread.png"
+    "image": "/whole-wheat-bread.webp"
   },
   {
     "id": 39,
     "slug": "ground-coffee-blend",
     "title": "Ground Coffee Blend",
-    "description": "A bag of premium ground coffee blend for a rich and flavorful brew.",
+    "description": "Start your day with a rich and flavorful brew from this bag of premium ground coffee blend. Carefully selected beans roasted to perfection for a balanced and aromatic cup.",
     "price": 8,
     "category": {
       "id": 8,
       "slug": "groceries",
       "name": "Groceries"
     },
-    "image": "/ground-coffee-blend.png"
+    "image": "/ground-coffee-blend.webp"
   },
   {
     "id": 40,
     "slug": "pasta-spaghetti",
     "title": "Pasta - Spaghetti",
-    "description": "A box of classic spaghetti pasta.",
+    "description": "A classic choice for countless delicious meals, this box of spaghetti pasta is made from high-quality durum wheat for the perfect al dente texture every time.",
     "price": 2,
     "category": {
       "id": 8,
       "slug": "groceries",
       "name": "Groceries"
     },
-    "image": "/pasta-spaghetti.png"
+    "image": "/pasta-spaghetti.webp"
   },
   {
     "id": 86,
     "slug": "dozen-large-eggs",
     "title": "Dozen Large Eggs",
-    "description": "A carton of one dozen large, fresh eggs.",
+    "description": "A carton containing one dozen large, fresh eggs, a versatile and essential ingredient for baking, cooking, and enjoying as a nutritious breakfast.",
     "price": 3,
     "category": {
       "id": 8,
       "slug": "groceries",
       "name": "Groceries"
     },
-    "image": "/dozen-large-eggs.png"
+    "image": "/dozen-large-eggs.webp"
   },
   {
     "id": 87,
     "slug": "cheddar-cheese-block",
     "title": "Cheddar Cheese Block",
-    "description": "A block of sharp cheddar cheese.",
+    "description": "A block of sharp cheddar cheese, perfect for snacking, grating over dishes, or adding rich flavor to your favorite recipes. Enjoy its bold and tangy taste.",
     "price": 6,
     "category": {
       "id": 8,
       "slug": "groceries",
       "name": "Groceries"
     },
-    "image": "/cheddar-cheese-block.png"
+    "image": "/cheddar-cheese-block.webp"
   },
   {
     "id": 88,
     "slug": "fresh-bananas-bunch",
     "title": "Fresh Bananas (Bunch)",
-    "description": "A bunch of ripe and delicious fresh bananas.",
+    "description": "A bunch of ripe and delicious fresh bananas, a convenient and healthy snack packed with potassium and natural energy for your day.",
     "price": 3,
     "category": {
       "id": 8,
       "slug": "groceries",
       "name": "Groceries"
     },
-    "image": "/fresh-bananas-bunch.png"
+    "image": "/fresh-bananas-bunch.webp"
   },
   {
     "id": 89,
     "slug": "chicken-breasts-boneless-skinless",
     "title": "Chicken Breasts (Boneless, Skinless)",
-    "description": "A package of boneless and skinless chicken breasts.",
+    "description": "This package contains premium boneless and skinless chicken breasts, a versatile and lean protein source perfect for grilling, baking, or sautéing in your favorite recipes.",
     "price": 12,
     "category": {
       "id": 8,
       "slug": "groceries",
       "name": "Groceries"
     },
-    "image": "/chicken-breasts-boneless-skinless.png"
+    "image": "/chicken-breasts-boneless-skinless.webp"
   },
   {
     "id": 90,
     "slug": "orange-juice-carton",
     "title": "Orange Juice (Carton)",
-    "description": "A carton of fresh and refreshing orange juice.",
+    "description": "Start your day with a refreshing and vitamin-C rich carton of fresh orange juice. A delicious and healthy beverage for breakfast or any time you need a boost.",
     "price": 4,
     "category": {
       "id": 8,
       "slug": "groceries",
       "name": "Groceries"
     },
-    "image": "/orange-juice-carton.png"
+    "image": "/orange-juice-carton.webp"
   },
   {
     "id": 11,
     "slug": "throw-pillow-set",
     "title": "Throw Pillow Set",
-    "description": "Add a touch of comfort and style to your living space with this set of throw pillows.",
+    "description": "Enhance the comfort and aesthetic of your living space with this stylish set of throw pillows. Perfect for adding texture and color accents to your sofa, bed, or armchairs.",
     "price": 25,
     "category": {
       "id": 3,
       "slug": "home-goods",
       "name": "Home Goods"
     },
-    "image": "/throw-pillow-set.png"
+    "image": "/throw-pillow-set.webp"
   },
   {
     "id": 12,
     "slug": "ceramic-coffee-mug",
     "title": "Ceramic Coffee Mug",
-    "description": "A durable and stylish ceramic coffee mug for your daily brew.",
+    "description": "Enjoy your daily coffee, tea, or hot chocolate in this durable and stylish ceramic mug. Its comfortable handle and classic design make it a perfect addition to your morning routine.",
     "price": 8,
     "category": {
       "id": 3,
       "slug": "home-goods",
       "name": "Home Goods"
     },
-    "image": "/ceramic-coffee-mug.png"
+    "image": "/ceramic-coffee-mug.webp"
   },
   {
     "id": 13,
     "slug": "scented-candle",
     "title": "Scented Candle",
-    "description": "Create a relaxing ambiance with this beautifully scented candle.",
+    "description": "Create a warm and relaxing atmosphere in your home with this beautifully scented candle. Its soothing fragrance helps to unwind after a long day, making any room feel more inviting.",
     "price": 18,
     "category": {
       "id": 3,
       "slug": "home-goods",
       "name": "Home Goods"
     },
-    "image": "/scented-candle.png"
+    "image": "/scented-candle.webp"
   },
   {
     "id": 14,
     "slug": "kitchen-knife-set",
     "title": "Kitchen Knife Set",
-    "description": "A comprehensive set of high-quality kitchen knives for all your culinary needs.",
+    "description": "Equip your kitchen with this comprehensive set of high-quality knives. Designed for precision and durability, these knives will handle all your slicing, dicing, and chopping needs with ease.",
     "price": 75,
     "category": {
       "id": 3,
       "slug": "home-goods",
       "name": "Home Goods"
     },
-    "image": "/kitchen-knife-set.png"
+    "image": "/kitchen-knife-set.webp"
   },
   {
     "id": 15,
     "slug": "bath-towels-set",
     "title": "Bath Towels Set",
-    "description": "A set of soft and absorbent bath towels for a luxurious feel.",
+    "description": "Indulge in the soft and absorbent comfort of this bath towels set. Made from high-quality materials, these towels offer a luxurious feel after every shower or bath.",
     "price": 30,
     "category": {
       "id": 3,
       "slug": "home-goods",
       "name": "Home Goods"
     },
-    "image": "/bath-towels-set.png"
+    "image": "/bath-towels-set.webp"
   },
   {
     "id": 61,
     "slug": "bed-sheet-set-queen",
     "title": "Bed Sheet Set (Queen)",
-    "description": "A soft and comfortable queen-size bed sheet set.",
+    "description": "Drift into a peaceful sleep with this soft and comfortable queen-size bed sheet set. Made from quality fabric for a cozy feel and long-lasting durability.",
     "price": 45,
     "category": {
       "id": 3,
       "slug": "home-goods",
       "name": "Home Goods"
     },
-    "image": "/bed-sheet-set-queen.png"
+    "image": "/bed-sheet-set-queen.webp"
   },
   {
     "id": 62,
     "slug": "dinnerware-set-4-place",
     "title": "Dinnerware Set (4-Place Setting)",
-    "description": "A stylish dinnerware set for four people.",
+    "description": "Serve your meals in style with this elegant dinnerware set for four people. Perfect for everyday use or special occasions, this set adds a touch of sophistication to your dining experience.",
     "price": 60,
     "category": {
       "id": 3,
       "slug": "home-goods",
       "name": "Home Goods"
     },
-    "image": "/dinnerware-set-4-place.png"
+    "image": "/dinnerware-set-4-place.webp"
   },
   {
     "id": 63,
     "slug": "picture-frame-8x10",
     "title": "Picture Frame (8x10)",
-    "description": "A classic 8x10 inch picture frame to display your memories.",
+    "description": "Display your cherished memories in this classic 8x10 inch picture frame. Its simple yet elegant design will complement any photo and enhance your home decor.",
     "price": 12,
     "category": {
       "id": 3,
       "slug": "home-goods",
       "name": "Home Goods"
     },
-    "image": "/picture-frame-8x10.png"
+    "image": "/picture-frame-8x10.webp"
   },
   {
     "id": 64,
     "slug": "desk-lamp-led",
     "title": "LED Desk Lamp",
-    "description": "An energy-efficient LED desk lamp with adjustable brightness.",
+    "description": "Illuminate your workspace with this energy-efficient LED desk lamp. Featuring adjustable brightness levels, it provides optimal lighting for reading, studying, or working, while saving energy.",
     "price": 28,
     "category": {
       "id": 3,
       "slug": "home-goods",
       "name": "Home Goods"
     },
-    "image": "/desk-lamp-led.png"
+    "image": "/desk-lamp-led.webp"
   },
   {
     "id": 65,
     "slug": "area-rug-5x7",
     "title": "Area Rug (5x7)",
-    "description": "A stylish 5x7 area rug to enhance your room decor.",
+    "description": "Enhance your room's decor with this stylish 5x7 area rug. Its attractive design and comfortable texture will add warmth and personality to any living room, bedroom, or dining area.",
     "price": 99,
     "category": {
       "id": 3,
       "slug": "home-goods",
       "name": "Home Goods"
     },
-    "image": "/area-rug-5x7.png"
+    "image": "/area-rug-5x7.webp"
   },
   {
     "id": 112,
     "slug": "decorative-throw-pillow-set",
     "title": "Decorative Throw Pillow Set",
-    "description": "Add a touch of comfort and style to your living space with this set of decorative throw pillows. This set includes two coordinating pillows, each featuring a unique yet complementary design and texture. Crafted from high-quality, soft fabrics, these pillows are perfect for adding a pop of color and personality to your sofa, bed, or armchairs. Their plump filling ensures lasting shape and comfort, making them both aesthetically pleasing and functional. Easily refresh your home décor with this versatile pillow set.",
+    "description": "Add a touch of elegance to your home with this set of two decorative throw pillows. Featuring unique yet complementary designs and soft, high-quality fabrics, they're perfect for enhancing your sofa, bed, or armchairs with color and texture.",
     "price": 39,
     "category": {
       "id": 3,
       "slug": "home-goods",
       "name": "Home Goods"
     },
-    "image": "/decorative-throw-pillow-set.png"
+    "image": "/decorative-throw-pillow-set.webp"
   },
   {
     "id": 113,
     "slug": "soft-cotton-bedding-set-queen",
     "title": "Soft Cotton Bedding Set (Queen)",
-    "description": "Indulge in a restful night's sleep with this luxurious soft cotton bedding set. Designed for a queen-sized bed, this set includes a flat sheet, a fitted sheet, and two pillowcases, all made from 100% premium cotton. The breathable and gentle fabric ensures exceptional comfort and a cozy feel throughout the night. Its classic and timeless design will complement any bedroom décor. Easy to care for and machine washable, this bedding set is a perfect blend of comfort, quality, and style for your bedroom sanctuary.",
+    "description": "Experience ultimate comfort with this soft cotton bedding set for queen-sized beds. Made from 100% premium cotton, this set includes flat and fitted sheets, plus two pillowcases, ensuring a breathable and cozy night's sleep. Its timeless design complements any bedroom.",
     "price": 79,
     "category": {
       "id": 3,
       "slug": "home-goods",
       "name": "Home Goods"
     },
-    "image": "/soft-cotton-bedding-set-queen.png"
+    "image": "/soft-cotton-bedding-set-queen.webp"
   },
   {
     "id": 114,
     "slug": "scented-candle-large",
     "title": "Scented Candle (Large)",
-    "description": "Create a warm and inviting ambiance in your home with this large scented candle. Infused with natural essential oils, this candle releases a long-lasting and delightful fragrance that fills any room with a soothing and relaxing atmosphere. Made with high-quality wax and a lead-free cotton wick for a clean and even burn. Its elegant glass jar adds a touch of sophistication to your décor. Perfect for unwinding after a long day or setting a cozy mood for any occasion. Enjoy hours of aromatic pleasure with this beautifully crafted scented candle.",
+    "description": "Fill your home with a long-lasting and delightful fragrance from this large scented candle. Made with natural essential oils and a lead-free wick, it provides a clean burn and hours of aromatic pleasure in an elegant glass jar.",
     "price": 19,
     "category": {
       "id": 3,
       "slug": "home-goods",
       "name": "Home Goods"
     },
-    "image": "/scented-candle-large.png"
+    "image": "/scented-candle-large.webp"
   },
   {
     "id": 46,
     "slug": "mens-stainless-steel-watch",
     "title": "Men's Stainless Steel Watch",
-    "description": "A stylish and durable stainless steel watch for men.",
+    "description": "A sophisticated and durable timepiece, this men's stainless steel watch combines classic style with lasting quality. Perfect for everyday wear or special occasions, it adds a touch of elegance to any ensemble.",
     "price": 120,
     "category": {
       "id": 10,
       "slug": "jewelry-watches",
       "name": "Jewelry & Watches"
     },
-    "image": "/mens-stainless-steel-watch.png"
+    "image": "/mens-stainless-steel-watch.webp"
   },
   {
     "id": 47,
     "slug": "womens-silver-necklace",
     "title": "Women's Silver Necklace",
-    "description": "An elegant sterling silver necklace for women.",
+    "description": "This elegant sterling silver necklace for women adds a touch of delicate beauty to any outfit. Its timeless design makes it a versatile piece for both casual and formal wear.",
     "price": 85,
     "category": {
       "id": 10,
       "slug": "jewelry-watches",
       "name": "Jewelry & Watches"
     },
-    "image": "/womens-silver-necklace.png"
+    "image": "/womens-silver-necklace.webp"
   },
   {
     "id": 48,
     "slug": "gold-stud-earrings",
     "title": "Gold Stud Earrings",
-    "description": "Classic and versatile gold stud earrings.",
+    "description": "A timeless addition to any jewelry collection, these classic and versatile gold stud earrings offer a subtle touch of elegance for everyday wear or special occasions.",
     "price": 95,
     "category": {
       "id": 10,
       "slug": "jewelry-watches",
       "name": "Jewelry & Watches"
     },
-    "image": "/gold-stud-earrings.png"
+    "image": "/gold-stud-earrings.webp"
   },
   {
     "id": 49,
     "slug": "leather-strap-watch",
     "title": "Leather Strap Watch",
-    "description": "A sophisticated watch with a genuine leather strap.",
+    "description": "Exude sophistication with this classic watch featuring a genuine leather strap. Its timeless design and comfortable fit make it a perfect accessory for any discerning individual.",
     "price": 150,
     "category": {
       "id": 10,
       "slug": "jewelry-watches",
       "name": "Jewelry & Watches"
     },
-    "image": "/leather-strap-watch.png"
+    "image": "/leather-strap-watch.webp"
   },
   {
     "id": 50,
     "slug": "diamond-pendant",
     "title": "Diamond Pendant",
-    "description": "A beautiful pendant featuring a sparkling diamond.",
+    "description": "A symbol of elegance and sparkle, this beautiful pendant features a dazzling diamond. Its exquisite design makes it a cherished piece for any jewelry lover.",
     "price": 299,
     "category": {
       "id": 10,
       "slug": "jewelry-watches",
       "name": "Jewelry & Watches"
     },
-    "image": "/diamond-pendant.png"
+    "image": "/diamond-pendant.webp"
   },
   {
     "id": 96,
     "slug": "womens-gold-bracelet",
     "title": "Women's Gold Bracelet",
-    "description": "A delicate and elegant gold bracelet for women.",
+    "description": "Adorn your wrist with this delicate and elegant gold bracelet for women. A timeless piece crafted with fine detail, perfect for adding a touch of sophistication to any look.",
     "price": 180,
     "category": {
       "id": 10,
       "slug": "jewelry-watches",
       "name": "Jewelry & Watches"
     },
-    "image": "/womens-gold-bracelet.png"
+    "image": "/womens-gold-bracelet.webp"
   },
   {
     "id": 97,
     "slug": "mens-cufflinks-set",
     "title": "Men's Cufflinks Set",
-    "description": "A stylish set of cufflinks for formal occasions.",
+    "description": "Elevate your formal attire with this stylish set of cufflinks for men. These refined accessories add a touch of personal flair to any dress shirt, perfect for important occasions.",
     "price": 55,
     "category": {
       "id": 10,
       "slug": "jewelry-watches",
       "name": "Jewelry & Watches"
     },
-    "image": "/mens-cufflinks-set.png"
+    "image": "/mens-cufflinks-set.webp"
   },
   {
     "id": 98,
     "slug": "silver-hoop-earrings",
     "title": "Silver Hoop Earrings",
-    "description": "Classic and versatile silver hoop earrings.",
+    "description": "A classic and versatile jewelry staple, these silver hoop earrings are perfect for everyday wear or dressing up for a night out. Their timeless design complements any style.",
     "price": 40,
     "category": {
       "id": 10,
       "slug": "jewelry-watches",
       "name": "Jewelry & Watches"
     },
-    "image": "/silver-hoop-earrings.png"
+    "image": "/silver-hoop-earrings.webp"
   },
   {
     "id": 99,
     "slug": "smart-band",
     "title": "Smart Band",
-    "description": "A sleek and functional smart band for fitness tracking and notifications.",
+    "description": "Track your fitness goals and stay connected with this sleek and functional smart band. Monitor your activity levels, sleep patterns, and receive notifications, all in a stylish design.",
     "price": 60,
     "category": {
       "id": 10,
       "slug": "jewelry-watches",
       "name": "Jewelry & Watches"
     },
-    "image": "/smart-band.png"
+    "image": "/smart-band.webp"
   },
   {
     "id": 100,
     "slug": "pearl-necklace",
     "title": "Pearl Necklace",
-    "description": "A timeless and elegant pearl necklace.",
+    "description": "A timeless and elegant pearl necklace, perfect for adding a touch of classic sophistication to any ensemble. A cherished piece for generations to come.",
     "price": 250,
     "category": {
       "id": 10,
       "slug": "jewelry-watches",
       "name": "Jewelry & Watches"
     },
-    "image": "/pearl-necklace.png"
+    "image": "/pearl-necklace.webp"
   },
   {
     "id": 26,
     "slug": "yoga-mat",
     "title": "Yoga Mat",
-    "description": "A non-slip and comfortable yoga mat for your practice.",
+    "description": "Enhance your yoga practice with this non-slip and comfortable yoga mat. Its durable material provides excellent grip and cushioning for a stable and enjoyable workout.",
     "price": 29,
     "category": {
       "id": 6,
       "slug": "sports-outdoors",
       "name": "Sports & Outdoors"
     },
-    "image": "/yoga-mat.png"
+    "image": "/yoga-mat.webp"
   },
   {
     "id": 27,
     "slug": "water-bottle",
     "title": "Water Bottle",
-    "description": "A durable and reusable water bottle to stay hydrated.",
+    "description": "Stay hydrated on the go with this durable and reusable water bottle. Its leak-proof design and convenient size make it perfect for workouts, travel, and everyday use.",
     "price": 12,
     "category": {
       "id": 6,
       "slug": "sports-outdoors",
       "name": "Sports & Outdoors"
     },
-    "image": "/water-bottle.png"
+    "image": "/water-bottle.webp"
   },
   {
     "id": 28,
     "slug": "hiking-backpack",
     "title": "Hiking Backpack",
-    "description": "A comfortable and spacious backpack perfect for hiking adventures.",
+    "description": "Embark on your hiking adventures with this comfortable and spacious backpack. Designed with durable materials and ample storage, it's perfect for carrying all your essentials on the trail.",
     "price": 65,
     "category": {
       "id": 6,
       "slug": "sports-outdoors",
       "name": "Sports & Outdoors"
     },
-    "image": "/hiking-backpack.png"
+    "image": "/hiking-backpack.webp"
   },
   {
     "id": 29,
     "slug": "resistance-bands-set",
     "title": "Resistance Bands Set",
-    "description": "A versatile set of resistance bands for various exercises.",
+    "description": "A versatile set of resistance bands for a wide range of exercises. Perfect for strength training, physical therapy, and adding intensity to your workouts, at any fitness level.",
     "price": 19,
     "category": {
       "id": 6,
       "slug": "sports-outdoors",
       "name": "Sports & Outdoors"
     },
-    "image": "/resistance-bands-set.png"
+    "image": "/resistance-bands-set.webp"
   },
   {
     "id": 30,
     "slug": "soccer-ball",
     "title": "Soccer Ball",
-    "description": "A high-quality soccer ball for training and matches.",
+    "description": "Get ready for the game with this high-quality soccer ball. Designed for excellent touch and durability, it's ideal for training sessions, casual games, and competitive matches.",
     "price": 25,
     "category": {
       "id": 6,
       "slug": "sports-outdoors",
       "name": "Sports & Outdoors"
     },
-    "image": "/soccer-ball.png"
+    "image": "/soccer-ball.webp"
   },
   {
     "id": 76,
     "slug": "running-shoes-mens",
     "title": "Men's Running Shoes",
-    "description": "Comfortable and supportive running shoes for men.",
+    "description": "Experience comfortable and supportive runs with these men's running shoes. Designed with cushioning and stability features, they're perfect for both casual jogs and serious training.",
     "price": 80,
     "category": {
       "id": 6,
       "slug": "sports-outdoors",
       "name": "Sports & Outdoors"
     },
-    "image": "/running-shoes-mens.png"
+    "image": "/running-shoes-mens.webp"
   },
   {
     "id": 77,
     "slug": "camping-tent-2-person",
     "title": "2-Person Camping Tent",
-    "description": "A lightweight and easy-to-set-up camping tent for two people.",
+    "description": "Enjoy your outdoor adventures with this lightweight and easy-to-set-up camping tent designed for two people. Provides shelter and comfort for backpacking and weekend trips.",
     "price": 70,
     "category": {
       "id": 6,
       "slug": "sports-outdoors",
       "name": "Sports & Outdoors"
     },
-    "image": "/camping-tent-2-person.png"
+    "image": "/camping-tent-2-person.webp"
   },
   {
     "id": 78,
     "slug": "dumbbell-set",
     "title": "Dumbbell Set",
-    "description": "A set of adjustable dumbbells for home workouts.",
+    "description": "Build strength at home with this versatile set of adjustable dumbbells. Perfect for a full-body workout, allowing you to customize the weight to suit your fitness level and exercise.",
     "price": 99,
     "category": {
       "id": 6,
       "slug": "sports-outdoors",
       "name": "Sports & Outdoors"
     },
-    "image": "/dumbbell-set.png"
+    "image": "/dumbbell-set.webp"
   },
   {
     "id": 79,
     "slug": "bicycle-helmet",
     "title": "Bicycle Helmet",
-    "description": "A safe and comfortable helmet for cycling.",
+    "description": "Ensure your safety while cycling with this comfortable and reliable bicycle helmet. Designed with ventilation and impact protection, it's essential for riders of all levels.",
     "price": 45,
     "category": {
       "id": 6,
       "slug": "sports-outdoors",
       "name": "Sports & Outdoors"
     },
-    "image": "/bicycle-helmet.png"
+    "image": "/bicycle-helmet.webp"
   },
   {
     "id": 80,
     "slug": "fishing-rod-and-reel-combo",
     "title": "Fishing Rod and Reel Combo",
-    "description": "A complete fishing rod and reel combo for beginners.",
+    "description": "Get started with fishing using this complete rod and reel combo, ideal for beginners. Easy to use and transport, it's perfect for enjoying relaxing days by the water.",
     "price": 55,
     "category": {
       "id": 6,
       "slug": "sports-outdoors",
       "name": "Sports & Outdoors"
     },
-    "image": "/fishing-rod-and-reel-combo.png"
+    "image": "/fishing-rod-and-reel-combo.webp"
   },
   {
     "id": 115,
     "slug": "eco-friendly-yoga-mat",
     "title": "Eco-Friendly Yoga Mat",
-    "description": "A non-slip and comfortable eco-friendly yoga mat perfect for your practice. Made from sustainable and non-toxic materials like natural rubber and jute, this mat provides excellent cushioning and grip to support you through various yoga poses, from beginner to advanced. Its lightweight design makes it easy to carry to and from classes, and its durable construction ensures long-lasting use. Ideal for yogis of all levels looking for a mat that is both good for their practice and the planet. Easy to clean and maintain for a hygienic workout experience.",
+    "description": "Practice sustainably with this non-slip, comfortable eco-friendly yoga mat. Made from natural, non-toxic materials, it offers excellent grip and support for all yoga levels. Lightweight and durable for your mindful movement.",
     "price": 49,
     "category": {
       "id": 6,
       "slug": "sports-outdoors",
       "name": "Sports & Outdoors"
     },
-    "image": "/eco-friendly-yoga-mat.png"
+    "image": "/eco-friendly-yoga-mat.webp"
   },
   {
     "id": 116,
     "slug": "waterproof-hiking-backpack-30l",
     "title": "Waterproof Hiking Backpack (30L)",
-    "description": "Embark on your outdoor adventures with this durable and waterproof hiking backpack. With a 30-liter capacity, it offers ample space for your essentials, including water bottles, snacks, extra layers of clothing, and small camping gear. Featuring padded shoulder straps, an adjustable chest strap, and a ventilated back panel for comfortable carrying, even on long and challenging treks. Its high-quality waterproof material and included rain cover ensure your belongings stay dry and protected in any weather conditions. Equipped with multiple compartments, including side pockets, front pockets, and internal organizers, along with adjustable compression straps for a secure and balanced load. Perfect for day hikes, camping trips, and other outdoor activities.",
+    "description": "Brave any weather with this durable, waterproof 30L hiking backpack. Featuring comfortable straps, ventilation, and multiple compartments to keep your gear dry and organized on all your outdoor explorations.",
     "price": 69,
     "category": {
       "id": 6,
       "slug": "sports-outdoors",
       "name": "Sports & Outdoors"
     },
-    "image": "/waterproof-hiking-backpack-30l.png"
+    "image": "/waterproof-hiking-backpack-30l.webp"
   },
   {
     "id": 117,
     "slug": "portable-camping-tent-2-person",
     "title": "Portable Camping Tent (2 Person)",
-    "description": "Enjoy comfortable shelter on your camping trips with this lightweight and portable 2-person camping tent. Designed for easy and quick setup and takedown, it features a durable and water-resistant construction with taped seams to protect you from rain and moisture. Its compact size and included carrying bag make it ideal for backpacking, hiking, and travel. Offers good ventilation with mesh windows and a zippered door to keep you comfortable throughout the night and prevent condensation. Perfect for weekend getaways, hiking adventures, and enjoying the great outdoors with a friend or partner. Includes stakes and guylines for added stability in windy conditions.",
+    "description": "Enjoy easy shelter with this lightweight and portable 2-person camping tent. Quick to set up and take down, water-resistant with good ventilation, it's perfect for backpacking and weekend escapes.",
     "price": 89,
     "category": {
       "id": 6,
       "slug": "sports-outdoors",
       "name": "Sports & Outdoors"
     },
-    "image": "/portable-camping-tent-2-person.png"
+    "image": "/portable-camping-tent-2-person.webp"
   },
   {
     "id": 31,
     "slug": "building-blocks-set",
     "title": "Building Blocks Set",
-    "description": "A classic set of building blocks for creative play.",
+    "description": "Unleash creativity with this classic set of colorful building blocks. Perfect for imaginative play and developing fine motor skills in children of all ages.",
     "price": 30,
     "category": {
       "id": 7,
       "slug": "toys-games",
       "name": "Toys & Games"
     },
-    "image": "/building-blocks-set.png"
+    "image": "/building-blocks-set.webp"
   },
   {
     "id": 32,
     "slug": "board-game-strategy",
     "title": "Strategy Board Game",
-    "description": "An engaging strategy board game for hours of fun.",
+    "description": "Engage in hours of fun and intellectual challenge with this captivating strategy board game. Perfect for game nights with friends and family.",
     "price": 35,
     "category": {
       "id": 7,
       "slug": "toys-games",
       "name": "Toys & Games"
     },
-    "image": "/board-game-strategy.png"
+    "image": "/board-game-strategy.webp"
   },
   {
     "id": 33,
     "slug": "action-figure",
     "title": "Action Figure",
-    "description": "A collectible action figure from a popular franchise.",
+    "description": "Bring your favorite stories to life with this collectible action figure from a popular franchise. Featuring intricate details and articulation, perfect for play or display.",
     "price": 15,
     "category": {
       "id": 7,
       "slug": "toys-games",
       "name": "Toys & Games"
     },
-    "image": "/action-figure.png"
+    "image": "/action-figure.webp"
   },
   {
     "id": 34,
     "slug": "puzzle-1000-pieces",
     "title": "1000-Piece Puzzle",
-    "description": "A challenging and rewarding 1000-piece jigsaw puzzle.",
+    "description": "Challenge your mind with this rewarding 1000-piece jigsaw puzzle. Featuring a captivating image, it provides hours of engaging fun for puzzle enthusiasts.",
     "price": 20,
     "category": {
       "id": 7,
       "slug": "toys-games",
       "name": "Toys & Games"
     },
-    "image": "/puzzle-1000-pieces.png"
+    "image": "/puzzle-1000-pieces.webp"
   },
   {
     "id": 35,
     "slug": "stuffed-animal-teddy-bear",
     "title": "Stuffed Animal Teddy Bear",
-    "description": "A soft and cuddly teddy bear perfect for children of all ages.",
+    "description": "This soft and cuddly teddy bear is the perfect companion for children of all ages. With its huggable design and plush fur, it's ideal for snuggling and playtime.",
     "price": 22,
     "category": {
       "id": 7,
       "slug": "toys-games",
       "name": "Toys & Games"
     },
-    "image": "/stuffed-animal-teddy-bear.png"
+    "image": "/stuffed-animal-teddy-bear.webp"
   },
   {
     "id": 81,
     "slug": "remote-control-car",
     "title": "Remote Control Car",
-    "description": "A fun and fast remote control car for kids and adults.",
+    "description": "Experience thrilling speed and fun with this fast remote control car. Perfect for kids and adults alike, it offers exciting races and maneuvers.",
     "price": 40,
     "category": {
       "id": 7,
       "slug": "toys-games",
       "name": "Toys & Games"
     },
-    "image": "/remote-control-car.png"
+    "image": "/remote-control-car.webp"
   },
   {
     "id": 82,
     "slug": "doll-with-accessories",
     "title": "Doll with Accessories",
-    "description": "A beautiful doll with various outfits and accessories.",
+    "description": "Spark imaginative play with this beautiful doll and her various outfits and accessories. Perfect for creative storytelling and role-playing adventures.",
     "price": 28,
     "category": {
       "id": 7,
       "slug": "toys-games",
       "name": "Toys & Games"
     },
-    "image": "/doll-with-accessories.png"
+    "image": "/doll-with-accessories.webp"
   },
   {
     "id": 83,
     "slug": "educational-toy-for-toddlers",
     "title": "Educational Toy for Toddlers",
-    "description": "A fun and engaging educational toy for toddlers.",
+    "description": "Engage your little one's mind with this fun and educational toy designed for toddlers. It helps develop essential skills through interactive play.",
     "price": 25,
     "category": {
       "id": 7,
       "slug": "toys-games",
       "name": "Toys & Games"
     },
-    "image": "/educational-toy-for-toddlers.png"
+    "image": "/educational-toy-for-toddlers.webp"
   },
   {
     "id": 84,
     "slug": "coloring-book-and-crayons",
     "title": "Coloring Book and Crayons Set",
-    "description": "A set of coloring book and crayons for creative fun.",
+    "description": "Unleash creativity with this set featuring a fun coloring book and vibrant crayons. Perfect for artistic expression and hours of colorful entertainment.",
     "price": 10,
     "category": {
       "id": 7,
       "slug": "toys-games",
       "name": "Toys & Games"
     },
-    "image": "/coloring-book-and-crayons.png"
+    "image": "/coloring-book-and-crayons.webp"
   },
   {
     "id": 85,
     "slug": "jigsaw-puzzle-500-pieces",
     "title": "500-Piece Jigsaw Puzzle",
-    "description": "A moderately challenging 500-piece jigsaw puzzle.",
+    "description": "Enjoy a moderately challenging and satisfying puzzle experience with this 500-piece jigsaw puzzle. Perfect for a relaxing solo activity or a fun family project.",
     "price": 15,
     "category": {
       "id": 7,
       "slug": "toys-games",
       "name": "Toys & Games"
     },
-    "image": "/jigsaw-puzzle-500-pieces.png"
+    "image": "/jigsaw-puzzle-500-pieces.webp"
   }
 ]
