@@ -3,7 +3,7 @@
     grid-template-columns: 1fr 8fr 1fr;
     align-items: center;
     justify-items: center;
-    height: 15%;
+    height: 12dvh;
     font-size: 1.4rem;
 }
 .link {

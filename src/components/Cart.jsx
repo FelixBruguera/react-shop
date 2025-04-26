@@ -1,6 +1,7 @@
 import styles from '../styles/Cart.module.css'
-import { X, CreditCard } from 'lucide-react'
+import { CreditCard } from 'lucide-react'
 import CartItem from './CartItem'
+import Button from './Button'
 
 const Cart = ({ cart, setCart }) => {
     let total = cart.reduce((prev, product) => prev + (product.price * product.quantity), 0)
@@ -8,17 +9,17 @@ const Cart = ({ cart, setCart }) => {
     const hasProducts = cart.length > 0
 
     return (
-        <div aria-label="cart">
+        <>
             <div className={styles.titleContainer}>
                 <p className={styles.title}>Cart</p>
                 {hasProducts ? 
-                    <button 
-                    className={styles.reset}
-                    aria-label='empty your cart'
+                    <Button 
+                    style='light'
+                    label='empty your cart'
                     title='Empty your cart'
                     onClick={() => emptyCart()}>
-                        Empty
-                    </button> 
+                        <p className={styles.emptyButton}>Empty</p>
+                    </Button> 
                 : null}
             </div>
             <ul aria-label='cart products' className={styles.cartProducts}>
@@ -30,19 +31,21 @@ const Cart = ({ cart, setCart }) => {
                             <p className={styles.total}>Total:</p>
                             <p className={styles.totalPrice} aria-label='cart total'>${total}</p>
                         </div>
-                        <button
-                        aria-label='checkout'
-                        className={styles.checkout}
+                        <Button
+                        style='dark'
+                        label='checkout'
                         type='button'>
-                            <CreditCard size={24}></CreditCard>
-                            Checkout
-                        </button>
+                            <div className={styles.checkout}>
+                                <CreditCard size={24}></CreditCard>
+                                <p className={styles.checkoutText}>Checkout</p>
+                            </div>
+                        </Button>
                     </div>
                 </>
                 : <p className={styles.empty} aria-label='empty cart'>Your cart is empty</p>
                 }
             </ul>
-        </div>
+        </>
     )
 }
 

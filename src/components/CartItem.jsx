@@ -1,5 +1,6 @@
 import styles from '../styles/Cart.module.css'
 import {CircleX} from 'lucide-react'
+import { Link } from 'react-router'
 import Dropdown from "./Dropdown"
 
 const CartItem = ({ product, setCart}) => {
@@ -12,22 +13,26 @@ const CartItem = ({ product, setCart}) => {
     }
 
     return (
-        <li className={styles.product} aria-label='cart product'>
-            <img src={product.image} alt={product.title} className={styles.image}/>
-            <p className={styles.productTitle} aria-label='cart product title'>{product.title}</p>
+        <li aria-label='cart product' className={styles.product}>
+            <Link to={`/shop/${product.slug}`} className={styles.imageContainer} aria-label='cart product image'>
+                <img src={product.image} alt={product.title} className={styles.image}/>
+            </Link>
+            <Link to={`/shop/${product.slug}`} className={styles.productTitle} aria-label='cart product title'>
+               {product.title}
+            </Link>
             <p className={styles.price} aria-label='cart product price'>${product.price}</p>
-            <Dropdown 
-            options={options} 
-            label="Quantity" 
-            currentValue={product.quantity} 
+            <Dropdown
+            options={options}
+            label="Quantity"
+            currentValue={product.quantity}
             labelClass={styles.quantity}
             onChange={onChange}
             />
             <button
             aria-label="remove from cart"
             title="Remove from cart"
-            type="button" 
-            className={styles.removeButton} 
+            type="button"
+            className={styles.removeButton}
             onClick={() => removeFromCart()}>
                 <CircleX size={22}></CircleX>
             </button>

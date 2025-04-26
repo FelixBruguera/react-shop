@@ -40,10 +40,10 @@ export function onRequestGet(request) {
                 break
         }
     }
-    const startingIndex = (page*10) - 10
+    const startingIndex = (page*20) - 20
     const response = {
-        'products':  products.slice(startingIndex, startingIndex+10),
-        'info': {"pages": Math.ceil(products.length/10)}
+        'products':  products.slice(startingIndex, startingIndex+20),
+        'info': {"pages": Math.ceil(products.length/20)}
     }
 
     return Response.json(response)

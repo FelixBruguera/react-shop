@@ -1,5 +1,6 @@
 import App from "../App";
 import Shop from "../components/Shop";
+import Product from "../components/Product";
 import data from '../data/data.json'
 import { describe, test, expect, beforeEach, beforeAll, afterAll, afterEach} from "vitest";
 import { render, screen, getAllByLabelText, fireEvent} from "@testing-library/react";
@@ -14,6 +15,9 @@ export const restHandlers = [
   http.get('api/products', () => {
     return HttpResponse.json(mockedResponse);
   }),
+  http.get('api/product/:slug', ({ params }) => {
+    return HttpResponse.json(products.find(prod => prod.slug === params.slug))
+  })
 ];
 const server = setupServer(...restHandlers);
 
@@ -30,7 +34,11 @@ describe('the shop route', () => {
             {
                 path: "shop",
                 Component: Shop,
-            }
+            },
+            {
+                path: "shop/:slug",
+                Component: Product,
+            },
           ]
         },
       ]);
@@ -49,7 +57,7 @@ describe('the shop route', () => {
         test('the slide opens after clicking the button', async() => {
             const user = userEvent.setup()
             await user.click(screen.getByLabelText('filter'))
-            expect(screen.getByLabelText('sliding menu')).toBeVisible()
+            expect(screen.getByLabelText('sliding menu')).toBeInTheDocument()
         })
         test('the slide closes when the animationEnd event is fired', async() => {
             const user = userEvent.setup()
@@ -93,7 +101,7 @@ describe('the shop route', () => {
             const productTitle = screen.getAllByLabelText('product title')[0].textContent
             await user.click(screen.getAllByLabelText('add to cart')[0])
             await user.click(screen.getByLabelText('open cart'))
-            expect(screen.getByLabelText('cart product')).toBeVisible()
+            expect(screen.getByLabelText('cart product')).toBeInTheDocument()
             expect(screen.getByLabelText('cart product title').textContent).toBe(productTitle)
         })
         test('a product can be removed', async() => {
@@ -101,10 +109,10 @@ describe('the shop route', () => {
             const productTitle = screen.getAllByLabelText('product title')[0].textContent
             await user.click(screen.getAllByLabelText('add to cart')[0])
             await user.click(screen.getByLabelText('open cart'))
-            expect(screen.getByLabelText('cart product')).toBeVisible()
+            expect(screen.getByLabelText('cart product')).toBeInTheDocument()
             expect(screen.getByLabelText('cart product title').textContent).toBe(productTitle)
             await user.click(screen.getAllByLabelText('remove from cart')[0])
-            expect(screen.getByLabelText('empty cart')).toBeVisible()
+            expect(screen.getByLabelText('empty cart')).toBeInTheDocument()
             expect(screen.queryByLabelText('cart product')).not.toBeInTheDocument()
         })
         test('when the quantity changes, the total is updated', async() => {
@@ -125,7 +133,25 @@ describe('the shop route', () => {
             expect(screen.getAllByLabelText('cart product')).toHaveLength(3)
             await user.click(screen.getByLabelText('empty your cart'))
             expect(screen.queryAllByLabelText('cart product')).toHaveLength(0)
-            expect(screen.getByText('Your cart is empty')).toBeVisible()
+            expect(screen.getByText('Your cart is empty')).toBeInTheDocument()
+        })
+    })
+    describe('the product page', () => {
+        test('renders a product correctly', async() => {
+            const user = userEvent.setup()
+            const title = screen.getAllByLabelText('product title')[0].textContent
+            const price = screen.getAllByLabelText('product price')[0].textContent
+            await user.click(screen.getAllByLabelText('product title')[0])
+            expect(screen.getByLabelText('product title').textContent).toBe(title)
+            expect(screen.getByLabelText('product price').textContent).toBe(price)
+        })
+        test('the "go back to store" button keeps the shop location', async () => {
+            const user = userEvent.setup()
+            await user.click(screen.getByLabelText('page 3'))
+            await user.click(screen.getAllByLabelText('product title')[0])
+            await user.click(screen.getByLabelText('go back to the store'))
+            const currentPage = screen.getByRole("listitem", {current: 'page'})
+            expect(currentPage).toHaveTextContent(3)
         })
     })
 })

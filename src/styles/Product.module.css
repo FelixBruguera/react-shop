@@ -1,0 +1,94 @@
+.error {
+    composes: noResults from "./Shop.module.css"
+}
+.product {
+    padding: 6% 10% 5% 10%;
+    display: grid;
+    /*     grid-template: 2fr 5fr 3fr/ 0.5fr 4.25fr 4.25fr 1fr; */
+    grid-template: 2fr 1fr 4fr 3fr / 0.5fr 4.25fr 4.25fr 1fr;
+    align-items: center;
+    justify-items: baseline;
+    height: 50dvh;
+}
+.imageContainer {
+    grid-area: 1 / 2 / 5 / 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.image {
+    aspect-ratio: 4/3;
+    max-height: 100%;
+    max-width: 90%;
+    border-radius: 5px;
+}
+.title {
+    grid-area: 1/3/2/5;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 3%;
+}
+.category {
+    grid-area: 2/3/2/3;
+    height: auto;
+    padding: 2%;
+    margin: 0;
+    composes: category from "./SmallProduct.module.css"
+}
+.category:hover {
+    background-color: lightsteelblue;
+}
+.description {
+    text-align: justify;
+    grid-area: 3/3/3/5;
+    color: rgba(0,0,0,0.65);
+    font-size: 0.9rem;
+}
+.priceCheckout {
+    grid-area: 4/3/4/5;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.price {
+    grid-area: 2/3/2/3;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin: 0;
+}
+.button, .buttonRed {
+    grid-area: 4/3/4/3;
+    width: 7dvw;
+    height: 7dvh;
+}
+.button:hover, .buttonRed:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.goBack {
+    grid-area: 1/1/1/1;
+    padding: 10%;
+    border-radius: 10px;
+    transition: color 0.15s ease-in-out;
+}
+.goBack:hover {
+    color: var(--accent-color);
+}
+.button {
+    composes: button from "./SmallProduct.module.css"
+}
+.buttonRed {
+    composes: buttonRed from "./SmallProduct.module.css"
+}
+@keyframes expand {
+    0% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}

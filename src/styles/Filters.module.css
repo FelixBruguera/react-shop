@@ -1,5 +1,6 @@
 .filter {
     padding-bottom: 10%;
+    grid-area: 2/1/2/2;
 }
 .categories {
     display: flex;
@@ -12,9 +13,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: auto;
+    width: 70%;
     margin-top: 5%;
 }
 .title {
+    grid-area: 1/1/1/2;
     font-weight: 600;
     font-size: 1rem;
     margin: 0.8rem;
@@ -76,23 +80,4 @@ input[type=radio]{
     height: 4dvh;
     border: 1px solid rgba(0, 0, 0, 0.3);
     font-size: 0.75rem;
-}
-.button {
-    composes: button from './SmallProduct.module.css';
-    background-color: var(--accent-color);
-    color: white;
-    margin-left: auto;
-    margin-right: auto;
-    width: fit-content;
-}
-.button:hover {
-    cursor: pointer;
-    background-color: black;
-    color: white;
-}
-.reset {
-    composes: button;
-    background-color: white;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    color: black;
 }

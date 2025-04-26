@@ -1,4 +1,5 @@
 import { useState } from "react"
+import Button from "./Button"
 import styles from '../styles/Filters.module.css'
 
 const Sort = ({ handleSort, currentSort }) => {
@@ -19,30 +20,36 @@ const Sort = ({ handleSort, currentSort }) => {
     }
 
     return (
-    <form className={styles.sort} onSubmit={handleSubmit}>
-        <p className={styles.title}>Sort By</p>
-        <div name='categories' className={styles.categories}>
-            { options.map(opt => {
-                return (
-                    <div className={styles.category}>
-                    <input type='radio' value={opt.slug} name='option' id={opt.slug} aria-label={opt.name}
-                    onChange={(e) => setOption(e.target.value)}
-                    checked={option === opt.slug ? true : false }/>
-                    <label htmlFor={opt.slug} className={styles.label}>
-                        <span className="material-symbols-outlined">
-                            {opt.logo}
-                        </span>
-                        <p className={styles.categoryName}>{opt.name}</p></label>
-                    </div>
-                    )
-                }
-            )}
-        <div className={styles.buttons}>
-            <button type='button' className={styles.reset} onClick={() => reset()}>Reset</button>
-            <button type="submit" className={styles.button}>Apply</button>
-        </div>
-        </div>
-    </form>
+    <>
+        <h2 className={styles.title}>Sort By</h2>
+        <form className={styles.sort} onSubmit={handleSubmit}>
+            <div name='categories' className={styles.categories}>
+                { options.map(opt => {
+                    return (
+                        <div className={styles.category}>
+                        <input type='radio' value={opt.slug} name='option' id={opt.slug} aria-label={opt.name}
+                        onChange={(e) => setOption(e.target.value)}
+                        checked={option === opt.slug ? true : false }/>
+                        <label htmlFor={opt.slug} className={styles.label}>
+                            <span className="material-symbols-outlined">
+                                {opt.logo}
+                            </span>
+                            <p className={styles.categoryName}>{opt.name}</p></label>
+                        </div>
+                        )
+                    }
+                )}
+            <div className={styles.buttons}>
+                <Button style='light' type='button' label='reset sort' onClick={() => reset()}>
+                    Reset
+                </Button>
+                <Button style='dark' type='submit' label='apply sort'>
+                    Apply
+                </Button>
+            </div>
+            </div>
+        </form>
+    </>
     )
 }
 

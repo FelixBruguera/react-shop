@@ -1,6 +1,6 @@
 import styles from '../styles/SlideMenu.module.css'
 import { useState } from 'react'
-import { CircleX, X } from 'lucide-react'
+import { CircleX } from 'lucide-react'
 
 const SlideMenu = ({ children, isOpen, closeSlide, position}) => {
     const [isClosing, setIsClosing] = useState(false)
@@ -13,21 +13,20 @@ const SlideMenu = ({ children, isOpen, closeSlide, position}) => {
     }
 
     return (
-        <div
+        <dialog
         aria-label='sliding menu'
         className={isClosing ? classes.slideOut : isOpen ? classes.slideIn : null} 
         onAnimationEnd={isClosing ? () => unmount() : null}
         >
-        <button 
-            aria-label='close slide'
-            title='close slide'
-            type="button" 
-            className={styles.button} 
-            onClick={() => setIsClosing(true)}>
-            <CircleX />
+        <button
+        className={styles.cancelButton}
+        aria-label='close slide'
+        title='close slide'
+        onClick={() => setIsClosing(true)}>
+            <CircleX size={23}></CircleX>
         </button>
         {children}
-        </div>
+        </dialog>
     )
 }
 

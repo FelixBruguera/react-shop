@@ -1,23 +1,25 @@
 .menu {
     display: grid;
-    grid-template-columns: 9fr 1fr;
+    grid-template-columns: 9.5fr 0.5fr;
+    grid-template-rows: 0.5fr 9.5fr;
     position: fixed;
     background-color: #e8e8e8;
-    width: 23.5%;
+    width: 21.5%;
     z-index: 1;
     top: 0%;
     height: 100%;
-    padding-top: 1%;
     overflow: auto;
     border: 1px solid rgba(0,0,0,0.2);
+    padding: 1%;
+    margin: 0;
 }
 .menuLeft {
     composes: menu;
-    left: 0%;
+    right: auto;
 }
 .menuRight {
     composes: menu;
-    right: 0%;
+    left: auto;
 }
 .slideInLeft {
     composes: menuLeft;
@@ -37,25 +39,22 @@
     composes: menuRight;
     animation: slideOutRight 0.5s ease-in-out forwards;
 }
-.button {
-    grid-area: 1 / 2 / 1 / 2;
+.cancelButton {
+    grid-area: 1/2/1/2;
     height: fit-content;
-    display: flex;
     background-color: transparent;
-    color: var(--accent-color);
     border: none;
-    border-radius: 10px;
-    font-size: 0.9rem;
-    font-weight: 600;
-    margin-top: 25%;
-    transition: background-color 0.15s ease-in-out;
-    padding: 10%;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
     justify-content: center;
 }
-.button:hover {
-    color: #ED1C24;
+.cancelButton:hover {
+    color: red;
     cursor: pointer;
-    /* font-weight: 500; */
+    background-color: transparent;
 }
 @keyframes slideOutLeft {
     90% {
