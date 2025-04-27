@@ -12,7 +12,7 @@ const HomePage = () => {
             <div className={styles.leftSide}>
                 <h1 className={styles.mainText}>Fake Shop</h1>
                 <p className={styles.subText}>Find your fake products at the best price</p>
-                <Link to='/shop' className={styles.button}>Shop now</Link>
+                <Link to='/shop' className={styles.button} viewTransition>Shop now</Link>
             </div>
             <div className={styles.rightSide}>
                 <img className={styles.image} src={image}></img>

@@ -5,7 +5,6 @@
 .categories {
     display: flex;
     flex-direction: column;
-    /* height: 40dvh; */
     overflow-y: auto;
     row-gap: 20%;
 }
@@ -20,7 +19,7 @@
 .title {
     grid-area: 1/1/1/2;
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 1.1rem;
     margin: 0.8rem;
     margin-top: 3%;
 }
@@ -28,7 +27,7 @@
     display: flex;
     align-items: center;
     font-size: 0.9rem;
-    transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
+    transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
     padding: 2%;
     width: 90%;
     border-radius: 10px;
@@ -47,6 +46,7 @@
     gap: 1dvw;
 }
 .category:has(input[type=radio]:checked) {
+    /* #2E5090 */
     background-color: var(--accent-color);
     color: white;
 }
@@ -79,5 +79,5 @@ input[type=radio]{
     width: 30%;
     height: 4dvh;
     border: 1px solid rgba(0, 0, 0, 0.3);
-    font-size: 0.75rem;
+    font-size: 0.8rem;
 }

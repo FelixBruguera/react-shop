@@ -19,17 +19,20 @@ const Nav = ({ cart, setCart }) => {
             <div className={styles.links}>
                 <NavLink
                 to="home"
-                className={(isActive, isPending) => linkClass(isActive, isPending)}>
+                className={(isActive, isPending) => linkClass(isActive, isPending)}
+                viewTransition>
                 Home
                 </NavLink>
                 <NavLink
                 to="shop"
-                className={(isActive, isPending) => linkClass(isActive, isPending)}>
+                className={(isActive, isPending) => linkClass(isActive, isPending)}
+                viewTransition>
                 Store
                 </NavLink>
             </div>
             <button aria-label='open cart' className={styles.cart} onClick={() => setCartOpen(true)}>
-                <ShoppingCart size={24} />
+                <ShoppingCart size={26} />
+                { cart.length > 0 ? <p className={styles.cartNumber}>{cart.length}</p> : null }
             </button>
             <SlideMenu isOpen={cartOpen} isClosing={cartClosing} closeSlide={handleCartClose} setIsClosing={setCartClosing} position='right'>
                 <Cart cart={cart} setCart={setCart}/>

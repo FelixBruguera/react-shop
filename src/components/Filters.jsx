@@ -51,7 +51,7 @@ const Filters = ({ handleFilter, currentFilter }) => {
                     }
                     ) }
                 </div>
-                <p className={styles.title}>Price</p>
+                <h2 className={styles.title}>Price</h2>
                 <div className={styles.prices}>
                         <input
                             className={styles.priceInput}

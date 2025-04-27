@@ -36,13 +36,14 @@ const Product = () => {
             state={location?.shopUrl ? { previousUrl: location.shopUrl } : null} 
             className={styles.goBack} 
             title="Go back to the store" 
-            aria-label="go back to the store">
+            aria-label="go back to the store" 
+            viewTransition>
                 <CircleArrowLeft size={30}/>
             </Link>
             <div className={styles.imageContainer}>
                 <img className={styles.image} src={data.image} loading="lazy" alt={data.title} aria-label="product image"/>
             </div>
-                <p className={styles.title} aria-label="product title">{data.title}</p>
+                <h1 className={styles.title} aria-label="product title">{data.title}</h1>
                 <p className={styles.category} aria-label="product category">{data.category.name}</p>
                 <p className={`${styles.description}`} aria-label="product description">{data.description}</p>
                 <div className={styles.priceCheckout}>

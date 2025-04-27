@@ -112,7 +112,7 @@ describe('the shop route', () => {
             expect(screen.getByLabelText('cart product')).toBeInTheDocument()
             expect(screen.getByLabelText('cart product title').textContent).toBe(productTitle)
             await user.click(screen.getAllByLabelText('remove from cart')[0])
-            expect(screen.getByLabelText('empty cart')).toBeInTheDocument()
+            expect(screen.getByText('Your cart is empty')).toBeInTheDocument()
             expect(screen.queryByLabelText('cart product')).not.toBeInTheDocument()
         })
         test('when the quantity changes, the total is updated', async() => {
@@ -124,14 +124,14 @@ describe('the shop route', () => {
             await user.selectOptions(screen.getByDisplayValue('1'), '8')
             expect(screen.getByLabelText('cart total').textContent).toBe(`$${productPrice*8}`)
         })
-        test('the "empty" button clears the cart', async() => {
+        test('the "clear" button clears the cart', async() => {
             const user = userEvent.setup()
             await user.click(screen.getAllByLabelText('add to cart')[0])
             await user.click(screen.getAllByLabelText('add to cart')[1])
             await user.click(screen.getAllByLabelText('add to cart')[2])
             await user.click(screen.getByLabelText('open cart'))
             expect(screen.getAllByLabelText('cart product')).toHaveLength(3)
-            await user.click(screen.getByLabelText('empty your cart'))
+            await user.click(screen.getByLabelText('clear your cart'))
             expect(screen.queryAllByLabelText('cart product')).toHaveLength(0)
             expect(screen.getByText('Your cart is empty')).toBeInTheDocument()
         })

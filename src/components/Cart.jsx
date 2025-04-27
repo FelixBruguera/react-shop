@@ -11,14 +11,14 @@ const Cart = ({ cart, setCart }) => {
     return (
         <>
             <div className={styles.titleContainer}>
-                <p className={styles.title}>Cart</p>
+                <h2 className={styles.title}>Cart</h2>
                 {hasProducts ? 
                     <Button 
                     style='light'
-                    label='empty your cart'
-                    title='Empty your cart'
+                    label='clear your cart'
+                    title='clear your cart'
                     onClick={() => emptyCart()}>
-                        <p className={styles.emptyButton}>Empty</p>
+                        <p className={styles.emptyButton}>Clear</p>
                     </Button> 
                 : null}
             </div>

@@ -4,7 +4,6 @@
     grid-template-rows: 0.5fr 9.5fr;
     position: fixed;
     background-color: #e8e8e8;
-    width: 21.5%;
     z-index: 1;
     top: 0%;
     height: 100%;
@@ -16,9 +15,11 @@
 .menuLeft {
     composes: menu;
     right: auto;
+    width: 22%;
 }
 .menuRight {
     composes: menu;
+    width: 28%;
     left: auto;
 }
 .slideInLeft {
