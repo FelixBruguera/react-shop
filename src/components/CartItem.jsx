@@ -3,9 +3,8 @@ import {CircleX} from 'lucide-react'
 import { Link } from 'react-router'
 import Dropdown from "./Dropdown"
 
-const CartItem = ({ product, setCart}) => {
-    const options = [1,2,3,4,5,6,7,8,9,10]
-    const removeFromCart = () => setCart((cart) => cart.filter(prod => prod.id !== product.id))
+const CartItem = ({ product, setCart, removeFromCart, setCartOpen}) => {
+
     const onChange = (newQuantity) => {
         newQuantity = parseInt(newQuantity)
         const newProduct = {...product, quantity: newQuantity}
@@ -14,28 +13,34 @@ const CartItem = ({ product, setCart}) => {
 
     return (
         <li aria-label='cart product' className={styles.product}>
-            <Link to={`/shop/${product.slug}`} className={styles.imageContainer} aria-label='cart product image'>
+            <Link to={`/shop/${product.slug}`} className={styles.imageContainer} aria-label='cart product image' onClick={() => {setCartOpen(false)}} viewTransition>
                 <img src={product.image} alt={product.title} className={styles.image}/>
             </Link>
-            <Link to={`/shop/${product.slug}`} className={styles.productTitle} aria-label='cart product title'>
-               {product.title}
-            </Link>
-            <p className={styles.price} aria-label='cart product price'>${product.price}</p>
-            <Dropdown
-            options={options}
-            label="Quantity"
-            currentValue={product.quantity}
-            labelClass={styles.quantity}
-            onChange={onChange}
-            />
-            <button
-            aria-label="remove from cart"
-            title="Remove from cart"
-            type="button"
-            className={styles.removeButton}
-            onClick={() => removeFromCart()}>
-                <CircleX size={22}></CircleX>
-            </button>
+            <div className={styles.productContent}>
+                <div className={styles.productTop}>
+                    <Link to={`/shop/${product.slug}`} className={styles.productTitle} aria-label='cart product title' title={product.title} onClick={() => {setCartOpen(false)}} viewTransition>
+                       <h3>{product.title}</h3>
+                    </Link>
+                    <button
+                        aria-label="remove from cart"
+                        title="Remove from cart"
+                        type="button"
+                        className={styles.removeButton}
+                        onClick={() => removeFromCart(product.id)}>
+                            <CircleX className={styles.icon}></CircleX>
+                    </button>
+                </div>
+                <div className={styles.productBottom}>
+                    <p className={styles.price} aria-label='cart product price'>${product.price}</p>
+                    <Dropdown
+                        label="Quantity"
+                        currentValue={product.quantity}
+                        className={styles.quantity}
+                        labelClass={styles.quantityLabel}
+                        onChange={onChange}
+                    />
+                </div>
+            </div>
         </li>
     )
 

@@ -1,18 +1,19 @@
 .smallProduct {
-    display: grid;
-    grid-template: 2fr 3.5fr 1fr 3.5fr/ 0.5fr 4.5fr 4.5fr 0.5fr;
+    display: flex;
+    flex-direction: column;
+    gap: 1dvh;
     align-items: center;
     background-color: white;
-    height: 60dvh;
-    width: 20dvw;
+    width: clamp(170px, 20dvw, 500px);
     border: 1px solid rgba(0,0,0, 0.1);
     border-radius: 5px;
     box-shadow: 0px 0px 0px #00000030, 0px 6px 6px #00000015;
-    transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out, transform 0.15s ease-in-out;
+    transition: background-color 0.15s ease-in-out, transform 0.15s ease-in-out;
     text-decoration: none;
+    padding-bottom: 1%;
 }
 .productData {
-    grid-area: 3/2/4/4;
+    width: 90%;
     display: flex;
     flex-direction: column;
 }
@@ -20,15 +21,21 @@
     display: flex;
     flex-direction: column;
     align-items: start;
-    height: 15dvh;
 }
 .link {
     text-decoration: none;
     color: black;
-    grid-area: 2 / 2 / 2 / 4;
+    width: 100%;
+    transition: color 0.15s ease-in-out;
 }
 .smallProduct:hover {
-    background-color: var(--accent-color);
+    .link {
+        color: var(--accent-color);
+    }
+    border: 1px solid rgba(0,0,0, 0.15);
+    transform: scale(1.03);
+    /* background-color: #dddddddd; */
+    /* background-color: var(--accent-color);
     border: 1px solid rgba(0,0,0, 0.0000001);
     .link, .price {
         color: white;
@@ -45,10 +52,7 @@
         cursor: pointer;
         background-color: black;
         color: white;
-    }
-}
-.imageContainer {
-    grid-area: 1 / 1 / 1 / 5;
+    } */
 }
 .image {
     max-width: 100%;
@@ -59,34 +63,30 @@
 }
 .title {
     width: 100%;
-    font-size: 1rem;
     font-weight: 600;
     text-align: start;
     margin: 0;
-    max-height: 7dvh;
     overflow: hidden;
+    white-space: nowrap;
     text-overflow: ellipsis;
 }
 .category {
-    grid-area: 3 / 2 / 3 / 3;
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     text-align: center;
     background-color: rgba(0,0,0, 0.1);
     color: rgba(0,0,0,0.75);
     width: fit-content;
-    padding: 4% 5%;
+    padding: 1.5dvh 1dvw;
     border-radius: 10px;
     transition: background-color 0.15s ease-in-out;
 }
 .price {
     font-weight: 600;
-    font-size: 1.1rem;
+    font-size: 1rem;
     text-align: end;
     margin-right: 8%;
-    grid-area: 4 / 1 / 4 / 1;
 }
 .priceBuy {
-    grid-area: 4 / 2 / 4 / 4;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -101,4 +101,13 @@
 .buttonRed {
     composes: button;
     background-color: darkred;
+}
+.icon {
+    height: 3dvh;
+    width: fit-content;
+}
+@media (max-width: 700px) {
+    .icon {
+        height: 2dvh;
+    }
 }

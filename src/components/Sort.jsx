@@ -21,7 +21,7 @@ const Sort = ({ handleSort, currentSort }) => {
 
     return (
     <>
-        <h2 className={styles.title}>Sort By</h2>
+        <h3 className={styles.title}>Sort By</h3>
         <form className={styles.sort} onSubmit={handleSubmit}>
             <div name='categories' className={styles.categories}>
                 { options.map(opt => {

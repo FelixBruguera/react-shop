@@ -18,6 +18,9 @@
     justify-content: center;
 }
 .button {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     text-decoration: none;
     border-radius: 10px;
     font-size: 1rem;
@@ -45,4 +48,20 @@
     display: flex;
     align-items: center;
     background: linear-gradient(to right, #F1F2F3 5%, #ecedef 26%, #F1F2F3 95%);
+}
+@media (max-width: 700px) {
+    .home {
+        flex-direction: column-reverse;
+        height: 88dvh;
+    }
+    .leftSide, .rightSide {
+        width: 100%;
+    }
+    .button {
+        padding: 4%;
+    }
+    .leftSide {
+        /* height: 2dvh; */
+    }
+
 }

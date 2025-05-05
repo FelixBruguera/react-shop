@@ -1,21 +1,24 @@
 .dropdown {
     display: flex;
     align-items: center;
-    grid-area: 3/3/4/5;
-    grid-template-rows: 5fr 5fr;
     justify-content: space-evenly;
-    /* align-items: center; */
-}
-.label {
-    grid-area: 1/1/1/1;
+    gap: 1dvw;
 }
 .select {
-    grid-area: 2/1/2/1;
-    font-size: 0.85rem;
-    width: 35%;
+    font-size: 0.75rem;
+    height: 4dvh;
+    width: max(40px, 3.5dvw);
     padding: 2%;
     border-radius: 5px;
 }
 .select:hover {
     cursor: pointer;
+}
+@media (max-width: 700px) {
+    .dropdown {
+        gap: 10px;
+    }
+    .select {
+        height: 3dvh;
+    }
 }

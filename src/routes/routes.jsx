@@ -3,6 +3,8 @@ import ErrorPage from '../components/ErrorPage.jsx';
 import Shop from '../components/Shop.jsx'
 import Product from '../components/Product.jsx'
 import HomePage from '../components/Homepage.jsx';
+import Checkout from '../components/Checkout.jsx';
+import Receipt from '../components/Receipt.jsx';
 
 const routes = [
     {
@@ -12,7 +14,6 @@ const routes = [
       children: [
         {
             index: true,
-            path: "home",
             element: <HomePage />,
         },
         {
@@ -23,10 +24,14 @@ const routes = [
             path: "shop/:slug",
             element: <Product />,
         },
-          {
-            path: "checkout",
-            element: <App />,
-          }
+        {
+          path: "shop/checkout",
+          element: <Checkout />,
+        },
+        {
+          path: "shop/receipt",
+          element: <Receipt />,
+        }
       ]
     },
   ];

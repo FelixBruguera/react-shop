@@ -4,8 +4,18 @@ import styles from '../styles/Pages.module.css'
 
 const Pages = ({ pageTotal, currentPage, setPage }) => {
     const pages = [...Array(pageTotal).keys()].map(n => n + 1)
-    const previousPage = () => { if (currentPage > 1) setPage(currentPage - 1) }
-    const nextPage = () => { if (currentPage < pageTotal) setPage(currentPage + 1) }
+    const previousPage = () => { 
+        if (currentPage > 1) { 
+            setPage(currentPage - 1)
+            document.startViewTransition({types: ["backwards"]})
+        } 
+    }
+    const nextPage = () => { 
+        if (currentPage < pageTotal) {
+            setPage(currentPage + 1)
+            document.startViewTransition({types: ["forwards"]})
+        } 
+    }
     if (pages.length === 0) { return null }
     return (
         <nav aria-label="pages">
@@ -22,7 +32,11 @@ const Pages = ({ pageTotal, currentPage, setPage }) => {
                     aria-current={i === currentPage ? 'page' : null}
                     title={`page ${i}`}
                     className={i === currentPage ? styles.currentPage : styles.page}
-                    onClick={() => setPage(i)}>
+                    onClick={() => {
+                        setPage(i)
+                        document.startViewTransition({types: i > currentPage ? ['forwards'] : ['backwards']})
+                        }
+                    }>
                     {i}
                     </li>
                 )}

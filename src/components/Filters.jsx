@@ -21,7 +21,7 @@ const Filters = ({ handleFilter, currentFilter }) => {
     }
     return (
         <>
-            <h2 className={styles.title}>Category</h2>
+            <h3 className={styles.title}>Category</h3>
             <form aria-label='filters form' className={styles.filter} onSubmit={handleSubmit}>
                 <div name='categories' className={styles.categories}>
                     <div className={styles.category}>
@@ -51,31 +51,38 @@ const Filters = ({ handleFilter, currentFilter }) => {
                     }
                     ) }
                 </div>
-                <h2 className={styles.title}>Price</h2>
+                <h3 className={styles.title}>Price</h3>
                 <div className={styles.prices}>
+                    <div className={styles.inputContainer}>
+                        <label htmlFor="minimum">Min</label>
                         <input
                             className={styles.priceInput}
                             type="number"
                             title='Minimum price'
                             placeholder='Min'
                             aria-label='minimum price'
+                            id='minimum'
                             min={0}
-                            max={1000}
+                            max={max}
                             value={min}
                             onChange={(e)=> setMin(e.target.value)}
                         />
-                        <span className={styles.separator} aria-label='separator'>-</span>
+                    </div>
+                    <div className={styles.inputContainer}>
+                        <label htmlFor="maximum">Max</label>
                         <input
                             className={styles.priceInput}
                             type="number"
                             title='Maximum price'
                             placeholder='Max'
                             aria-label='maximum price'
-                            min={1}
+                            id='maximum'
+                            min={min}
                             max={1000}
                             value={max}
                             onChange={(e) => setMax(e.target.value)}
                         />
+                    </div>
                 </div>
                 <div className={styles.buttons}>
                     <Button style='light' type='button' label='reset filter' onClick={reset}>

@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import { useOutletContext, useLocation } from "react-router";
+import { useOutletContext } from "react-router";
 import SmallProduct from "./SmallProduct";
 import Loading from "./Loading";
 import Pages from "./Pages";
@@ -12,18 +12,19 @@ import SlideMenu from "./SlideMenu";
 
 
 export default function Shop() {
-    const location = useLocation().state
-    console.log(location)
     const [products, setProducts] = useState(null)
     const [isLoading, setIsLoading] = useState(true)
     const [totalPages, setTotalPages] = useState(0)
-    const [currentPage, setCurrentPage] = useState(location?.previousUrl.currentPage || 1)
-    const [filter, setFilter] = useState(location?.previousUrl.filter || {min: 0, max: 1000, category: 'all'})
     const [filterOpen, setFilterOpen] = useState(false)
-    const [sort, setSort] = useState(location?.previousUrl.sort || 'category')
     const [sortOpen, setSortOpen] = useState(false)
-    const [cart, setCart] = useOutletContext()
+    const [filter, setFilter] = useOutletContext().filters
+    const [currentPage, setCurrentPage] = useOutletContext().currentPage
+    const [sort, setSort] = useOutletContext().sort
+    const [cart, setCart] = useOutletContext().cart
     const shopRef = useRef()
+    const initialFilter = JSON.stringify({min: 0, max: 1000, category: 'all'})
+    const isFiltered = JSON.stringify(filter) !== initialFilter
+    const isSorted = sort !== 'category'
 
     useEffect(() => {
         const controller = new AbortController();
@@ -47,11 +48,13 @@ export default function Shop() {
     const cartIds = cart.length > 0 ? cart.map(product => product.id) : []
 
     const handleFilter = (filter) => {
+        document.startViewTransition()
         setCurrentPage(1)
         setFilter(filter)
         setFilterOpen(false)
     }
     const handleSort = (sort) => {
+        document.startViewTransition()
         setCurrentPage(1)
         setSort(sort)
         setSortOpen(false)
@@ -61,23 +64,21 @@ export default function Shop() {
         return <Loading />
     }
 
-    const shopUrl = {currentPage: currentPage, filter: filter, sort: sort}
-
     return (
         <div className={styles.shop} ref={shopRef}>
              <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=apparel,auto_stories,blender,category_search,desktop_windows,diamond,directions_car,grocery,self_care,sort_by_alpha,sports_and_outdoors,store,toys_and_games,trending_down,trending_up"/>            
             {console.log('render')}
             <div className={styles.optionsWrap}>
                 <div className={styles.options}>
-                    <Button style={filterOpen ? 'dark' : 'light'} onClick={() => setFilterOpen(true)} label="filter">
+                    <Button style={filterOpen ? 'dark' : isFiltered ? 'dark' : 'light'} onClick={() => setFilterOpen(true)} label="filter">
                         <div className={styles.option}>
-                            <ListFilter size={24} />
+                            <ListFilter className={styles.icon} />
                             <p>Filter</p>
                         </div>
                     </Button>
-                    <Button style={sortOpen ? 'dark' : 'light'} onClick={() => setSortOpen(true)} label="sort">
+                    <Button style={sortOpen ? 'dark' : isSorted ? 'dark' : 'light'} onClick={() => setSortOpen(true)} label="sort">
                         <div className={styles.option}>
-                            <ArrowDownUp size={24} />
+                            <ArrowDownUp className={styles.icon} />
                             <p>Sort</p>
                         </div>
                     </Button>
@@ -91,7 +92,7 @@ export default function Shop() {
                 <SlideMenu isOpen={sortOpen} closeSlide={() => setSortOpen(false)} position='left'>
                     <Sort handleSort={handleSort} currentSort={sort}/>
                 </SlideMenu>
-                {products.map(product => <SmallProduct key={product.id} data={product} setCart={setCart} isInCart={cartIds.includes(product.id)} shopUrl={shopUrl}/>)}
+                {products.map(product => <SmallProduct key={product.id} data={product} setCart={setCart} isInCart={cartIds.includes(product.id)}/>)}
             </ul>
             <Pages pageTotal={totalPages} currentPage={currentPage} setPage={setCurrentPage}/>
         </div>

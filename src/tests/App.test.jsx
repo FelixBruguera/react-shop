@@ -2,7 +2,7 @@ import App from "../App";
 import Shop from "../components/Shop";
 import Product from "../components/Product";
 import data from '../data/data.json'
-import { describe, test, expect, beforeEach, beforeAll, afterAll, afterEach} from "vitest";
+import { describe, test, expect, beforeEach, beforeAll, afterAll, afterEach, vi} from "vitest";
 import { render, screen, getAllByLabelText, fireEvent} from "@testing-library/react";
 import { createRoutesStub, MemoryRouter, Routes, Route, Outlet } from "react-router";
 import { setupServer } from 'msw/node'
@@ -20,6 +20,10 @@ export const restHandlers = [
   })
 ];
 const server = setupServer(...restHandlers);
+
+global.document.startViewTransition = vi.fn(() => {
+    return { finished: Promise.resolve(), };
+});
 
 beforeAll(() => server.listen({ onUnhandledRequest: 'error' }));
 afterAll(() => server.close());
@@ -141,15 +145,16 @@ describe('the shop route', () => {
             const user = userEvent.setup()
             const title = screen.getAllByLabelText('product title')[0].textContent
             const price = screen.getAllByLabelText('product price')[0].textContent
-            await user.click(screen.getAllByLabelText('product title')[0])
+            await user.click(screen.getByRole('link', {name: title}))
             expect(screen.getByLabelText('product title').textContent).toBe(title)
+            expect(screen.getByLabelText('product description')).toBeVisible()
             expect(screen.getByLabelText('product price').textContent).toBe(price)
         })
-        test('the "go back to store" button keeps the shop location', async () => {
+        test('the "go back" button keeps the shop location', async () => {
             const user = userEvent.setup()
             await user.click(screen.getByLabelText('page 3'))
             await user.click(screen.getAllByLabelText('product title')[0])
-            await user.click(screen.getByLabelText('go back to the store'))
+            await user.click(screen.getByLabelText('go back'))
             const currentPage = screen.getByRole("listitem", {current: 'page'})
             expect(currentPage).toHaveTextContent(3)
         })

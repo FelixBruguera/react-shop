@@ -14,16 +14,17 @@ const SlideMenu = ({ children, isOpen, closeSlide, position}) => {
 
     return (
         <dialog
-        aria-label='sliding menu'
-        className={isClosing ? classes.slideOut : isOpen ? classes.slideIn : null} 
-        onAnimationEnd={isClosing ? () => unmount() : null}
+            aria-label='sliding menu'
+            className={isClosing ? classes.slideOut : isOpen ? classes.slideIn : null} 
+            onAnimationEnd={isClosing ? () => unmount() : null}
         >
         <button
-        className={styles.cancelButton}
-        aria-label='close slide'
-        title='close slide'
-        onClick={() => setIsClosing(true)}>
-            <CircleX size={23}></CircleX>
+            className={styles.cancelButton}
+            aria-label='close slide'
+            title='close slide'
+            onClick={() => setIsClosing(true)}
+        >
+            <CircleX className={styles.icon}></CircleX>
         </button>
         {children}
         </dialog>

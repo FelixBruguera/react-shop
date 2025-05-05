@@ -4,7 +4,7 @@
     grid-template-rows: 0.5fr 9.5fr;
     position: fixed;
     background-color: #e8e8e8;
-    z-index: 1;
+    z-index: 3;
     top: 0%;
     height: 100%;
     overflow: auto;
@@ -15,30 +15,30 @@
 .menuLeft {
     composes: menu;
     right: auto;
-    width: 22%;
+    width: max(250px, 22%);
 }
 .menuRight {
     composes: menu;
-    width: 28%;
+    width: max(300px, 28%);
     left: auto;
 }
 .slideInLeft {
     composes: menuLeft;
     opacity: 1;
-    animation: slideInLeft 0.5s ease-in-out;
+    animation: slideInLeft 0.6s ease-in-out;
 }
 .slideOutLeft {
     composes: menuLeft;
-    animation: slideOutLeft 0.5s ease-in-out forwards;
+    animation: slideOutLeft 0.6s ease-in-out forwards;
 }
 .slideInRight {
     composes: menuRight;
     opacity: 1;
-    animation: slideInRight 0.5s ease-in-out;
+    animation: slideInRight 0.6s ease-in-out;
 }
 .slideOutRight {
     composes: menuRight;
-    animation: slideOutRight 0.5s ease-in-out forwards;
+    animation: slideOutRight 0.6s ease-in-out forwards;
 }
 .cancelButton {
     grid-area: 1/2/1/2;
@@ -56,6 +56,10 @@
     color: red;
     cursor: pointer;
     background-color: transparent;
+}
+.icon {
+    height: 20px;
+    width: 20px;
 }
 @keyframes slideOutLeft {
     90% {
@@ -85,5 +89,11 @@
     0% {
         translate: 80%;
         opacity: 0.8;
+    }
+}
+@media (min-width: 2000px) {
+    .icon {
+        height: 30px;
+        width: 30px;
     }
 }
