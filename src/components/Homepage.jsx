@@ -2,10 +2,6 @@ import styles from '../styles/HomePage.module.css'
 import image from '../assets/furniture.jpg'
 import { Link } from 'react-router'
 
-export function HydrateFallback() {
-    return <p>Skeleton rendered during SSR</p>;
-  }
-
 const HomePage = () => {
     return (
         <section className={styles.home}>

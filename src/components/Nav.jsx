@@ -5,7 +5,7 @@ import Cart from './Cart'
 import SlideMenu from "./SlideMenu";
 import styles from '../styles/Nav.module.css'
 
-const Nav = ({ cart, setCart, removeFromCart }) => {
+const Nav = ({ cart, emptyCart, removeFromCart, updateQuantity }) => {
     const [cartOpen, setCartOpen] = useState(false)
     const [cartClosing, setCartClosing] = useState(false)
     const linkClass = ({ isActive, isPending }) => isPending ? styles.pending : isActive ? styles.active : styles.link
@@ -27,7 +27,7 @@ const Nav = ({ cart, setCart, removeFromCart }) => {
                 <NavLink
                     to="shop"
                     className={(isActive, isPending) => linkClass(isActive, isPending)}
-                    onClick={() => document.startViewTransition({types: location.pathname === "/home" ? ["forward"] : ["backwards"]})}>
+                    onClick={() => document.startViewTransition({types: location.pathname === "/" ? ["forwards"] : ["backwards"]})}>
                     <h1>Store</h1>
                 </NavLink>
             </div>
@@ -36,7 +36,7 @@ const Nav = ({ cart, setCart, removeFromCart }) => {
                 { cart.length > 0 ? <p className={styles.cartNumber}>{cart.length}</p> : null }
             </button>
             <SlideMenu isOpen={cartOpen} isClosing={cartClosing} closeSlide={handleCartClose} setIsClosing={setCartClosing} position='right'>
-                <Cart cart={cart} setCart={setCart} removeFromCart={removeFromCart} setCartOpen={setCartOpen}/>
+                <Cart cart={cart} emptyCart={emptyCart} removeFromCart={removeFromCart} updateQuantity={updateQuantity} setCartOpen={setCartOpen}/>
             </SlideMenu>
         </nav>
     )

@@ -4,9 +4,8 @@ import CartItem from './CartItem'
 import Button from './Button'
 import { Link } from 'react-router'
 
-const Cart = ({ cart, setCart, removeFromCart, setCartOpen }) => {
+const Cart = ({ cart, emptyCart, removeFromCart, updateQuantity, setCartOpen }) => {
     let total = cart.reduce((prev, product) => prev + (product.price * product.quantity), 0)
-    const emptyCart = () => setCart([])
     const hasProducts = cart.length > 0
 
     return (
@@ -26,24 +25,27 @@ const Cart = ({ cart, setCart, removeFromCart, setCartOpen }) => {
             {hasProducts ?
                 <div className={styles.cartContent}>
                     <ul aria-label='cart products' className={styles.cartProducts}>
-                        {cart.map((product) => <CartItem key={product.id} product={product} setCart={setCart} removeFromCart={removeFromCart} setCartOpen={setCartOpen}/>)}
+                        {cart.map((product) => <CartItem key={product.id} product={product} updateQuantity={updateQuantity} removeFromCart={removeFromCart} setCartOpen={setCartOpen}/>)}
                     </ul>
                         <div className={styles.totalCheckout}>
                             <div className={styles.cartTotal}>
                                 <p className={styles.total}>Total</p>
-                                <h3 className={styles.totalPrice} aria-label='cart total'>${total}</h3>
+                                <h3 className={styles.title}>${total}</h3>
                             </div>
                             <Link 
                                 to={'shop/checkout'}
                                 className={`${styles.checkout} ${styles.button}`}
-                                onClick={() => setCartOpen(false)}
-                                viewTransition>
+                                onClick={() => {
+                                    setCartOpen(false)
+                                    document.startViewTransition()
+                                }}
+                                >
                                 <CreditCard className={styles.icon}></CreditCard>
                                 <p className={styles.checkoutText}>Checkout</p>
                             </Link>
                         </div>
                 </div>
-                : <p className={styles.empty} aria-label='empty cart'>Your cart is empty</p>
+                : <p className={styles.empty}>Your cart is empty</p>
                 }
         </>
     )

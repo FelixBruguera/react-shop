@@ -3,7 +3,6 @@ import data from '../../../src/data/data.json'
 export function onRequestGet(request) {
     const slug = request.params.slug[0]
     const product = data.find(prod => prod.slug === slug)
-    console.log(product)
     if (product) {
         return Response.json(product)
     }

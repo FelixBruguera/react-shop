@@ -4,22 +4,22 @@ import { Link } from 'react-router'
 import { useOutletContext } from 'react-router'
 
 const SmallProduct = ({ data, isInCart }) => {
-    const [cart, setCart, addToCart, removeFromCart] = useOutletContext().cart
+    const { addToCart, removeFromCart } = useOutletContext()
 
     return (
-        <li className={styles.smallProduct} aria-label='product'>
+        <li className={styles.smallProduct}>
             <Link to={`./${data.slug}`} className={styles.imageContainer} state={{ previousUrl: '/shop'}} onClick={() => document.startViewTransition()}>
-                <img className={styles.image} src={data.image} alt={data.title} />
+                <img className={styles.image} src={data.image} alt={data.title}/>
             </Link>
             <div className={styles.productData}>
                 <div className={styles.productInfo}>
                     <Link to={`./${data.slug}`} className={styles.link} state={{ previousUrl: '/shop'}} onClick={() => document.startViewTransition()}>
-                        <h3 className={styles.title} aria-label='product title' title={data.title}>{data.title}</h3>
+                        <h3 className={styles.title} title={data.title}>{data.title}</h3>
                     </Link>
-                    <p className={styles.category} aria-label='product category'>{data.category.name}</p>
+                    <p className={styles.category}>{data.category.name}</p>
                 </div>
                 <div className={styles.priceBuy}>
-                    <p className={styles.price} aria-label='product price'>${data.price}</p>
+                    <p className={styles.price}>${data.price}</p>
                     {isInCart
                     ?   <button
                         type='button'

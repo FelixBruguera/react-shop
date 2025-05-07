@@ -6,26 +6,18 @@ import { useState } from "react"
 import Receipt from "./Receipt"
 
 const Checkout = () => {
-    const [cart, setCart, addToCart, removeFromCart] = useOutletContext().cart
-    const [products, setProducts] = useState([])
+    const { cart, emptyCart, removeFromCart, updateQuantity } = useOutletContext()
+    const [receiptProducts, setReceiptProducts] = useState([])
     const [name, setName] = useState('')
     const [cardNumber, setCardNumber] = useState('')
     const [isSubmitted, setIsSubmitted] = useState(false)
     let total = cart.reduce((prev, product) => prev + (product.price * product.quantity), 0)
     const hasProducts = cart.length > 0
 
-    const onSubmit = (e) => {
-        e.preventDefault()
-        if (cardNumber.length < 16) { return alert('Invalid card number') }
-        setProducts(cart)
-        setIsSubmitted(true)
-        setCart([])
-    }
-
     if (isSubmitted) {
         return (
             <section className={styles.checkout}>
-                <Receipt products={products} customerName={name}/>
+                <Receipt products={receiptProducts} customerName={name}/>
             </section>
         )
     }
@@ -38,6 +30,14 @@ const Checkout = () => {
         )
     }
 
+    const onSubmit = (e) => {
+        e.preventDefault()
+        if (cardNumber.length < 16) { return alert('Invalid card number') }
+        setReceiptProducts(cart)
+        setIsSubmitted(true)
+        emptyCart()
+    }
+
     return (
         <section className={styles.checkout}>
             <div className={styles.productsWrapper}>
@@ -46,7 +46,14 @@ const Checkout = () => {
                     <p className={styles.productCount}>{cart.length} products</p>
                 </h2>
                 <ul aria-label='checkout products' className={styles.products}>
-                    {cart.map((product) => <CheckoutItem key={product.id} product={product} setCart={setCart} />)}
+                    {cart.map((product) => 
+                        <CheckoutItem 
+                            key={product.id} 
+                            product={product} 
+                            updateQuantity={updateQuantity} 
+                            removeFromCart={removeFromCart} 
+                        />
+                    )}
                 </ul>
             </div>
             <PaymentForm 

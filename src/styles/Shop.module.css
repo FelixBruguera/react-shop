@@ -6,7 +6,6 @@
     height: 88dvh;
     overflow-y: scroll;
     scroll-behavior: smooth;
-    /* view-transition-name: shop; */
 }
 .products {
     display: flex;

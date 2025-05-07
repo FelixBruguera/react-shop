@@ -3,13 +3,7 @@ import { Link } from "react-router"
 import Dropdown from "./Dropdown"
 import { CircleX } from "lucide-react"
 
-const CheckoutItem = ({ product, setCart }) => {
-    const removeFromCart = () => setCart((cart) => cart.filter(prod => prod.id !== product.id))
-    const onChange = (newQuantity) => {
-        newQuantity = parseInt(newQuantity)
-        const newProduct = {...product, quantity: newQuantity}
-        setCart(cart => cart.map(prod => prod.id === product.id ? newProduct : prod))
-    }
+const CheckoutItem = ({ product, removeFromCart, updateQuantity }) => {
     return (
         <li className={styles.item}>
             <Link 
@@ -38,7 +32,7 @@ const CheckoutItem = ({ product, setCart }) => {
                         title="Remove from cart"
                         type="button"
                         className={styles.removeButton}
-                        onClick={() => removeFromCart()}>
+                        onClick={() => removeFromCart(product.id)}>
                             <CircleX className={styles.icon}></CircleX>
                     </button>
                 </div>
@@ -49,7 +43,7 @@ const CheckoutItem = ({ product, setCart }) => {
                     currentValue={product.quantity}
                     className={styles.quantity}
                     labelClass={styles.quantityLabel}
-                    onChange={onChange}
+                    onChange={(e) => updateQuantity(product.id, e)}
                     />
                 </div>
             </div>

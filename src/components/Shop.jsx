@@ -1,6 +1,7 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 import { useOutletContext } from "react-router";
 import SmallProduct from "./SmallProduct";
+import ErrorPage from "./ErrorPage";
 import Loading from "./Loading";
 import Pages from "./Pages";
 import Button from "./Button";
@@ -17,35 +18,45 @@ export default function Shop() {
     const [totalPages, setTotalPages] = useState(0)
     const [filterOpen, setFilterOpen] = useState(false)
     const [sortOpen, setSortOpen] = useState(false)
-    const [filter, setFilter] = useOutletContext().filters
-    const [currentPage, setCurrentPage] = useOutletContext().currentPage
-    const [sort, setSort] = useOutletContext().sort
-    const [cart, setCart] = useOutletContext().cart
-    const shopRef = useRef()
+    const { filter, setFilter, 
+            currentPage, setCurrentPage, 
+            sort, setSort, 
+            cart} = useOutletContext()
+    const [error, setError] = useState(false)
     const initialFilter = JSON.stringify({min: 0, max: 1000, category: 'all'})
     const isFiltered = JSON.stringify(filter) !== initialFilter
     const isSorted = sort !== 'category'
+    async function fetchData(url, controller) {
+        const response = await fetch(url, { signal: controller.signal })
+        setIsLoading(true)
+        if (response.ok) {
+            const data = await response.json()
+            setProducts(data['products'])
+            setTotalPages(data['info']['pages'])
+            return setIsLoading(false)
+        }
+        else {
+            setIsLoading(false)
+            return setError(true)
+        }
+    }
 
     useEffect(() => {
         const controller = new AbortController();
-        setIsLoading(true)
         const url = `/api/products/?min=${filter.min}&max=${filter.max}&category=${filter.category}&sortBy=${sort}&page=${currentPage}`
-        fetch(url)
-        .then(response => response.json())
-        .then(data => {
-            setProducts(data['products'])
-            setTotalPages(data['info']['pages'])
-            setIsLoading(false)
-            shopRef.current.scrollTo({top: 0, left: 0, behavior: 'smooth'})
-        })
-        .catch(error => {
-            setIsLoading(false)
-            error
-        })
-        return () => controller.abort()
+        fetchData(url, controller)
+        setIsLoading(true)
+        return () => controller.abort('another request was received')
     }, [currentPage, filter, sort])
 
-    const cartIds = cart.length > 0 ? cart.map(product => product.id) : []
+    if (error) {
+        return <ErrorPage error="Failed to load products, please try again" />
+    }
+    if (isLoading) {
+        return <Loading />
+    }
+    
+    const cartIds = new Set(cart.map(product => product.id))
 
     const handleFilter = (filter) => {
         document.startViewTransition()
@@ -60,23 +71,18 @@ export default function Shop() {
         setSortOpen(false)
     }
 
-    if (isLoading) {
-        return <Loading />
-    }
-
     return (
-        <div className={styles.shop} ref={shopRef}>
-             <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=apparel,auto_stories,blender,category_search,desktop_windows,diamond,directions_car,grocery,self_care,sort_by_alpha,sports_and_outdoors,store,toys_and_games,trending_down,trending_up"/>            
+        <div className={styles.shop}>
             {console.log('render')}
             <div className={styles.optionsWrap}>
                 <div className={styles.options}>
-                    <Button style={filterOpen ? 'dark' : isFiltered ? 'dark' : 'light'} onClick={() => setFilterOpen(true)} label="filter">
+                    <Button style={filterOpen || isFiltered ? 'dark' : 'light'} onClick={() => setFilterOpen(true)} label="filter">
                         <div className={styles.option}>
                             <ListFilter className={styles.icon} />
                             <p>Filter</p>
                         </div>
                     </Button>
-                    <Button style={sortOpen ? 'dark' : isSorted ? 'dark' : 'light'} onClick={() => setSortOpen(true)} label="sort">
+                    <Button style={sortOpen || isSorted ? 'dark' : 'light'} onClick={() => setSortOpen(true)} label="sort">
                         <div className={styles.option}>
                             <ArrowDownUp className={styles.icon} />
                             <p>Sort</p>
@@ -85,14 +91,14 @@ export default function Shop() {
                 </div>
             </div>
             {products.length === 0 ? <h2 className={styles.noResults}>No results</h2>: null}
+            <SlideMenu isOpen={filterOpen} closeSlide={() => setFilterOpen(false)}  position='left'>
+                <Filters handleFilter={handleFilter} currentFilter={filter}/>
+            </SlideMenu>
+            <SlideMenu isOpen={sortOpen} closeSlide={() => setSortOpen(false)} position='left'>
+                <Sort handleSort={handleSort} currentSort={sort}/>
+            </SlideMenu>
             <ul className={styles.products} aria-label="products">
-                <SlideMenu isOpen={filterOpen} closeSlide={() => setFilterOpen(false)}  position='left'>
-                    <Filters handleFilter={handleFilter} currentFilter={filter}/>
-                </SlideMenu>
-                <SlideMenu isOpen={sortOpen} closeSlide={() => setSortOpen(false)} position='left'>
-                    <Sort handleSort={handleSort} currentSort={sort}/>
-                </SlideMenu>
-                {products.map(product => <SmallProduct key={product.id} data={product} setCart={setCart} isInCart={cartIds.includes(product.id)}/>)}
+                {products.map(product => <SmallProduct key={product.id} data={product} isInCart={cartIds.has(product.id)}/>)}
             </ul>
             <Pages pageTotal={totalPages} currentPage={currentPage} setPage={setCurrentPage}/>
         </div>
