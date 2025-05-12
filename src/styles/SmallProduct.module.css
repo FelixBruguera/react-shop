@@ -34,25 +34,6 @@
     }
     border: 1px solid rgba(0,0,0, 0.15);
     transform: scale(1.03);
-    /* background-color: #dddddddd; */
-    /* background-color: var(--accent-color);
-    border: 1px solid rgba(0,0,0, 0.0000001);
-    .link, .price {
-        color: white;
-    }
-    .category {
-        background-color: lightsteelblue;
-    }
-    .button {
-        background-color: white;
-        color: black;
-        fill: white;
-    }
-    .button:hover {
-        cursor: pointer;
-        background-color: black;
-        color: white;
-    } */
 }
 .image {
     max-width: 100%;
@@ -62,10 +43,10 @@
     border-top-right-radius: 5px;
 }
 .title {
-    width: 100%;
+    width: 90%;
     font-weight: 600;
     text-align: start;
-    margin: 0;
+    margin: 2% auto 0% auto;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -103,11 +84,11 @@
     background-color: darkred;
 }
 .icon {
-    height: 3dvh;
+    height: 3.5dvh;
     width: fit-content;
 }
 @media (max-width: 700px) {
     .icon {
-        height: 2dvh;
+        height: 2.5dvh;
     }
 }

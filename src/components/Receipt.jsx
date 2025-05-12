@@ -3,7 +3,6 @@ import styles from "../styles/Checkout.module.css"
 const Receipt = ({ products, customerName }) => {
     const orderNumber = Math.floor(Math.random()*1000)
     const total = products.reduce((prev, product) => prev + (product.price * product.quantity), 0)
-    console.log(total)
 
     return (
         <section className={styles.receiptContainer}>

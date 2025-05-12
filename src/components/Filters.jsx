@@ -56,6 +56,7 @@ const Filters = ({ handleFilter, currentFilter }) => {
                     <div className={styles.inputContainer}>
                         <label htmlFor="minimum">Min</label>
                         <input
+                            required
                             className={styles.priceInput}
                             type="number"
                             title='Minimum price'
@@ -71,6 +72,7 @@ const Filters = ({ handleFilter, currentFilter }) => {
                     <div className={styles.inputContainer}>
                         <label htmlFor="maximum">Max</label>
                         <input
+                            required
                             className={styles.priceInput}
                             type="number"
                             title='Maximum price'

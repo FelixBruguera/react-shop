@@ -1,0 +1,45 @@
+.quantity {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.input {
+    font-size: 0.75rem;
+    height: 3dvh;
+    width: max(25px, 2.5dvw);
+    padding: 2%;
+    border-radius: 5px;
+    outline: rgba(0, 0, 0, 0.2);
+    border: 1px solid transparent
+}
+.invalidInput {
+    composes: input;
+    outline: 1px solid red
+}
+.input:hover, .input:active {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.arrow {
+    cursor: pointer;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    font-weight: 600;
+    background-color: white;
+    height: 4dvh;
+    width: max(30px, 2dvw);
+}
+.disabledArrow {
+    composes: arrow;
+    background-color: transparent;
+}
+.disabledArrow:hover {
+    background-color: transparent;
+    color: black;
+    cursor: auto;
+}
+.arrow:not(.disabledArrow):hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    height: 4dvh;
+}

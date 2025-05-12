@@ -1,3 +1,7 @@
+:root {
+    --animation-delay: 0.3s;
+    --animation-curve: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
 .menu {
     display: grid;
     grid-template-columns: 9.5fr 0.5fr;
@@ -25,20 +29,20 @@
 .slideInLeft {
     composes: menuLeft;
     opacity: 1;
-    animation: slideInLeft 0.6s ease-in-out;
+    animation: slideInLeft var(--animation-delay) var(--animation-curve);
 }
 .slideOutLeft {
     composes: menuLeft;
-    animation: slideOutLeft 0.6s ease-in-out forwards;
+    animation: slideOutLeft var(--animation-delay) var(--animation-curve) forwards;
 }
 .slideInRight {
     composes: menuRight;
     opacity: 1;
-    animation: slideInRight 0.6s ease-in-out;
+    animation: slideInRight var(--animation-delay) var(--animation-curve);
 }
 .slideOutRight {
     composes: menuRight;
-    animation: slideOutRight 0.6s ease-in-out forwards;
+    animation: slideOutRight var(--animation-delay) var(--animation-curve) forwards;
 }
 .cancelButton {
     grid-area: 1/2/1/2;
@@ -58,42 +62,44 @@
     background-color: transparent;
 }
 .icon {
-    height: 20px;
-    width: 20px;
+    composes: icon from "./SmallProduct.module.css"
 }
 @keyframes slideOutLeft {
-    90% {
+    30% {
         opacity: 1;
     }
     100% {
-        translate: -100%;
+        translate: -20%;
         opacity: 0;
     }
 }
 @keyframes slideInLeft {
     0% {
-        translate: -80%;
-        opacity: 0.8;
+        translate: -20%;
+        opacity: 0.1;
     }
 }
 @keyframes slideOutRight {
-    90% {
+    30% {
         opacity: 1;
     }
     100% {
-        translate: 100%;
         opacity: 0;
+        translate: 20%;
     }
 }
 @keyframes slideInRight {
     0% {
-        translate: 80%;
-        opacity: 0.8;
+        translate: 20%;
+        opacity: 0.1;
+    }
+    50% {
+        opacity: 1;
     }
 }
-@media (min-width: 2000px) {
+/* @media (min-width: 2000px) {
     .icon {
         height: 30px;
         width: 30px;
     }
-}
+} */

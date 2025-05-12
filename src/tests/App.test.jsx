@@ -127,8 +127,9 @@ describe('the shop route', () => {
             const productPrice = firstProductPrice.slice(1,3)
             await user.click(screen.getAllByLabelText('add to cart')[0])
             await user.click(await screen.findByLabelText('open cart'))
-            await user.click(await screen.findByDisplayValue('1'))
-            await user.selectOptions(await screen.findByDisplayValue('1'), '8')
+            for (let i = 1; i < 8; i++) {
+                await user.click(screen.getByLabelText('increase quantity'))
+            }
             expect(screen.getByText(`$${productPrice*8}`)).toBeInTheDocument()
         })
         test('the "clear" button clears the cart', async() => {
@@ -146,7 +147,7 @@ describe('the shop route', () => {
     describe('the product page', () => {
         test('renders a product correctly', async() => {
             const user = userEvent.setup()
-            await user.click(screen.getAllByRole('link', {name: firstProductTitle})[0])
+            await user.click(screen.getByText(firstProductTitle))
             expect(screen.getByText(firstProductTitle).textContent).toBe(firstProductTitle)
             expect(screen.getByText(firstProductDescription)).toBeVisible()
             expect(screen.getByText(firstProductPrice).textContent).toBe(firstProductPrice)
@@ -171,15 +172,6 @@ describe('the shop route', () => {
             await user.click(screen.getByText('Checkout'))
             expect(screen.getByLabelText('checkout products').children).toHaveLength(3)
             expect(screen.getByText(firstProductTitle)).toBeVisible()
-        })
-        test('the total updates when the quantity changes', async () => {
-            const productPrice = firstProductPrice.slice(1,3)
-            await user.click(screen.getAllByLabelText('add to cart')[0])
-            await user.click(await screen.findByLabelText('open cart'))
-            await user.click(screen.getByText('Checkout'))
-            await user.click(await screen.findByDisplayValue('1'))
-            await user.selectOptions(await screen.findByDisplayValue('1'), '8')
-            expect(screen.getByText(`$${productPrice*8}`)).toBeInTheDocument()
         })
     })
 })

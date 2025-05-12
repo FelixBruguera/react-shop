@@ -2,7 +2,6 @@ import { useEffect, useState } from "react"
 import { useParams } from "react-router"
 import styles from "../styles/Product.module.css"
 import Loading from "./Loading"
-import { ShoppingCart, X, CircleArrowLeft } from "lucide-react"
 import { useOutletContext, useLocation, Link } from "react-router"
 import ErrorPage from "./ErrorPage"
 
@@ -34,21 +33,19 @@ const Product = () => {
         return () => { controller.abort('another request was received') }
     }, [params.slug])
 
-    console.log(error)
     if (error) { return  <ErrorPage error="Failed to load the product, please try again"/> }
     if (isLoading) { return <Loading /> }
     const isInCart = cart.some(product => product.id === data.id)
 
     return (
         <div className={styles.product}>
-            {console.log("rendered product")}
             <div className={styles.productTop}>
                 <Link to= {location?.previousUrl || "/shop"}
                     className={styles.goBack}
                     title="Go back"
                     aria-label="go back"
                     onClick={() => document.startViewTransition({types: ['backwards']})}>
-                        <CircleArrowLeft className={styles.icon}/>
+                        <img src="/circleArrowLeft.png" alt="arrow left" className={styles.icon}/>
                 </Link>
                 <div className={styles.imageContainer}>
                     <img className={styles.image} src={data.image} loading="lazy" alt={data.title}/>
@@ -67,7 +64,7 @@ const Product = () => {
                             title='Remove from cart'
                             className={styles.buttonRed}
                             onClick={() => removeFromCart(data.id)}>
-                                <X size={24}/>
+                                <img src="/x.png" alt="X" className={styles.icon}/>
                             </button>
                         :   <button
                             type='button'
@@ -75,7 +72,7 @@ const Product = () => {
                             title='Add to cart'
                             className={styles.button}
                             onClick={() => addToCart(data)}>
-                                <ShoppingCart className={styles.icon}/>
+                                <img src="/shoppingCart.png" className={styles.icon}/>
                             </button>
                         }
                     </div>

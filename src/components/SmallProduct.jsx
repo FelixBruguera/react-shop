@@ -1,21 +1,18 @@
+import { memo } from 'react'
 import styles from '../styles/SmallProduct.module.css'
-import { ShoppingCart, X } from 'lucide-react'
 import { Link } from 'react-router'
-import { useOutletContext } from 'react-router'
 
-const SmallProduct = ({ data, isInCart }) => {
-    const { addToCart, removeFromCart } = useOutletContext()
+
+const SmallProduct = memo(({ data, isInCart, addToCart, removeFromCart }) => {
 
     return (
         <li className={styles.smallProduct}>
-            <Link to={`./${data.slug}`} className={styles.imageContainer} state={{ previousUrl: '/shop'}} onClick={() => document.startViewTransition()}>
+            <Link to={`./${data.slug}`} className={styles.link} state={{ previousUrl: '/shop'}} onClick={() => document.startViewTransition()}>
                 <img className={styles.image} src={data.image} alt={data.title}/>
+                <h3 className={styles.title} title={data.title}>{data.title}</h3>
             </Link>
             <div className={styles.productData}>
                 <div className={styles.productInfo}>
-                    <Link to={`./${data.slug}`} className={styles.link} state={{ previousUrl: '/shop'}} onClick={() => document.startViewTransition()}>
-                        <h3 className={styles.title} title={data.title}>{data.title}</h3>
-                    </Link>
                     <p className={styles.category}>{data.category.name}</p>
                 </div>
                 <div className={styles.priceBuy}>
@@ -27,7 +24,7 @@ const SmallProduct = ({ data, isInCart }) => {
                         title='Remove from cart'
                         className={styles.buttonRed}
                         onClick={() => removeFromCart(data.id)}>
-                            <X className={styles.icon}/>
+                            <img src='/x.png' alt="X" className={styles.icon}/>
                         </button>
                     :   <button
                         type='button'
@@ -35,7 +32,7 @@ const SmallProduct = ({ data, isInCart }) => {
                         title='Add to cart'
                         className={styles.button}
                         onClick={() => addToCart(data)}>
-                            <ShoppingCart className={styles.icon}/>
+                            <img src='/shoppingCart.png' alt="Shopping cart" className={styles.icon}/>
                         </button>
                     }
                 </div>
@@ -43,6 +40,6 @@ const SmallProduct = ({ data, isInCart }) => {
         </li>
     )
 
-}
+})
 
 export default SmallProduct

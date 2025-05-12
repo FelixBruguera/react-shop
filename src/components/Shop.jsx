@@ -21,7 +21,7 @@ export default function Shop() {
     const { filter, setFilter, 
             currentPage, setCurrentPage, 
             sort, setSort, 
-            cart} = useOutletContext()
+            cart, addToCart, removeFromCart} = useOutletContext()
     const [error, setError] = useState(false)
     const initialFilter = JSON.stringify({min: 0, max: 1000, category: 'all'})
     const isFiltered = JSON.stringify(filter) !== initialFilter
@@ -49,6 +49,8 @@ export default function Shop() {
         return () => controller.abort('another request was received')
     }, [currentPage, filter, sort])
 
+    const cartIds = new Set(cart.map(product => product.id))
+
     if (error) {
         return <ErrorPage error="Failed to load products, please try again" />
     }
@@ -56,7 +58,6 @@ export default function Shop() {
         return <Loading />
     }
     
-    const cartIds = new Set(cart.map(product => product.id))
 
     const handleFilter = (filter) => {
         document.startViewTransition()
@@ -73,7 +74,6 @@ export default function Shop() {
 
     return (
         <div className={styles.shop}>
-            {console.log('render')}
             <div className={styles.optionsWrap}>
                 <div className={styles.options}>
                     <Button style={filterOpen || isFiltered ? 'dark' : 'light'} onClick={() => setFilterOpen(true)} label="filter">
@@ -98,7 +98,7 @@ export default function Shop() {
                 <Sort handleSort={handleSort} currentSort={sort}/>
             </SlideMenu>
             <ul className={styles.products} aria-label="products">
-                {products.map(product => <SmallProduct key={product.id} data={product} isInCart={cartIds.has(product.id)}/>)}
+                {products?.map(product => <SmallProduct key={product.id} data={product} isInCart={cartIds.has(product.id)} addToCart={addToCart} removeFromCart={removeFromCart} /> )}
             </ul>
             <Pages pageTotal={totalPages} currentPage={currentPage} setPage={setCurrentPage}/>
         </div>

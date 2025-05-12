@@ -1,9 +1,8 @@
 import { ArrowLeft, ArrowRight } from "lucide-react";
-import { Link } from "react-router";
 import styles from '../styles/Pages.module.css'
+import { memo } from "react";
 
-const Pages = ({ pageTotal, currentPage, setPage }) => {
-    const pages = [...Array(pageTotal).keys()].map(n => n + 1)
+const Pages = memo(({ pageTotal, currentPage, setPage }) => {
     const previousPage = () => { 
         if (currentPage > 1) { 
             setPage(currentPage - 1)
@@ -21,7 +20,7 @@ const Pages = ({ pageTotal, currentPage, setPage }) => {
         document.startViewTransition({types: i > currentPage ? ['forwards'] : ['backwards']})
         }
         
-    if (pages.length === 0) { return null }
+    if (pageTotal === 0) { return null }
     return (
         <nav aria-label="pages">
             <ul className={styles.pages}>
@@ -34,17 +33,21 @@ const Pages = ({ pageTotal, currentPage, setPage }) => {
                     role="button">
                         <ArrowLeft size={20}/>
                 </li>
-                { pages.map(i =>
-                    <li key={i}
-                    aria-label={`page ${i}`}
-                    aria-current={i === currentPage ? 'page' : null}
-                    title={`page ${i}`}
-                    tabIndex={0}
-                    className={i === currentPage ? styles.currentPage : styles.page}
-                    onClick={() => pageChange(i)}
-                    onKeyDown={(e) => e.key === 'Enter' ? pageChange(i) : null}>
-                    {i}
-                    </li>
+                { [...Array(pageTotal).keys()].map(i => {
+                    const page = i + 1
+                    return (
+                        <li key={page}
+                            aria-label={`page ${page}`}
+                            aria-current={page === currentPage ? 'page' : null}
+                            title={`page ${page}`}
+                            tabIndex={0}
+                            className={page === currentPage ? styles.currentPage : styles.page}
+                            onClick={() => pageChange(page)}
+                            onKeyDown={(e) => e.key === 'Enter' ? pageChange(page) : null}>
+                            {page}
+                        </li>
+                    )
+                    }
                 )}
                 <li key={'next'}
                     className={currentPage === pageTotal ? styles.disabledArrow : styles.arrow}
@@ -58,6 +61,6 @@ const Pages = ({ pageTotal, currentPage, setPage }) => {
             </ul>
         </nav>
     )
-}
+})
 
 export default Pages

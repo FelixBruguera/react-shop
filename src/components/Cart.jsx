@@ -2,11 +2,15 @@ import styles from '../styles/Cart.module.css'
 import { CreditCard } from 'lucide-react'
 import CartItem from './CartItem'
 import Button from './Button'
-import { Link } from 'react-router'
+import { Link, useLocation } from 'react-router'
 
 const Cart = ({ cart, emptyCart, removeFromCart, updateQuantity, setCartOpen }) => {
-    let total = cart.reduce((prev, product) => prev + (product.price * product.quantity), 0)
+    let total = cart.reduce((prev, product) => {
+        if (isNaN(product.quantity)) { return prev + 0 }
+        return prev + (product.price * product.quantity)
+    }, 0)
     const hasProducts = cart.length > 0
+    const location = useLocation()
 
     return (
         <>
@@ -25,7 +29,17 @@ const Cart = ({ cart, emptyCart, removeFromCart, updateQuantity, setCartOpen }) 
             {hasProducts ?
                 <div className={styles.cartContent}>
                     <ul aria-label='cart products' className={styles.cartProducts}>
-                        {cart.map((product) => <CartItem key={product.id} product={product} updateQuantity={updateQuantity} removeFromCart={removeFromCart} setCartOpen={setCartOpen}/>)}
+                        {cart.map((product) => 
+                            <CartItem 
+                                key={product.id} 
+                                className={styles.cartItem} 
+                                product={product} 
+                                updateQuantity={updateQuantity}
+                                removeFromCart={removeFromCart}
+                                setCartOpen={setCartOpen}
+                                previousUrl={location.pathname}
+                            />
+                        )}
                     </ul>
                         <div className={styles.totalCheckout}>
                             <div className={styles.cartTotal}>
