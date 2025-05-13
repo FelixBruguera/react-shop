@@ -2,6 +2,8 @@
 
 An online store build with React, this project is part of The Odin Project's curriculum: https://www.theodinproject.com/lessons/react-new-shopping-cart
 
+https://react-shop-5lc.pages.dev/
+
 # Features:
 
 * Routing:
