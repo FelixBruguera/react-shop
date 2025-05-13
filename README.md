@@ -1,12 +1,31 @@
-# React + Vite
+# Fake Shop
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An online store build with React, this project is part of The Odin Project's curriculum: https://www.theodinproject.com/lessons/react-new-shopping-cart
 
-Currently, two official plugins are available:
+# Features:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* Routing:
 
-## Expanding the ESLint configuration
+  * Two main routes: Home and Shop
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+  * Nested routes within Shop: Product details and Checkout
+
+* Product filtering and sorting functionality
+
+* Shopping cart management
+
+* Credit card number validation
+
+# Things I learned:
+
+During the development of this project, I gained experience with:
+
+* React, React Router and the basics of Cloudflare Functions
+
+* Using the View Transitions API
+
+* Using memoization to avoid unnecessary re-renders
+
+* Using the React DevTools Profiler to measure the performance and the rendering order of all components
+
+* Mocking the API with MSW (Mock Service Worker) to test the frontend
