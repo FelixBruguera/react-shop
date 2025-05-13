@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import { useParams } from "react-router"
 import styles from "../styles/Product.module.css"
-import Loading from "./Loading"
+import ProductSkeleton from "./ProductSkeleton"
 import { useOutletContext, useLocation, Link } from "react-router"
 import ErrorPage from "./ErrorPage"
 
@@ -34,7 +34,7 @@ const Product = () => {
     }, [params.slug])
 
     if (error) { return  <ErrorPage error="Failed to load the product, please try again"/> }
-    if (isLoading) { return <Loading /> }
+    if (isLoading) { return <ProductSkeleton /> }
     const isInCart = cart.some(product => product.id === data.id)
 
     return (

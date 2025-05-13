@@ -51,6 +51,11 @@
     text-align: center;
     padding: 10%;
 }
+.loadingOption {
+    composes: loading from "./SmallProduct.module.css";
+    height: 6dvh;
+    width: max(9dvw, 80px);
+}
 ::view-transition-old(root) {
     animation: slideToLeft var(--view-transition-delay) var(--view-transition-curve);
 }

@@ -10,6 +10,7 @@ import { ListFilter, ArrowDownUp } from "lucide-react";
 import Filters from "./Filters";
 import Sort from "./Sort";
 import SlideMenu from "./SlideMenu";
+import ShopSkeleton from "./ShopSkeleton";
 
 
 export default function Shop() {
@@ -28,7 +29,6 @@ export default function Shop() {
     const isSorted = sort !== 'category'
     async function fetchData(url, controller) {
         const response = await fetch(url, { signal: controller.signal })
-        setIsLoading(true)
         if (response.ok) {
             const data = await response.json()
             setProducts(data['products'])
@@ -42,10 +42,10 @@ export default function Shop() {
     }
 
     useEffect(() => {
+        setIsLoading(true)
         const controller = new AbortController();
         const url = `/api/products/?min=${filter.min}&max=${filter.max}&category=${filter.category}&sortBy=${sort}&page=${currentPage}`
         fetchData(url, controller)
-        setIsLoading(true)
         return () => controller.abort('another request was received')
     }, [currentPage, filter, sort])
 
@@ -55,7 +55,7 @@ export default function Shop() {
         return <ErrorPage error="Failed to load products, please try again" />
     }
     if (isLoading) {
-        return <Loading />
+        return <ShopSkeleton />
     }
     
 
@@ -90,7 +90,7 @@ export default function Shop() {
                     </Button>
                 </div>
             </div>
-            {products.length === 0 ? <h2 className={styles.noResults}>No results</h2>: null}
+            {products?.length === 0 ? <h2 className={styles.noResults}>No results</h2>: null}
             <SlideMenu isOpen={filterOpen} closeSlide={() => setFilterOpen(false)}  position='left'>
                 <Filters handleFilter={handleFilter} currentFilter={filter}/>
             </SlideMenu>

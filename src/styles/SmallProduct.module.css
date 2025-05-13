@@ -36,8 +36,7 @@
     transform: scale(1.03);
 }
 .image {
-    max-width: 100%;
-    /* max-height: 50%; */
+    width: 100%;
     aspect-ratio: 4/3;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -86,6 +85,50 @@
 .icon {
     height: 3.5dvh;
     width: fit-content;
+}
+.loading {
+    background-color: lightgrey;
+    outline: none;
+    border-radius: 15px;
+    animation: loading-animation 2s ease-in-out infinite;
+    transition: background-color 0.3s ease-in-out;
+}
+.loadingImage {
+    composes: loading;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.loadingTitle {
+    composes: loading;
+    display: flex;
+    height: 4dvh;
+}
+.loadingPrice {
+    composes: loading;
+    display: flex;
+    height: 60%;
+    width: 15%;
+    margin: 20px 0px;
+}
+.loadingCategory {
+    composes: loading;
+    display: flex;
+    width: 25%;
+    height: 2dvh;
+    margin: 12px 0px;
+}
+.loadingButton {
+    composes: loading;
+    width: 12%;
+    height: 55%;
+    padding: 0.5rem 1rem;
+}
+@keyframes loading-animation {
+    50% {
+        background-color: rgb(230, 230, 230);
+    }
 }
 @media (max-width: 700px) {
     .icon {

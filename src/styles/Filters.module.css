@@ -44,7 +44,6 @@
     gap: 1dvw;
 }
 .category:has(input[type=radio]:checked) {
-    /* #2E5090 */
     background-color: var(--accent-color);
     color: white;
 }

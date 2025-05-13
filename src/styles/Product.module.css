@@ -86,6 +86,42 @@
 .icon {
     composes: icon from "./Shop.module.css"
 }
+.loading {
+    composes: loading from "./SmallProduct.module.css";
+}
+.loadingImage {
+    composes: loading;
+    aspect-ratio: 4/3;
+    height: 100%;
+    width: 100%;
+}
+.loadingTitle {
+    composes: loading;
+    height: 5dvh;
+    margin: 3% 0;
+    width: 40%;
+}
+.loadingCategory {
+    composes: loading;
+    height: 5dvh;
+    width: 6dvw;
+}
+.loadingDescription {
+    composes: loading;
+    height: 15dvh;
+    margin: 1em 0;
+    width: 100%;
+}
+.loadingButton {
+    composes: loading;
+    height: 7dvh;
+    width: 10%;
+}
+.loadingPrice {
+    composes: loading;
+    width: 6%;
+    height: 8dvh;
+}
 @media (max-width: 700px) {
     .product {
         flex-direction: column;
