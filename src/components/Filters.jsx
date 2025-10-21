@@ -8,20 +8,21 @@ const Filters = ({ handleFilter, currentFilter }) => {
     const [min, setMin] = useState(currentFilter.min)
     const [max, setMax] = useState(currentFilter.max)
     const [category, setCategory] = useState(currentFilter.category)
+    const iconSize = 20
     const categoryIcons = {
-        guitars: <Guitar />,
-        "keyboards-pianos": <Piano />,
-        "drums-percussion": <Drum />,
-        "recording-equipment": <Mic />,
-        "live-sound": <Radio />,
-        "dj-equipment": <Play />,
-        "accessories": <ListMusic />,
-        "vinyl-records": <Disc3 />,
-        "amplifiers": <Speaker />,
-        "pedals-effects": <AudioWaveform />,
-        "music-software": <Laptop />,
-        "books-media": <FileMusic />,
-        "merchandise": <Shirt />,
+        guitars: <Guitar size={iconSize}/>,
+        "keyboards-pianos": <Piano size={iconSize}/>,
+        "drums-percussion": <Drum size={iconSize}/>,
+        "recording-equipment": <Mic size={iconSize}/>,
+        "live-sound": <Radio size={iconSize}/>,
+        "dj-equipment": <Play size={iconSize}/>,
+        "accessories": <ListMusic size={iconSize}/>,
+        "vinyl-records": <Disc3 size={iconSize}/>,
+        "amplifiers": <Speaker size={iconSize}/>,
+        "pedals-effects": <AudioWaveform size={iconSize}/>,
+        "music-software": <Laptop size={iconSize}/>,
+        "books-media": <FileMusic size={iconSize}/>,
+        "merchandise": <Shirt size={iconSize}/>,
     }
 
     const handleSubmit = (e) => {
@@ -56,9 +57,7 @@ const Filters = ({ handleFilter, currentFilter }) => {
                                onChange={(e) => setCategory(e.target.value)}
                                checked={category === cat.slug ? true : false }/>
                                <label htmlFor={cat.slug} className={styles.label}>
-                                <span className="material-symbols-outlined">
-                                    {categoryIcons[cat.slug]}
-                                </span>
+                                {categoryIcons[cat.slug]}
                                 <p className={styles.categoryName}>{cat.name}</p></label>
                             </div>
                         )
@@ -100,7 +99,7 @@ const Filters = ({ handleFilter, currentFilter }) => {
                         />
                     </div>
                 </div>
-                <div className={styles.buttons}>
+                                <div className={styles.buttons}>
                     <Button style='light' type='button' label='reset filter' onClick={reset}>
                         Reset
                     </Button>

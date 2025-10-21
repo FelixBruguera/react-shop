@@ -8,8 +8,10 @@
     padding: 0.5rem 1rem;
     transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
     font-weight: 600;
-    min-height: 5dvh;
-    min-width: 5dvw;
+    height: 5dvh;
+    width: 5dvw;
+    max-width: 100px;
+    max-height: 50px;
     height: fit-content;
     width: fit-content;
     border: 1px solid rgba(0, 0, 0, 0.25);

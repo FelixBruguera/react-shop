@@ -1,3 +1,4 @@
+import { CircleX, X } from 'lucide-react'
 import styles from '../styles/SlideMenu.module.css'
 import { useState } from 'react'
 
@@ -25,7 +26,7 @@ const SlideMenu = ({ children, isOpen, closeSlide, position}) => {
                 title='close slide'
                 onClick={() => setIsClosing(true)}
             >
-                <img src='/circleX.png' alt='Close' className={styles.icon}/>
+                <CircleX size={18} aria-label='Close'/>
             </button>
             {children}
         </dialog>

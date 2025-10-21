@@ -1,14 +1,16 @@
 import { useState } from "react"
 import Button from "./Button"
 import styles from '../styles/Filters.module.css'
+import { ArrowDownAZ, TrendingDown, TrendingUp } from "lucide-react"
 
 const Sort = ({ handleSort, currentSort }) => {
     const [option, setOption] = useState(currentSort)
+    const iconSize = 20
     const options = [
-        {slug: 'lowest', name: 'Lowest price', logo: 'trending_down'}, 
-        {slug: 'highest', name: 'Highest price', logo: 'trending_up'},
-        {slug: 'category', name: 'Category (A-Z)', logo: 'category_search'}, 
-        {slug: 'name', name: 'Name (A-Z)', logo: 'sort_by_alpha'}
+        {slug: 'lowest', name: 'Lowest price', logo: <TrendingDown size={iconSize}/>}, 
+        {slug: 'highest', name: 'Highest price', logo: <TrendingUp size={iconSize}/>},
+        {slug: 'category', name: 'Category (A-Z)', logo: <ArrowDownAZ size={iconSize}/>}, 
+        {slug: 'name', name: 'Name (A-Z)', logo: <ArrowDownAZ size={iconSize}/>}
     ]
     const handleSubmit = (e) => {
         e.preventDefault()
@@ -31,9 +33,7 @@ const Sort = ({ handleSort, currentSort }) => {
                         onChange={(e) => setOption(e.target.value)}
                         checked={option === opt.slug ? true : false }/>
                         <label htmlFor={opt.slug} className={styles.label}>
-                            <span className="material-symbols-outlined">
-                                {opt.logo}
-                            </span>
+                            {opt.logo}
                             <p className={styles.categoryName}>{opt.name}</p></label>
                         </div>
                         )
