@@ -2,11 +2,27 @@ import categories from '../data/categories.json'
 import Button from './Button'
 import styles from '../styles/Filters.module.css'
 import { useState } from 'react'
+import { Drum, Guitar, ListMusic, Mic, Piano, Radio, Speaker, AudioWaveform, Laptop, Shirt, Disc3, Play, FileMusic, Music } from 'lucide-react'
 
 const Filters = ({ handleFilter, currentFilter }) => {
     const [min, setMin] = useState(currentFilter.min)
     const [max, setMax] = useState(currentFilter.max)
     const [category, setCategory] = useState(currentFilter.category)
+    const categoryIcons = {
+        guitars: <Guitar />,
+        "keyboards-pianos": <Piano />,
+        "drums-percussion": <Drum />,
+        "recording-equipment": <Mic />,
+        "live-sound": <Radio />,
+        "dj-equipment": <Play />,
+        "accessories": <ListMusic />,
+        "vinyl-records": <Disc3 />,
+        "amplifiers": <Speaker />,
+        "pedals-effects": <AudioWaveform />,
+        "music-software": <Laptop />,
+        "books-media": <FileMusic />,
+        "merchandise": <Shirt />,
+    }
 
     const handleSubmit = (e) => {
         e.preventDefault()
@@ -30,9 +46,7 @@ const Filters = ({ handleFilter, currentFilter }) => {
                         checked={category === 'all' ? true : false }
                     />
                     <label htmlFor='all' className={styles.label}>
-                    <span className="material-symbols-outlined">
-                            store
-                    </span>
+                        <Music />
                     <p className={styles.categoryName}>All</p></label>
                     </div>
                     { categories.map(cat => {
@@ -43,7 +57,7 @@ const Filters = ({ handleFilter, currentFilter }) => {
                                checked={category === cat.slug ? true : false }/>
                                <label htmlFor={cat.slug} className={styles.label}>
                                 <span className="material-symbols-outlined">
-                                    {cat.logo}
+                                    {categoryIcons[cat.slug]}
                                 </span>
                                 <p className={styles.categoryName}>{cat.name}</p></label>
                             </div>

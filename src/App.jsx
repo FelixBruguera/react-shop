@@ -22,7 +22,6 @@ function App() {
 
   return (
     <div className={styles.app}>
-       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=apparel,auto_stories,blender,category_search,desktop_windows,diamond,directions_car,grocery,self_care,sort_by_alpha,sports_and_outdoors,store,toys_and_games,trending_down,trending_up"/>            
       <Nav cart={cart} emptyCart={emptyCart} removeFromCart={removeFromCart} updateQuantity={updateQuantity}/>
       <Outlet context={
         {
