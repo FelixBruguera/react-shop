@@ -7,7 +7,7 @@ const Button = ({ style, type, onClick, label, title, children }) => {
         type={type || 'button'} 
         aria-label={label}
         title={title}
-        onClick={() => onClick()}>
+        onClick={onClick ? () => onClick() : null}>
             {children}
         </button>
     )
