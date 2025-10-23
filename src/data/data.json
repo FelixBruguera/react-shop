@@ -1455,30 +1455,6 @@
     ]
   },
   {
-    "id": 63,
-    "slug": "nirvana-nevermind",
-    "title": "Nirvana - Nevermind (1991)",
-    "description": "The album that brought alternative rock to the masses and defined the sound of the grunge era. Includes the genre-defining anthem 'Smells Like Teen Spirit' and other classics like 'Come As You Are.' Its raw power is best felt on vinyl.",
-    "price": 24,
-    "details": [
-      "Genre: Grunge, Alternative Rock",
-      "Format: 12\" LP",
-      "Speed: 33 RPM",
-      "Release Year: 1991",
-      "Full-size iconic cover art",
-      "Remastered from original analog tapes"
-    ],
-    "category": {
-      "id": 9,
-      "slug": "vinyl-records",
-      "name": "Vinyl Records"
-    },
-    "images": [
-      "/nirvana-nevermind.webp",
-      "/nirvana-nevermind-2.webp"
-    ]
-  },
-  {
     "id": 64,
     "slug": "amy-winehouse-back-to-black",
     "title": "Amy Winehouse - Back to Black (2006)",
