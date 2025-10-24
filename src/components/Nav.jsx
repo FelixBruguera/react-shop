@@ -22,13 +22,7 @@ const Nav = ({ cart, emptyCart, removeFromCart, updateQuantity }) => {
                     to="/"
                     className={(isActive, isPending) => linkClass(isActive, isPending)}
                     onClick={() => document.startViewTransition({types: ["backwards"]})}>
-                    <h1>Home</h1>
-                </NavLink>
-                <NavLink
-                    to="shop"
-                    className={(isActive, isPending) => linkClass(isActive, isPending)}
-                    onClick={() => document.startViewTransition({types: location.pathname === "/" ? ["forwards"] : ["backwards"]})}>
-                    <h1>Store</h1>
+                    <h1>Music Shop</h1>
                 </NavLink>
             </div>
             <button aria-label='open cart' className={styles.cart} onClick={() => setCartOpen(true)}>
