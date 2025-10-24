@@ -2,37 +2,132 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-direction: column;
 }
 .images {
     width: 33%;
 }
 .image {
     width: 100%;
+    height: 90dvh;
 }
-.leftSide {
-    height: 100%;
-    width: 50%;
+.link {
+    text-decoration: none;
+}
+.mainTextContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    row-gap: 1rem;
+    height: 70%;
+}
+.imageText {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.button {
+.imageText > h1 {
+    font-size: 4rem;
+    margin: 0;
+    color: black;
+    transition: color 0.3s ease-in-out;
+    font-weight: 800;
+}
+.imageText > h1:hover {
+    color: var(--accent-color);
+}
+.imageText > p {
+    font-size: 1.25rem;
+    color: black;
+    margin: 0;
+    font-weight: 600;
+}
+.mainImageContainer {
+    width: 100%;
+    height: 85dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/main_bg.webp");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.sideBySide {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 95dvh;
+    padding: 0% 5%;
+}
+.sideBySideImg {
+    width: 45%;
+    border-radius: 0.5rem;
+}
+.sideBySideText {
+    display: flex;
+    flex-direction: column;
+    max-width: 55%;
+    align-items: center;
+    justify-content: start;
+    height: 59.5%;
+}
+.sideBySideText > h1, .itemList > h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+    margin: 0;
+    color: black;
+    border-radius: 0.5rem;
+}
+.sideBySideText > h1 {
+    width: 85%;
+    text-decoration: 5px solid underline;
+}
+.sideBySideText > p {
+    text-align: justify;
+    width: 80%;
+    font-size: 1rem;
+}
+.itemList {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 90dvh;
+    gap: 2dvh;
+}
+.itemList > ul {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    text-decoration: none;
-    border-radius: 10px;
-    font-size: 1rem;
-    background-color: var(--accent-color);
-    color: white;
-    padding: 2%;
-    margin: 10px;
-    transition: background-color 0.15s ease-in-out;
-    font-weight: 600;
+    list-style: none;
+    flex-wrap: wrap;
+    row-gap: 1dvh;
 }
-.button:hover {
-    background-color: black;
+.itemList > ul > li {
+    width: 18%;
+    border: 2px solid transparent;
+    padding: 2%;
+    border-radius: 0.75rem;
+    transition: border 0.1s ease-in-out;
+}
+.itemList > ul > li:hover {
+    border: 2px solid var(--accent-color);
+}
+.itemList > ul > li > img {
+    width: 100%;
+}
+.lightButton {
+    composes: light from "./Button.module.css";
+    font-size: 1rem;
+    height: 7dvh;
+}
+.darkButton {
+    composes: dark from "./Button.module.css";
+    font-size: 1rem;
+    height: 7dvh;
 }
 .mainText {
     font-size: 2.5rem;
