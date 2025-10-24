@@ -74,7 +74,8 @@
     justify-content: start;
     height: 59.5%;
 }
-.sideBySideText > h1, .itemList > h1 {
+.sideBySideText > h1,
+.itemList > h1 {
     font-size: 3rem;
     font-weight: 800;
     text-align: center;
@@ -121,13 +122,13 @@
 }
 .lightButton {
     composes: light from "./Button.module.css";
-    font-size: 1rem;
-    height: 7dvh;
+    font-size: 1rem !important;
+    height: 5dvh;
 }
 .darkButton {
     composes: dark from "./Button.module.css";
-    font-size: 1rem;
-    height: 7dvh;
+    font-size: 1rem !important;
+    height: 5dvh;
 }
 .mainText {
     font-size: 2.5rem;
@@ -142,18 +143,18 @@
     width: 50%;
     display: flex;
     align-items: center;
-    background: linear-gradient(to right, #F1F2F3 5%, #ecedef 26%, #F1F2F3 95%);
+    background: linear-gradient(to right, #f1f2f3 5%, #ecedef 26%, #f1f2f3 95%);
 }
 @media (max-width: 700px) {
     .home {
         flex-direction: column-reverse;
         height: 88dvh;
     }
-    .leftSide, .rightSide {
+    .leftSide,
+    .rightSide {
         width: 100%;
     }
     .button {
         padding: 4%;
     }
-
 }
