@@ -156,7 +156,6 @@
 li.review {
     padding: 1% !important;
     box-shadow: 0px 12px 12px #00000015;
-    height: 15dvh;
 }
 .review > p {
     margin: 0;
