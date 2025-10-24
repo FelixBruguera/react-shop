@@ -178,16 +178,41 @@ footer {
     width: 30%;
     margin-top: 0;
 }
-@media (max-width: 700px) {
-    .home {
-        flex-direction: column-reverse;
-        height: 88dvh;
+@media (max-width: 800px) {
+    .mainImageContainer {
+        background-image: url("/mobile_bg.jpg");
     }
-    .leftSide,
-    .rightSide {
+    .sideBySide {
+        flex-direction: column;
+        height: fit-content;
+        padding: 10% 0%;
+        gap: 3dvh;
+    }
+    .sideBySideImg {
         width: 100%;
     }
-    .button {
-        padding: 4%;
+    .sideBySideText {
+        max-width: 100%;
+        height: fit-content;
+    }
+    .itemList > ul > li {
+        width: 40%;
+    }
+    .itemList > ul {
+        margin: auto;
+        padding: 0;
+    }
+    .itemList {
+        height: fit-content;
+    }
+    li.review {
+        height: 20dvh;
+        padding: 2% !important;
+    }
+    footer {
+        padding: 3% 0%;
+    }
+    .credits {
+        width: 90%;
     }
 }
