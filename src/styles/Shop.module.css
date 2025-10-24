@@ -117,6 +117,9 @@ html:active-view-transition-type(backwards) {
         width: 100%;
         padding: 5% 0%;
     }
+    .option {
+        width: 25dvw;
+    }
     @keyframes slideToLeft {
         70% {
             opacity: 0;

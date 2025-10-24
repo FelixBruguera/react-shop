@@ -19,7 +19,9 @@
 .menuLeft {
     composes: menu;
     right: auto;
-    width: clamp(12%, 300px, 40%);
+    width: 20%;
+    max-width: 400px;
+    min-width: 250px;
 }
 .menuRight {
     composes: menu;
