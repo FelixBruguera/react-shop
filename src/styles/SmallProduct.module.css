@@ -3,12 +3,15 @@
     flex-direction: column;
     gap: 1dvh;
     align-items: center;
-    background-color: white;
-    width: clamp(170px, 20dvw, 500px);
-    border: 1px solid rgba(0,0,0, 0.1);
-    border-radius: 5px;
-    box-shadow: 0px 0px 0px #00000030, 0px 6px 6px #00000015;
-    transition: background-color 0.15s ease-in-out, transform 0.15s ease-in-out;
+    justify-content: space-between;
+    background-color: transparent;
+    width: clamp(170px, 15dvw, 500px);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    box-shadow:
+        0px 0px 0px #00000030,
+        0px 6px 6px #00000015;
+    transition: background-color 0.2s ease-in-out;
     text-decoration: none;
     padding-bottom: 1%;
 }
@@ -32,14 +35,27 @@
     .link {
         color: var(--accent-color);
     }
-    border: 1px solid rgba(0,0,0, 0.15);
-    transform: scale(1.03);
+    .mainImage {
+        display: none;
+    }
+    .imageHover {
+        display: inline;
+    }
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.15);
 }
 .image {
     width: 100%;
     aspect-ratio: 4/3;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+.mainImage {
+    composes: image;
+}
+.imageHover {
+    composes: image;
+    display: none;
 }
 .title {
     width: 90%;
@@ -53,8 +69,8 @@
 .category {
     font-size: 0.6rem;
     text-align: center;
-    background-color: rgba(0,0,0, 0.1);
-    color: rgba(0,0,0,0.75);
+    background-color: rgba(0, 0, 0, 0.1);
+    color: rgba(0, 0, 0, 0.75);
     width: fit-content;
     padding: 1.5dvh 1dvw;
     border-radius: 10px;
@@ -62,25 +78,25 @@
 }
 .price {
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-align: end;
-    margin-right: 8%;
+    margin: 0;
 }
 .priceBuy {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 90%;
-    margin: auto;
+    width: 100%;
+    margin-top: 10%;
 }
 .button {
-    composes: button from './Button.module.css';
-    background-color: var(--accent-color);
-    color: white;
+    composes: button from "./Button.module.css";
+    border: 1px solid rgba(0, 0, 0, 0.1) !important;
 }
 .buttonRed {
     composes: button;
     background-color: darkred;
+    color: white;
 }
 .icon {
     height: 3.5dvh;

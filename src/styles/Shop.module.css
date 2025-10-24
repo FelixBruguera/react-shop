@@ -32,19 +32,21 @@
     gap: 2dvw;
     background-color: #f1f2f4;
     z-index: 1;
+    padding-bottom: 1%;
 }
 .option {
+    composes: light from "./Button.module.css";
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    height: 3dvh;
-    width: max(6dvw, 80px);
+    height: 5dvh;
+    width: 8dvw;
 }
 .option > p {
     font-size: 0.7rem;
 }
 .icon {
-    height: 3.5dvh;
+    height: 90%;
     width: fit-content;
 }
 .noResults {
@@ -57,19 +59,23 @@
     width: max(9dvw, 80px);
 }
 ::view-transition-old(root) {
-    animation: slideToLeft var(--view-transition-delay) var(--view-transition-curve);
+    animation: slideToLeft var(--view-transition-delay)
+        var(--view-transition-curve);
 }
 ::view-transition-new(root) {
-    animation: slideFromRight var(--view-transition-delay) var(--view-transition-curve);
+    animation: slideFromRight var(--view-transition-delay)
+        var(--view-transition-curve);
 }
 html:active-view-transition-type(backwards) {
     &::view-transition-old(root) {
-        animation: slideToRight var(--view-transition-delay) var(--view-transition-curve);
+        animation: slideToRight var(--view-transition-delay)
+            var(--view-transition-curve);
     }
     &::view-transition-new(root) {
-        animation: slideFromLeft var(--view-transition-delay) var(--view-transition-curve);
+        animation: slideFromLeft var(--view-transition-delay)
+            var(--view-transition-curve);
     }
-  }
+}
 @keyframes slideToLeft {
     70% {
         opacity: 0;

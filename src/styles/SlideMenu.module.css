@@ -12,14 +12,14 @@
     top: 0%;
     height: 100%;
     overflow: auto;
-    border: 1px solid rgba(0,0,0,0.2);
+    border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1%;
     margin: 0;
 }
 .menuLeft {
     composes: menu;
     right: auto;
-    width: clamp(12%, 250px, 40%);
+    width: clamp(12%, 300px, 40%);
 }
 .menuRight {
     composes: menu;
@@ -33,7 +33,8 @@
 }
 .slideOutLeft {
     composes: menuLeft;
-    animation: slideOutLeft var(--animation-delay) var(--animation-curve) forwards;
+    animation: slideOutLeft var(--animation-delay) var(--animation-curve)
+        forwards;
 }
 .slideInRight {
     composes: menuRight;
@@ -42,7 +43,8 @@
 }
 .slideOutRight {
     composes: menuRight;
-    animation: slideOutRight var(--animation-delay) var(--animation-curve) forwards;
+    animation: slideOutRight var(--animation-delay) var(--animation-curve)
+        forwards;
 }
 .cancelButton {
     grid-area: 1/2/1/2;
@@ -62,7 +64,7 @@
     background-color: transparent;
 }
 .icon {
-    composes: icon from "./SmallProduct.module.css"
+    composes: icon from "./SmallProduct.module.css";
 }
 @keyframes slideOutLeft {
     30% {
