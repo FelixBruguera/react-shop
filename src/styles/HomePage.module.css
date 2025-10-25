@@ -152,6 +152,7 @@
 }
 .reviews {
     row-gap: 5dvh !important;
+    align-items: start !important;
 }
 li.review {
     padding: 1% !important;
@@ -181,6 +182,10 @@ footer {
     .mainImageContainer {
         background-image: url("/mobile_bg.jpg");
     }
+    .sideBySideText > h1,
+.itemList > h1 {
+    font-size: 2.3rem;
+}
     .sideBySide {
         flex-direction: column;
         height: fit-content;
@@ -205,7 +210,7 @@ footer {
         height: fit-content;
     }
     li.review {
-        height: 20dvh;
+        height: fit-content;
         padding: 2% !important;
     }
     footer {
