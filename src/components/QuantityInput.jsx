@@ -10,10 +10,6 @@ const QuantityInput = ({className, currentValue, onChange }) => {
         if (currentValue <= 1 || isNaN(currentValue)) { return null }
         onChange(currentValue - 1)
     }
-    const manualInput = (newValue) => {
-        if (newValue > 10) { return onChange(10) }
-        onChange(newValue)
-    }
     return (
         <div className={`${styles.quantity} ${className}`}>
             <button 
@@ -22,15 +18,7 @@ const QuantityInput = ({className, currentValue, onChange }) => {
                 onClick={decrease}>
                 -
             </button>
-            <input 
-                type="number"
-                aria-label="quantity"
-                className={isNaN(currentValue) || currentValue === 0 ? styles.invalidInput : styles.input} 
-                min={1} 
-                max={10} 
-                value={currentValue}
-                onChange={(e) => manualInput(e.target.value)} 
-            />
+            <p className={styles.amount}>{currentValue}</p>
             <button 
                 className={currentValue === 10 ? styles.disabledArrow : styles.arrow}
                 aria-label="increase quantity"

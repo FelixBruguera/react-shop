@@ -22,6 +22,6 @@
 }
 button:hover {
     cursor: pointer;
-    background-color: black;
+    background-color: #181818;
     color: white;
 }

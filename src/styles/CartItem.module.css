@@ -8,7 +8,7 @@
     align-items: center;
 }
 .product:hover {
-    background-color: #dddddd;
+    background-color: white;
     .removeButton:hover {
         cursor: pointer;
         color: #ED1C24;
@@ -41,6 +41,7 @@
 .productTitle {
     grid-area: 1/3/1/5;
     font-weight: 600;
+    font-size: 0.875rem;
     text-decoration: none;
     color: black;
     margin: 0;
@@ -54,6 +55,7 @@
     color: rgba(0,0,0,0.75);
     font-weight: 600;
     margin: 0;
+    font-size: 0.875rem;
 }
 .removeButton {
     grid-area: 1/5/1/5;

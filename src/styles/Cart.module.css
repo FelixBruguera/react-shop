@@ -36,18 +36,27 @@
 }
 .checkout {
     height: 5dvh;
-    width: max(120px, 8dvw);
+    width: fit-content;;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    gap: 1dvw;
     color: white;
     text-decoration: none;
+    background-color: var(--accent-color);
+    transition: background-color 0.2s ease-in-out;
+}
+.checkout:hover {
+    background-color: #181818;
+}
+.checkout > p {
+    font-size: 0.75rem !important;
 }
 .cartTotal {
     width: fit-content;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     justify-content: space-between;
 }
 .quantityLabel, .total {
@@ -55,7 +64,8 @@
     color: rgba(0,0,0,0.7);
 }
 .total {
-    margin: 0.25rem;
+    margin: 0;
+    font-size: 0.75rem;
 }
 .cartContent {
     grid-area: 2/1/4/3;
@@ -81,7 +91,7 @@
     width: 100%;
 }
 .button {
-    composes: button from "./HomePage.module.css"
+    composes: button from "./Button.module.css"
 }
 @media (max-width: 700px) {
     .icon {

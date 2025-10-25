@@ -15,7 +15,7 @@ const Cart = ({ cart, emptyCart, removeFromCart, updateQuantity, setCartOpen }) 
     return (
         <>
             <div className={styles.titleContainer}>
-                <h2 className={styles.title}>Cart</h2>
+                <h2 className={styles.title}>Your Cart</h2>
                 {hasProducts ? 
                     <Button 
                     style='light'
@@ -54,7 +54,7 @@ const Cart = ({ cart, emptyCart, removeFromCart, updateQuantity, setCartOpen }) 
                                     document.startViewTransition()
                                 }}
                                 >
-                                <CreditCard className={styles.icon}></CreditCard>
+                                <CreditCard size={18} />
                                 <p className={styles.checkoutText}>Checkout</p>
                             </Link>
                         </div>
