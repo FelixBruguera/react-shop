@@ -35,7 +35,7 @@
     background-color: transparent;
     border: transparent;
     width: fit-content;
-    border-radius: 10px;
+    border-radius: 0.5rem;
     transition:
         background-color 0.15s ease-in-out,
         color 0.15s ease-in-out;
@@ -43,12 +43,15 @@
     align-items: center;
     justify-content: flex-end;
     padding: 0.5% 1%;
+    gap: 0.5rem;
 }
 .cartNumber {
-    font-size: 0.7rem;
-    border-radius: 50px;
-    width: max(10px, 35%);
-    padding: max(2px, 6%) 0%;
+    font-size: 0.875rem;
+    border-radius: 1rem;
+    width: 2dvw;
+    max-width: 20px;
+    min-width: 15px;
+    padding: 3%;
     font-weight: 600;
     background-color: var(--accent-color);
     color: white;
@@ -68,11 +71,6 @@
 }
 @media (max-width: 700px) {
     .cartNumber {
-        font-size: 0.8rem;
-    }
-}
-@media (min-width: 2000px) {
-    .cartNumber {
-        font-size: 0.8rem;
+        padding: 5%;
     }
 }
