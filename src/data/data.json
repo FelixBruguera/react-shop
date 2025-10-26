@@ -14,14 +14,15 @@
       "25.5-inch Scale Length",
       "Natural Gloss Finish"
     ],
-    "category": {
-      "id": 1,
-      "slug": "guitars",
-      "name": "Guitars"
-    },
+    "category":   {
+    "id": 1,
+    "slug": "guitar-bass",
+    "name": "Guitar & Bass"
+  },
     "images": [
       "/classic-starter-acoustic.webp",
-      "/classic-starter-acoustic-2.webp"
+      "/classic-starter-acoustic-2.webp",
+            "/classic-starter-acoustic-3.webp"
     ]
   },
   {
@@ -40,12 +41,12 @@
       "One Volume Two Tone Controls",
       "Classic Sunburst Color"
     ],
-    "category": {
-      "id": 1,
-      "slug": "guitars",
-      "name": "Guitars"
-    },
-    "images": ["/vintage-style-electric.webp", "/vintage-style-electric-2.webp"]
+    "category":   {
+    "id": 1,
+    "slug": "guitar-bass",
+    "name": "Guitar & Bass"
+  },
+    "images": ["/vintage-style-electric.webp", "/vintage-style-electric-2.webp","/vintage-style-electric-3.webp"]
   },
   {
     "id": 3,
@@ -65,14 +66,15 @@
       "Bone Nut Material",
       "Cherry Red Gloss Finish"
     ],
-    "category": {
-      "id": 1,
-      "slug": "guitars",
-      "name": "Guitars"
-    },
+    "category":   {
+    "id": 1,
+    "slug": "guitar-bass",
+    "name": "Guitar & Bass"
+  },
     "images": [
       "/premium-hollow-body-jazz.webp",
-      "/premium-hollow-body-jazz-2.webp"
+      "/premium-hollow-body-jazz-2.webp",
+            "/premium-hollow-body-jazz-3.webp"
     ]
   },
   {
@@ -94,7 +96,7 @@
       "slug": "keyboards-pianos",
       "name": "Keyboards & Pianos"
     },
-    "images": ["/yamaha-p-45.webp", "/yamaha-p-45-2.webp"]
+    "images": ["/yamaha-p-45.webp", "/yamaha-p-45-2.webp", "/yamaha-p-45-3.webp"]
   },
   {
     "id": 5,
@@ -115,7 +117,7 @@
       "slug": "keyboards-pianos",
       "name": "Keyboards & Pianos"
     },
-    "images": ["/korg-b2n-digital-piano.webp", "/korg-b2n-digital-piano-2.webp"]
+    "images": ["/korg-b2n-digital-piano.webp", "/korg-b2n-digital-piano-2.webp", "/korg-b2n-digital-piano-3.webp"]
   },
   {
     "id": 6,
@@ -136,7 +138,7 @@
       "slug": "keyboards-pianos",
       "name": "Keyboards & Pianos"
     },
-    "images": ["/casio-privia-px-770.webp", "/casio-privia-px-770-2.webp"]
+    "images": ["/casio-privia-px-770.webp", "/casio-privia-px-770-2.webp", "/casio-privia-px-770-3.webp"]
   },
   {
     "id": 7,
@@ -157,7 +159,7 @@
       "slug": "keyboards-pianos",
       "name": "Keyboards & Pianos"
     },
-    "images": ["/roland-fp-30x.webp", "/roland-fp-30x-2.webp"]
+    "images": ["/roland-fp-30x.webp", "/roland-fp-30x-2.webp", "/roland-fp-30x-3.webp"]
   },
   {
     "id": 8,
@@ -178,7 +180,7 @@
       "slug": "keyboards-pianos",
       "name": "Keyboards & Pianos"
     },
-    "images": ["/nord-stage-3-88.webp", "/nord-stage-3-88-2.webp"]
+    "images": ["/nord-stage-3-88.webp", "/nord-stage-3-88-2.webp", "/nord-stage-3-88-3.webp"]
   },
   {
     "id": 9,
@@ -199,7 +201,7 @@
       "slug": "keyboards-pianos",
       "name": "Keyboards & Pianos"
     },
-    "images": ["/alesis-recital-pro.webp", "/alesis-recital-pro-2.webp"]
+    "images": ["/alesis-recital-pro.webp", "/alesis-recital-pro-2.webp", "/alesis-recital-pro-3.webp"]
   },
   {
     "id": 10,
@@ -222,7 +224,8 @@
     },
     "images": [
       "/yamaha-clavinova-clp-735.webp",
-      "/yamaha-clavinova-clp-735-2.webp"
+      "/yamaha-clavinova-clp-735-2.webp",
+      "/yamaha-clavinova-clp-735-3.webp"
     ]
   },
   {
@@ -244,7 +247,7 @@
       "slug": "keyboards-pianos",
       "name": "Keyboards & Pianos"
     },
-    "images": ["/kawai-es110.webp", "/kawai-es110-2.webp"]
+    "images": ["/kawai-es110.webp", "/kawai-es110-2.webp", "/kawai-es110-3.webp"]
   },
   {
     "id": 12,
@@ -267,7 +270,8 @@
     },
     "images": [
       "/arturia-keylab-essential-61.webp",
-      "/arturia-keylab-essential-61-2.webp"
+      "/arturia-keylab-essential-61-2.webp",
+      "/arturia-keylab-essential-61-3.webp"
     ]
   },
   {
@@ -289,7 +293,7 @@
       "slug": "keyboards-pianos",
       "name": "Keyboards & Pianos"
     },
-    "images": ["/yamaha-psr-ew300.webp", "/yamaha-psr-ew300-2.webp"]
+    "images": ["/yamaha-psr-ew300.webp", "/yamaha-psr-ew300-2.webp", "/yamaha-psr-ew300-3.webp"]
   },
   {
     "id": 14,
@@ -310,7 +314,7 @@
       "slug": "keyboards-pianos",
       "name": "Keyboards & Pianos"
     },
-    "images": ["/roland-juno-ds61.webp", "/roland-juno-ds61-2.webp"]
+    "images": ["/roland-juno-ds61.webp", "/roland-juno-ds61-2.webp",  "/roland-juno-ds61-3.webp"]
   },
   {
     "id": 15,
@@ -333,7 +337,8 @@
     },
     "images": [
       "/studiologic-numa-compact-2x.webp",
-      "/studiologic-numa-compact-2x-2.webp"
+      "/studiologic-numa-compact-2x-2.webp",
+            "/studiologic-numa-compact-2x-3.webp"
     ]
   },
   {
@@ -355,7 +360,7 @@
       "slug": "keyboards-pianos",
       "name": "Keyboards & Pianos"
     },
-    "images": ["/casio-wk-7600.webp", "/casio-wk-7600-2.webp"]
+    "images": ["/casio-wk-7600.webp", "/casio-wk-7600-2.webp",  "/casio-wk-7600-3.webp"]
   },
   {
     "id": 17,
@@ -376,7 +381,7 @@
       "slug": "keyboards-pianos",
       "name": "Keyboards & Pianos"
     },
-    "images": ["/moog-sub-37.webp", "/moog-sub-37-2.webp"]
+    "images": ["/moog-sub-37.webp", "/moog-sub-37-2.webp", "/moog-sub-37-3.webp"]
   },
   {
     "id": 18,
@@ -418,7 +423,7 @@
       "slug": "drums-percussion",
       "name": "Drums & Percussion"
     },
-    "images": ["/alesis-nitro-max-e-kit.webp", "/alesis-nitro-max-e-kit-2.webp"]
+    "images": ["/alesis-nitro-max-e-kit.webp", "/alesis-nitro-max-e-kit-2.webp", "/alesis-nitro-max-e-kit-3.webp"]
   },
   {
     "id": 20,
@@ -441,7 +446,8 @@
     },
     "images": [
       "/pearl-roadshow-drum-set.webp",
-      "/pearl-roadshow-drum-set-2.webp"
+      "/pearl-roadshow-drum-set-2.webp",
+           "/pearl-roadshow-drum-set-3.webp"
     ]
   },
   {
@@ -465,7 +471,8 @@
     },
     "images": [
       "/roland-td-17kv2-v-drums.webp",
-      "/roland-td-17kv2-v-drums-2.webp"
+      "/roland-td-17kv2-v-drums-2.webp",
+            "/roland-td-17kv2-v-drums-3.webp"
     ]
   },
   {
@@ -488,7 +495,8 @@
     },
     "images": [
       "/zildjian-i-series-cymbal-set.webp",
-      "/zildjian-i-series-cymbal-set-2.webp"
+      "/zildjian-i-series-cymbal-set-2.webp",
+            "/zildjian-i-series-cymbal-set-3.webp"
     ]
   },
   {
@@ -512,7 +520,8 @@
     },
     "images": [
       "/ludwig-breakbeats-shell-pack.webp",
-      "/ludwig-breakbeats-shell-pack-2.webp"
+      "/ludwig-breakbeats-shell-pack-2.webp",
+            "/ludwig-breakbeats-shell-pack-3.webp"
     ]
   },
   {
@@ -536,7 +545,8 @@
     },
     "images": [
       "/lp-cajon-percussion-drum.webp",
-      "/lp-cajon-percussion-drum-2.webp"
+      "/lp-cajon-percussion-drum-2.webp",
+            "/lp-cajon-percussion-drum-3.webp"
     ]
   },
   {
@@ -559,7 +569,8 @@
     },
     "images": [
       "/dw-5000-single-bass-pedal.webp",
-      "/dw-5000-single-bass-pedal-2.webp"
+      "/dw-5000-single-bass-pedal-2.webp",
+            "/dw-5000-single-bass-pedal-3.webp"
     ]
   },
   {
@@ -580,7 +591,7 @@
       "slug": "drums-percussion",
       "name": "Drums & Percussion"
     },
-    "images": ["/remo-djembe-key-tuned.webp", "/remo-djembe-key-tuned-2.webp"]
+    "images": ["/remo-djembe-key-tuned.webp", "/remo-djembe-key-tuned-2.webp", "/remo-djembe-key-tuned-3.webp"]
   },
   {
     "id": 27,
@@ -603,7 +614,8 @@
     },
     "images": [
       "/tama-imperialstar-5pc-set.webp",
-      "/tama-imperialstar-5pc-set-2.webp"
+      "/tama-imperialstar-5pc-set-2.webp",
+      "/tama-imperialstar-5pc-set-3.webp"
     ]
   },
   {
@@ -627,7 +639,8 @@
     },
     "images": [
       "/roland-spd-sx-sampling-pad.webp",
-      "/roland-spd-sx-sampling-pad-2.webp"
+      "/roland-spd-sx-sampling-pad-2.webp",
+      "/roland-spd-sx-sampling-pad-3.webp"
     ]
   },
   {
@@ -2619,6 +2632,113 @@
     "images": [
       "/radiohead-scribble-poster.webp",
       "/radiohead-scribble-poster-2.webp"
+    ]
+  },
+  {
+    "id": 122,
+    "slug": "classic-precision-bass",
+    "title": "Classic Precision Bass",
+    "description": "The foundation of countless genres. This bass delivers the powerful, thumping tone that defined modern music. Featuring a split single-coil pickup, it provides a punchy low-end and clear midrange. The comfortable maple neck and solid alder body ensure rock-solid stability and endless sustain. Simple, reliable, and ready to hold down the groove.",
+    "price": 599,
+    "details": [
+      "Alder body",
+      "Maple 'Modern C' neck",
+      "Rosewood fretboard",
+      "Split single-coil pickup",
+      "Master volume and tone controls",
+      "4-saddle standard bridge",
+      "Black polyurethane finish",
+      "Chrome hardware"
+    ],
+    "category":   {
+    "id": 1,
+    "slug": "guitar-bass",
+    "name": "Guitar & Bass"
+  },
+    "images": [
+      "/classic-precision-bass.webp",
+      "/classic-precision-bass-2.webp",
+      "/classic-precision-bass-3.webp"
+    ]
+  },
+  {
+    "id": 123,
+    "slug": "dreadnought-acoustic-natural",
+    "title": "Dreadnought Acoustic Natural",
+    "description": "Big, bold, and resonant. This dreadnought acoustic is perfect for strumming chords and flatpicking. The solid spruce top provides crisp highs and excellent projection, while the mahogany back and sides add warmth and depth to the tone. A comfortable neck profile and natural gloss finish make it a joy to play and behold. Ideal for songwriters and performers.",
+    "price": 449,
+    "details": [
+      "Solid Sitka Spruce top",
+      "Mahogany back and sides",
+      "Dreadnought body shape",
+      "Nato neck",
+      "Rosewood fingerboard and bridge",
+      "Die-cast chrome tuners",
+      "Natural gloss finish",
+      "Scalloped X-bracing"
+    ],
+    "category":   {
+    "id": 1,
+    "slug": "guitar-bass",
+    "name": "Guitar & Bass"
+  },
+    "images": [
+      "/dreadnought-acoustic-natural.webp",
+      "/dreadnought-acoustic-natural-2.webp",
+      "/dreadnought-acoustic-natural-3.webp"
+    ]
+  },
+  {
+    "id": 124,
+    "slug": "modern-5-string-bass-blue",
+    "title": "Modern 5-String Bass (Deep Blue)",
+    "description": "Extend your range with this versatile 5-string bass. Equipped with two active humbucking pickups and a 3-band EQ, it offers a vast array of tones, from deep, thunderous lows to articulate, cutting highs. The lightweight ash body and smooth maple neck provide excellent playability for long sessions. Perfect for modern rock, gospel, and fusion.",
+    "price": 899,
+    "details": [
+      "Ash body with quilt maple top",
+      "5-piece maple/walnut neck",
+      "Active 3-band EQ",
+      "Dual humbucking pickups",
+      "High-mass bridge for increased sustain",
+      "Deep blue burst finish",
+      "35-inch scale length"
+    ],
+    "category":   {
+    "id": 1,
+    "slug": "guitar-bass",
+    "name": "Guitar & Bass"
+  },
+    "images": [
+      "/modern-5-string-bass-blue.webp",
+      "/modern-5-string-bass-blue-2.webp",
+      "/modern-5-string-bass-blue-3.webp"
+    ]
+  },
+  {
+    "id": 125,
+    "slug": "single-cutaway-mahogany-black",
+    "title": "Single-Cutaway Mahogany (Gloss Black)",
+    "description": "Unleash powerful, thick tones with this single-cutaway classic. The solid mahogany body and set neck construction provide incredible sustain and warmth, perfect for searing leads and heavy rhythms. Dual humbucking pickups deliver the punch and clarity needed to cut through any mix. A true rock machine with timeless style and modern performance.",
+    "price": 749,
+    "details": [
+      "Solid mahogany body",
+      "Set-in mahogany neck",
+      "Rosewood fretboard with trapezoid inlays",
+      "Dual high-output humbucking pickups",
+      "2 volume, 2 tone controls, 3-way toggle",
+      "Tune-O-Matic bridge",
+      "Stopbar tailpiece",
+      "Gloss black finish"
+    ],
+    "category":   {
+    "id": 1,
+    "slug": "guitar-bass",
+    "name": "Guitar & Bass"
+  },
+    "images": [
+      "/single-cutaway-mahogany-black.webp",
+      "/single-cutaway-mahogany-black-2.webp",
+      "/single-cutaway-mahogany-black-3.webp"
     ]
   }
 ]
