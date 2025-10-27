@@ -25,7 +25,7 @@ const Filters = ({ handleFilter, currentFilter }) => {
   const [category, setCategory] = useState(currentFilter.category);
   const iconSize = 20;
   const categoryIcons = {
-    guitars: <Guitar size={iconSize} />,
+    "guitar-bass": <Guitar size={iconSize} />,
     "keyboards-pianos": <Piano size={iconSize} />,
     "drums-percussion": <Drum size={iconSize} />,
     "recording-equipment": <Mic size={iconSize} />,
