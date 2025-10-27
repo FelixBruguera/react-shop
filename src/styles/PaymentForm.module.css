@@ -24,7 +24,7 @@
     font-size: 0.9rem;
     color: black;
     height: 3.5dvh;
-    width: 100%;
+    width: 90%;
 }
 input[type="date"] {
     font-size: 0.75rem;
@@ -61,7 +61,7 @@ input.invalidInput {
 @media (max-width: 700px) {
     .payment {
         height: 40%;
-        width: 50%;
+        width: 60%;
     }
     .totalPrice {
         font-size: 1.2rem;

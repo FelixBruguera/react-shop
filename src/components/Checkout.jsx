@@ -1,9 +1,10 @@
 import styles from "../styles/Checkout.module.css"
 import PaymentForm from "./PaymentForm"
-import { useOutletContext, useLocation } from "react-router"
+import { useOutletContext, useLocation, Link } from "react-router"
 import CartItem from "./CartItem"
 import { useState } from "react"
 import Receipt from "./Receipt"
+import { ArrowLeft } from "lucide-react"
 
 const Checkout = () => {
     const { cart, emptyCart, removeFromCart, updateQuantity } = useOutletContext()
@@ -45,11 +46,20 @@ const Checkout = () => {
 
     return (
         <section className={styles.checkout}>
+            <Link to= {location?.previousUrl || "/shop"}
+                className={styles.goBack}
+                title="Go back"
+                aria-label="go back"
+                onClick={() => document.startViewTransition({types: ['backwards']})}>
+                    <ArrowLeft />
+            </Link>
             <div className={styles.productsWrapper}>
-                <h2 className={styles.sectionTitle}>
-                    Your cart 
+                <div className={styles.sectionTitle}>
+                    <h2 className={styles.title}>
+                        Your cart
+                    </h2>
                     <p className={styles.productCount}>{cart.length} products</p>
-                </h2>
+                </div>
                 <ul aria-label='checkout products' className={styles.products}>
                     {cart.map((product) => 
                         <CartItem 
@@ -71,6 +81,13 @@ const Checkout = () => {
                 cardNumber={cardNumber} 
                 setCardNumber={setCardNumber}
             />
+            <Link to= {location?.previousUrl || "/shop"}
+                className={styles.goBackMobile}
+                title="Go back"
+                aria-label="go back"
+                onClick={() => document.startViewTransition({types: ['backwards']})}>
+                    <ArrowLeft />
+            </Link>
         </section>
     )
 }

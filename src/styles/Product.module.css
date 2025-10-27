@@ -197,7 +197,7 @@ dialog::backdrop {
     color: white;
 }
 .goBack {
-    height: 100%;
+    height: fit-content;
     border-radius: 10px;
     transition: color 0.15s ease-in-out;
 }
@@ -205,13 +205,13 @@ dialog::backdrop {
     color: var(--accent-color);
 }
 .button {
-    composes: button from "./SmallProduct.module.css"
+    composes: button from "./SmallProduct.module.css";
 }
 .buttonRed {
-    composes: buttonRed from "./SmallProduct.module.css"
+    composes: buttonRed from "./SmallProduct.module.css";
 }
 .icon {
-    composes: icon from "./Shop.module.css"
+    composes: icon from "./Shop.module.css";
 }
 .loading {
     composes: loading from "./SmallProduct.module.css";

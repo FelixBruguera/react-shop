@@ -6,9 +6,9 @@ const Receipt = ({ products, customerName }) => {
 
     return (
         <section className={styles.receiptContainer}>
-            <h2 className={styles.thanks}>Thank you for your purchase</h2>
+            <h2 className={styles.thanks}>Order confirmation</h2>
             <div className={styles.receipt}>
-                <h3 className={styles.receiptTitle}>FAKE SHOP</h3>
+                <h3 className={styles.receiptTitle}>MUSIC SHOP</h3>
                 <p>Order #{orderNumber}</p>
                 <p>Customer: <b>{customerName}</b></p>
                 <table className={styles.table}>

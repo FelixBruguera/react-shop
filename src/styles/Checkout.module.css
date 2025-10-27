@@ -1,5 +1,13 @@
+.goBack {
+    margin-top: 1rem;
+    width: 3dvw;
+    height: fit-content;
+}
+.goBackMobile {
+    display: none;
+}
 .checkout {
-    padding: 3dvh 10% 0% 10%;
+    padding: 1rem 2rem;
     display: flex;
     align-items: top;
     justify-content: space-evenly;
@@ -16,8 +24,8 @@
     grid-template-columns: subgrid;
 }
 .productsWrapper {
-    height: 85%;
-    width: max(200px, 70%);
+    height: 100%;
+    width: 70%;
 }
 .sectionTitle {
     width: 100%;
@@ -55,7 +63,7 @@
     box-shadow: 0px 0px 0px #00000030, 0px 6px 6px #00000015;
 }
 .icon {
-    composes: icon from "./SmallProduct.module.css"
+    composes: icon from "./SmallProduct.module.css";
 }
 .receiptContainer {
     width: 100%;
@@ -93,6 +101,14 @@ tr {
     gap: 3dvw;
 }
 @media (max-width: 700px) {
+    .goBack {
+        display: none;
+    }
+    .goBackMobile {
+        display: inline;
+        height: fit-content;
+        margin-right: auto;
+    }
     .checkout {
         padding: 2%;
     }
@@ -106,6 +122,7 @@ tr {
         height: 80%;
     }
     .productsWrapper {
+        margin-top: 4rem;
         height: 50%;
         width: 100%;
     }
