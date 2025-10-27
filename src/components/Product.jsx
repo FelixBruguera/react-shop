@@ -4,11 +4,14 @@ import styles from "../styles/Product.module.css"
 import ProductSkeleton from "./ProductSkeleton"
 import { useOutletContext, useLocation, Link } from "react-router"
 import ErrorPage from "./ErrorPage"
+import ImageCarousel from "./ImageCarousel"
+import { ArrowLeft, Plus, X } from "lucide-react"
 
 const Product = () => {
     const [isLoading, setIsLoading] = useState(true)
     const [data, setData] = useState(null)
     const [error, setError] = useState(false)
+    const [imageOpen, setImageOpen] = useState(false)
     const {cart, addToCart, removeFromCart } = useOutletContext()
     const location = useLocation().state
     const params = useParams()
@@ -45,16 +48,23 @@ const Product = () => {
                     title="Go back"
                     aria-label="go back"
                     onClick={() => document.startViewTransition({types: ['backwards']})}>
-                        <img src="/circleArrowLeft.png" alt="arrow left" className={styles.icon}/>
+                        <ArrowLeft />
                 </Link>
-                <div className={styles.imageContainer}>
-                    <img className={styles.image} src={data.image} loading="lazy" alt={data.title}/>
-                </div>
+                <ImageCarousel images={data.images} alt={data.title} imageOpen={imageOpen} setImageOpen={setImageOpen} />
             </div>
                 <div className={styles.productContent}>
                     <h1 className={styles.title}>{data.title}</h1>
-                    <p className={styles.category}>{data.category.name}</p>
                     <p className={`${styles.description}`}>{data.description}</p>
+                    <p className={styles.category}>{data.category.name}</p>
+                    <div className={styles.detailsContainer}>
+                        <h3 className={styles.subtitle}>Details</h3>
+                        <ul className={styles.detailList}>
+                            {data.details?.map(detail =>
+                            <li className={styles.detailContainer}>
+                                <p className={styles.detail}>{detail}</p>
+                            </li>)}
+                        </ul>
+                    </div>
                     <div className={styles.priceCheckout}>
                         <h2 className={styles.price}>${data.price}</h2>
                         {isInCart
@@ -64,7 +74,7 @@ const Product = () => {
                             title='Remove from cart'
                             className={styles.buttonRed}
                             onClick={() => removeFromCart(data.id)}>
-                                <img src="/x.png" alt="X" className={styles.icon}/>
+                                <X className={styles.icon} />
                             </button>
                         :   <button
                             type='button'
@@ -72,7 +82,7 @@ const Product = () => {
                             title='Add to cart'
                             className={styles.button}
                             onClick={() => addToCart(data)}>
-                                <img src="/shoppingCart.png" className={styles.icon}/>
+                                <Plus className={styles.cartIcon} />
                             </button>
                         }
                     </div>
