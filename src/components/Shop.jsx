@@ -75,7 +75,6 @@ export default function Shop() {
 
   return (
     <div className={styles.shop}>
-      <div className={styles.optionsWrap}>
         <div className={styles.options}>
           <button className={styles.option} onClick={() => setFilterOpen(true)}>
             <ListFilter className={styles.icon} />
@@ -86,7 +85,6 @@ export default function Shop() {
             <p>Sort</p>
           </button>
         </div>
-      </div>
       {products?.length === 0 ? (
         <h2 className={styles.noResults}>No results</h2>
       ) : null}

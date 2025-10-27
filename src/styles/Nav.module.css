@@ -6,6 +6,7 @@
     view-transition-name: nav;
     z-index: 2;
     padding: 0% 2rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 }
 .link {
     text-decoration: none;
@@ -55,6 +56,9 @@
     font-weight: 600;
     background-color: var(--accent-color);
     color: white;
+     transition:
+        background-color 0.15s ease-in-out,
+        color 0.15s ease-in-out;
 }
 .cart:hover {
     cursor: pointer;

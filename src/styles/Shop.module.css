@@ -13,16 +13,14 @@
     flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
-    padding: 2% 5%;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 2.5%;
     justify-content: space-evenly;
     transition: opacity 0.5s ease-in-out;
     row-gap: 5dvh;
 }
-.optionsWrap {
-    padding-bottom: 3dvh;
-}
 .options {
-    position: fixed;
     display: flex;
     width: 100%;
     align-items: center;
@@ -32,7 +30,7 @@
     gap: 2dvw;
     background-color: #f1f2f4;
     z-index: 1;
-    padding-bottom: 1%;
+    padding: 1rem 0;
 }
 .option {
     composes: light from "./Button.module.css";
@@ -41,6 +39,9 @@
     justify-content: space-evenly;
     height: 5dvh;
     width: 8dvw;
+    max-width: 150px;
+    max-height: 50px;
+    min-width: 80px;
 }
 .option > p {
     font-size: 0.7rem;
