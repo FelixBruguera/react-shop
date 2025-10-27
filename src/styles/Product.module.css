@@ -169,7 +169,7 @@ dialog::backdrop {
     }
 }
 .detail {
-    font-size: 0.75rem;
+    font-size: 0.875rem;
     color: var(--secondary-text);
     margin: 0.5rem 0;
     transition: color 0.3s ease-in-out;

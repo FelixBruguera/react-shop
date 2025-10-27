@@ -13,6 +13,9 @@
     color: black;
     transition: color 0.3s ease-in-out;
 }
+.link > h1 {
+    font-size: 1.75rem;
+}
 .link:not(.active):hover {
     color: var(--accent-color);
 }
@@ -70,11 +73,14 @@
     }
 }
 .icon {
-    height: 4dvh;
-    width: fit-content;
+    height: 1.5rem;
+    width: 1.5rem;
 }
 @media (max-width: 700px) {
     .cartNumber {
         padding: 5%;
+    }
+    .link > h1 {
+        font-size: 1.5rem;
     }
 }

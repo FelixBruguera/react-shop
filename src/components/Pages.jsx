@@ -1,4 +1,4 @@
-import { ArrowLeft, ArrowRight } from "lucide-react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 import styles from "../styles/Pages.module.css";
 import { memo } from "react";
 
@@ -37,7 +37,7 @@ const Pages = memo(({ pageTotal, currentPage, setPage }) => {
           tabIndex={0}
           role="button"
         >
-          <ArrowLeft size={18} />
+          <ChevronLeft size={18} />
         </li>
         {[...Array(pageTotal).keys()].map((i) => {
           const page = i + 1;
@@ -69,7 +69,7 @@ const Pages = memo(({ pageTotal, currentPage, setPage }) => {
           tabIndex={0}
           role="button"
         >
-          <ArrowRight size={18} />
+          <ChevronRight size={18} />
         </li>
       </ul>
     </nav>

@@ -5,7 +5,7 @@ import ProductSkeleton from "./ProductSkeleton"
 import { useOutletContext, useLocation, Link } from "react-router"
 import ErrorPage from "./ErrorPage"
 import ImageCarousel from "./ImageCarousel"
-import { ArrowLeft, Plus, X } from "lucide-react"
+import { ChevronLeft, Plus, X } from "lucide-react"
 
 const Product = () => {
     const [isLoading, setIsLoading] = useState(true)
@@ -48,7 +48,7 @@ const Product = () => {
                     title="Go back"
                     aria-label="go back"
                     onClick={() => document.startViewTransition({types: ['backwards']})}>
-                        <ArrowLeft />
+                        <ChevronLeft />
                 </Link>
                 <ImageCarousel images={data.images} alt={data.title} imageOpen={imageOpen} setImageOpen={setImageOpen} />
             </div>

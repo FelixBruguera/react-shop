@@ -16,6 +16,7 @@
 .title {
     grid-area: 1/1/1/1;
     height: fit-content;
+    font-size: 1.125rem;
 }
 .titles {
     grid-area: 2/1/2/2;

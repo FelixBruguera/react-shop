@@ -22,7 +22,7 @@ const PaymentForm = ({ total, name, setName, onSubmit, cardNumber, setCardNumber
 
     return (
         <form className={styles.payment} onSubmit={(e) => onSubmit(e)}>
-                <h2 className={styles.paymentTitle}>Payment details</h2>
+                <h3 className={styles.title}>Payment details</h3>
                 <div className={styles.inputField}>
                     <label htmlFor="card-name">Your name</label>
                     <input type="text" name="card-name" id="card-name" value={name} onChange={(e) => setName(e.target.value)} required/>

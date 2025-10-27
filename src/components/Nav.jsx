@@ -1,4 +1,4 @@
-import { NavLink, useLocation } from "react-router"
+import { NavLink } from "react-router"
 import { ShoppingCart } from "lucide-react"
 import { useState } from "react";
 import Cart from './Cart'
@@ -8,8 +8,6 @@ import styles from '../styles/Nav.module.css'
 const Nav = ({ cart, emptyCart, removeFromCart, updateQuantity }) => {
     const [cartOpen, setCartOpen] = useState(false)
     const [cartClosing, setCartClosing] = useState(false)
-    const linkClass = ({ isActive, isPending }) => isPending ? styles.pending : isActive ? styles.active : styles.link
-    const location = useLocation()
 
     const handleCartClose = () => {
         setCartOpen(false)
@@ -20,7 +18,7 @@ const Nav = ({ cart, emptyCart, removeFromCart, updateQuantity }) => {
             <div className={styles.links}>
                 <NavLink
                     to="/"
-                    className={(isActive, isPending) => linkClass(isActive, isPending)}
+                    className={styles.link}
                     onClick={() => document.startViewTransition({types: ["backwards"]})}>
                     <h1>Music Shop</h1>
                 </NavLink>

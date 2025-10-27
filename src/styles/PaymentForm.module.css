@@ -9,6 +9,9 @@
 .cartTotal > p {
     margin: 0;
 }
+.title {
+    composes: title from "./Checkout.module.css"
+}
 .totalPrice {
     font-weight: 600;
     font-size: 1rem;

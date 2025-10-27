@@ -89,7 +89,8 @@
 .sideBySideText > p {
     text-align: justify;
     width: 80%;
-    font-size: 1rem;
+    font-size: 1.125rem;
+    color: var(--secondary-text);
 }
 .itemList {
     display: flex;
@@ -121,13 +122,14 @@
 }
 .lightButton {
     composes: light from "./Button.module.css";
-    font-size: 1rem !important;
-    height: 5dvh;
 }
 .darkButton {
     composes: dark from "./Button.module.css";
-    font-size: 1rem !important;
+}
+.lightButton, .darkButton {
+    font-size: 1.125rem !important;
     height: 5dvh;
+    padding: 1.3rem !important;
 }
 .mainText {
     font-size: 2.5rem;
@@ -143,15 +145,16 @@
     justify-content: space-between;
 }
 .reviewHeading > p {
-    font-size: 0.7rem;
-    color: rgba(0, 0, 0, 0.7);
+    font-size: 0.75rem;
+    color: var(--secondary-text);
 }
 .reviewHeading > h3,
 .footerHeading {
-    font-size: 0.9rem;
+    font-size: 1.125rem;
+    margin: 0.75rem 0;
 }
 .reviews {
-    row-gap: 5dvh !important;
+    row-gap: 2.5rem !important;
     align-items: start !important;
 }
 li.review {
@@ -160,6 +163,8 @@ li.review {
 }
 .review > p {
     margin: 0;
+    font-size: 0.875rem;
+    color: var(--secondary-text);
 }
 footer {
     display: flex;
@@ -189,11 +194,14 @@ footer {
     .sideBySide {
         flex-direction: column;
         height: fit-content;
-        padding: 10% 0%;
+        padding: 5rem 0%;
         gap: 3dvh;
     }
     .sideBySideImg {
         width: 100%;
+    }
+    .sideBySideText > p {
+        width: 90%;
     }
     .sideBySideText {
         max-width: 100%;

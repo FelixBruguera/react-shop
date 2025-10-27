@@ -4,7 +4,7 @@ import { useOutletContext, useLocation, Link } from "react-router"
 import CartItem from "./CartItem"
 import { useState } from "react"
 import Receipt from "./Receipt"
-import { ArrowLeft } from "lucide-react"
+import { ChevronLeft } from "lucide-react"
 
 const Checkout = () => {
     const { cart, emptyCart, removeFromCart, updateQuantity } = useOutletContext()
@@ -51,13 +51,13 @@ const Checkout = () => {
                 title="Go back"
                 aria-label="go back"
                 onClick={() => document.startViewTransition({types: ['backwards']})}>
-                    <ArrowLeft />
+                    <ChevronLeft />
             </Link>
             <div className={styles.productsWrapper}>
                 <div className={styles.sectionTitle}>
-                    <h2 className={styles.title}>
+                    <h3 className={styles.title}>
                         Your cart
-                    </h2>
+                    </h3>
                     <p className={styles.productCount}>{cart.length} products</p>
                 </div>
                 <ul aria-label='checkout products' className={styles.products}>
@@ -86,7 +86,7 @@ const Checkout = () => {
                 title="Go back"
                 aria-label="go back"
                 onClick={() => document.startViewTransition({types: ['backwards']})}>
-                    <ArrowLeft />
+                    <ChevronLeft />
             </Link>
         </section>
     )

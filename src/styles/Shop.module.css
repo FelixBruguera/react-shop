@@ -44,10 +44,10 @@
     min-width: 80px;
 }
 .option > p {
-    font-size: 0.7rem;
+    font-size: 0.875rem;
 }
 .icon {
-    height: 90%;
+    height: 100%;
     width: fit-content;
 }
 .noResults {

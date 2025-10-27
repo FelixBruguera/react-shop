@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&display=swap');
 .app {
     min-height: 100dvh;
     display: flex;
     flex-direction: column;
     background: linear-gradient(to bottom, #f1f2f4 90%, #efefef 10%);
-    font-family: "Poppins";
+    font-family: "Inter";
     scrollbar-color: rgba(0, 0, 0, 0.25) #f1f2f4;
     scrollbar-width: thin;
     max-width: 2000px;
@@ -23,12 +23,14 @@ body {
 }
 h1 {
     font-size: 1.4rem;
+    font-family: "Oswald";
 }
 h2 {
     font-size: 1.2rem;
+    font-family: "Oswald";
 }
 h3 {
-    font-size: 0.8rem;
+    font-size: 0.75rem;
 }
 p {
     font-size: 0.8rem;
@@ -38,9 +40,6 @@ p {
     height: 1.25rem;
 }
 @media (max-width: 900px) {
-    :root {
-        font-size: 14px;
-    }
     .app {
         background: linear-gradient(to bottom, #f1f2f4);
     }
