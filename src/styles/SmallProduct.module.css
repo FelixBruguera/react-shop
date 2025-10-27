@@ -35,27 +35,17 @@
     .link {
         color: var(--accent-color);
     }
-    .mainImage {
-        display: none;
-    }
-    .imageHover {
-        display: inline;
-    }
     background-color: white;
     border: 1px solid rgba(0, 0, 0, 0.15);
 }
 .image {
     width: 100%;
-    aspect-ratio: 4/3;
+    aspect-ratio: 4/4;
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
 }
 .mainImage {
     composes: image;
-}
-.imageHover {
-    composes: image;
-    display: none;
 }
 .title {
     width: 90%;
@@ -67,14 +57,14 @@
     text-overflow: ellipsis;
 }
 .category {
-    font-size: 0.6rem;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.1);
-    color: rgba(0, 0, 0, 0.75);
+    background-color: transparent;
+    color: var(--secondary-text);
     width: fit-content;
     padding: 1.5dvh 1dvw;
-    border-radius: 10px;
-    transition: background-color 0.15s ease-in-out;
+    border-radius: 0.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
 }
 .price {
     font-weight: 600;
@@ -95,12 +85,12 @@
 }
 .buttonRed {
     composes: button;
-    background-color: darkred;
-    color: white;
+    background-color: transparent;
+    color: rgba(139,0,0,0.8);
 }
-.icon {
-    height: 3.5dvh;
-    width: fit-content;
+.cartIcon {
+    width: 1.3rem;
+    height: 1.3rem;
 }
 .loading {
     background-color: lightgrey;
@@ -144,10 +134,5 @@
 @keyframes loading-animation {
     50% {
         background-color: rgb(230, 230, 230);
-    }
-}
-@media (max-width: 700px) {
-    .icon {
-        height: 2.5dvh;
     }
 }

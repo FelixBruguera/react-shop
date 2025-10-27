@@ -68,7 +68,8 @@
     background-color: transparent;
 }
 .icon {
-    composes: icon from "./SmallProduct.module.css";
+    height: 1rem;
+    width: 1rem;
 }
 @keyframes slideOutLeft {
     30% {

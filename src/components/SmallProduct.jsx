@@ -1,31 +1,22 @@
 import { memo } from "react";
 import styles from "../styles/SmallProduct.module.css";
 import { Link } from "react-router";
-import { X, ShoppingCart, Plus } from "lucide-react";
+import { X, Plus } from "lucide-react";
 
 const SmallProduct = memo(({ data, isInCart, addToCart, removeFromCart }) => {
-  const iconSize = 18;
-  const uniqueImage = data.images.length === 1;
   return (
     <li className={styles.smallProduct}>
       <Link
         to={`./${data.slug}`}
         className={styles.link}
         state={{ previousUrl: "/shop" }}
-        onClick={() => document.startViewTransition()}
+        viewTransition
       >
         <img
-          className={uniqueImage ? styles.image : styles.mainImage}
+          className={styles.image}
           src={data.images[0]}
-          alt={data.title}
-        />
-        {!uniqueImage && (
-          <img
-            className={styles.imageHover}
-            src={data.images[1]}
-            alt={data.title}
+          alt={data.title}      
           />
-        )}
         <h3 className={styles.title} title={data.title}>
           {data.title}
         </h3>
@@ -42,7 +33,7 @@ const SmallProduct = memo(({ data, isInCart, addToCart, removeFromCart }) => {
               className={styles.buttonRed}
               onClick={() => removeFromCart(data.id)}
             >
-              <X size={iconSize} />
+              <X className={styles.cartIcon} />
             </button>
           ) : (
             <button
@@ -52,7 +43,7 @@ const SmallProduct = memo(({ data, isInCart, addToCart, removeFromCart }) => {
               className={styles.button}
               onClick={() => addToCart(data)}
             >
-              <Plus size={iconSize} />
+              <Plus className={styles.cartIcon} />
             </button>
           )}
         </div>

@@ -2,7 +2,7 @@ import styles from '../styles/CartItem.module.css'
 import { Link } from 'react-router'
 import QuantityInput from "./QuantityInput"
 import { memo } from 'react'
-import { CircleX } from 'lucide-react'
+import { CircleMinus } from 'lucide-react'
 
 const CartItem = memo(({ className, product, removeFromCart, updateQuantity, setCartOpen = null, previousUrl}) => {
     const onClick = () => {
@@ -23,7 +23,7 @@ const CartItem = memo(({ className, product, removeFromCart, updateQuantity, set
                 type="button"
                 className={styles.removeButton}
                     onClick={() => removeFromCart(product.id)}>
-                    <CircleX size={18} />
+                    <CircleMinus size={18} />
             </button>
             <QuantityInput
                 currentValue={product.quantity}

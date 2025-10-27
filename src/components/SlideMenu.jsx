@@ -26,7 +26,7 @@ const SlideMenu = ({ children, isOpen, closeSlide, position}) => {
                 title='close slide'
                 onClick={() => setIsClosing(true)}
             >
-                <CircleX size={18} aria-label='Close'/>
+                <CircleX className={styles.icon} aria-label='Close'/>
             </button>
             {children}
         </dialog>

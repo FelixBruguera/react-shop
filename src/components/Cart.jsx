@@ -49,10 +49,7 @@ const Cart = ({ cart, emptyCart, removeFromCart, updateQuantity, setCartOpen }) 
                             <Link 
                                 to={'shop/checkout'}
                                 className={`${styles.checkout} ${styles.button}`}
-                                onClick={() => {
-                                    setCartOpen(false)
-                                    document.startViewTransition()
-                                }}
+                                onClick={() => document.startViewTransition(() => setCartOpen(false))}
                                 >
                                 <CreditCard size={18} />
                                 <p className={styles.checkoutText}>Checkout</p>
