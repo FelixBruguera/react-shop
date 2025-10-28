@@ -1,72 +1,76 @@
 .payment {
-    height: 55%;
-    display: flex;
-    flex-wrap: wrap;
-    width: max(200px, 20%);
-    padding: 0% 5% 2% 5%;
-    align-items: center;
+  height: 55%;
+  display: flex;
+  flex-wrap: wrap;
+  width: max(200px, 20%);
+  padding: 0% 5% 2% 5%;
+  align-items: center;
 }
 .cartTotal > p {
-    margin: 0;
+  margin: 0;
+}
+.title {
+  composes: title from "./Checkout.module.css";
 }
 .totalPrice {
-    font-weight: 600;
-    font-size: 1rem;
-    color: black;
+  font-weight: 600;
+  font-size: 1rem;
+  color: black;
 }
 .inputField {
-    color: rgba(0,0,0,0.75);
+  color: rgba(0, 0, 0, 0.75);
 }
 .inputField > input {
-    border-radius: 5px;
-    outline: 1px solid rgba(0,0,0,0.3);
-    border: none;
-    font-size: 0.9rem;
-    color: black;
-    height: 3.5dvh;
-    width: 100%;
+  border-radius: 5px;
+  outline: 1px solid rgba(0, 0, 0, 0.3);
+  border: none;
+  font-size: 0.9rem;
+  color: black;
+  height: 3.5dvh;
+  width: 90%;
 }
 input[type="date"] {
-    font-size: 0.75rem;
+  font-size: 0.75rem;
 }
 .inputField > label {
-    font-size: 0.8rem;
+  font-size: 0.8rem;
 }
-input.cardDate, input.cardCvc {
-    width: min-content;
+input.cardDate,
+input.cardCvc {
+  width: min-content;
 }
 .cardFields {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 .payButton {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 3dvh;
-    margin: 0;
-    width: max(80px, 6dvw);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3dvh;
+  margin: 0;
+  width: max(80px, 6dvw);
 }
 .paymentContainer {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 10%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10%;
 }
 input.invalidInput {
-    outline: 1px solid red;
+  outline: 1px solid red;
 }
 @media (max-width: 700px) {
-    .payment {
-        height: 40%;
-        width: 50%;
-    }
-    .totalPrice {
-        font-size: 1.2rem;
-    }
-    input[type="date"] {
-        width: 75%;
-    }
+  .payment {
+    height: 40%;
+    width: 60%;
+  }
+  .totalPrice {
+    font-size: 1.2rem;
+  }
+  input[type="date"] {
+    width: 75%;
+  }
 }

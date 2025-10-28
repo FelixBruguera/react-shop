@@ -1,150 +1,160 @@
 :root {
-    --view-transition-delay: 0.5s;
-    --view-transition-curve: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  --view-transition-delay: 0.5s;
+  --view-transition-curve: cubic-bezier(0.445, 0.05, 0.55, 0.95);
 }
 .shop {
-    height: 88dvh;
-    overflow-y: scroll;
-    scroll-behavior: smooth;
+  height: 88dvh;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 .products {
-    display: flex;
-    width: 90%;
-    flex-wrap: wrap;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 2% 5%;
-    justify-content: space-evenly;
-    transition: opacity 0.5s ease-in-out;
-    row-gap: 5dvh;
-}
-.optionsWrap {
-    padding-bottom: 3dvh;
+  display: flex;
+  width: 90%;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-bottom: 2.5%;
+  justify-content: space-evenly;
+  transition: opacity 0.5s ease-in-out;
+  row-gap: 5dvh;
 }
 .options {
-    position: fixed;
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    gap: 2dvw;
-    background-color: #f1f2f4;
-    z-index: 1;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 2dvw;
+  background-color: #f1f2f4;
+  z-index: 1;
+  padding: 1rem 0;
 }
 .option {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    height: 3dvh;
-    width: max(6dvw, 80px);
+  composes: light from "./Button.module.css";
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 5dvh;
+  width: 8dvw;
+  max-width: 150px;
+  max-height: 50px;
+  min-width: 80px;
 }
 .option > p {
-    font-size: 0.7rem;
+  font-size: 0.875rem;
 }
 .icon {
-    height: 3.5dvh;
-    width: fit-content;
+  height: 100%;
+  width: fit-content;
 }
 .noResults {
-    text-align: center;
-    padding: 10%;
+  text-align: center;
+  padding: 10%;
 }
 .loadingOption {
-    composes: loading from "./SmallProduct.module.css";
-    height: 6dvh;
-    width: max(9dvw, 80px);
+  composes: loading from "./SmallProduct.module.css";
+  height: 6dvh;
+  width: max(9dvw, 80px);
 }
 ::view-transition-old(root) {
-    animation: slideToLeft var(--view-transition-delay) var(--view-transition-curve);
+  animation: slideToLeft var(--view-transition-delay)
+    var(--view-transition-curve);
 }
 ::view-transition-new(root) {
-    animation: slideFromRight var(--view-transition-delay) var(--view-transition-curve);
+  animation: slideFromRight var(--view-transition-delay)
+    var(--view-transition-curve);
 }
 html:active-view-transition-type(backwards) {
-    &::view-transition-old(root) {
-        animation: slideToRight var(--view-transition-delay) var(--view-transition-curve);
-    }
-    &::view-transition-new(root) {
-        animation: slideFromLeft var(--view-transition-delay) var(--view-transition-curve);
-    }
+  &::view-transition-old(root) {
+    animation: slideToRight var(--view-transition-delay)
+      var(--view-transition-curve);
   }
+  &::view-transition-new(root) {
+    animation: slideFromLeft var(--view-transition-delay)
+      var(--view-transition-curve);
+  }
+}
 @keyframes slideToLeft {
-    70% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 0;
-        transform: translateX(-20%);
-    }
+  70% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-20%);
+  }
 }
 @keyframes slideFromRight {
-    0% {
-        transform: translateX(20%);
-        opacity: 0;
-    }
-    70% {
-        opacity: 1;
-    }
+  0% {
+    transform: translateX(20%);
+    opacity: 0;
+  }
+  70% {
+    opacity: 1;
+  }
 }
 @keyframes slideToRight {
-    70% {
-        opacity: 0;
-    }
-    100% {
-        transform: translateX(20%);
-        opacity: 0;
-    }
+  70% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(20%);
+    opacity: 0;
+  }
 }
 @keyframes slideFromLeft {
-    0% {
-        transform: translateX(-20%);
-        opacity: 0;
-    }
-    70% {
-        opacity: 1;
-    }
+  0% {
+    transform: translateX(-20%);
+    opacity: 0;
+  }
+  70% {
+    opacity: 1;
+  }
 }
 @media (max-width: 700px) {
-    .products {
-        width: 100%;
-        padding: 5% 0%;
+  .products {
+    width: 100%;
+    padding: 5% 0%;
+  }
+  .option {
+    width: 25dvw;
+  }
+  @keyframes slideToLeft {
+    70% {
+      opacity: 0;
     }
-    @keyframes slideToLeft {
-        70% {
-            opacity: 0;
-        }
-        100% {
-            opacity: 0;
-            transform: translateX(-100%);
-        }
+    100% {
+      opacity: 0;
+      transform: translateX(-100%);
     }
-    @keyframes slideFromRight {
-        0% {
-            transform: translateX(100%);
-            opacity: 0;
-        }
-        70% {
-            opacity: 1;
-        }
+  }
+  @keyframes slideFromRight {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
     }
-    @keyframes slideToRight {
-        70% {
-            opacity: 0;
-        }
-        100% {
-            transform: translateX(100%);
-            opacity: 0;
-        }
+    70% {
+      opacity: 1;
     }
-    @keyframes slideFromLeft {
-        0% {
-            transform: translateX(-100%);
-            opacity: 0;
-        }
-        70% {
-            opacity: 1;
-        }
+  }
+  @keyframes slideToRight {
+    70% {
+      opacity: 0;
     }
+    100% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+  }
+  @keyframes slideFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    70% {
+      opacity: 1;
+    }
+  }
 }

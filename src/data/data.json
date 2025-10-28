@@ -1,1536 +1,2800 @@
 [
   {
-    "id": 41,
-    "slug": "car-windshield-wiper-blades-set-of-2",
-    "title": "Car Windshield Wiper Blades (Set of 2)",
-    "description": "Ensure clear visibility in any weather with this set of two premium car windshield wiper blades. Engineered for optimal contact and long-lasting performance, they deliver a streak-free wipe, enhancing driving safety. Crafted from durable rubber, resisting cracks and tears from sun and ice. Simple to install and fits most vehicle models. Regular replacement ensures safe, clear vision.",
-    "price": 25,
-    "category": {
-      "id": 9,
-      "slug": "automotive",
-      "name": "Automotive"
-    },
-    "image": "/car-windshield-wiper-blades-set-of-2.webp"
-  },
-  {
-    "id": 42,
-    "slug": "car-phone-mount",
-    "title": "Car Phone Mount",
-    "description": "Keep your phone secure and accessible while driving with this convenient car phone mount. Designed for easy one-hand operation, it provides a stable hold for various phone sizes. Enjoy hands-free navigation and calls, enhancing your driving safety and convenience. Installs easily in your car's air vent or dashboard.",
-    "price": 15,
-    "category": {
-      "id": 9,
-      "slug": "automotive",
-      "name": "Automotive"
-    },
-    "image": "/car-phone-mount.webp"
-  },
-  {
-    "id": 43,
-    "slug": "car-air-freshener",
-    "title": "Car Air Freshener",
-    "description": "Infuse your car with a refreshing scent using this long-lasting air freshener. Its subtle fragrance creates a pleasant driving environment, eliminating unwanted odors. Easy to use and discreet, it keeps your vehicle smelling clean and inviting for weeks. Choose from a variety of captivating scents to personalize your ride.",
-    "price": 5,
-    "category": {
-      "id": 9,
-      "slug": "automotive",
-      "name": "Automotive"
-    },
-    "image": "/car-air-freshener.webp"
-  },
-  {
-    "id": 44,
-    "slug": "car-wash-kit",
-    "title": "Car Wash Kit",
-    "description": "Achieve a showroom shine at home with this complete car wash kit. Includes all essentials for washing, waxing, and detailing your vehicle. Features premium quality soap for effective cleaning, a soft wash mitt, durable drying towel, and specialized wax for a protective finish. Keep your car looking its best with this convenient set.",
-    "price": 40,
-    "category": {
-      "id": 9,
-      "slug": "automotive",
-      "name": "Automotive"
-    },
-    "image": "/car-wash-kit.webp"
-  },
-  {
-    "id": 45,
-    "slug": "tire-pressure-gauge",
-    "title": "Tire Pressure Gauge",
-    "description": "Ensure optimal tire inflation and safety with this reliable tire pressure gauge. Its accurate readings help improve fuel efficiency and extend tire life. Compact and easy to use, it's an essential tool for every car owner. Regularly checking your tire pressure contributes to a smoother and safer driving experience.",
-    "price": 10,
-    "category": {
-      "id": 9,
-      "slug": "automotive",
-      "name": "Automotive"
-    },
-    "image": "/tire-pressure-gauge.webp"
-  },
-  {
-    "id": 91,
-    "slug": "car-battery",
-    "title": "Car Battery",
-    "description": "Power your vehicle reliably with this long-lasting car battery. Engineered for consistent performance and durability, it provides the necessary starting power in various weather conditions. Its robust construction ensures a prolonged lifespan, offering peace of mind on the road. Choose this dependable battery for your car's power needs.",
-    "price": 99,
-    "category": {
-      "id": 9,
-      "slug": "automotive",
-      "name": "Automotive"
-    },
-    "image": "/car-battery.webp"
-  },
-  {
-    "id": 92,
-    "slug": "motor-oil-synthetic",
-    "title": "Synthetic Motor Oil",
-    "description": "Provide superior protection to your engine with this high-quality synthetic motor oil. Formulated for optimal performance, it reduces friction and wear, extending engine life and improving fuel efficiency. Suitable for a wide range of vehicles, this synthetic oil ensures smooth operation and protection against extreme temperatures.",
-    "price": 35,
-    "category": {
-      "id": 9,
-      "slug": "automotive",
-      "name": "Automotive"
-    },
-    "image": "/motor-oil-synthetic.webp"
-  },
-  {
-    "id": 93,
-    "slug": "car-floor-mats-set",
-    "title": "Car Floor Mats (Set of 4)",
-    "description": "Protect your car's interior with this set of four durable floor mats. Designed to trap dirt, mud, and spills, they help keep your vehicle clean and well-maintained. Made from high-quality materials for long-lasting use and easy cleaning. A practical addition to any car, preserving its value and appearance.",
-    "price": 30,
-    "category": {
-      "id": 9,
-      "slug": "automotive",
-      "name": "Automotive"
-    },
-    "image": "/car-floor-mats-set.webp"
-  },
-  {
-    "id": 94,
-    "slug": "headlight-bulb",
-    "title": "Headlight Bulb",
-    "description": "Ensure safe nighttime driving with this bright and reliable headlight bulb. Providing excellent visibility, it enhances your safety on the road. Easy to install and designed for long-lasting performance. Replace your old or dim bulbs to maintain optimal lighting for clear vision during your travels.",
-    "price": 18,
-    "category": {
-      "id": 9,
-      "slug": "automotive",
-      "name": "Automotive"
-    },
-    "image": "/headlight-bulb.webp"
-  },
-  {
-    "id": 95,
-    "slug": "car-vacuum-cleaner",
-    "title": "Car Vacuum Cleaner",
-    "description": "Keep your car interior spotless with this portable and powerful vacuum cleaner. Designed specifically for vehicles, it easily removes dirt, crumbs, and debris from seats and carpets. Lightweight and easy to maneuver, it comes with attachments for reaching tight spaces. A convenient solution for maintaining a clean car environment.",
-    "price": 30,
-    "category": {
-      "id": 9,
-      "slug": "automotive",
-      "name": "Automotive"
-    },
-    "image": "/car-vacuum-cleaner.webp"
-  },
-  {
-    "id": 118,
-    "slug": "portable-car-tire-inflator-air-compressor",
-    "title": "Portable Car Tire Inflator Air Compressor",
-    "description": "Stay prepared on the road with this portable air compressor. Compact and user-friendly, it plugs into your car's 12V outlet for quick tire inflation. Features an integrated pressure gauge for accuracy and comes with multiple nozzles for cars, bikes, and sports gear. A vital tool for safety and maintaining fuel efficiency.",
-    "price": 39,
-    "category": {
-      "id": 9,
-      "slug": "automotive",
-      "name": "Automotive"
-    },
-    "image": "/portable-car-tire-inflator-air-compressor.webp"
-  },
-  {
-    "id": 21,
-    "slug": "facial-cleanser",
-    "title": "Facial Cleanser",
-    "description": "Start your skincare routine with this gentle yet effective facial cleanser. Formulated for daily use, it removes impurities and leaves your skin feeling refreshed and clean without over-drying. Suitable for various skin types.",
-    "price": 18,
-    "category": {
-      "id": 5,
-      "slug": "beauty-personal-care",
-      "name": "Beauty & Personal Care"
-    },
-    "image": "/facial-cleanser.webp"
-  },
-  {
-    "id": 22,
-    "slug": "moisturizer-with-spf",
-    "title": "Moisturizer with SPF",
-    "description": "Hydrate and protect your skin in one step with this moisturizer featuring SPF. This dual-action formula nourishes your skin while shielding it from harmful sun rays, making it an essential part of your daily sun protection regimen.",
-    "price": 25,
-    "category": {
-      "id": 5,
-      "slug": "beauty-personal-care",
-      "name": "Beauty & Personal Care"
-    },
-    "image": "/moisturizer-with-spf.webp"
-  },
-  {
-    "id": 23,
-    "slug": "shampoo-and-conditioner-set",
-    "title": "Shampoo and Conditioner Set",
-    "description": "Achieve healthy, lustrous hair with this nourishing shampoo and conditioner set. The balanced formulas work together to cleanse, hydrate, and detangle your hair, leaving it feeling soft, smooth, and manageable. Ideal for everyday use.",
-    "price": 22,
-    "category": {
-      "id": 5,
-      "slug": "beauty-personal-care",
-      "name": "Beauty & Personal Care"
-    },
-    "image": "/shampoo-and-conditioner-set.webp"
-  },
-  {
-    "id": 24,
-    "slug": "makeup-brush-set",
-    "title": "Makeup Brush Set",
-    "description": "Create flawless looks with this comprehensive set of high-quality makeup brushes. Each brush is designed for precise application of various makeup products, from foundation to eyeshadow. Durable and easy to clean, they are perfect for both beginners and professionals.",
-    "price": 35,
-    "category": {
-      "id": 5,
-      "slug": "beauty-personal-care",
-      "name": "Beauty & Personal Care"
-    },
-    "image": "/makeup-brush-set.webp"
-  },
-  {
-    "id": 25,
-    "slug": "sunscreen-lotion",
-    "title": "Sunscreen Lotion",
-    "description": "Protect your skin from the sun's harmful UV rays with this broad-spectrum sunscreen lotion. Its lightweight formula absorbs quickly and provides effective protection, helping to prevent sunburn and long-term skin damage. Essential for daily use, especially during outdoor activities.",
-    "price": 15,
-    "category": {
-      "id": 5,
-      "slug": "beauty-personal-care",
-      "name": "Beauty & Personal Care"
-    },
-    "image": "/sunscreen-lotion.webp"
-  },
-  {
-    "id": 71,
-    "slug": "eye-cream",
-    "title": "Eye Cream",
-    "description": "Target the delicate skin around your eyes with this hydrating eye cream. Formulated to reduce the appearance of fine lines, wrinkles, and puffiness, it helps to rejuvenate and brighten the under-eye area for a more youthful look.",
-    "price": 28,
-    "category": {
-      "id": 5,
-      "slug": "beauty-personal-care",
-      "name": "Beauty & Personal Care"
-    },
-    "image": "/eye-cream.webp"
-  },
-  {
-    "id": 72,
-    "slug": "nourishing-hair-mask-argan-oil",
-    "title": "Nourishing Hair Mask with Argan Oil",
-    "description": "Revitalize your hair with this deeply nourishing mask enriched with argan oil. It works to restore moisture, enhance shine, and tame frizz, leaving hair soft and healthy. Ideal for dry or damaged hair, providing intense repair and promoting overall hair health.",
-    "price": 22,
-    "category": {
-      "id": 5,
-      "slug": "beauty-personal-care",
-      "name": "Beauty & Personal Care"
-    },
-    "image": "/nourishing-hair-mask-argan-oil.webp"
-  },
-  {
-    "id": 73,
-    "slug": "hair-dryer",
-    "title": "Hair Dryer",
-    "description": "Achieve your desired hairstyle quickly and efficiently with this powerful hair dryer. Designed with multiple heat and speed settings, it offers versatility for various hair types and styling needs. Its ergonomic design ensures comfortable use.",
-    "price": 40,
-    "category": {
-      "id": 5,
-      "slug": "beauty-personal-care",
-      "name": "Beauty & Personal Care"
-    },
-    "image": "/hair-dryer.webp"
-  },
-  {
-    "id": 74,
-    "slug": "lip-balm",
-    "title": "Lip Balm",
-    "description": "Keep your lips soft, smooth, and hydrated with this moisturizing lip balm. Formulated to protect against dryness and chapping, it's a convenient essential for daily lip care, especially in harsh weather conditions.",
-    "price": 5,
-    "category": {
-      "id": 5,
-      "slug": "beauty-personal-care",
-      "name": "Beauty & Personal Care"
-    },
-    "image": "/lip-balm.webp"
-  },
-  {
-    "id": 75,
-    "slug": "nail-polish-set",
-    "title": "Nail Polish Set",
-    "description": "Express your style with this set of vibrant and long-lasting nail polishes. Featuring a range of trendy colors, these polishes deliver a smooth, chip-resistant finish for beautiful nails that last. Perfect for creating your own unique manicures.",
-    "price": 20,
-    "category": {
-      "id": 5,
-      "slug": "beauty-personal-care",
-      "name": "Beauty & Personal Care"
-    },
-    "image": "/nail-polish-set.webp"
-  },
-  {
-    "id": 16,
-    "slug": "the-great-gatsby-book",
-    "title": "The Great Gatsby",
-    "description": "Delve into the Roaring Twenties with F. Scott Fitzgerald's classic novel, The Great Gatsby. A poignant tale of wealth, love, and the American Dream, it remains a powerful exploration of societal ideals and disillusionment.",
-    "price": 10,
-    "category": {
-      "id": 4,
-      "slug": "books",
-      "name": "Books"
-    },
-    "image": "/the-great-gatsby-book.webp"
-  },
-  {
-    "id": 17,
-    "slug": "harry-potter-and-the-sorcerers-stone",
-    "title": "Harry Potter and the Sorcerer's Stone",
-    "description": "Embark on a magical journey with the first book in J.K. Rowling's beloved Harry Potter series. Discover the enchanting world of Hogwarts through the eyes of a young wizard, filled with adventure, friendship, and wonder.",
-    "price": 12,
-    "category": {
-      "id": 4,
-      "slug": "books",
-      "name": "Books"
-    },
-    "image": "/harry-potter-and-the-sorcerers-stone.webp"
-  },
-  {
-    "id": 18,
-    "slug": "to-kill-a-mockingbird-book",
-    "title": "To Kill a Mockingbird",
-    "description": "Experience Harper Lee's powerful and timeless novel, To Kill a Mockingbird. Set in the American South, this story explores themes of justice, prejudice, and compassion through the innocent perspective of a child.",
-    "price": 11,
-    "category": {
-      "id": 4,
-      "slug": "books",
-      "name": "Books"
-    },
-    "image": "/to-kill-a-mockingbird-book.webp"
-  },
-  {
-    "id": 19,
-    "slug": "1984-book",
-    "title": "1984",
-    "description": "Explore a chilling vision of a totalitarian future in George Orwell's dystopian masterpiece, 1984. This thought-provoking novel delves into themes of surveillance, control, and the power of language.",
-    "price": 9,
-    "category": {
-      "id": 4,
-      "slug": "books",
-      "name": "Books"
-    },
-    "image": "/1984-book.webp"
-  },
-  {
-    "id": 20,
-    "slug": "the-lord-of-the-rings-the-fellowship-of-the-ring",
-    "title": "The Lord of the Rings: The Fellowship of the Ring",
-    "description": "Begin the epic adventure with the first volume of J.R.R. Tolkien's fantasy trilogy. The Fellowship of the Ring introduces a rich world, compelling characters, and a perilous quest to save Middle-earth.",
-    "price": 15,
-    "category": {
-      "id": 4,
-      "slug": "books",
-      "name": "Books"
-    },
-    "image": "/the-lord-of-the-rings-the-fellowship-of-the-ring.webp"
-  },
-  {
-    "id": 66,
-    "slug": "the-catcher-in-the-rye-book",
-    "title": "The Catcher in the Rye",
-    "description": "Follow the introspective journey of Holden Caulfield in J.D. Salinger's iconic coming-of-age novel. The Catcher in the Rye explores themes of adolescence, alienation, and the search for authenticity.",
-    "price": 10,
-    "category": {
-      "id": 4,
-      "slug": "books",
-      "name": "Books"
-    },
-    "image": "/the-catcher-in-the-rye-book.webp"
-  },
-  {
-    "id": 67,
-    "slug": "pride-and-prejudice-book",
-    "title": "Pride and Prejudice",
-    "description": "Immerse yourself in the witty world of Jane Austen's beloved novel, Pride and Prejudice. This timeless story explores societal expectations, class distinctions, and the complexities of love and marriage in 19th-century England.",
-    "price": 11,
-    "category": {
-      "id": 4,
-      "slug": "books",
-      "name": "Books"
-    },
-    "image": "/pride-and-prejudice-book.webp"
-  },
-  {
-    "id": 68,
-    "slug": "the-hobbit-book",
-    "title": "The Hobbit",
-    "description": "Join Bilbo Baggins on an unforgettable adventure in J.R.R. Tolkien's classic fantasy novel, The Hobbit. This enchanting tale of dragons, treasures, and unexpected heroism is a perfect introduction to Middle-earth.",
-    "price": 13,
-    "category": {
-      "id": 4,
-      "slug": "books",
-      "name": "Books"
-    },
-    "image": "/the-hobbit-book.webp"
-  },
-  {
-    "id": 69,
-    "slug": "animal-farm-book",
-    "title": "Animal Farm",
-    "description": "Discover George Orwell's sharp and satirical novella, Animal Farm. This allegorical tale uses barnyard animals to critique political systems and the corrupting nature of power.",
-    "price": 9,
-    "category": {
-      "id": 4,
-      "slug": "books",
-      "name": "Books"
-    },
-    "image": "/animal-farm-book.webp"
-  },
-  {
-    "id": 70,
-    "slug": "the-chronicles-of-narnia",
-    "title": "The Chronicles of Narnia",
-    "description": "Begin a fantastical journey with The Lion, the Witch and the Wardrobe, the first book in C.S. Lewis's beloved Chronicles of Narnia series. Enter a world of magic, talking animals, and epic battles between good and evil.",
-    "price": 12,
-    "category": {
-      "id": 4,
-      "slug": "books",
-      "name": "Books"
-    },
-    "image": "/the-chronicles-of-narnia.webp"
-  },
-  {
-    "id": 6,
-    "slug": "mens-cotton-t-shirt",
-    "title": "Men's Cotton T-Shirt",
-    "description": "A wardrobe essential, this men's cotton t-shirt offers both comfort and versatility for everyday wear. Made from soft, breathable cotton, it's perfect for casual outings or layering under other garments.",
-    "price": 15,
-    "category": {
-      "id": 2,
-      "slug": "clothing",
-      "name": "Clothing"
-    },
-    "image": "/mens-cotton-t-shirt.webp"
-  },
-  {
-    "id": 7,
-    "slug": "womens-denim-jeans",
-    "title": "Women's Denim Jeans",
-    "description": "These classic denim jeans for women provide a stylish and comfortable fit. Crafted from durable denim, they are perfect for various occasions, offering timeless style and all-day comfort. Available in different washes and sizes.",
-    "price": 45,
-    "category": {
-      "id": 2,
-      "slug": "clothing",
-      "name": "Clothing"
-    },
-    "image": "/womens-denim-jeans.webp"
-  },
-  {
-    "id": 8,
-    "slug": "kids-sneakers",
-    "title": "Kids' Sneakers",
-    "description": "Designed for active kids, these sneakers offer durability and comfort for all their adventures. With a supportive fit and sturdy construction, they are perfect for running, playing, and everyday activities.",
-    "price": 30,
-    "category": {
-      "id": 2,
-      "slug": "clothing",
-      "name": "Clothing"
-    },
-    "image": "/kids-sneakers.webp"
-  },
-  {
-    "id": 9,
-    "slug": "formal-dress-shirt",
-    "title": "Formal Dress Shirt",
-    "description": "A crisp and stylish dress shirt, ideal for making a polished impression at formal occasions. Tailored for a sophisticated fit, it pairs perfectly with suits and ties for a sharp and professional look.",
-    "price": 39,
-    "category": {
-      "id": 2,
-      "slug": "clothing",
-      "name": "Clothing"
-    },
-    "image": "/formal-dress-shirt.webp"
-  },
-  {
-    "id": 10,
-    "slug": "winter-scarf",
-    "title": "Winter Scarf",
-    "description": "Stay warm and add a touch of style with this cozy winter scarf. Made from soft and insulating materials, it provides excellent protection against the cold while complementing your winter outfits.",
-    "price": 20,
-    "category": {
-      "id": 2,
-      "slug": "clothing",
-      "name": "Clothing"
-    },
-    "image": "/winter-scarf.webp"
-  },
-  {
-    "id": 56,
-    "slug": "womens-summer-dress",
-    "title": "Women's Summer Dress",
-    "description": "Embrace the warm weather in this light and breezy summer dress. Perfect for sunny days and casual outings, its comfortable fabric and stylish design will keep you cool and fashionable.",
-    "price": 35,
-    "category": {
-      "id": 2,
-      "slug": "clothing",
-      "name": "Clothing"
-    },
-    "image": "/womens-summer-dress.webp"
-  },
-  {
-    "id": 57,
-    "slug": "mens-casual-shorts",
-    "title": "Men's Casual Shorts",
-    "description": "These comfortable and stylish casual shorts are a great addition to your warm-weather wardrobe. Perfect for everyday wear, they offer a relaxed fit and practical design for various activities.",
-    "price": 28,
-    "category": {
-      "id": 2,
-      "slug": "clothing",
-      "name": "Clothing"
-    },
-    "image": "/mens-casual-shorts.webp"
-  },
-  {
-    "id": 58,
-    "slug": "baby-onesies-pack",
-    "title": "Baby Onesies (Pack of 5)",
-    "description": "This pack includes five soft and comfortable baby onesies, perfect for everyday wear. Made from gentle fabrics, they ensure your baby stays cozy and happy. Easy to wash and change.",
-    "price": 20,
-    "category": {
-      "id": 2,
-      "slug": "clothing",
-      "name": "Clothing"
-    },
-    "image": "/baby-onesies-pack.webp"
-  },
-  {
-    "id": 59,
-    "slug": "womens-yoga-pants",
-    "title": "Women's Yoga Pants",
-    "description": "Experience ultimate comfort and flexibility with these women's yoga pants. Ideal for workouts, yoga sessions, or simply lounging at home, they offer a supportive and flattering fit.",
-    "price": 30,
-    "category": {
-      "id": 2,
-      "slug": "clothing",
-      "name": "Clothing"
-    },
-    "image": "/womens-yoga-pants.webp"
-  },
-  {
-    "id": 60,
-    "slug": "kids-raincoat",
-    "title": "Kids' Raincoat",
-    "description": "Keep your little ones dry and happy even on rainy days with this waterproof and durable raincoat. Designed for comfort and practicality, it's perfect for school trips and outdoor adventures.",
-    "price": 25,
-    "category": {
-      "id": 2,
-      "slug": "clothing",
-      "name": "Clothing"
-    },
-    "image": "/kids-raincoat.webp"
-  },
-  {
-    "id": 108,
-    "slug": "mens-casual-denim-jeans",
-    "title": "Men's Casual Denim Jeans",
-    "description": "These men's casual denim jeans offer a comfortable and stylish option for everyday wear. Made from durable denim with a touch of stretch, they feature a classic five-pocket design and a versatile straight fit. A long-lasting wardrobe staple.",
-    "price": 45,
-    "category": {
-      "id": 2,
-      "slug": "clothing",
-      "name": "Clothing"
-    },
-    "image": "/mens-casual-denim-jeans.webp"
-  },
-  {
-    "id": 109,
-    "slug": "mens-lightweight-hoodie",
-    "title": "Men's Lightweight Hoodie",
-    "description": "Ideal for layering, this men's lightweight hoodie is crafted from a soft and breathable fabric blend. Features an adjustable hood, kangaroo pocket, and ribbed details for a comfortable fit. Perfect for casual wear or workouts.",
-    "price": 35,
-    "category": {
-      "id": 2,
-      "slug": "clothing",
-      "name": "Clothing"
-    },
-    "image": "/mens-lightweight-hoodie.webp"
-  },
-  {
-    "id": 110,
-    "slug": "mens-dress-socks-pack-of-3",
-    "title": "Men's Dress Socks (Pack of 3)",
-    "description": "This pack of three men's dress socks offers a comfortable and stylish foundation for formal attire. Made from a premium blend, they feature a classic ribbed design and reinforced heel and toe for durability. Essential for any well-dressed man.",
-    "price": 20,
-    "category": {
-      "id": 2,
-      "slug": "clothing",
-      "name": "Clothing"
-    },
-    "image": "/mens-dress-socks-pack-of-3.webp"
-  },
-  {
-    "id": 111,
-    "slug": "mens-casual-chino-shorts",
-    "title": "Men's Casual Chino Shorts",
-    "description": "These men's casual chino shorts provide a comfortable and versatile option for warm weather. Made from a lightweight cotton blend, they feature a flat-front design and multiple pockets. Perfect for relaxed occasions.",
-    "price": 30,
-    "category": {
-      "id": 2,
-      "slug": "clothing",
-      "name": "Clothing"
-    },
-    "image": "/mens-casual-chino-shorts.webp"
-  },
-  {
     "id": 1,
-    "slug": "portable-bluetooth-speaker",
-    "title": "Portable Bluetooth Speaker",
-    "description": "Take your music anywhere with this high-quality portable Bluetooth speaker. Enjoy rich sound and a reliable connection, perfect for outdoor adventures or indoor gatherings.",
-    "price": 49,
+    "slug": "classic-starter-acoustic",
+    "title": "Classic Starter Acoustic Guitar",
+    "description": "A fantastic full-sized acoustic guitar perfect for beginners. Features a spruce top and mahogany back and sides for a warm resonant tone. Easy to play with a comfortable neck profile. Durable construction ensures longevity making it an excellent first instrument for aspiring musicians of all ages. Includes a gig bag and an introductory lesson book.",
+    "price": 199,
+    "details": [
+      "Dreadnought Body Style",
+      "Spruce Top Material",
+      "Mahogany Back and Sides",
+      "Nato Neck Material",
+      "Rosewood Fingerboard",
+      "25.5-inch Scale Length",
+      "Natural Gloss Finish"
+    ],
     "category": {
       "id": 1,
-      "slug": "electronics",
-      "name": "Electronics"
+      "slug": "guitar-bass",
+      "name": "Guitar & Bass"
     },
-    "image": "/portable-bluetooth-speaker.webp"
+    "images": [
+      "/classic-starter-acoustic.webp",
+      "/classic-starter-acoustic-2.webp",
+      "/classic-starter-acoustic-3.webp"
+    ]
   },
   {
     "id": 2,
-    "slug": "wireless-noise-cancelling-headphones",
-    "title": "Wireless Noise-Cancelling Headphones",
-    "description": "Immerse yourself in pure audio bliss with these comfortable wireless headphones featuring advanced noise-cancelling technology. Enjoy crystal-clear sound without distractions.",
-    "price": 199,
+    "slug": "vintage-style-electric",
+    "title": "Vintage-Style Solid Body Electric Guitar",
+    "description": "A sleek vintage-inspired electric guitar with a classic double-cutaway design and three single-coil pickups for that unmistakable bright twangy tone. Ideal for genres like rock blues and country. The alder body and maple neck provide excellent sustain and clarity. Comes equipped with a tremolo bridge for expressive pitch bending and a five-way selector switch for tonal versatility.",
+    "price": 549,
+    "details": [
+      "Alder Body Material",
+      "Maple Neck Material",
+      "Pau Ferro Fingerboard",
+      "Three Single-Coil Pickups",
+      "Synchronized Tremolo Bridge",
+      "22 Medium Jumbo Frets",
+      "One Volume Two Tone Controls",
+      "Classic Sunburst Color"
+    ],
     "category": {
       "id": 1,
-      "slug": "electronics",
-      "name": "Electronics"
+      "slug": "guitar-bass",
+      "name": "Guitar & Bass"
     },
-    "image": "/wireless-noise-cancelling-headphones.webp"
+    "images": [
+      "/vintage-style-electric.webp",
+      "/vintage-style-electric-2.webp",
+      "/vintage-style-electric-3.webp"
+    ]
   },
   {
     "id": 3,
-    "slug": "smart-tv-55-inch",
-    "title": "Smart TV 55-inch",
-    "description": "Experience stunning visuals and a world of entertainment with this 55-inch smart TV. Enjoy your favorite streaming services and vibrant picture quality for an immersive viewing experience.",
-    "price": 599,
+    "slug": "premium-hollow-body-jazz",
+    "title": "Premium Hollow Body Jazz Guitar",
+    "description": "An exquisite hollow body guitar designed for jazz blues and RB musicians. Its archtop design and dual humbucker pickups deliver a warm rich and mellow sound with superb articulation and sustain. The maple body and neck combined with a rosewood fretboard offer a luxurious feel and elegant look. A true professional instrument perfect for sophisticated chord voicings and smooth lead lines.",
+    "price": 1299,
+    "details": [
+      "Archtop Hollow Body Style",
+      "Maple Body Material",
+      "Maple Neck Material",
+      "Rosewood Fingerboard",
+      "Dual Humbucker Pickups",
+      "Adjusto-Matic Bridge",
+      "Multi-ply Body Binding",
+      "Gold Hardware",
+      "Bone Nut Material",
+      "Cherry Red Gloss Finish"
+    ],
     "category": {
       "id": 1,
-      "slug": "electronics",
-      "name": "Electronics"
+      "slug": "guitar-bass",
+      "name": "Guitar & Bass"
     },
-    "image": "/smart-tv-55-inch.webp"
+    "images": [
+      "/premium-hollow-body-jazz.webp",
+      "/premium-hollow-body-jazz-2.webp",
+      "/premium-hollow-body-jazz-3.webp"
+    ]
   },
   {
     "id": 4,
-    "slug": "wireless-keyboard-mouse-combo",
-    "title": "Wireless Keyboard and Mouse Combo",
-    "description": "Boost your productivity with this comfortable and reliable wireless keyboard and mouse combo. Enjoy freedom of movement and a clutter-free workspace for efficient work.",
-    "price": 35,
+    "slug": "yamaha-p-45",
+    "title": "Yamaha P-45 Digital Piano",
+    "description": "An excellent entry-level digital piano featuring 88 Graded Hammer Standard (GHS) keys, offering a realistic acoustic piano feel. It includes 10 quality voices and a compact, lightweight design, perfect for home practice or small studio spaces. Simple operation makes it a favorite for beginners and students.",
+    "price": 549,
+    "details": [
+      "88 Graded Hammer Standard (GHS) keys",
+      "10 Voices",
+      "Compact and lightweight design (25 lbs)",
+      "USB to Host connectivity",
+      "Dual mode for layering voices",
+      "Includes sustain pedal and power adapter"
+    ],
     "category": {
-      "id": 1,
-      "slug": "electronics",
-      "name": "Electronics"
+      "id": 2,
+      "slug": "keyboards-pianos",
+      "name": "Keyboards & Pianos"
     },
-    "image": "/wireless-keyboard-mouse-combo.webp"
+    "images": [
+      "/yamaha-p-45.webp",
+      "/yamaha-p-45-2.webp",
+      "/yamaha-p-45-3.webp"
+    ]
   },
   {
     "id": 5,
-    "slug": "fitness-tracker-watch",
-    "title": "Fitness Tracker Watch",
-    "description": "Monitor your health and activity levels with this advanced fitness tracker watch. Track steps, sleep, heart rate, and more to help you achieve your wellness goals.",
-    "price": 79,
-    "category": {
-      "id": 1,
-      "slug": "electronics",
-      "name": "Electronics"
-    },
-    "image": "/fitness-tracker-watch.webp"
-  },
-  {
-    "id": 51,
-    "slug": "laptop-15-inch",
-    "title": "15-inch Laptop",
-    "description": "This powerful and versatile 15-inch laptop is designed for both work and entertainment. Featuring a vibrant display and robust performance, it's perfect for multitasking, creative projects, and enjoying multimedia content on the go.",
-    "price": 799,
-    "category": {
-      "id": 1,
-      "slug": "electronics",
-      "name": "Electronics"
-    },
-    "image": "/laptop-15-inch.webp"
-  },
-  {
-    "id": 52,
-    "slug": "smartphone-latest-model",
-    "title": "Latest Model Smartphone",
-    "description": "Experience the future in your hands with this cutting-edge smartphone. Boasting advanced features, a stunning display, and a powerful camera system, it redefines mobile technology and keeps you connected in style.",
-    "price": 999,
-    "category": {
-      "id": 1,
-      "slug": "electronics",
-      "name": "Electronics"
-    },
-    "image": "/smartphone-latest-model.webp"
-  },
-  {
-    "id": 53,
-    "slug": "tablet-10-inch",
-    "title": "10-inch Tablet",
-    "description": "This portable and powerful 10-inch tablet is your ideal companion for browsing the web, streaming videos, reading, and staying productive on the go. Its sleek design and intuitive interface make it a joy to use.",
-    "price": 299,
-    "category": {
-      "id": 1,
-      "slug": "electronics",
-      "name": "Electronics"
-    },
-    "image": "/tablet-10-inch.webp"
-  },
-  {
-    "id": 54,
-    "slug": "camera-dslr",
-    "title": "Digital SLR Camera",
-    "description": "Capture professional-quality photos and videos with this high-resolution DSLR camera. Offering manual controls and versatile shooting modes, it's perfect for enthusiasts and aspiring photographers alike.",
-    "price": 699,
-    "category": {
-      "id": 1,
-      "slug": "electronics",
-      "name": "Electronics"
-    },
-    "image": "/camera-dslr.webp"
-  },
-  {
-    "id": 55,
-    "slug": "smartwatch",
-    "title": "Smartwatch",
-    "description": "Stay connected and monitor your well-being with this feature-rich smartwatch. Track your fitness activities, receive notifications, and manage calls, all from your wrist. A stylish and practical companion for your daily life.",
-    "price": 199,
-    "category": {
-      "id": 1,
-      "slug": "electronics",
-      "name": "Electronics"
-    },
-    "image": "/smartwatch.webp"
-  },
-  {
-    "id": 101,
-    "slug": "true-wireless-earbuds",
-    "title": "True Wireless Earbuds",
-    "description": "Enjoy freedom with these true wireless earbuds, delivering high-fidelity sound and a secure fit with multiple ear tips. The charging case extends playtime, making them ideal for workouts and commutes. Touch controls and optional noise cancellation enhance the experience.",
-    "price": 79,
-    "category": {
-      "id": 1,
-      "slug": "electronics",
-      "name": "Electronics"
-    },
-    "image": "/true-wireless-earbuds.webp"
-  },
-  {
-    "id": 102,
-    "slug": "4k-ultra-hd-smart-tv",
-    "title": "4K Ultra HD Smart TV",
-    "description": "Immerse yourself in stunning visuals with this 4K Ultra HD Smart TV. Experience vibrant colors, sharp details, and HDR support. Access streaming services easily and enjoy rich audio for a cinematic experience at home. Features voice control for convenience.",
+    "slug": "korg-b2n-digital-piano",
+    "title": "Korg B2N Digital Piano",
+    "description": "A light-touch digital piano designed for easy playability. It features 88 Natural Touch Keyboard (NT) keys which require less force, reducing fatigue for newer players. Packed with 12 diverse sounds and ample connectivity, this instrument provides a superb playing experience for its class and is highly portable.",
     "price": 499,
+    "details": [
+      "88 Natural Touch Keyboard (NT)",
+      "12 highly-sampled sounds",
+      "Audio input jack for jamming",
+      "Includes software bundle (Skoove, Korg Module, etc.)",
+      "Built-in metronome",
+      "Sleek, minimalist design"
+    ],
     "category": {
-      "id": 1,
-      "slug": "electronics",
-      "name": "Electronics"
+      "id": 2,
+      "slug": "keyboards-pianos",
+      "name": "Keyboards & Pianos"
     },
-    "image": "/4k-ultra-hd-smart-tv.webp"
+    "images": [
+      "/korg-b2n-digital-piano.webp",
+      "/korg-b2n-digital-piano-2.webp",
+      "/korg-b2n-digital-piano-3.webp"
+    ]
   },
   {
-    "id": 103,
-    "slug": "digital-camera-high-zoom",
-    "title": "Digital Camera with High Zoom",
-    "description": "Capture distant subjects with incredible detail using this digital camera's powerful high zoom lens. Perfect for travel and wildlife, it offers intuitive controls and various modes for stunning photos and videos. Features Wi-Fi, Bluetooth, and image stabilization.",
-    "price": 299,
+    "id": 6,
+    "slug": "casio-privia-px-770",
+    "title": "Casio Privia PX-770 Console Digital Piano",
+    "description": "A furniture-style digital piano with a Tri-sensor Scaled Hammer Action Keyboard II. It recreates the touch and tone of a grand piano, including a powerful speaker system built into the console stand. Perfect for players who want a permanent, elegant fixture that offers a great musical experience.",
+    "price": 899,
+    "details": [
+      "88 Tri-sensor Scaled Hammer Action Keyboard II",
+      "19 Tones (including famous grand piano samples)",
+      "Built-in 3-pedal unit",
+      "Powerful 8W + 8W speaker system",
+      "USB MIDI connectivity",
+      "Concert Play feature (10 live audio recordings)"
+    ],
     "category": {
-      "id": 1,
-      "slug": "electronics",
-      "name": "Electronics"
+      "id": 2,
+      "slug": "keyboards-pianos",
+      "name": "Keyboards & Pianos"
     },
-    "image": "/digital-camera-high-zoom.webp"
+    "images": [
+      "/casio-privia-px-770.webp",
+      "/casio-privia-px-770-2.webp",
+      "/casio-privia-px-770-3.webp"
+    ]
   },
   {
-    "id": 104,
-    "slug": "portable-external-ssd-drive",
-    "title": "Portable External SSD Drive",
-    "description": "Transfer files at lightning speed and keep your data secure with this portable external SSD drive. Its compact design makes it easy to carry, while the solid-state technology ensures fast performance and durability for all your storage needs.",
-    "price": 129,
+    "id": 7,
+    "slug": "roland-fp-30x",
+    "title": "Roland FP-30X Digital Piano",
+    "description": "A popular choice for its balance of features and portability. The SuperNATURAL Piano sound engine delivers rich, expressive tone, complemented by the 88-note PHA-4 Standard keyboard for authentic acoustic-style touch. Bluetooth audio and MIDI connectivity make it excellent for modern learning and performance.",
+    "price": 749,
+    "details": [
+      "88-note PHA-4 Standard keyboard",
+      "SuperNATURAL Piano sound engine",
+      "Bluetooth audio and MIDI",
+      "Powerful stereo speakers",
+      "Headphone output for silent practice",
+      "Optional KSC-70 stand and KPD-70 three-pedal unit"
+    ],
     "category": {
-      "id": 1,
-      "slug": "electronics",
-      "name": "Electronics"
+      "id": 2,
+      "slug": "keyboards-pianos",
+      "name": "Keyboards & Pianos"
     },
-    "image": "/portable-external-ssd-drive.webp"
+    "images": [
+      "/roland-fp-30x.webp",
+      "/roland-fp-30x-2.webp",
+      "/roland-fp-30x-3.webp"
+    ]
   },
   {
-    "id": 105,
-    "slug": "wireless-charging-pad",
-    "title": "Wireless Charging Pad",
-    "description": "Simplify your charging setup with this sleek wireless charging pad. Just place your Qi-enabled device on the pad for effortless power. Its slim design fits any space, eliminating cable clutter for a clean and convenient charging solution.",
-    "price": 29,
+    "id": 8,
+    "slug": "nord-stage-3-88",
+    "title": "Nord Stage 3 88-Key Performance Keyboard",
+    "description": "The professional's choice, this performance keyboard combines the latest award-winning technologies in Piano, Organ, and Synthesizer sound generation. It features a fully weighted hammer action keybed, a massive sound library, and an intuitive panel layout, making it a powerful tool for touring musicians and studio producers.",
+    "price": 4499,
+    "details": [
+      "88 fully weighted hammer action keys",
+      "Nord Lead A1 Synth Engine with sample playback",
+      "Nord C2D Organ Engine",
+      "Massive 2 GB library for Nord Piano Library",
+      "Seamless transitions when changing programs",
+      "Comprehensive effects section"
+    ],
     "category": {
-      "id": 1,
-      "slug": "electronics",
-      "name": "Electronics"
+      "id": 2,
+      "slug": "keyboards-pianos",
+      "name": "Keyboards & Pianos"
     },
-    "image": "/wireless-charging-pad.webp"
+    "images": [
+      "/nord-stage-3-88.webp",
+      "/nord-stage-3-88-2.webp",
+      "/nord-stage-3-88-3.webp"
+    ]
   },
   {
-    "id": 106,
-    "slug": "gaming-mouse-customizable-rgb",
-    "title": "Gaming Mouse with Customizable RGB",
-    "description": "Elevate your gameplay with this high-precision gaming mouse featuring customizable RGB lighting for a personalized look. Programmable buttons and adjustable DPI offer precise control, while the ergonomic design ensures comfort during long sessions. Durable switches and high polling rate provide a competitive edge.",
-    "price": 59,
+    "id": 9,
+    "slug": "alesis-recital-pro",
+    "title": "Alesis Recital Pro Digital Piano",
+    "description": "A full-featured digital piano for students and intermediate players. It includes 88 full-sized, hammer-action keys with adjustable touch response, 12 built-in premium voices, and 20-watt built-in speakers. It's an affordable option that doesn't compromise on a realistic playing experience and is loaded with practice features.",
+    "price": 379,
+    "details": [
+      "88 full-sized hammer-action keys",
+      "12 premium built-in voices",
+      "20-watt built-in speakers (10W x 2)",
+      "Lesson Mode splits the keyboard",
+      "Headphone output for silent practice",
+      "Sustain pedal input (pedal sold separately)"
+    ],
     "category": {
-      "id": 1,
-      "slug": "electronics",
-      "name": "Electronics"
+      "id": 2,
+      "slug": "keyboards-pianos",
+      "name": "Keyboards & Pianos"
     },
-    "image": "/gaming-mouse-customizable-rgb.webp"
+    "images": [
+      "/alesis-recital-pro.webp",
+      "/alesis-recital-pro-2.webp",
+      "/alesis-recital-pro-3.webp"
+    ]
   },
   {
-    "id": 107,
-    "slug": "smart-home-security-camera",
-    "title": "Smart Home Security Camera",
-    "description": "Secure your home with this smart camera, offering remote real-time monitoring via your device. Features include motion detection with alerts, clear night vision, and two-way audio. Easy setup and integration with smart home systems provide comprehensive security.",
-    "price": 89,
+    "id": 10,
+    "slug": "yamaha-clavinova-clp-735",
+    "title": "Yamaha Clavinova CLP-735 Digital Piano",
+    "description": "A premium upright digital piano offering the superb touch of the GrandTouch-S keyboard with synthetic ebony and ivory keytops. It features the sounds of the renowned Yamaha CFX and Bösendorfer Imperial concert grand pianos, captured with state-of-the-art binaural sampling technology for an immersive headphone experience.",
+    "price": 2599,
+    "details": [
+      "GrandTouch-S keyboard with Synthetic Ebony and Ivory keytops",
+      "Yamaha CFX and Bösendorfer Imperial samples",
+      "Binaural Sampling for a fully immersive soundscape",
+      "Grand Expression Modeling for enhanced nuance",
+      "Built-in recording functions",
+      "Three pedals (Damper with half-pedal effect, Sostenuto, Soft)"
+    ],
     "category": {
-      "id": 1,
-      "slug": "electronics",
-      "name": "Electronics"
+      "id": 2,
+      "slug": "keyboards-pianos",
+      "name": "Keyboards & Pianos"
     },
-    "image": "/smart-home-security-camera.webp"
-  },
-  {
-    "id": 36,
-    "slug": "organic-whole-milk",
-    "title": "Organic Whole Milk",
-    "description": "Enjoy the pure and creamy taste of this gallon of fresh and nutritious organic whole milk. Sourced from pasture-raised cows, it's a wholesome addition to your family's diet.",
-    "price": 4,
-    "category": {
-      "id": 8,
-      "slug": "groceries",
-      "name": "Groceries"
-    },
-    "image": "/organic-whole-milk.webp"
-  },
-  {
-    "id": 37,
-    "slug": "fresh-apples-bag",
-    "title": "Fresh Apples (Bag)",
-    "description": "A bag filled with crisp and delicious fresh apples, perfect for snacking, baking, or adding to your favorite recipes. Enjoy the natural sweetness and satisfying crunch.",
-    "price": 5,
-    "category": {
-      "id": 8,
-      "slug": "groceries",
-      "name": "Groceries"
-    },
-    "image": "/fresh-apples-bag.webp"
-  },
-  {
-    "id": 38,
-    "slug": "whole-wheat-bread",
-    "title": "Whole Wheat Bread",
-    "description": "A loaf of healthy and nutritious whole wheat bread, baked with wholesome grains for a naturally rich flavor and satisfying texture. A great choice for sandwiches and toast.",
-    "price": 3,
-    "category": {
-      "id": 8,
-      "slug": "groceries",
-      "name": "Groceries"
-    },
-    "image": "/whole-wheat-bread.webp"
-  },
-  {
-    "id": 39,
-    "slug": "ground-coffee-blend",
-    "title": "Ground Coffee Blend",
-    "description": "Start your day with a rich and flavorful brew from this bag of premium ground coffee blend. Carefully selected beans roasted to perfection for a balanced and aromatic cup.",
-    "price": 8,
-    "category": {
-      "id": 8,
-      "slug": "groceries",
-      "name": "Groceries"
-    },
-    "image": "/ground-coffee-blend.webp"
-  },
-  {
-    "id": 40,
-    "slug": "pasta-spaghetti",
-    "title": "Pasta - Spaghetti",
-    "description": "A classic choice for countless delicious meals, this box of spaghetti pasta is made from high-quality durum wheat for the perfect al dente texture every time.",
-    "price": 2,
-    "category": {
-      "id": 8,
-      "slug": "groceries",
-      "name": "Groceries"
-    },
-    "image": "/pasta-spaghetti.webp"
-  },
-  {
-    "id": 86,
-    "slug": "dozen-large-eggs",
-    "title": "Dozen Large Eggs",
-    "description": "A carton containing one dozen large, fresh eggs, a versatile and essential ingredient for baking, cooking, and enjoying as a nutritious breakfast.",
-    "price": 3,
-    "category": {
-      "id": 8,
-      "slug": "groceries",
-      "name": "Groceries"
-    },
-    "image": "/dozen-large-eggs.webp"
-  },
-  {
-    "id": 87,
-    "slug": "cheddar-cheese-block",
-    "title": "Cheddar Cheese Block",
-    "description": "A block of sharp cheddar cheese, perfect for snacking, grating over dishes, or adding rich flavor to your favorite recipes. Enjoy its bold and tangy taste.",
-    "price": 6,
-    "category": {
-      "id": 8,
-      "slug": "groceries",
-      "name": "Groceries"
-    },
-    "image": "/cheddar-cheese-block.webp"
-  },
-  {
-    "id": 88,
-    "slug": "fresh-bananas-bunch",
-    "title": "Fresh Bananas (Bunch)",
-    "description": "A bunch of ripe and delicious fresh bananas, a convenient and healthy snack packed with potassium and natural energy for your day.",
-    "price": 3,
-    "category": {
-      "id": 8,
-      "slug": "groceries",
-      "name": "Groceries"
-    },
-    "image": "/fresh-bananas-bunch.webp"
-  },
-  {
-    "id": 89,
-    "slug": "chicken-breasts-boneless-skinless",
-    "title": "Chicken Breasts (Boneless, Skinless)",
-    "description": "This package contains premium boneless and skinless chicken breasts, a versatile and lean protein source perfect for grilling, baking, or sautéing in your favorite recipes.",
-    "price": 12,
-    "category": {
-      "id": 8,
-      "slug": "groceries",
-      "name": "Groceries"
-    },
-    "image": "/chicken-breasts-boneless-skinless.webp"
-  },
-  {
-    "id": 90,
-    "slug": "orange-juice-carton",
-    "title": "Orange Juice (Carton)",
-    "description": "Start your day with a refreshing and vitamin-C rich carton of fresh orange juice. A delicious and healthy beverage for breakfast or any time you need a boost.",
-    "price": 4,
-    "category": {
-      "id": 8,
-      "slug": "groceries",
-      "name": "Groceries"
-    },
-    "image": "/orange-juice-carton.webp"
+    "images": [
+      "/yamaha-clavinova-clp-735.webp",
+      "/yamaha-clavinova-clp-735-2.webp",
+      "/yamaha-clavinova-clp-735-3.webp"
+    ]
   },
   {
     "id": 11,
-    "slug": "throw-pillow-set",
-    "title": "Throw Pillow Set",
-    "description": "Enhance the comfort and aesthetic of your living space with this stylish set of throw pillows. Perfect for adding texture and color accents to your sofa, bed, or armchairs.",
-    "price": 25,
+    "slug": "kawai-es110",
+    "title": "Kawai ES110 Portable Digital Piano",
+    "description": "Kawai's entry-level portable piano, known for its excellent keyboard action and authentic sound. It uses the Harmonic Imaging sound technology and features the Responsive Hammer Compact (RHC) action for a realistic feel. This model is lightweight, making it an ideal choice for gigging and taking to lessons.",
+    "price": 699,
+    "details": [
+      "Responsive Hammer Compact (RHC) action",
+      "Kawai's Harmonic Imaging sound technology",
+      "19 Voices",
+      "Built-in metronome",
+      "MIDI In/Out ports",
+      "Included F-10H sustain pedal (supports half-damping)"
+    ],
     "category": {
-      "id": 3,
-      "slug": "home-goods",
-      "name": "Home Goods"
+      "id": 2,
+      "slug": "keyboards-pianos",
+      "name": "Keyboards & Pianos"
     },
-    "image": "/throw-pillow-set.webp"
+    "images": [
+      "/kawai-es110.webp",
+      "/kawai-es110-2.webp",
+      "/kawai-es110-3.webp"
+    ]
   },
   {
     "id": 12,
-    "slug": "ceramic-coffee-mug",
-    "title": "Ceramic Coffee Mug",
-    "description": "Enjoy your daily coffee, tea, or hot chocolate in this durable and stylish ceramic mug. Its comfortable handle and classic design make it a perfect addition to your morning routine.",
-    "price": 8,
+    "slug": "arturia-keylab-essential-61",
+    "title": "Arturia KeyLab Essential 61 MIDI Controller",
+    "description": "A powerful 61-key MIDI controller with a synth-action keybed, designed for producers and musicians. It offers tight integration with Arturia's Analog Lab software (included) and features 8 pads, 9 rotary encoders, and 9 faders for hands-on control of your digital audio workstation (DAW) and virtual instruments.",
+    "price": 279,
+    "details": [
+      "61 velocity-sensitive keys (synth action)",
+      "8 performance pads",
+      "9 rotary encoders and 9 faders",
+      "Integration with Analog Lab (over 6,500 sounds)",
+      "DAW control commands for major software",
+      "Mackie/HUI compatible"
+    ],
     "category": {
-      "id": 3,
-      "slug": "home-goods",
-      "name": "Home Goods"
+      "id": 2,
+      "slug": "keyboards-pianos",
+      "name": "Keyboards & Pianos"
     },
-    "image": "/ceramic-coffee-mug.webp"
+    "images": [
+      "/arturia-keylab-essential-61.webp",
+      "/arturia-keylab-essential-61-2.webp",
+      "/arturia-keylab-essential-61-3.webp"
+    ]
   },
   {
     "id": 13,
-    "slug": "scented-candle",
-    "title": "Scented Candle",
-    "description": "Create a warm and relaxing atmosphere in your home with this beautifully scented candle. Its soothing fragrance helps to unwind after a long day, making any room feel more inviting.",
-    "price": 18,
+    "slug": "yamaha-psr-ew300",
+    "title": "Yamaha PSR-EW300 Portable Keyboard",
+    "description": "A versatile 76-key portable keyboard ideal for learning and casual playing. It features touch-sensitive keys for expressive dynamics, 574 high-quality voices, 165 accompaniment styles, and a comprehensive lesson function called 'Yamaha Education Suite' (Y.E.S.). Great for exploring various musical genres.",
+    "price": 229,
+    "details": [
+      "76 touch-sensitive keys",
+      "574 high-quality voices",
+      "165 accompaniment styles",
+      "Yamaha Education Suite (Y.E.S.) lesson function",
+      "USB to Host for MIDI and audio transfer",
+      "Duo mode for practice with a partner"
+    ],
     "category": {
-      "id": 3,
-      "slug": "home-goods",
-      "name": "Home Goods"
+      "id": 2,
+      "slug": "keyboards-pianos",
+      "name": "Keyboards & Pianos"
     },
-    "image": "/scented-candle.webp"
+    "images": [
+      "/yamaha-psr-ew300.webp",
+      "/yamaha-psr-ew300-2.webp",
+      "/yamaha-psr-ew300-3.webp"
+    ]
   },
   {
     "id": 14,
-    "slug": "kitchen-knife-set",
-    "title": "Kitchen Knife Set",
-    "description": "Equip your kitchen with this comprehensive set of high-quality knives. Designed for precision and durability, these knives will handle all your slicing, dicing, and chopping needs with ease.",
-    "price": 75,
+    "slug": "roland-juno-ds61",
+    "title": "Roland JUNO-DS61 Synthesizer",
+    "description": "A performance-ready synthesizer with over 1,200 pro-quality sounds, including pianos, organs, and synth patches. The 61-note velocity-sensitive keyboard is lightweight, and its battery-powered option makes it highly portable for gigging musicians. Features an 8-track pattern sequencer and mic input with dedicated vocal effects.",
+    "price": 799,
+    "details": [
+      "61 velocity-sensitive keys (synth action)",
+      "Over 1,200 professional sounds",
+      "Phrase Pads for triggering samples",
+      "Mic input with Vocoder and Auto Pitch",
+      "Battery operation (up to 5 hours)",
+      "8-track pattern sequencer"
+    ],
     "category": {
-      "id": 3,
-      "slug": "home-goods",
-      "name": "Home Goods"
+      "id": 2,
+      "slug": "keyboards-pianos",
+      "name": "Keyboards & Pianos"
     },
-    "image": "/kitchen-knife-set.webp"
+    "images": [
+      "/roland-juno-ds61.webp",
+      "/roland-juno-ds61-2.webp",
+      "/roland-juno-ds61-3.webp"
+    ]
   },
   {
     "id": 15,
-    "slug": "bath-towels-set",
-    "title": "Bath Towels Set",
-    "description": "Indulge in the soft and absorbent comfort of this bath towels set. Made from high-quality materials, these towels offer a luxurious feel after every shower or bath.",
-    "price": 30,
+    "slug": "studiologic-numa-compact-2x",
+    "title": "Studiologic Numa Compact 2x",
+    "description": "A highly versatile 88-key stage piano featuring semi-weighted Fatar TP/9 PIANO keys. It includes three sound engines: a Tone Wheel Organ section, a professional Physical Modeling engine for electric pianos, and a comprehensive sample-based sound engine for acoustic sounds. Great lightweight all-in-one gigging solution.",
+    "price": 649,
+    "details": [
+      "88-key Fatar TP/9 PIANO semi-weighted action",
+      "3 sound engines (Acoustic, Electric Piano, Organ)",
+      "Aftertouch capability",
+      "Built-in speakers",
+      "Internal effects processor",
+      "MIDI controller features (joysticks, editing)"
+    ],
+    "category": {
+      "id": 2,
+      "slug": "keyboards-pianos",
+      "name": "Keyboards & Pianos"
+    },
+    "images": [
+      "/studiologic-numa-compact-2x.webp",
+      "/studiologic-numa-compact-2x-2.webp",
+      "/studiologic-numa-compact-2x-3.webp"
+    ]
+  },
+  {
+    "id": 16,
+    "slug": "casio-wk-7600",
+    "title": "Casio WK-7600 Workstation Keyboard",
+    "description": "A high-power workstation keyboard with 76 piano-style, touch-response keys. It's packed with 820 tones, 260 rhythms, and a 17-track sequencer for creating full arrangements. Ideal for composers and hobbyists who need a wide range of features, including a drawbar organ function, at an accessible price point.",
+    "price": 349,
+    "details": [
+      "76 piano-style, touch-response keys",
+      "820 Tones, 260 Rhythms",
+      "17-track Song Sequencer",
+      "Audio Recording to SD card",
+      "Drawbar Organ function",
+      "Powerful 7W + 7W speaker system"
+    ],
+    "category": {
+      "id": 2,
+      "slug": "keyboards-pianos",
+      "name": "Keyboards & Pianos"
+    },
+    "images": [
+      "/casio-wk-7600.webp",
+      "/casio-wk-7600-2.webp",
+      "/casio-wk-7600-3.webp"
+    ]
+  },
+  {
+    "id": 17,
+    "slug": "moog-sub-37",
+    "title": "Moog Subsequent 37 Analog Synthesizer",
+    "description": "A highly acclaimed 37-key paraphonic analog synthesizer known for its powerful sound engine and legendary Moog ladder filter. It's an expressive keyboard featuring a fast-acting keybed with aftertouch, two powerful oscillators, and extensive patching capabilities. A staple for professional sound design and analog enthusiasts.",
+    "price": 1899,
+    "details": [
+      "37-key velocity-sensitive keybed with aftertouch",
+      "Two-note Paraphonic Analog Synthesis",
+      "Moog Ladder Filter (classic resonance)",
+      "Multidrive circuit for harmonic distortion",
+      "4 assignable CV/Gate inputs and 2 outputs",
+      "Massive sonic capability for bass and leads"
+    ],
+    "category": {
+      "id": 2,
+      "slug": "keyboards-pianos",
+      "name": "Keyboards & Pianos"
+    },
+    "images": [
+      "/moog-sub-37.webp",
+      "/moog-sub-37-2.webp",
+      "/moog-sub-37-3.webp"
+    ]
+  },
+  {
+    "id": 18,
+    "slug": "yamaha-modx8",
+    "title": "Yamaha MODX8 Synthesizer Workstation",
+    "description": "A streamlined, powerful 88-key Weighted Graded Hammer Action workstation combining the two legendary synthesis engines from the flagship Montage: AWM2 (Advanced Wave Memory 2) and FM-X (Frequency Modulation). It offers deep programming, incredible sound quality, and VCM effects, all in a lightweight package for performers.",
+    "price": 1799,
+    "details": [
+      "88-key Weighted Graded Hammer Action (GHS)",
+      "AWM2 and FM-X Synthesis engines",
+      "Motion Control Synthesis Engine",
+      "Super Knob for simultaneous control of multiple parameters",
+      "USB Audio/MIDI interface built-in",
+      "192-note total polyphony"
+    ],
+    "category": {
+      "id": 2,
+      "slug": "keyboards-pianos",
+      "name": "Keyboards & Pianos"
+    },
+    "images": ["/yamaha-modx8.webp", "/yamaha-modx8-2.webp"]
+  },
+  {
+    "id": 19,
+    "slug": "alesis-nitro-max-e-kit",
+    "title": "Alesis Nitro Max Electronic Drum Kit",
+    "description": "A top-rated electronic drum set for beginners and practice in quiet environments. It features responsive, quiet mesh drum heads on all pads (snare and toms), a dedicated kick drum pad tower, and a powerful sound module with 440 professionally sampled sounds. Integrated Bluetooth allows you to stream music for play-along sessions, making it an excellent all-in-one learning tool.",
+    "price": 399,
+    "details": [
+      "8-piece electronic kit with mesh heads",
+      "10-inch dual-zone mesh snare drum",
+      "440 BFD drum, cymbal, and percussion sounds",
+      "Bluetooth audio streaming for play-along",
+      "60 built-in play-along tracks and a sequencer",
+      "Includes drum module, rack, sticks, and cables"
+    ],
     "category": {
       "id": 3,
-      "slug": "home-goods",
-      "name": "Home Goods"
+      "slug": "drums-percussion",
+      "name": "Drums & Percussion"
     },
-    "image": "/bath-towels-set.webp"
+    "images": [
+      "/alesis-nitro-max-e-kit.webp",
+      "/alesis-nitro-max-e-kit-2.webp",
+      "/alesis-nitro-max-e-kit-3.webp"
+    ]
   },
   {
-    "id": 61,
-    "slug": "bed-sheet-set-queen",
-    "title": "Bed Sheet Set (Queen)",
-    "description": "Drift into a peaceful sleep with this soft and comfortable queen-size bed sheet set. Made from quality fabric for a cozy feel and long-lasting durability.",
-    "price": 45,
+    "id": 20,
+    "slug": "pearl-roadshow-drum-set",
+    "title": "Pearl Roadshow 5-Piece Acoustic Drum Set",
+    "description": "An excellent entry-level acoustic drum kit from a world-renowned brand. This 5-piece set is ready to play right out of the box, including drum shells, a full set of hardware (stands, pedal, throne), and a basic cymbal pack. Its poplar shells deliver a robust sound, making it perfect for students and new drummers learning rock, jazz, or pop styles.",
+    "price": 725,
+    "details": [
+      "5-piece shell pack (Bass, Snare, 2 Toms, Floor Tom)",
+      "9-ply Poplar shells",
+      "Includes hardware, cymbals, throne, and sticks",
+      "45-degree bearing edges for projection",
+      "Double-braced hardware for stability",
+      "Excellent value for an all-inclusive beginner kit"
+    ],
     "category": {
       "id": 3,
-      "slug": "home-goods",
-      "name": "Home Goods"
+      "slug": "drums-percussion",
+      "name": "Drums & Percussion"
     },
-    "image": "/bed-sheet-set-queen.webp"
+    "images": [
+      "/pearl-roadshow-drum-set.webp",
+      "/pearl-roadshow-drum-set-2.webp",
+      "/pearl-roadshow-drum-set-3.webp"
+    ]
   },
   {
-    "id": 62,
-    "slug": "dinnerware-set-4-place",
-    "title": "Dinnerware Set (4-Place Setting)",
-    "description": "Serve your meals in style with this elegant dinnerware set for four people. Perfect for everyday use or special occasions, this set adds a touch of sophistication to your dining experience.",
-    "price": 60,
+    "id": 21,
+    "slug": "roland-td-17kv2-v-drums",
+    "title": "Roland TD-17KV2 V-Drums Electronic Kit",
+    "description": "A high-quality electronic drum kit that balances performance and affordability, ideal for intermediate and advanced practice. Featuring the updated TD-17 module with new kits and enhanced features, it uses mesh heads for a realistic stick response and an excellent feel. The kit is highly customizable and perfect for home recording and serious skill development.",
+    "price": 1299,
+    "details": [
+      "Updated TD-17 sound module (Gen 2)",
+      "Dual-ply mesh snare and tom pads",
+      "Authentic V-Cymbal pads for crash and ride",
+      "Bluetooth for audio and MIDI",
+      "Coach functions for improving technique",
+      "USB and MIDI outputs for studio integration"
+    ],
     "category": {
       "id": 3,
-      "slug": "home-goods",
-      "name": "Home Goods"
+      "slug": "drums-percussion",
+      "name": "Drums & Percussion"
     },
-    "image": "/dinnerware-set-4-place.webp"
+    "images": [
+      "/roland-td-17kv2-v-drums.webp",
+      "/roland-td-17kv2-v-drums-2.webp",
+      "/roland-td-17kv2-v-drums-3.webp"
+    ]
   },
   {
-    "id": 63,
-    "slug": "picture-frame-8x10",
-    "title": "Picture Frame (8x10)",
-    "description": "Display your cherished memories in this classic 8x10 inch picture frame. Its simple yet elegant design will complement any photo and enhance your home decor.",
-    "price": 12,
+    "id": 22,
+    "slug": "zildjian-i-series-cymbal-set",
+    "title": "Zildjian I Family Standard Cymbal Set",
+    "description": "A brilliant-finish cymbal pack designed for the developing drummer. The I Family provides clear, bright, and expressive tones, making them a significant upgrade from entry-level cymbals. This standard set includes a pair of hi-hats, a crash cymbal, and a ride cymbal, offering a complete foundation for any drum kit in a wide range of musical styles.",
+    "price": 319,
+    "details": [
+      "Includes 14\" Hi-Hats, 16\" Crash, 20\" Ride",
+      "B8 Bronze alloy construction",
+      "Bright, articulate, and expressive sound",
+      "Thin weight for fast response and decay",
+      "Brilliant finish for dazzling visual appeal"
+    ],
     "category": {
       "id": 3,
-      "slug": "home-goods",
-      "name": "Home Goods"
+      "slug": "drums-percussion",
+      "name": "Drums & Percussion"
     },
-    "image": "/picture-frame-8x10.webp"
+    "images": [
+      "/zildjian-i-series-cymbal-set.webp",
+      "/zildjian-i-series-cymbal-set-2.webp",
+      "/zildjian-i-series-cymbal-set-3.webp"
+    ]
   },
   {
-    "id": 64,
-    "slug": "desk-lamp-led",
-    "title": "LED Desk Lamp",
-    "description": "Illuminate your workspace with this energy-efficient LED desk lamp. Featuring adjustable brightness levels, it provides optimal lighting for reading, studying, or working, while saving energy.",
-    "price": 28,
+    "id": 23,
+    "slug": "ludwig-breakbeats-shell-pack",
+    "title": "Ludwig Breakbeats by Questlove Shell Pack",
+    "description": "A compact, four-piece acoustic drum shell pack designed in collaboration with Questlove. Its small footprint is perfect for small venues, home practice, or city apartment living, yet it delivers a surprising amount of punch and volume for its size. The low-mass lugs and bass drum riser ensure a professional sound despite the miniature design. Cymbals and hardware sold separately.",
+    "price": 549,
+    "details": [
+      "4-piece compact shell pack (16\" Bass Drum)",
+      "7-ply Poplar shells",
+      "Includes a velveteen gig bag for storage/transport",
+      "Bass drum riser for optimal kick pedal placement",
+      "Perfect for small spaces and portability",
+      "Punchy, dry tone suitable for urban styles"
+    ],
     "category": {
       "id": 3,
-      "slug": "home-goods",
-      "name": "Home Goods"
+      "slug": "drums-percussion",
+      "name": "Drums & Percussion"
     },
-    "image": "/desk-lamp-led.webp"
+    "images": [
+      "/ludwig-breakbeats-shell-pack.webp",
+      "/ludwig-breakbeats-shell-pack-2.webp",
+      "/ludwig-breakbeats-shell-pack-3.webp"
+    ]
   },
   {
-    "id": 65,
-    "slug": "area-rug-5x7",
-    "title": "Area Rug (5x7)",
-    "description": "Enhance your room's decor with this stylish 5x7 area rug. Its attractive design and comfortable texture will add warmth and personality to any living room, bedroom, or dining area.",
-    "price": 99,
+    "id": 24,
+    "slug": "lp-cajon-percussion-drum",
+    "title": "Latin Percussion Aspire Accents Cajon",
+    "description": "A versatile and portable percussion instrument that serves as a complete drum kit in a box. Made from birch wood with a striking frontplate, it delivers deep bass notes from the center and crisp, snapping snare sounds from the top corners. Ideal for acoustic sets, rehearsals, or as a practice tool, it's popular across folk, unplugged, and world music genres.",
+    "price": 149,
+    "details": [
+      "Birch wood construction",
+      "Adjustable internal snare wires",
+      "Produces a deep bass and crisp snare sound",
+      "Comfortable, textured seating surface",
+      "Portable and easy to transport",
+      "Rubber feet for stability and protection"
+    ],
     "category": {
       "id": 3,
-      "slug": "home-goods",
-      "name": "Home Goods"
+      "slug": "drums-percussion",
+      "name": "Drums & Percussion"
     },
-    "image": "/area-rug-5x7.webp"
+    "images": [
+      "/lp-cajon-percussion-drum.webp",
+      "/lp-cajon-percussion-drum-2.webp",
+      "/lp-cajon-percussion-drum-3.webp"
+    ]
   },
   {
-    "id": 112,
-    "slug": "decorative-throw-pillow-set",
-    "title": "Decorative Throw Pillow Set",
-    "description": "Add a touch of elegance to your home with this set of two decorative throw pillows. Featuring unique yet complementary designs and soft, high-quality fabrics, they're perfect for enhancing your sofa, bed, or armchairs with color and texture.",
-    "price": 39,
+    "id": 25,
+    "slug": "dw-5000-single-bass-pedal",
+    "title": "DW 5000 Series Single Bass Drum Pedal",
+    "description": "The industry standard for professional bass drum pedals, known for its speed, smooth action, and incredible durability. The Delta hinge and dual-bearing spring rocker assembly ensure fast, consistent performance, making it a favorite among gigging drummers for its reliability and precision. A true workhorse pedal built to withstand years of heavy use.",
+    "price": 249,
+    "details": [
+      "Chain-drive system for power and speed",
+      "Tri-Pivot Toe Clamp for secure mounting",
+      "Non-skid rubber grip and velcro base plate",
+      "Dual-bearing spring rocker assembly",
+      "Legendary DW quality and feel"
+    ],
     "category": {
       "id": 3,
-      "slug": "home-goods",
-      "name": "Home Goods"
+      "slug": "drums-percussion",
+      "name": "Drums & Percussion"
     },
-    "image": "/decorative-throw-pillow-set.webp"
-  },
-  {
-    "id": 113,
-    "slug": "soft-cotton-bedding-set-queen",
-    "title": "Soft Cotton Bedding Set (Queen)",
-    "description": "Experience ultimate comfort with this soft cotton bedding set for queen-sized beds. Made from 100% premium cotton, this set includes flat and fitted sheets, plus two pillowcases, ensuring a breathable and cozy night's sleep. Its timeless design complements any bedroom.",
-    "price": 79,
-    "category": {
-      "id": 3,
-      "slug": "home-goods",
-      "name": "Home Goods"
-    },
-    "image": "/soft-cotton-bedding-set-queen.webp"
-  },
-  {
-    "id": 114,
-    "slug": "scented-candle-large",
-    "title": "Scented Candle (Large)",
-    "description": "Fill your home with a long-lasting and delightful fragrance from this large scented candle. Made with natural essential oils and a lead-free wick, it provides a clean burn and hours of aromatic pleasure in an elegant glass jar.",
-    "price": 19,
-    "category": {
-      "id": 3,
-      "slug": "home-goods",
-      "name": "Home Goods"
-    },
-    "image": "/scented-candle-large.webp"
-  },
-  {
-    "id": 46,
-    "slug": "mens-stainless-steel-watch",
-    "title": "Men's Stainless Steel Watch",
-    "description": "A sophisticated and durable timepiece, this men's stainless steel watch combines classic style with lasting quality. Perfect for everyday wear or special occasions, it adds a touch of elegance to any ensemble.",
-    "price": 120,
-    "category": {
-      "id": 10,
-      "slug": "jewelry-watches",
-      "name": "Jewelry & Watches"
-    },
-    "image": "/mens-stainless-steel-watch.webp"
-  },
-  {
-    "id": 47,
-    "slug": "womens-silver-necklace",
-    "title": "Women's Silver Necklace",
-    "description": "This elegant sterling silver necklace for women adds a touch of delicate beauty to any outfit. Its timeless design makes it a versatile piece for both casual and formal wear.",
-    "price": 85,
-    "category": {
-      "id": 10,
-      "slug": "jewelry-watches",
-      "name": "Jewelry & Watches"
-    },
-    "image": "/womens-silver-necklace.webp"
-  },
-  {
-    "id": 48,
-    "slug": "gold-stud-earrings",
-    "title": "Gold Stud Earrings",
-    "description": "A timeless addition to any jewelry collection, these classic and versatile gold stud earrings offer a subtle touch of elegance for everyday wear or special occasions.",
-    "price": 95,
-    "category": {
-      "id": 10,
-      "slug": "jewelry-watches",
-      "name": "Jewelry & Watches"
-    },
-    "image": "/gold-stud-earrings.webp"
-  },
-  {
-    "id": 49,
-    "slug": "leather-strap-watch",
-    "title": "Leather Strap Watch",
-    "description": "Exude sophistication with this classic watch featuring a genuine leather strap. Its timeless design and comfortable fit make it a perfect accessory for any discerning individual.",
-    "price": 150,
-    "category": {
-      "id": 10,
-      "slug": "jewelry-watches",
-      "name": "Jewelry & Watches"
-    },
-    "image": "/leather-strap-watch.webp"
-  },
-  {
-    "id": 50,
-    "slug": "diamond-pendant",
-    "title": "Diamond Pendant",
-    "description": "A symbol of elegance and sparkle, this beautiful pendant features a dazzling diamond. Its exquisite design makes it a cherished piece for any jewelry lover.",
-    "price": 299,
-    "category": {
-      "id": 10,
-      "slug": "jewelry-watches",
-      "name": "Jewelry & Watches"
-    },
-    "image": "/diamond-pendant.webp"
-  },
-  {
-    "id": 96,
-    "slug": "womens-gold-bracelet",
-    "title": "Women's Gold Bracelet",
-    "description": "Adorn your wrist with this delicate and elegant gold bracelet for women. A timeless piece crafted with fine detail, perfect for adding a touch of sophistication to any look.",
-    "price": 180,
-    "category": {
-      "id": 10,
-      "slug": "jewelry-watches",
-      "name": "Jewelry & Watches"
-    },
-    "image": "/womens-gold-bracelet.webp"
-  },
-  {
-    "id": 97,
-    "slug": "mens-cufflinks-set",
-    "title": "Men's Cufflinks Set",
-    "description": "Elevate your formal attire with this stylish set of cufflinks for men. These refined accessories add a touch of personal flair to any dress shirt, perfect for important occasions.",
-    "price": 55,
-    "category": {
-      "id": 10,
-      "slug": "jewelry-watches",
-      "name": "Jewelry & Watches"
-    },
-    "image": "/mens-cufflinks-set.webp"
-  },
-  {
-    "id": 98,
-    "slug": "silver-hoop-earrings",
-    "title": "Silver Hoop Earrings",
-    "description": "A classic and versatile jewelry staple, these silver hoop earrings are perfect for everyday wear or dressing up for a night out. Their timeless design complements any style.",
-    "price": 40,
-    "category": {
-      "id": 10,
-      "slug": "jewelry-watches",
-      "name": "Jewelry & Watches"
-    },
-    "image": "/silver-hoop-earrings.webp"
-  },
-  {
-    "id": 99,
-    "slug": "smart-band",
-    "title": "Smart Band",
-    "description": "Track your fitness goals and stay connected with this sleek and functional smart band. Monitor your activity levels, sleep patterns, and receive notifications, all in a stylish design.",
-    "price": 60,
-    "category": {
-      "id": 10,
-      "slug": "jewelry-watches",
-      "name": "Jewelry & Watches"
-    },
-    "image": "/smart-band.webp"
-  },
-  {
-    "id": 100,
-    "slug": "pearl-necklace",
-    "title": "Pearl Necklace",
-    "description": "A timeless and elegant pearl necklace, perfect for adding a touch of classic sophistication to any ensemble. A cherished piece for generations to come.",
-    "price": 250,
-    "category": {
-      "id": 10,
-      "slug": "jewelry-watches",
-      "name": "Jewelry & Watches"
-    },
-    "image": "/pearl-necklace.webp"
+    "images": [
+      "/dw-5000-single-bass-pedal.webp",
+      "/dw-5000-single-bass-pedal-2.webp",
+      "/dw-5000-single-bass-pedal-3.webp"
+    ]
   },
   {
     "id": 26,
-    "slug": "yoga-mat",
-    "title": "Yoga Mat",
-    "description": "Enhance your yoga practice with this non-slip and comfortable yoga mat. Its durable material provides excellent grip and cushioning for a stable and enjoyable workout.",
-    "price": 29,
+    "slug": "remo-djembe-key-tuned",
+    "title": "Remo Festival Djembe Drum (Key-Tuned)",
+    "description": "A modern take on the traditional West African goblet drum, this djembe features a durable, weather-resistant Acousticon shell and a Fiberskyn synthetic drumhead. The key-tuning system allows for easy and precise tuning, a significant advantage over traditional rope-tuned models. It produces a wide range of tones, from deep bass to sharp slaps, perfect for drum circles and world music.",
+    "price": 199,
+    "details": [
+      "Durable Acousticon shell",
+      "Fiberskyn synthetic drumhead",
+      "Key-tuned system for easy, stable tuning",
+      "Produces authentic djembe tones",
+      "Lightweight and suitable for travel"
+    ],
     "category": {
-      "id": 6,
-      "slug": "sports-outdoors",
-      "name": "Sports & Outdoors"
+      "id": 3,
+      "slug": "drums-percussion",
+      "name": "Drums & Percussion"
     },
-    "image": "/yoga-mat.webp"
+    "images": [
+      "/remo-djembe-key-tuned.webp",
+      "/remo-djembe-key-tuned-2.webp",
+      "/remo-djembe-key-tuned-3.webp"
+    ]
   },
   {
     "id": 27,
-    "slug": "water-bottle",
-    "title": "Water Bottle",
-    "description": "Stay hydrated on the go with this durable and reusable water bottle. Its leak-proof design and convenient size make it perfect for workouts, travel, and everyday use.",
-    "price": 12,
+    "slug": "tama-imperialstar-5pc-set",
+    "title": "Tama Imperialstar 5-Piece Drum Set",
+    "description": "A full-sized, ready-to-play acoustic drum kit that has set the standard for intermediate-level quality. The shells are made from poplar, which produces a full, warm tone with medium attack. This set includes quality hardware, cymbals, and a drum throne, making it a solid, reliable choice for serious beginners looking to step up their gear.",
+    "price": 999,
+    "details": [
+      "5-piece configuration with Poplar shells",
+      "Includes Meinl HCS brass cymbals",
+      "Includes a full set of durable Tama hardware",
+      "Accu-Tune Bass Drum Hoops for stable tuning",
+      "Great resonance and balanced tone",
+      "Ideal for rock, metal, and heavy genres"
+    ],
     "category": {
-      "id": 6,
-      "slug": "sports-outdoors",
-      "name": "Sports & Outdoors"
+      "id": 3,
+      "slug": "drums-percussion",
+      "name": "Drums & Percussion"
     },
-    "image": "/water-bottle.webp"
+    "images": [
+      "/tama-imperialstar-5pc-set.webp",
+      "/tama-imperialstar-5pc-set-2.webp",
+      "/tama-imperialstar-5pc-set-3.webp"
+    ]
   },
   {
     "id": 28,
-    "slug": "hiking-backpack",
-    "title": "Hiking Backpack",
-    "description": "Embark on your hiking adventures with this comfortable and spacious backpack. Designed with durable materials and ample storage, it's perfect for carrying all your essentials on the trail.",
-    "price": 65,
+    "slug": "roland-spd-sx-sampling-pad",
+    "title": "Roland SPD-SX Sampling Pad",
+    "description": "The industry-standard sampling pad for professional drummers and percussionists. This performance tool offers nine dynamic pads for triggering one-shot samples, loops, and backing tracks. With 4GB of internal memory and versatile connectivity, it's essential for hybrid acoustic/electronic setups, live performance, and studio work, allowing you to add unlimited sonic textures to your music.",
+    "price": 899,
+    "details": [
+      "9 velocity-sensitive rubber pads",
+      "4GB of internal flash memory",
+      "USB connectivity for data import/export",
+      "Master and individual outputs for flexible mixing",
+      "Powerful wave management software included",
+      "Essential for hybrid drumming and sound expansion"
+    ],
     "category": {
-      "id": 6,
-      "slug": "sports-outdoors",
-      "name": "Sports & Outdoors"
+      "id": 3,
+      "slug": "drums-percussion",
+      "name": "Drums & Percussion"
     },
-    "image": "/hiking-backpack.webp"
+    "images": [
+      "/roland-spd-sx-sampling-pad.webp",
+      "/roland-spd-sx-sampling-pad-2.webp",
+      "/roland-spd-sx-sampling-pad-3.webp"
+    ]
   },
   {
     "id": 29,
-    "slug": "resistance-bands-set",
-    "title": "Resistance Bands Set",
-    "description": "A versatile set of resistance bands for a wide range of exercises. Perfect for strength training, physical therapy, and adding intensity to your workouts, at any fitness level.",
-    "price": 19,
+    "slug": "focusrite-scarlett-2i2-4th-gen",
+    "title": "Focusrite Scarlett 2i2 (4th Gen) Audio Interface",
+    "description": "The world's best-selling 2-in/2-out USB audio interface, now in its fourth generation. Features high-performance preamps, 192kHz/24-bit converters, and a powerful 'Air' mode for brighter, more open sound. Perfect for musicians and podcasters.",
+    "price": 179,
+    "details": [
+      "2 x Scarlett mic preamps with 69dB of gain",
+      "Studio-grade 192kHz/24-bit AD-DA converters",
+      "Switchable Air mode for vocal and instrument enhancement",
+      "USB-C connectivity, bus-powered",
+      "Includes Hitmaker Expansion software bundle"
+    ],
     "category": {
-      "id": 6,
-      "slug": "sports-outdoors",
-      "name": "Sports & Outdoors"
+      "id": 4,
+      "slug": "recording-equipment",
+      "name": "Recording Equipment"
     },
-    "image": "/resistance-bands-set.webp"
+    "images": [
+      "/focusrite-scarlett-2i2-4th-gen.webp",
+      "/focusrite-scarlett-2i2-4th-gen-2.webp"
+    ]
   },
   {
     "id": 30,
-    "slug": "soccer-ball",
-    "title": "Soccer Ball",
-    "description": "Get ready for the game with this high-quality soccer ball. Designed for excellent touch and durability, it's ideal for training sessions, casual games, and competitive matches.",
-    "price": 25,
+    "slug": "rode-nt1-5th-gen-microphone",
+    "title": "Rode NT1 (5th Gen) Condenser Microphone",
+    "description": "A legendary large-diaphragm condenser microphone known for its incredibly low self-noise and warm, detailed sound. This 5th gen model offers both traditional XLR and an innovative USB-C output with a built-in A/D converter, making it versatile for any studio setup.",
+    "price": 269,
+    "details": [
+      "Dual-connectivity: XLR and USB-C",
+      "Incredibly low self-noise (4dBA)",
+      "Cardioid polar pattern",
+      "High-resolution 32-bit float digital output",
+      "Includes studio-grade shock mount and pop filter"
+    ],
     "category": {
-      "id": 6,
-      "slug": "sports-outdoors",
-      "name": "Sports & Outdoors"
+      "id": 4,
+      "slug": "recording-equipment",
+      "name": "Recording Equipment"
     },
-    "image": "/soccer-ball.webp"
-  },
-  {
-    "id": 76,
-    "slug": "running-shoes-mens",
-    "title": "Men's Running Shoes",
-    "description": "Experience comfortable and supportive runs with these men's running shoes. Designed with cushioning and stability features, they're perfect for both casual jogs and serious training.",
-    "price": 80,
-    "category": {
-      "id": 6,
-      "slug": "sports-outdoors",
-      "name": "Sports & Outdoors"
-    },
-    "image": "/running-shoes-mens.webp"
-  },
-  {
-    "id": 77,
-    "slug": "camping-tent-2-person",
-    "title": "2-Person Camping Tent",
-    "description": "Enjoy your outdoor adventures with this lightweight and easy-to-set-up camping tent designed for two people. Provides shelter and comfort for backpacking and weekend trips.",
-    "price": 70,
-    "category": {
-      "id": 6,
-      "slug": "sports-outdoors",
-      "name": "Sports & Outdoors"
-    },
-    "image": "/camping-tent-2-person.webp"
-  },
-  {
-    "id": 78,
-    "slug": "dumbbell-set",
-    "title": "Dumbbell Set",
-    "description": "Build strength at home with this versatile set of adjustable dumbbells. Perfect for a full-body workout, allowing you to customize the weight to suit your fitness level and exercise.",
-    "price": 99,
-    "category": {
-      "id": 6,
-      "slug": "sports-outdoors",
-      "name": "Sports & Outdoors"
-    },
-    "image": "/dumbbell-set.webp"
-  },
-  {
-    "id": 79,
-    "slug": "bicycle-helmet",
-    "title": "Bicycle Helmet",
-    "description": "Ensure your safety while cycling with this comfortable and reliable bicycle helmet. Designed with ventilation and impact protection, it's essential for riders of all levels.",
-    "price": 45,
-    "category": {
-      "id": 6,
-      "slug": "sports-outdoors",
-      "name": "Sports & Outdoors"
-    },
-    "image": "/bicycle-helmet.webp"
-  },
-  {
-    "id": 80,
-    "slug": "fishing-rod-and-reel-combo",
-    "title": "Fishing Rod and Reel Combo",
-    "description": "Get started with fishing using this complete rod and reel combo, ideal for beginners. Easy to use and transport, it's perfect for enjoying relaxing days by the water.",
-    "price": 55,
-    "category": {
-      "id": 6,
-      "slug": "sports-outdoors",
-      "name": "Sports & Outdoors"
-    },
-    "image": "/fishing-rod-and-reel-combo.webp"
-  },
-  {
-    "id": 115,
-    "slug": "eco-friendly-yoga-mat",
-    "title": "Eco-Friendly Yoga Mat",
-    "description": "Practice sustainably with this non-slip, comfortable eco-friendly yoga mat. Made from natural, non-toxic materials, it offers excellent grip and support for all yoga levels. Lightweight and durable for your mindful movement.",
-    "price": 49,
-    "category": {
-      "id": 6,
-      "slug": "sports-outdoors",
-      "name": "Sports & Outdoors"
-    },
-    "image": "/eco-friendly-yoga-mat.webp"
-  },
-  {
-    "id": 116,
-    "slug": "waterproof-hiking-backpack-30l",
-    "title": "Waterproof Hiking Backpack (30L)",
-    "description": "Brave any weather with this durable, waterproof 30L hiking backpack. Featuring comfortable straps, ventilation, and multiple compartments to keep your gear dry and organized on all your outdoor explorations.",
-    "price": 69,
-    "category": {
-      "id": 6,
-      "slug": "sports-outdoors",
-      "name": "Sports & Outdoors"
-    },
-    "image": "/waterproof-hiking-backpack-30l.webp"
-  },
-  {
-    "id": 117,
-    "slug": "portable-camping-tent-2-person",
-    "title": "Portable Camping Tent (2 Person)",
-    "description": "Enjoy easy shelter with this lightweight and portable 2-person camping tent. Quick to set up and take down, water-resistant with good ventilation, it's perfect for backpacking and weekend escapes.",
-    "price": 89,
-    "category": {
-      "id": 6,
-      "slug": "sports-outdoors",
-      "name": "Sports & Outdoors"
-    },
-    "image": "/portable-camping-tent-2-person.webp"
+    "images": [
+      "/rode-nt1-5th-gen-microphone.webp",
+      "/rode-nt1-5th-gen-microphone-2.webp"
+    ]
   },
   {
     "id": 31,
-    "slug": "building-blocks-set",
-    "title": "Building Blocks Set",
-    "description": "Unleash creativity with this classic set of colorful building blocks. Perfect for imaginative play and developing fine motor skills in children of all ages.",
-    "price": 30,
+    "slug": "shure-sm7b-dynamic-microphone",
+    "title": "Shure SM7B Dynamic Vocal Microphone",
+    "description": "The industry standard dynamic microphone for broadcast, podcasting, and rock vocals. Delivers a smooth, flat, wide-range frequency response for clean, natural reproduction of music and speech. Excellent shielding against electromagnetic hum.",
+    "price": 399,
+    "details": [
+      "Dynamic cartridge with flat, wide-range frequency response",
+      "Cardioid polar pattern for excellent off-axis rejection",
+      "Air suspension shock isolation to eliminate mechanical noise",
+      "Bass roll-off and mid-range emphasis controls (Presence Boost)",
+      "Ideal for close-miked vocals and demanding acoustics"
+    ],
     "category": {
-      "id": 7,
-      "slug": "toys-games",
-      "name": "Toys & Games"
+      "id": 4,
+      "slug": "recording-equipment",
+      "name": "Recording Equipment"
     },
-    "image": "/building-blocks-set.webp"
+    "images": [
+      "/shure-sm7b-dynamic-microphone.webp",
+      "/shure-sm7b-dynamic-microphone-2.webp"
+    ]
   },
   {
     "id": 32,
-    "slug": "board-game-strategy",
-    "title": "Strategy Board Game",
-    "description": "Engage in hours of fun and intellectual challenge with this captivating strategy board game. Perfect for game nights with friends and family.",
-    "price": 35,
+    "slug": "yamaha-hs5-studio-monitor-pair",
+    "title": "Yamaha HS5 Active Studio Monitor (Pair)",
+    "description": "A classic pair of nearfield monitors, known for their honest, uncolored sound that allows for accurate mixing. The 5-inch cone woofer and 1-inch dome tweeter deliver a clear, high-resolution sound, making them a staple in home and professional studios alike.",
+    "price": 499,
+    "details": [
+      "5-inch cone woofer and 1-inch dome tweeter",
+      "Bi-amplified: 45W LF + 25W HF for 70W total power",
+      "Room Control and High Trim response controls",
+      "XLR and TRS phone jack inputs",
+      "Clear and honest frequency response for critical listening"
+    ],
     "category": {
-      "id": 7,
-      "slug": "toys-games",
-      "name": "Toys & Games"
+      "id": 4,
+      "slug": "recording-equipment",
+      "name": "Recording Equipment"
     },
-    "image": "/board-game-strategy.webp"
+    "images": [
+      "/yamaha-hs5-studio-monitor-pair.webp",
+      "/yamaha-hs5-studio-monitor-pair-2.webp"
+    ]
   },
   {
     "id": 33,
-    "slug": "action-figure",
-    "title": "Action Figure",
-    "description": "Bring your favorite stories to life with this collectible action figure from a popular franchise. Featuring intricate details and articulation, perfect for play or display.",
-    "price": 15,
+    "slug": "beyerdynamic-dt770pro-headphones",
+    "title": "Beyerdynamic DT 770 PRO Studio Headphones",
+    "description": "Closed-back studio headphones, essential for tracking vocals and instruments due to their excellent sound isolation. Known for their deep bass, analytical mid-range, and long-lasting comfort, ideal for extended recording sessions. Available in various impedance options.",
+    "price": 159,
+    "details": [
+      "Closed-back, diffuse-field studio headphone",
+      "Excellent ambient noise isolation",
+      "Soft velour earpads for maximum comfort",
+      "Rugged, easy-to-service headband construction",
+      "Ideal for tracking, monitoring, and reference listening"
+    ],
     "category": {
-      "id": 7,
-      "slug": "toys-games",
-      "name": "Toys & Games"
+      "id": 4,
+      "slug": "recording-equipment",
+      "name": "Recording Equipment"
     },
-    "image": "/action-figure.webp"
+    "images": [
+      "/beyerdynamic-dt770pro-headphones.webp",
+      "/beyerdynamic-dt770pro-headphones-2.webp"
+    ]
   },
   {
     "id": 34,
-    "slug": "puzzle-1000-pieces",
-    "title": "1000-Piece Puzzle",
-    "description": "Challenge your mind with this rewarding 1000-piece jigsaw puzzle. Featuring a captivating image, it provides hours of engaging fun for puzzle enthusiasts.",
-    "price": 20,
+    "slug": "novation-launchkey-49-midi",
+    "title": "Novation Launchkey 49 MIDI Controller",
+    "description": "A powerful and intuitive 49-key keyboard controller designed for deep integration with Ableton Live and other major DAWs. Features velocity-sensitive keys, 16 pads, 9 faders, and various control knobs for hands-on production and performance.",
+    "price": 249,
+    "details": [
+      "49 velocity-sensitive keys",
+      "16 velocity-sensitive RGB pads",
+      "9 faders and 8 control knobs",
+      "Full DAW control for recording, mixing, and transport",
+      "Includes a comprehensive software package"
+    ],
     "category": {
-      "id": 7,
-      "slug": "toys-games",
-      "name": "Toys & Games"
+      "id": 4,
+      "slug": "recording-equipment",
+      "name": "Recording Equipment"
     },
-    "image": "/puzzle-1000-pieces.webp"
+    "images": [
+      "/novation-launchkey-49-midi.webp",
+      "/novation-launchkey-49-midi-2.webp"
+    ]
   },
   {
     "id": 35,
-    "slug": "stuffed-animal-teddy-bear",
-    "title": "Stuffed Animal Teddy Bear",
-    "description": "This soft and cuddly teddy bear is the perfect companion for children of all ages. With its huggable design and plush fur, it's ideal for snuggling and playtime.",
-    "price": 22,
+    "slug": "acoustic-foam-panel-kit-12pack",
+    "title": "Acoustic Foam Panel Kit (12 Pack)",
+    "description": "Essential wedge-style acoustic treatment for reducing standing waves and flutter echo in home recording environments. Improves clarity and overall sound accuracy, making your recordings and mixes more professional. Easy to install on walls and ceilings.",
+    "price": 45,
+    "details": [
+      "12 acoustic foam panels (12\" x 12\" x 2\")",
+      "High-density, professional-grade foam",
+      "Reduces flutter echo and standing waves",
+      "Improves vocal clarity and acoustic accuracy",
+      "Fire-retardant material"
+    ],
+    "category": {
+      "id": 4,
+      "slug": "recording-equipment",
+      "name": "Recording Equipment"
+    },
+    "images": [
+      "/acoustic-foam-panel-kit-12pack.webp",
+      "/acoustic-foam-panel-kit-12pack-2.webp"
+    ]
+  },
+  {
+    "id": 36,
+    "slug": "universal-audio-apollo-twin-x",
+    "title": "Universal Audio Apollo Twin X DUO",
+    "description": "A professional Thunderbolt 3 audio interface with world-class A/D and D/A conversion. Features DUO Core processing for running UAD plugins in real-time with near-zero latency, perfect for pro-level tracking and mixing with classic analog emulation plugins.",
+    "price": 1099,
+    "details": [
+      "Elite-class A/D and D/A conversion",
+      "2 x Unison preamps for authentic tube/transformer emulation",
+      "DUO Core Realtime UAD Processing",
+      "Thunderbolt 3 connectivity (cable not included)",
+      "Includes Realtime Analog Classics UAD Plug-In Bundle"
+    ],
+    "category": {
+      "id": 4,
+      "slug": "recording-equipment",
+      "name": "Recording Equipment"
+    },
+    "images": [
+      "/universal-audio-apollo-twin-x.webp",
+      "/universal-audio-apollo-twin-x-2.webp"
+    ]
+  },
+  {
+    "id": 37,
+    "slug": "krk-rokit-rp5-g4-monitor-pair",
+    "title": "KRK ROKIT RP5 G4 Studio Monitor (Pair)",
+    "description": "A pair of 5-inch professional bi-amped studio monitors favored by producers worldwide. Features a brick-wall limiter, Kevlar® aramid fiber drivers, and a graphic EQ with 25 settings to help tune the monitors to your specific room environment.",
+    "price": 379,
+    "details": [
+      "5-inch Kevlar® Aramid Fiber woofer and tweeter",
+      "Built-in DSP-driven Graphic EQ with 25 settings",
+      "Efficient Class D power amplifiers",
+      "Optimized front-firing bass port",
+      "KRK Audio Tools App for room analysis and setup"
+    ],
+    "category": {
+      "id": 4,
+      "slug": "recording-equipment",
+      "name": "Recording Equipment"
+    },
+    "images": [
+      "/krk-rokit-rp5-g4-monitor-pair.webp",
+      "/krk-rokit-rp5-g4-monitor-pair-2.webp"
+    ]
+  },
+  {
+    "id": 38,
+    "slug": "digital-mixing-console-x32",
+    "title": "Behringer X32 Digital Mixer",
+    "description": "A popular 40-input, 25-bus digital mixing console for live, studio, and installation applications. Features 32 Midas-designed preamps and motorized faders.",
+    "price": 2239,
+    "details": [
+      "40-Input, 25-Bus Digital Mixer",
+      "32 Midas-Designed, Fully Programmable Mic Preamps",
+      "25 Motorized 100 mm Faders",
+      "Integrated multi-channel audio interface",
+      "High-resolution 7-inch Day-View TFT"
+    ],
+    "category": {
+      "id": 5,
+      "slug": "live-sound",
+      "name": "Live Sound"
+    },
+    "images": [
+      "/digital-mixing-console-x32.webp",
+      "/digital-mixing-console-x32-2.webp"
+    ]
+  },
+  {
+    "id": 39,
+    "slug": "active-pa-speaker-k12-2",
+    "title": "QSC K12.2 Active Loudspeaker",
+    "description": "A high-performance, active 12-inch powered loudspeaker delivering 2000W of peak power. Excellent clarity for main PA or stage monitor use.",
+    "price": 849,
+    "details": [
+      "2000 Watt Class D Amplifier Module",
+      "12-inch Woofer, 1.4-inch Compression Driver",
+      "Intrinsic Correction™ and advanced DSP",
+      "Presets for common applications (Live, Dance, Monitor)",
+      "Rugged ABS enclosure for road use"
+    ],
+    "category": {
+      "id": 5,
+      "slug": "live-sound",
+      "name": "Live Sound"
+    },
+    "images": [
+      "/active-pa-speaker-k12-2.webp",
+      "/active-pa-speaker-k12-2-2.webp"
+    ]
+  },
+  {
+    "id": 40,
+    "slug": "dynamic-vocal-mic-sm58",
+    "title": "Shure SM58 Dynamic Vocal Microphone",
+    "description": "The industry-standard, rugged dynamic vocal microphone. Famous for its tailored frequency response for vocals and reliable, professional sound on stage.",
+    "price": 99,
+    "details": [
+      "Frequency response tailored for vocals",
+      "Pneumatic shock-mount system reduces handling noise",
+      "Highly effective spherical filter minimizes breath noise",
+      "Cardioid pickup pattern for feedback rejection"
+    ],
+    "category": {
+      "id": 5,
+      "slug": "live-sound",
+      "name": "Live Sound"
+    },
+    "images": ["/dynamic-vocal-mic-sm58.webp", "/dynamic-vocal-mic-sm58-2.webp"]
+  },
+  {
+    "id": 41,
+    "slug": "wireless-system-qlxd",
+    "title": "Shure QLXD24/SM58 Digital Wireless System",
+    "description": "Professional digital wireless system featuring the SM58 capsule. Delivers 24-bit clear audio, easy setup, and secure transmission for demanding live events.",
+    "price": 1229,
+    "details": [
+      "SM58 Handheld Transmitter with QLXD4 Receiver",
+      "24-bit digital audio clarity",
+      "Automatic frequency scanning and IR sync",
+      "AES 256-bit encryption for secure transmission"
+    ],
+    "category": {
+      "id": 5,
+      "slug": "live-sound",
+      "name": "Live Sound"
+    },
+    "images": ["/wireless-system-qlxd.webp", "/wireless-system-qlxd-2.webp"]
+  },
+  {
+    "id": 42,
+    "slug": "stage-monitor-ev-zx1",
+    "title": "Electro-Voice ZLX-12P Active Monitor",
+    "description": "A compact and versatile 12-inch powered loudspeaker, often used as a stage monitor or small FOH speaker. Known for its clarity and lightweight design.",
+    "price": 499,
+    "details": [
+      "1000 Watt Class D Power Amplifier",
+      "12-inch woofer and 1.5-inch titanium compression driver",
+      "LCD display and single-knob DSP control",
+      "Angled design for use as a floor monitor",
+      "Patented Split-Baffle design for superior driver time alignment"
+    ],
+    "category": {
+      "id": 5,
+      "slug": "live-sound",
+      "name": "Live Sound"
+    },
+    "images": ["/stage-monitor-ev-zx1.webp", "/stage-monitor-ev-zx1-2.webp"]
+  },
+  {
+    "id": 43,
+    "slug": "line-array-ev-evolve30m",
+    "title": "Electro-Voice EVOLVE 30M Column PA",
+    "description": "A portable column loudspeaker system with a built-in 8-channel digital mixer. Ideal for solo musicians, small bands, and mobile DJs needing quick setup.",
+    "price": 1699,
+    "details": [
+      "Column system with 10-inch subwoofer and 6 array drivers",
+      "Integrated 8-channel digital mixer",
+      "Bluetooth audio streaming and control via QuickSmart Mobile app",
+      "Four factory presets (Music, Live, Speech, Club)",
+      "Integrated effects (reverb, delay, chorus)"
+    ],
+    "category": {
+      "id": 5,
+      "slug": "live-sound",
+      "name": "Live Sound"
+    },
+    "images": [
+      "/line-array-ev-evolve30m.webp",
+      "/line-array-ev-evolve30m-2.webp"
+    ]
+  },
+  {
+    "id": 44,
+    "slug": "subwoofer-jbl-prx918xlf",
+    "title": "JBL PRX918XLF Powered Subwoofer",
+    "description": "A high-output 18-inch powered subwoofer designed to extend the low-frequency response of any live sound system for music and events.",
+    "price": 1299,
+    "details": [
+      "2000W Peak / 1000W RMS power",
+      "18-inch high-excursion woofer",
+      "Integrated JBL DSP for tuning and control",
+      "Durable birch/poplar cabinet with DuraFlex™ finish"
+    ],
+    "category": {
+      "id": 5,
+      "slug": "live-sound",
+      "name": "Live Sound"
+    },
+    "images": [
+      "/subwoofer-jbl-prx918xlf.webp",
+      "/subwoofer-jbl-prx918xlf-2.webp"
+    ]
+  },
+  {
+    "id": 45,
+    "slug": "in-ear-monitor-system-psm300",
+    "title": "Shure PSM300 Stereo In-Ear Monitor System",
+    "description": "A reliable in-ear monitoring system for performers, offering 24-bit digital audio and up to 90dB of dynamic range for clear stage sound.",
+    "price": 699,
+    "details": [
+      "Includes P3T Transmitter and P3R Bodypack Receiver",
+      "Stereo or Mono mix modes",
+      "MixMode® technology for personal control",
+      "One-touch frequency scan and sync"
+    ],
+    "category": {
+      "id": 5,
+      "slug": "live-sound",
+      "name": "Live Sound"
+    },
+    "images": [
+      "/in-ear-monitor-system-psm300.webp",
+      "/in-ear-monitor-system-psm300-2.webp"
+    ]
+  },
+  {
+    "id": 46,
+    "slug": "direct-input-box-di-20",
+    "title": "Radial Engineering ProDI Passive Direct Box",
+    "description": "A rugged, passive direct injection box essential for connecting unbalanced instruments (like guitars/keyboards) directly to a balanced mixer input.",
+    "price": 99,
+    "details": [
+      "Custom-made transformer for clean signal",
+      "Eliminates ground loops and noise",
+      "-15dB pad for high-output sources",
+      "Steel book-end enclosure for road-worthiness"
+    ],
+    "category": {
+      "id": 5,
+      "slug": "live-sound",
+      "name": "Live Sound"
+    },
+    "images": ["/direct-input-box-di-20.webp", "/direct-input-box-di-20-2.webp"]
+  },
+  {
+    "id": 47,
+    "slug": "snake-stage-box-24ch",
+    "title": "Hosa Stage Box Snake 24x8 (100 ft)",
+    "description": "A 100-foot multi-channel cable (snake) and stage box, providing 24 XLR inputs and 8 XLR returns for running all stage signals to a front-of-house mixer.",
+    "price": 349,
+    "details": [
+      "24 XLR Inputs and 8 XLR Returns (32 channels total)",
+      "100-foot cable length",
+      "Heavy-duty stage box construction",
+      "Durable, flexible PVC jacket"
+    ],
+    "category": {
+      "id": 5,
+      "slug": "live-sound",
+      "name": "Live Sound"
+    },
+    "images": ["/snake-stage-box-24ch.webp", "/snake-stage-box-24ch-2.webp"]
+  },
+  {
+    "id": 48,
+    "slug": "graphic-equalizer-dbx-231s",
+    "title": "dbx 231s Dual 31-Band Graphic Equalizer",
+    "description": "A professional dual 31-band graphic equalizer for fine-tuning the PA system's frequency response and eliminating feedback in live venues.",
+    "price": 279,
+    "details": [
+      "Dual 31-band, 1/3-octave constant Q frequency bands",
+      "Switchable boost/cut ranges of $\\pm 6\\text{ dB}$ or $\\pm 12\\text{ dB}$",
+      "Front panel bypass switch",
+      "4-segment LED output level metering"
+    ],
+    "category": {
+      "id": 5,
+      "slug": "live-sound",
+      "name": "Live Sound"
+    },
+    "images": [
+      "/graphic-equalizer-dbx-231s.webp",
+      "/graphic-equalizer-dbx-231s-2.webp"
+    ]
+  },
+  {
+    "id": 49,
+    "slug": "pioneer-dj-ddj-flx10",
+    "title": "Pioneer DJ DDJ-FLX10 4-Channel DJ Controller",
+    "description": "A flagship 4-channel performance DJ controller compatible with rekordbox and Serato DJ Pro. Features a club-style layout, on-jog displays, DMX output for lighting control, and hands-on track separation features (Stems/Part Isolation). Perfect for professional-level mixing and creative performance.",
+    "price": 1729,
+    "details": [
+      "4-channel performance controller",
+      "Compatible with rekordbox and Serato DJ Pro",
+      "On-Jog Display for track information and artwork",
+      "DMX output for easy lighting control with rekordbox",
+      "Dedicated Stems/Part Isolation controls",
+      "MAGVEL FADER for precise scratching"
+    ],
+    "category": {
+      "id": 6,
+      "slug": "dj-equipment",
+      "name": "DJ Equipment"
+    },
+    "images": ["/pioneer-dj-ddj-flx10.webp", "/pioneer-dj-ddj-flx10-2.webp"]
+  },
+  {
+    "id": 50,
+    "slug": "technics-sl-1200mk7",
+    "title": "Technics SL-1200MK7 Direct Drive Turntable",
+    "description": "The modern iteration of the legendary standard DJ turntable, known for its high-torque direct drive, unwavering pitch stability, and robust build. The professional choice for vinyl DJs and turntablists, providing the iconic feel and precision required for scratching and mixing.",
+    "price": 1299,
+    "details": [
+      "High-torque direct-drive motor for stable rotation",
+      "Pitch control with $\\pm 8\\% / \\pm 16\\%$ adjustment",
+      "Reverse playback function",
+      "LED illumination (selectable red/blue)",
+      "Robust, high-damping construction",
+      "Detachable power and audio cables"
+    ],
+    "category": {
+      "id": 6,
+      "slug": "dj-equipment",
+      "name": "DJ Equipment"
+    },
+    "images": ["/technics-sl-1200mk7.webp", "/technics-sl-1200mk7-2.webp"]
+  },
+  {
+    "id": 51,
+    "slug": "pioneer-djm-a9",
+    "title": "Pioneer DJM-A9 4-Channel Professional DJ Mixer",
+    "description": "The current club-standard 4-channel professional DJ mixer, succeeding the DJM-900NXS2. Features crystal-clear sound quality, enhanced effects, two USB-B and two USB-C ports for seamless DJ changeovers, and improved Mic section for MCs. Essential for top-tier venues and artists.",
+    "price": 2799,
+    "details": [
+      "96 kHz/32-bit audio quality",
+      "Upgraded Beat FX and new Center Lock feature",
+      "Two USB-B and two USB-C ports for laptop connection",
+      "Enhanced Microphone section with Phantom Power",
+      "PRO DJ LINK with gigabit Ethernet",
+      "3-band master EQ for sound control"
+    ],
+    "category": {
+      "id": 6,
+      "slug": "dj-equipment",
+      "name": "DJ Equipment"
+    },
+    "images": ["/pioneer-djm-a9.webp", "/pioneer-djm-a9-2.webp"]
+  },
+  {
+    "id": 52,
+    "slug": "alphatheta-xdj-az",
+    "title": "AlphaTheta XDJ-AZ All-in-One DJ System",
+    "description": "A 4-deck standalone all-in-one DJ system that brings the club-standard feel without needing a laptop. Features a large touchscreen, built-in Wi-Fi for cloud music library access, and professional effects. Offers unmatched flexibility for mobile and club DJs alike.",
+    "price": 3299,
+    "details": [
+      "4-deck standalone operation (no laptop needed)",
+      "10.1-inch touchscreen display",
+      "Built-in Wi-Fi for access to cloud libraries",
+      "Layout based on CDJ-3000 and DJM-900NXS2",
+      "Two Mic inputs with independent EQ/FX",
+      "Compatible with rekordbox and Serato DJ Pro"
+    ],
+    "category": {
+      "id": 6,
+      "slug": "dj-equipment",
+      "name": "DJ Equipment"
+    },
+    "images": ["/alphatheta-xdj-az.webp", "/alphatheta-xdj-az-2.webp"]
+  },
+  {
+    "id": 53,
+    "slug": "allen-heath-xone-96",
+    "title": "Allen & Heath Xone:96 Analog DJ Mixer",
+    "description": "A premium analog 6+2 channel DJ mixer with dual 32-bit USB soundcards for professional club installations. Known for its legendary Xone filter with CRUNCH harmonic distortion, exceptional sound quality, and robust construction. A favorite for house and techno DJs.",
+    "price": 2199,
+    "details": [
+      "6+2 channel analog design",
+      "Dual 32-bit / 24-channel USB soundcards",
+      "Legendary Xone VCF filter with CRUNCH distortion",
+      "4-Band EQ on main channels",
+      "Dual independent headphone cues",
+      "Integrated 10-segment LED meters"
+    ],
+    "category": {
+      "id": 6,
+      "slug": "dj-equipment",
+      "name": "DJ Equipment"
+    },
+    "images": ["/allen-heath-xone-96.webp", "/allen-heath-xone-96-2.webp"]
+  },
+  {
+    "id": 54,
+    "slug": "audio-technica-ath-m50x",
+    "title": "Audio-Technica ATH-M50x Professional Headphones",
+    "description": "Critically acclaimed professional monitor headphones, perfect for both DJ monitoring and studio tracking/mixing. They provide exceptional clarity, deep, accurate bass response, and excellent sound isolation. Their robust, collapsible design makes them a staple for mobile DJs.",
+    "price": 179,
+    "details": [
+      "Critically acclaimed sonic performance",
+      "45 mm large-aperture drivers",
+      "Exceptional clarity throughout an extended frequency range",
+      "Contoured earcups for sound isolation",
+      "90° swiveling earcups for one-ear monitoring",
+      "Includes three detachable cables"
+    ],
+    "category": {
+      "id": 6,
+      "slug": "dj-equipment",
+      "name": "DJ Equipment"
+    },
+    "images": [
+      "/audio-technica-ath-m50x.webp",
+      "/audio-technica-ath-m50x-2.webp"
+    ]
+  },
+  {
+    "id": 55,
+    "slug": "pro-audio-xlr-cable-20ft",
+    "title": "20ft Pro-Grade XLR Microphone Cable",
+    "description": "A high-quality, 20-foot XLR cable essential for connecting microphones, mixers, and audio interfaces. Features durable metal connectors and a thick, shielded jacket for minimal signal noise and maximum longevity on stage or in the studio. Ideal for professional recording and live sound applications, ensuring a clean and reliable audio signal.",
+    "price": 25,
+    "details": [
+      "Length: 20 feet (approx. 6 meters)",
+      "Connector Type: Male XLR to Female XLR",
+      "Shielding: High-density copper braided shield",
+      "Conductors: Oxygen-Free Copper (OFC)",
+      "Jacket Material: Durable PVC for flexibility and protection",
+      "Application: Microphones, studio gear, and live sound equipment"
+    ],
     "category": {
       "id": 7,
-      "slug": "toys-games",
-      "name": "Toys & Games"
+      "slug": "accessories",
+      "name": "Accessories"
     },
-    "image": "/stuffed-animal-teddy-bear.webp"
+    "images": [
+      "/pro-audio-xlr-cable-20ft.webp",
+      "/pro-audio-xlr-cable-20ft-2.webp"
+    ]
+  },
+  {
+    "id": 56,
+    "slug": "universal-guitar-stand-a-frame",
+    "title": "Universal A-Frame Guitar Stand",
+    "description": "A lightweight, folding A-Frame stand designed for secure and convenient storage of acoustic, electric, and bass guitars. Constructed from durable, non-slip metal with soft rubber padding on all contact points to protect your instrument's finish. Folds flat for easy transport to gigs, rehearsals, or home storage.",
+    "price": 35,
+    "details": [
+      "Compatibility: Universal for electric, acoustic, and bass guitars",
+      "Design: Folding A-Frame style",
+      "Material: Steel construction",
+      "Protection: Soft, non-marring rubber padding",
+      "Portability: Folds flat for easy storage and travel"
+    ],
+    "category": {
+      "id": 7,
+      "slug": "accessories",
+      "name": "Accessories"
+    },
+    "images": [
+      "/universal-guitar-stand-a-frame.webp",
+      "/universal-guitar-stand-a-frame-2.webp"
+    ]
+  },
+  {
+    "id": 57,
+    "slug": "pink-floyd-dark-side-of-the-moon",
+    "title": "Pink Floyd - The Dark Side of the Moon (1973)",
+    "description": "A landmark progressive rock album exploring themes of conflict, greed, time, and mental illness. Features iconic tracks like 'Money' and 'Time.' Known for its innovative production and seamless transitions, it's a must-have for any serious collector.",
+    "price": 35,
+    "details": [
+      "Genre: Progressive Rock",
+      "Format: 12\" LP",
+      "Speed: 33 RPM",
+      "Release Year: 1973",
+      "Gatefold sleeve",
+      "Remastered Edition"
+    ],
+    "category": {
+      "id": 9,
+      "slug": "vinyl-records",
+      "name": "Vinyl Records"
+    },
+    "images": ["/pink-floyd-dark-side-of-the-moon.webp"]
+  },
+  {
+    "id": 58,
+    "slug": "fleetwood-mac-rumours",
+    "title": "Fleetwood Mac - Rumours (1977)",
+    "description": "The quintessential breakup album of the 70s, chronicling the band's internal relationship turmoil with a perfect blend of pop-rock sensibilities. Includes massive hits 'Dreams,' 'Go Your Own Way,' and 'The Chain.' A timeless masterpiece for vinyl listening.",
+    "price": 30,
+    "details": [
+      "Genre: Soft Rock, Pop Rock",
+      "Format: 12\" LP",
+      "Speed: 33 RPM",
+      "Release Year: 1977",
+      "Original tracklist",
+      "180g Heavyweight Vinyl"
+    ],
+    "category": {
+      "id": 9,
+      "slug": "vinyl-records",
+      "name": "Vinyl Records"
+    },
+    "images": ["/fleetwood-mac-rumours.webp"]
+  },
+  {
+    "id": 59,
+    "slug": "the-beatles-abbey-road",
+    "title": "The Beatles - Abbey Road (1969)",
+    "description": "The final recorded album by the band, featuring some of their most sophisticated and well-produced music. Side two is famous for its medley of song fragments. Iconic cover art makes it a staple for any vinyl wall and collection.",
+    "price": 28,
+    "details": [
+      "Genre: Rock, Pop",
+      "Format: 12\" LP",
+      "Speed: 33 RPM",
+      "Release Year: 1969",
+      "Half-Speed Mastered Edition",
+      "Includes original inner sleeve notes"
+    ],
+    "category": {
+      "id": 9,
+      "slug": "vinyl-records",
+      "name": "Vinyl Records"
+    },
+    "images": ["/the-beatles-abbey-road.webp"]
+  },
+  {
+    "id": 60,
+    "slug": "michael-jackson-thriller",
+    "title": "Michael Jackson - Thriller (1982)",
+    "description": "The best-selling album of all time, redefining pop music and the music video as an art form. Features 7 hit singles including 'Billie Jean,' 'Beat It,' and the title track. A pop culture phenomenon essential for any music lover.",
+    "price": 25,
+    "details": [
+      "Genre: Pop, R&B, Post-Disco",
+      "Format: 12\" LP",
+      "Speed: 33 RPM",
+      "Release Year: 1982",
+      "Original artwork sleeve",
+      "Mastered for Vinyl"
+    ],
+    "category": {
+      "id": 9,
+      "slug": "vinyl-records",
+      "name": "Vinyl Records"
+    },
+    "images": ["/michael-jackson-thriller.webp"]
+  },
+  {
+    "id": 61,
+    "slug": "miles-davis-kind-of-blue",
+    "title": "Miles Davis - Kind of Blue (1959)",
+    "description": "A pioneering work of modal jazz and one of the most acclaimed jazz albums of all time. Features an all-star line-up including John Coltrane and Bill Evans. Its cool, understated mood makes it perfect for a relaxed evening listen.",
+    "price": 27,
+    "details": [
+      "Genre: Jazz, Modal Jazz",
+      "Format: 12\" LP",
+      "Speed: 33 RPM",
+      "Release Year: 1959",
+      "Audiophile pressing",
+      "Original liner notes reproduction"
+    ],
+    "category": {
+      "id": 9,
+      "slug": "vinyl-records",
+      "name": "Vinyl Records"
+    },
+    "images": ["/miles-davis-kind-of-blue.webp"]
+  },
+  {
+    "id": 62,
+    "slug": "led-zeppelin-iv",
+    "title": "Led Zeppelin - Led Zeppelin IV (1971)",
+    "description": "Officially untitled, this album features the band's signature blend of hard rock, folk, and mythology. Home to the legendary 'Stairway to Heaven,' 'Black Dog,' and 'Rock and Roll.' A cornerstone of classic rock vinyl collections.",
+    "price": 32,
+    "details": [
+      "Genre: Hard Rock, Folk Rock",
+      "Format: 12\" LP",
+      "Speed: 33 RPM",
+      "Release Year: 1971",
+      "High-definition 180g audio",
+      "Includes original inner sleeve artwork"
+    ],
+    "category": {
+      "id": 9,
+      "slug": "vinyl-records",
+      "name": "Vinyl Records"
+    },
+    "images": ["/led-zeppelin-iv.webp"]
+  },
+  {
+    "id": 64,
+    "slug": "amy-winehouse-back-to-black",
+    "title": "Amy Winehouse - Back to Black (2006)",
+    "description": "A modern soul classic that blends R&B, jazz, and 60s girl group sounds. Winehouse's raw, heartfelt lyrics and powerhouse vocals on tracks like 'Rehab' and 'Valerie' cemented her legacy. A must-own contemporary record on vinyl.",
+    "price": 28,
+    "details": [
+      "Genre: Soul, R&B, Jazz",
+      "Format: 12\" LP",
+      "Speed: 33 RPM",
+      "Release Year: 2006",
+      "UK Edition",
+      "Includes download code"
+    ],
+    "category": {
+      "id": 9,
+      "slug": "vinyl-records",
+      "name": "Vinyl Records"
+    },
+    "images": ["/amy-winehouse-back-to-black.webp"]
+  },
+  {
+    "id": 65,
+    "slug": "bob-marley-legend",
+    "title": "Bob Marley & The Wailers - Legend (1984)",
+    "description": "The best-selling reggae album of all time, compiling the greatest hits of the iconic artist. Features beloved tracks like 'No Woman, No Cry,' 'Buffalo Soldier,' and 'Redemption Song.' An essential, warm-sounding vinyl experience.",
+    "price": 22,
+    "details": [
+      "Genre: Reggae",
+      "Format: 12\" LP",
+      "Speed: 33 RPM",
+      "Release Year: 1984 (Compilation)",
+      "High-quality pressing",
+      "Gatefold Sleeve"
+    ],
+    "category": {
+      "id": 9,
+      "slug": "vinyl-records",
+      "name": "Vinyl Records"
+    },
+    "images": ["/bob-marley-legend.webp"]
+  },
+  {
+    "id": 66,
+    "slug": "taylor-swift-tortured-poets-department",
+    "title": "Taylor Swift - The Tortured Poets Department (2024)",
+    "description": "One of the best-selling vinyl LPs of its release year. This highly-anticipated album features introspective and sharp lyricism paired with synth-pop production. A modern vinyl phenomenon for new and seasoned collectors alike.",
+    "price": 40,
+    "details": [
+      "Genre: Pop, Synth-Pop",
+      "Format: 2x 12\" LP",
+      "Speed: 45 RPM",
+      "Release Year: 2024",
+      "Explicit Lyrics",
+      "Colored Vinyl Edition"
+    ],
+    "category": {
+      "id": 9,
+      "slug": "vinyl-records",
+      "name": "Vinyl Records"
+    },
+    "images": ["/taylor-swift-tortured-poets-department.webp"]
+  },
+  {
+    "id": 67,
+    "slug": "oasis-definitely-maybe",
+    "title": "Oasis - Definitely Maybe (1994)",
+    "description": "The debut album from the Manchester band, credited with spearheading the Britpop movement. Loaded with anthems like 'Supersonic' and 'Live Forever,' it's a loud, brash, and timeless rock record essential for 90s nostalgia.",
+    "price": 29,
+    "details": [
+      "Genre: Britpop, Alternative Rock",
+      "Format: 2x 12\" LP",
+      "Speed: 33 RPM",
+      "Release Year: 1994",
+      "25th Anniversary Edition",
+      "Remastered from the original tapes"
+    ],
+    "category": {
+      "id": 9,
+      "slug": "vinyl-records",
+      "name": "Vinyl Records"
+    },
+    "images": ["/oasis-definitely-maybe.webp"]
+  },
+  {
+    "id": 68,
+    "slug": "marvin-gaye-whats-going-on",
+    "title": "Marvin Gaye - What's Going On (1971)",
+    "description": "A socially conscious concept album that departed from the Motown sound, addressing war, poverty, and environmental issues. Its lush orchestration and layered vocals make it an emotional and sonic masterpiece for vinyl.",
+    "price": 26,
+    "details": [
+      "Genre: Soul, R&B, Jazz",
+      "Format: 12\" LP",
+      "Speed: 33 RPM",
+      "Release Year: 1971",
+      "Motown Classic Vinyl",
+      "Original Mix"
+    ],
+    "category": {
+      "id": 9,
+      "slug": "vinyl-records",
+      "name": "Vinyl Records"
+    },
+    "images": ["/marvin-gaye-whats-going-on.webp"]
+  },
+  {
+    "id": 69,
+    "slug": "prince-purple-rain",
+    "title": "Prince and The Revolution - Purple Rain (1984)",
+    "description": "The soundtrack to the film of the same name, seamlessly blending rock, R&B, and pop. A definitive 80s album featuring the iconic title track, 'When Doves Cry,' and 'Let's Go Crazy.' A high-energy vinyl experience.",
+    "price": 25,
+    "details": [
+      "Genre: Pop, Rock, Funk",
+      "Format: 12\" LP",
+      "Speed: 33 RPM",
+      "Release Year: 1984",
+      "Includes original poster",
+      "180g Vinyl Reissue"
+    ],
+    "category": {
+      "id": 9,
+      "slug": "vinyl-records",
+      "name": "Vinyl Records"
+    },
+    "images": ["/prince-purple-rain.webp"]
+  },
+  {
+    "id": 70,
+    "slug": "chappell-roan-rise-fall-midwest-princess",
+    "title": "Chappell Roan - The Rise and Fall of a Midwest Princess (2023)",
+    "description": "A breakout pop album known for its theatrical, queer-forward lyrics and catchy hooks, including the hit 'Good Luck, Babe!' One of the top-selling new vinyl releases, capturing the energy of contemporary pop music.",
+    "price": 30,
+    "details": [
+      "Genre: Pop, Electropop",
+      "Format: 12\" LP",
+      "Speed: 33 RPM",
+      "Release Year: 2023",
+      "Pink & Blue Marble Vinyl",
+      "Gatefold Jacket"
+    ],
+    "category": {
+      "id": 9,
+      "slug": "vinyl-records",
+      "name": "Vinyl Records"
+    },
+    "images": ["/chappell-roan-rise-fall-midwest-princess.webp"]
+  },
+  {
+    "id": 71,
+    "slug": "the-clash-london-calling",
+    "title": "The Clash - London Calling (1979)",
+    "description": "A genre-bending post-punk masterpiece that incorporates punk rock, reggae, rockabilly, and jazz. Its political themes and musical diversity make it a pivotal record in rock history, presented as a 2-LP set.",
+    "price": 38,
+    "details": [
+      "Genre: Post-Punk, New Wave",
+      "Format: 2x 12\" LP",
+      "Speed: 33 RPM",
+      "Release Year: 1979",
+      "Remastered for superior audio",
+      "Includes original booklet"
+    ],
+    "category": {
+      "id": 9,
+      "slug": "vinyl-records",
+      "name": "Vinyl Records"
+    },
+    "images": ["/the-clash-london-calling.webp"]
+  },
+  {
+    "id": 72,
+    "slug": "marantz-pm6007-integrated-amp",
+    "title": "Marantz PM6007 Integrated Stereo Amplifier",
+    "description": "A celebrated entry-level integrated amplifier known for its detailed, musical sound. Features high-quality current feedback amplification, a built-in DAC, and an excellent moving magnet (MM) phono stage for vinyl lovers. A perfect foundation for a two-channel hi-fi system.",
+    "price": 799,
+    "details": [
+      "Power Output: 45W per channel (8 ohms)",
+      "Digital Inputs: 1 Optical, 1 Coaxial",
+      "Analog Inputs: 5 RCA, including Phono (MM)",
+      "Built-in High-Resolution DAC (192kHz/24-bit)",
+      "Current Feedback Amplification",
+      "Toroidal Power Transformer"
+    ],
+    "category": {
+      "id": 13,
+      "slug": "amplifiers",
+      "name": "Amplifiers"
+    },
+    "images": [
+      "/marantz-pm6007-integrated-amp.webp",
+      "/marantz-pm6007-integrated-amp-2.webp"
+    ]
+  },
+  {
+    "id": 73,
+    "slug": "nad-c316bee-v2-integrated-amp",
+    "title": "NAD C 316BEE V2 Integrated Amplifier",
+    "description": "An award-winning integrated amplifier that delivers high-performance sound at a budget-friendly price. It offers a clean, dynamic sound signature and includes an excellent, low-noise Moving Magnet (MM) Phono stage, making it ideal for vinyl enthusiasts or those new to hi-fi separates.",
+    "price": 499,
+    "details": [
+      "Power Output: 40W per channel (8 ohms)",
+      "Analog Inputs: 5 line level inputs (RCA), 1 Phono (MM)",
+      "Front-panel input for portable devices",
+      "Full-size headphone jack",
+      "NAD PowerDrive™ technology",
+      "Tone controls with bypass function"
+    ],
+    "category": {
+      "id": 13,
+      "slug": "amplifiers",
+      "name": "Amplifiers"
+    },
+    "images": [
+      "/nad-c316bee-v2-integrated-amp.webp",
+      "/nad-c316bee-v2-integrated-amp-2.webp"
+    ]
+  },
+  {
+    "id": 74,
+    "slug": "cambridge-audio-cxa81-integrated-amp",
+    "title": "Cambridge Audio CXA81 Integrated Amplifier",
+    "description": "A high-performance integrated amplifier designed for pure audio fidelity. With 80W per channel, a high-quality ESS Sabre DAC, and a focus on clean power, the CXA81 delivers an assertive, detailed, and engaging sound. Excellent for modern digital sources and balanced connections.",
+    "price": 1299,
+    "details": [
+      "Power Output: 80W per channel (8 ohms)",
+      "Built-in ESS Sabre ES9016 K2M DAC",
+      "Digital Inputs: 1 Coaxial, 2 Optical, 1 USB Audio B",
+      "Analog Inputs: 4 RCA, 1 Balanced XLR",
+      "Integrated Bluetooth aptX HD receiver",
+      "Oversized toroidal transformer"
+    ],
+    "category": {
+      "id": 13,
+      "slug": "amplifiers",
+      "name": "Amplifiers"
+    },
+    "images": [
+      "/cambridge-audio-cxa81-integrated-amp.webp",
+      "/cambridge-audio-cxa81-integrated-amp-2.webp"
+    ]
+  },
+  {
+    "id": 75,
+    "slug": "rotel-a11-mkii-integrated-amp",
+    "title": "Rotel A11 MKII Integrated Amplifier",
+    "description": "A refined integrated amplifier that combines classic analog performance with modern digital connectivity. It features 50W per channel, a high-quality Texas Instruments DAC, and includes a dedicated Moving Magnet phono stage and Bluetooth with aptX-HD, offering excellent value and versatility.",
+    "price": 899,
+    "details": [
+      "Power Output: 50W per channel (8 ohms)",
+      "Built-in Texas Instruments Premium DAC (32-bit/384kHz)",
+      "Digital Inputs: 1 Coaxial, 2 Optical",
+      "Analog Inputs: 3 RCA, 1 Phono (MM)",
+      "Integrated Bluetooth with aptX-HD",
+      "Remote control included"
+    ],
+    "category": {
+      "id": 13,
+      "slug": "amplifiers",
+      "name": "Amplifiers"
+    },
+    "images": [
+      "/rotel-a11-mkii-integrated-amp.webp",
+      "/rotel-a11-mkii-integrated-amp-2.webp"
+    ]
+  },
+  {
+    "id": 76,
+    "slug": "boss-ds1-distortion",
+    "title": "Boss DS-1 Distortion Pedal",
+    "description": "The iconic orange distortion pedal, a staple since 1978. It delivers a hard-clipping, aggressive edge, perfect for rock, grunge, and metal, but versatile enough for a subtle crunch. Features Tone, Level, and Distortion controls in a robust, road-ready housing. It's Boss's best-selling 'drive' pedal of all time, known for its clear, yet biting tone.",
+    "price": 75,
+    "details": [
+      "Classic hard-clipping distortion sound",
+      "Tone, Level, and Distortion controls",
+      "Durable Boss compact pedal design",
+      "Used by countless professional musicians",
+      "Excellent choice for rock, grunge, and metal"
+    ],
+    "category": {
+      "id": 14,
+      "slug": "pedals-effects",
+      "name": "Pedals & Effects"
+    },
+    "images": ["/boss-ds1-distortion.webp", "/boss-ds1-distortion-2.webp"]
+  },
+  {
+    "id": 77,
+    "slug": "ibanez-ts9-tube-screamer",
+    "title": "Ibanez TS9 Tube Screamer Overdrive Pedal",
+    "description": "The legendary green overdrive pedal. The TS9 is famous for its warm, mid-humped tone that pushes tube amps into sweet overdrive without sacrificing clarity. An industry standard for blues, rock, and fusion players, it features Drive, Tone, and Level controls. It's the quintessential 'clean boost' to tighten up your sound and make solos cut through.",
+    "price": 120,
+    "details": [
+      "Iconic mid-boosted overdrive tone",
+      "Drive, Tone, and Level controls",
+      "Used as a standalone overdrive or a clean boost",
+      "Authentic reissue of the classic TS9 circuit",
+      "Essential for blues, rock, and fusion"
+    ],
+    "category": {
+      "id": 14,
+      "slug": "pedals-effects",
+      "name": "Pedals & Effects"
+    },
+    "images": [
+      "/ibanez-ts9-tube-screamer.webp",
+      "/ibanez-ts9-tube-screamer-2.webp"
+    ]
+  },
+  {
+    "id": 78,
+    "slug": "mxr-m169-carbon-copy-delay",
+    "title": "MXR M169 Carbon Copy Analog Delay",
+    "description": "An all-analog delay pedal celebrated for its warm, organic, and dark echoes. It offers up to 600ms of classic bucket-brigade delay time. Simple controls for Mix, Regen, and Delay, plus a MOD switch for chorus/vibrato textures. A compact, versatile, and enduring favorite among guitarists seeking a vintage, tape-like delay sound.",
+    "price": 160,
+    "details": [
+      "All-analog bucket-brigade circuitry",
+      "Up to 600ms of delay time",
+      "Modulation switch for chorus/vibrato",
+      "Simple, intuitive Mix, Regen, and Delay controls",
+      "Warm, dark, and vintage echo sounds"
+    ],
+    "category": {
+      "id": 14,
+      "slug": "pedals-effects",
+      "name": "Pedals & Effects"
+    },
+    "images": [
+      "/mxr-m169-carbon-copy-delay.webp",
+      "/mxr-m169-carbon-copy-delay-2.webp"
+    ]
+  },
+  {
+    "id": 79,
+    "slug": "dunlop-gcb95-cry-baby-wah",
+    "title": "Dunlop GCB95 Cry Baby Wah Pedal",
+    "description": "The most famous wah pedal of all time, defining classic wah tones across countless records. The GCB95 is rugged, reliable, and features a heavy-duty pot for smooth, dynamic tonal sweeping. Its instantly recognizable 'wah-wah' effect is controlled by the foot treadle, making it essential for funk, rock solos, and expressive playing.",
+    "price": 100,
+    "details": [
+      "Classic and unmistakable 'wah-wah' effect",
+      "Heavy-duty die-cast construction",
+      "Smooth control for dynamic tone sweeping",
+      "Original design used by rock legends",
+      "Essential for funk, classic rock, and blues"
+    ],
+    "category": {
+      "id": 14,
+      "slug": "pedals-effects",
+      "name": "Pedals & Effects"
+    },
+    "images": [
+      "/dunlop-gcb95-cry-baby-wah.webp",
+      "/dunlop-gcb95-cry-baby-wah-2.webp"
+    ]
+  },
+  {
+    "id": 80,
+    "slug": "electro-harmonix-big-muff-pi",
+    "title": "Electro-Harmonix Big Muff Pi Fuzz",
+    "description": "A legendary fuzz/distortion pedal known for its enormous, violin-like sustain and thick, creamy tone. It’s been a cornerstone of alternative rock and psychedelic music for decades. Simple Volume, Tone, and Sustain controls allow you to dial in everything from singing leads to massive, wall-of-sound rhythm tones. A true giant in the fuzz world.",
+    "price": 85,
+    "details": [
+      "Thick, creamy fuzz and distortion",
+      "Immense, violin-like sustain",
+      "Volume, Tone, and Sustain controls",
+      "Definitive sound of psychedelic and alternative rock",
+      "Durable 'tank' chassis construction"
+    ],
+    "category": {
+      "id": 14,
+      "slug": "pedals-effects",
+      "name": "Pedals & Effects"
+    },
+    "images": [
+      "/electro-harmonix-big-muff-pi.webp",
+      "/electro-harmonix-big-muff-pi-2.webp"
+    ]
   },
   {
     "id": 81,
-    "slug": "remote-control-car",
-    "title": "Remote Control Car",
-    "description": "Experience thrilling speed and fun with this fast remote control car. Perfect for kids and adults alike, it offers exciting races and maneuvers.",
-    "price": 40,
+    "slug": "boss-rv6-digital-reverb",
+    "title": "Boss RV-6 Digital Reverb Pedal",
+    "description": "A compact pedal offering a wide palette of studio-grade reverb sounds, from subtle room ambience to lush, sprawling hall and modern shimmer effects. The RV-6 features a sophisticated algorithm engine, delivering beautiful, deep, and rich reverberation that complements any style. It’s a versatile and reliable modern classic.",
+    "price": 150,
+    "details": [
+      "Studio-quality, versatile digital reverb",
+      "8 sophisticated reverb modes (Shimmer, Delay+Reverb, etc.)",
+      "Time, Tone, and Effect Level controls",
+      "Supports mono and stereo operation",
+      "High-quality, reliable Boss construction"
+    ],
     "category": {
-      "id": 7,
-      "slug": "toys-games",
-      "name": "Toys & Games"
+      "id": 14,
+      "slug": "pedals-effects",
+      "name": "Pedals & Effects"
     },
-    "image": "/remote-control-car.webp"
+    "images": [
+      "/boss-rv6-digital-reverb.webp",
+      "/boss-rv6-digital-reverb-2.webp"
+    ]
   },
   {
     "id": 82,
-    "slug": "doll-with-accessories",
-    "title": "Doll with Accessories",
-    "description": "Spark imaginative play with this beautiful doll and her various outfits and accessories. Perfect for creative storytelling and role-playing adventures.",
-    "price": 28,
+    "slug": "mxr-phase-90-phaser",
+    "title": "MXR Phase 90 Phaser Pedal",
+    "description": "The quintessential phaser pedal, instantly recognizable for its rich, swirling, and warm modulation. Its one-knob simplicity (Speed control) makes it incredibly easy to use, delivering everything from a slow, subtle sweep to a fast, psychedelic swirl. Famous for shaping the sound of classic rock and hard rock solos.",
+    "price": 100,
+    "details": [
+      "Iconic, warm, swirling phase effect",
+      "Simple single-knob (Speed) operation",
+      "Used on countless legendary recordings",
+      "Durable, classic orange MXR housing",
+      "Perfect for classic rock and psychedelic tones"
+    ],
     "category": {
-      "id": 7,
-      "slug": "toys-games",
-      "name": "Toys & Games"
+      "id": 14,
+      "slug": "pedals-effects",
+      "name": "Pedals & Effects"
     },
-    "image": "/doll-with-accessories.webp"
+    "images": ["/mxr-phase-90-phaser.webp", "/mxr-phase-90-phaser-2.webp"]
   },
   {
     "id": 83,
-    "slug": "educational-toy-for-toddlers",
-    "title": "Educational Toy for Toddlers",
-    "description": "Engage your little one's mind with this fun and educational toy designed for toddlers. It helps develop essential skills through interactive play.",
-    "price": 25,
+    "slug": "pro-co-rat-2-distortion",
+    "title": "Pro Co RAT 2 Distortion Pedal",
+    "description": "A versatile distortion/fuzz pedal beloved for its ability to go from a subtle, gritty overdrive to a full-on, aggressive distortion and thick, fuzz-like saturation. The RAT is a cornerstone of alternative rock, punk, and metal. Filter, Distortion, and Volume controls allow for a massive range of tones in an indestructible steel enclosure.",
+    "price": 95,
+    "details": [
+      "Wide gain range from overdrive to fuzz",
+      "Unique Filter control for tone shaping",
+      "Indestructible steel chassis",
+      "Essential for grunge, punk, and hard rock",
+      "Distortion, Filter, and Volume controls"
+    ],
     "category": {
-      "id": 7,
-      "slug": "toys-games",
-      "name": "Toys & Games"
+      "id": 14,
+      "slug": "pedals-effects",
+      "name": "Pedals & Effects"
     },
-    "image": "/educational-toy-for-toddlers.webp"
+    "images": [
+      "/pro-co-rat-2-distortion.webp",
+      "/pro-co-rat-2-distortion-2.webp"
+    ]
   },
   {
     "id": 84,
-    "slug": "coloring-book-and-crayons",
-    "title": "Coloring Book and Crayons Set",
-    "description": "Unleash creativity with this set featuring a fun coloring book and vibrant crayons. Perfect for artistic expression and hours of colorful entertainment.",
-    "price": 10,
+    "slug": "boss-tu3-chromatic-tuner",
+    "title": "Boss TU-3 Chromatic Tuner Pedal",
+    "description": "The world-standard chromatic tuner, known for its accuracy, reliability, and use as a power supply for other pedals. The high-brightness LED meter is easily visible on any stage, and the stompbox mutes the signal for silent tuning. An absolute essential for every pedalboard for its tuning function and clean signal pass-through.",
+    "price": 110,
+    "details": [
+      "World-standard chromatic tuner",
+      "High-brightness LED meter for any stage",
+      "Accurate up to +/- one cent",
+      "Mutes output for silent tuning",
+      "Can supply power to up to 7 other pedals"
+    ],
     "category": {
-      "id": 7,
-      "slug": "toys-games",
-      "name": "Toys & Games"
+      "id": 14,
+      "slug": "pedals-effects",
+      "name": "Pedals & Effects"
     },
-    "image": "/coloring-book-and-crayons.webp"
+    "images": [
+      "/boss-tu3-chromatic-tuner.webp",
+      "/boss-tu3-chromatic-tuner-2.webp"
+    ]
   },
   {
     "id": 85,
-    "slug": "jigsaw-puzzle-500-pieces",
-    "title": "500-Piece Jigsaw Puzzle",
-    "description": "Enjoy a moderately challenging and satisfying puzzle experience with this 500-piece jigsaw puzzle. Perfect for a relaxing solo activity or a fun family project.",
-    "price": 15,
+    "slug": "tc-electronic-ditto-looper",
+    "title": "TC Electronic Ditto Looper",
+    "description": "The looper that set the standard for simplicity and tone. The Ditto offers five minutes of looping time, unlimited overdubs, and 24-bit uncompressed audio quality. Its single-footswitch design is incredibly intuitive for recording, playing back, and layering loops, making it perfect for practice, songwriting, and live performance.",
+    "price": 100,
+    "details": [
+      "5 minutes of looping time",
+      "Unlimited overdubs",
+      "24-bit uncompressed audio quality",
+      "Extremely simple single-footswitch operation",
+      "True bypass to preserve tone"
+    ],
     "category": {
-      "id": 7,
-      "slug": "toys-games",
-      "name": "Toys & Games"
+      "id": 14,
+      "slug": "pedals-effects",
+      "name": "Pedals & Effects"
     },
-    "image": "/jigsaw-puzzle-500-pieces.webp"
+    "images": [
+      "/tc-electronic-ditto-looper.webp",
+      "/tc-electronic-ditto-looper-2.webp"
+    ]
+  },
+  {
+    "id": 86,
+    "slug": "ableton-live-suite",
+    "title": "Ableton Live 12 Suite",
+    "description": "A comprehensive Digital Audio Workstation (DAW) beloved by electronic and live performance artists. Features clip-launching for spontaneous creation, powerful time-stretching, and a massive library of instruments and effects. Perfect for studio production, remixing, and on-stage improvisation.",
+    "price": 749,
+    "details": [
+      "Session and Arrangement Views for non-linear creation",
+      "Over 70GB of sounds and loops",
+      "Advanced MIDI Transformations and Generative Tools",
+      "Max for Live integration for custom instruments and effects",
+      "Warping and real-time audio manipulation",
+      "Multi-track recording and sequencing"
+    ],
+    "category": {
+      "id": 16,
+      "slug": "music-software",
+      "name": "Music Software"
+    },
+    "images": ["/ableton-live-suite.webp", "/ableton-live-suite-2.webp"]
+  },
+  {
+    "id": 87,
+    "slug": "fl-studio-producer-edition",
+    "title": "FL Studio 21 Producer Edition",
+    "description": "A powerful, pattern-based DAW widely popular for beat-making, hip-hop, and EDM production. Known for its legendary Piano Roll, intuitive workflow, and signature 'lifetime free updates' policy. Includes a core suite of virtual instruments and mixing tools.",
+    "price": 199,
+    "details": [
+      "Lifetime Free Updates (best value)",
+      "Industry-leading Piano Roll editor",
+      "Full MIDI controller support and performance mode",
+      "Includes 80+ software instruments and effect plugins",
+      "Supports VST, VST3, and AU plugin standards",
+      "Audio recording and pitch shifting/time-stretching"
+    ],
+    "category": {
+      "id": 16,
+      "slug": "music-software",
+      "name": "Music Software"
+    },
+    "images": [
+      "/fl-studio-producer-edition.webp",
+      "/fl-studio-producer-edition-2.webp"
+    ]
+  },
+  {
+    "id": 88,
+    "slug": "avid-pro-tools-studio",
+    "title": "Avid Pro Tools Studio",
+    "description": "The industry-standard DAW for professional recording studios, mixing, and post-production. Offers unparalleled audio editing precision, robust hardware integration, and a trusted workflow for large-scale, complex projects in music and film.",
+    "price": 299,
+    "details": [
+      "Industry-standard recording and editing",
+      "Advanced mixing with Dolby Atmos support",
+      "Professional audio metering and gain reduction",
+      "Extensive plug-in and hardware compatibility",
+      "Elastic Audio and Beat Detective for precise timing edits",
+      "Includes a collection of AAX Native plugins"
+    ],
+    "category": {
+      "id": 16,
+      "slug": "music-software",
+      "name": "Music Software"
+    },
+    "images": ["/avid-pro-tools-studio.webp", "/avid-pro-tools-studio-2.webp"]
+  },
+  {
+    "id": 89,
+    "slug": "logic-pro-x",
+    "title": "Logic Pro for Mac",
+    "description": "Apple's powerful, all-in-one digital audio workstation for macOS users. It provides professional-grade tools for composition, recording, editing, and mixing, including a massive sound library and top-tier software instruments at an affordable price point.",
+    "price": 199,
+    "details": [
+      "Mac exclusive (optimized for Apple Silicon)",
+      "Professional-grade mixing and mastering tools",
+      "Live Loops and Step Sequencer for creative beat-making",
+      "Massive built-in library of sounds and instruments",
+      "Score Editor for music notation",
+      "Full Dolby Atmos Spatial Audio support"
+    ],
+    "category": {
+      "id": 16,
+      "slug": "music-software",
+      "name": "Music Software"
+    },
+    "images": ["/logic-pro-x.webp", "/logic-pro-x-2.webp"]
+  },
+  {
+    "id": 90,
+    "slug": "presonus-studio-one-pro",
+    "title": "PreSonus Studio One 6 Pro",
+    "description": "A modern, streamlined DAW known for its excellent sound quality and intuitive drag-and-drop workflow. It combines the recording/mixing environment with project mastering, making it a true all-in-one solution for musicians and producers.",
+    "price": 399,
+    "details": [
+      "Integrated Project Page for mastering",
+      "Intuitive drag-and-drop workflow",
+      "Advanced Chord Track for easy key changes",
+      "Built-in show page for live performance",
+      "Native Splice integration for samples",
+      "Cross-platform compatibility (Windows/Mac)"
+    ],
+    "category": {
+      "id": 16,
+      "slug": "music-software",
+      "name": "Music Software"
+    },
+    "images": [
+      "/presonus-studio-one-pro.webp",
+      "/presonus-studio-one-pro-2.webp"
+    ]
+  },
+  {
+    "id": 91,
+    "slug": "xfer-records-serum",
+    "title": "Xfer Records Serum",
+    "description": "A highly popular wavetable synthesizer VST plugin known for its stunning visual feedback and deep sound design capabilities. It allows users to create, import, and manipulate wavetables, making it a go-to for modern electronic soundscapes.",
+    "price": 189,
+    "details": [
+      "Advanced wavetable synthesizer VST",
+      "Built-in wavetable editor for custom sounds",
+      "Ultra-clean oscillators with minimal aliasing",
+      "Drag-and-drop modulation matrix",
+      "Includes a wide range of powerful filters",
+      "Numerous factory and artist presets"
+    ],
+    "category": {
+      "id": 16,
+      "slug": "music-software",
+      "name": "Music Software"
+    },
+    "images": ["/xfer-records-serum.webp", "/xfer-records-serum-2.webp"]
+  },
+  {
+    "id": 92,
+    "slug": "spectrasonics-omnisphere",
+    "title": "Spectrasonics Omnisphere 2.8",
+    "description": "Spectrasonics' flagship software synth, an 'epic' instrument that blends over 65GB of sounds with four layers of powerful synthesis. It's a sonic powerhouse for film scoring, sound design, and music production across all genres.",
+    "price": 499,
+    "details": [
+      "Over 14,000 sounds and 65GB sound library",
+      "Hardware Synth Integration with 65+ models",
+      "Powerful Granular and Wavetable synthesis engines",
+      "Deep sound design and modulation possibilities",
+      "Audio Import feature to use your own sounds",
+      "Includes hundreds of complex DSP waveforms"
+    ],
+    "category": {
+      "id": 16,
+      "slug": "music-software",
+      "name": "Music Software"
+    },
+    "images": [
+      "/spectrasonics-omnisphere.webp",
+      "/spectrasonics-omnisphere-2.webp"
+    ]
+  },
+  {
+    "id": 93,
+    "slug": "arturia-pigments",
+    "title": "Arturia Pigments 5",
+    "description": "A cutting-edge software synthesizer combining multiple synthesis types—Wavetable, Virtual Analog, Sample, and Granular. Known for its vibrant, color-coded interface and a powerful, easy-to-use modulation engine, perfect for modern sound design.",
+    "price": 199,
+    "details": [
+      "Four independent synthesis engines (VA, WT, Sample, Granular)",
+      "Advanced visual modulation system",
+      "Dual filter stage with 50+ filter types",
+      "Integrated sequencer and arpeggiator",
+      "Dozens of built-in effects processors",
+      "Mac/PC VST, AU, AAX compatibility"
+    ],
+    "category": {
+      "id": 16,
+      "slug": "music-software",
+      "name": "Music Software"
+    },
+    "images": ["/arturia-pigments.webp", "/arturia-pigments-2.webp"]
+  },
+  {
+    "id": 94,
+    "slug": "cockos-reaper",
+    "title": "Cockos REAPER 7",
+    "description": "An extremely affordable, yet full-featured Digital Audio Workstation known for its small footprint, exceptional stability, and unparalleled customization. It's an excellent choice for budget-conscious professionals and hobbyists who need a powerful tool.",
+    "price": 60,
+    "details": [
+      "Highly affordable license model",
+      "Unmatched customizability and scripting",
+      "Fast, stable, and tiny installation size",
+      "Supports nearly all audio formats and plugins (VST, AU, etc.)",
+      "Extensive audio routing and multi-channel support",
+      "Cross-platform (Windows, Mac, Linux)"
+    ],
+    "category": {
+      "id": 16,
+      "slug": "music-software",
+      "name": "Music Software"
+    },
+    "images": ["/cockos-reaper.webp", "/cockos-reaper-2.webp"]
+  },
+  {
+    "id": 95,
+    "slug": "native-instruments-kontakt",
+    "title": "Native Instruments Kontakt 7",
+    "description": "The industry-leading sampler and instrument platform. It hosts thousands of third-party virtual instruments and is essential for film scoring, sound design, and professional music production utilizing realistic orchestral and synth libraries.",
+    "price": 299,
+    "details": [
+      "Industry-standard sampler and instrument host",
+      "Massive ecosystem of third-party libraries",
+      "Deep sound editing and creation tools",
+      "7 built-in VST effects and 9 bus effects",
+      "Supports time-stretching and pitch shifting",
+      "New hi-res library browser and interface"
+    ],
+    "category": {
+      "id": 16,
+      "slug": "music-software",
+      "name": "Music Software"
+    },
+    "images": [
+      "/native-instruments-kontakt.webp",
+      "/native-instruments-kontakt-2.webp"
+    ]
+  },
+  {
+    "id": 96,
+    "slug": "steinberg-dorico-pro",
+    "title": "Steinberg Dorico Pro 5",
+    "description": "A professional music notation and scoring software designed by former Sibelius developers. Known for its sophisticated engraving quality, intelligent musical logic, and fast, flexible workflow for composers and publishers.",
+    "price": 579,
+    "details": [
+      "Unparalleled engraving quality for printed scores",
+      "Intelligent musical logic and note-spacing",
+      "Support for complex notation and open scoring",
+      "Integrated sequencing and MIDI editing",
+      "VST Expression Maps for realistic playback",
+      "New features for composition and performance"
+    ],
+    "category": {
+      "id": 16,
+      "slug": "music-software",
+      "name": "Music Software"
+    },
+    "images": ["/steinberg-dorico-pro.webp", "/steinberg-dorico-pro-2.webp"]
+  },
+  {
+    "id": 97,
+    "slug": "izotope-ozone-advanced",
+    "title": "iZotope Ozone 11 Advanced",
+    "description": "A complete mastering suite that utilizes machine learning to deliver a polished, release-ready master. It includes a comprehensive collection of equalizers, dynamics processors, stereo imagers, and a powerful Master Assistant.",
+    "price": 499,
+    "details": [
+      "AI-powered Master Assistant for quick starts",
+      "Comprehensive suite of mastering tools (EQ, Dynamics, etc.)",
+      "Clarity Module for frequency management",
+      "Transient/Sustain separation for detailed control",
+      "Tonal Balance Control for genre-specific adjustments",
+      "Low-End Focus module for bass clarity"
+    ],
+    "category": {
+      "id": 16,
+      "slug": "music-software",
+      "name": "Music Software"
+    },
+    "images": ["/izotope-ozone-advanced.webp", "/izotope-ozone-advanced-2.webp"]
+  },
+  {
+    "id": 98,
+    "slug": "mixing-engineer-handbook-5th-edition",
+    "title": "The Mixing Engineer's Handbook, 5th Edition",
+    "description": "A comprehensive guide to the art and science of audio mixing by industry veteran Bobby Owsinski. Covers everything from mix preparation and EQ to dynamics, effects, and mastering essentials. Features interviews and tips from top professional mixing engineers.",
+    "price": 3500,
+    "details": [
+      "Author: Bobby Owsinski",
+      "Format: Paperback Book",
+      "Pages: 408",
+      "Focus: Audio Mixing Techniques",
+      "Level: Beginner to Intermediate",
+      "Includes: Online companion resources"
+    ],
+    "category": {
+      "id": 17,
+      "slug": "books-media",
+      "name": "Books & Media"
+    },
+    "images": ["/mixing-engineer-handbook-5th-edition.webp"]
+  },
+  {
+    "id": 99,
+    "slug": "mastering-audio-art-science-3rd-edition",
+    "title": "Mastering Audio: The Art and The Science, 3rd Edition",
+    "description": "The definitive, in-depth reference for audio mastering by Bob Katz, a Grammy-winning engineer. This book explores the technical, aesthetic, and psychoacoustical principles behind creating a world-class master recording, suitable for all media formats.",
+    "price": 5000,
+    "details": [
+      "Author: Bob Katz",
+      "Format: Hardcover Book",
+      "Pages: 368",
+      "Focus: Audio Mastering and Psychoacoustics",
+      "Level: Intermediate to Advanced",
+      "Topics: Loudness standards, DSD, vinyl, miking"
+    ],
+    "category": {
+      "id": 17,
+      "slug": "books-media",
+      "name": "Books & Media"
+    },
+    "images": ["/mastering-audio-art-science-3rd-edition.webp"]
+  },
+  {
+    "id": 100,
+    "slug": "writing-better-lyrics-pat-pattison",
+    "title": "Writing Better Lyrics: The Essential Guide to Lyric Writing",
+    "description": "A classic and highly practical book on the craft of lyric writing by Berklee professor Pat Pattison. It offers techniques for using sense-bound imagery, managing repetition, and avoiding clichés to create emotionally impactful and professional-grade song lyrics.",
+    "price": 1899,
+    "details": [
+      "Author: Pat Pattison",
+      "Format: Paperback Book",
+      "Pages: 272",
+      "Focus: Songwriting & Lyric Craft",
+      "Exercises: Sense-bound imagery, metaphor, rhyme",
+      "Audience: Songwriters of all levels"
+    ],
+    "category": {
+      "id": 17,
+      "slug": "books-media",
+      "name": "Books & Media"
+    },
+    "images": ["/writing-better-lyrics-pat-pattison.webp"]
+  },
+  {
+    "id": 101,
+    "slug": "how-music-works-david-byrne",
+    "title": "How Music Works",
+    "description": "An eclectic, thought-provoking exploration of music's creation, performance, distribution, and consumption by Talking Heads founder David Byrne. From the impact of venue acoustics on composition to the evolution of technology and the music business.",
+    "price": 1700,
+    "details": [
+      "Author: David Byrne",
+      "Format: Paperback Book",
+      "Pages: 400",
+      "Genre: Music Theory/Culture/Memoir",
+      "Topics: Recording, business, technology, context",
+      "Award: New York Times Best-Seller"
+    ],
+    "category": {
+      "id": 17,
+      "slug": "books-media",
+      "name": "Books & Media"
+    },
+    "images": ["/how-music-works-david-byrne.webp"]
+  },
+  {
+    "id": 102,
+    "slug": "music-theory-for-computer-musicians",
+    "title": "Music Theory for Computer Musicians",
+    "description": "Tailored specifically for producers and electronic musicians, this book breaks down essential music theory concepts—scales, chords, harmony, and rhythm—with a focus on their practical application in a modern DAW (Digital Audio Workstation) environment.",
+    "price": 2999,
+    "details": [
+      "Author: Michael Hewitt",
+      "Format: Paperback Book",
+      "Pages: 360",
+      "Focus: Music Theory for DAWs",
+      "Level: Beginner to Intermediate",
+      "Examples: MIDI, synthesis, sequencing, composition"
+    ],
+    "category": {
+      "id": 17,
+      "slug": "books-media",
+      "name": "Books & Media"
+    },
+    "images": ["/music-theory-for-computer-musicians.webp"]
+  },
+  {
+    "id": 103,
+    "slug": "just-kids-patti-smith",
+    "title": "Just Kids",
+    "description": "Patti Smith's acclaimed memoir documenting her profound relationship with photographer Robert Mapplethorpe in 1960s and 70s New York. A beautiful and moving account of youth, art, poverty, and the forging of a legendary artistic identity.",
+    "price": 1699,
+    "details": [
+      "Author: Patti Smith",
+      "Format: Paperback Book",
+      "Pages: 304",
+      "Genre: Memoir/Music Biography",
+      "Award: National Book Award for Nonfiction",
+      "Setting: New York art and music scene, 1960s/70s"
+    ],
+    "category": {
+      "id": 17,
+      "slug": "books-media",
+      "name": "Books & Media"
+    },
+    "images": ["/just-kids-patti-smith.webp"]
+  },
+  {
+    "id": 104,
+    "slug": "creative-act-a-way-of-being-rick-rubin",
+    "title": "The Creative Act: A Way of Being",
+    "description": "From legendary music producer Rick Rubin, this is a deep meditation on the nature of creativity itself. It offers philosophical wisdom and practical guidance for anyone seeking to unlock their artistic potential and live a more creative life, regardless of medium.",
+    "price": 3200,
+    "details": [
+      "Author: Rick Rubin",
+      "Format: Hardcover Book",
+      "Pages: 432",
+      "Focus: Creativity and Artistic Philosophy",
+      "Level: Universal",
+      "Tone: Poetic, meditative, inspirational"
+    ],
+    "category": {
+      "id": 17,
+      "slug": "books-media",
+      "name": "Books & Media"
+    },
+    "images": ["/creative-act-a-way-of-being-rick-rubin.webp"]
+  },
+  {
+    "id": 105,
+    "slug": "all-you-need-know-music-business",
+    "title": "All You Need to Know About the Music Business (11th Ed.)",
+    "description": "The 'industry bible' by Donald S. Passman, covering the complex and ever-changing legal and financial aspects of the music world. Essential reading for artists, managers, producers, and anyone navigating royalties, contracts, publishing, and the impact of streaming.",
+    "price": 3995,
+    "details": [
+      "Author: Donald S. Passman",
+      "Format: Paperback Book",
+      "Pages: 928",
+      "Focus: Music Business Law & Finance",
+      "Topics: Contracts, publishing, streaming, touring",
+      "Edition: 11th (updated for modern industry)"
+    ],
+    "category": {
+      "id": 17,
+      "slug": "books-media",
+      "name": "Books & Media"
+    },
+    "images": ["/all-you-need-know-music-business.webp"]
+  },
+  {
+    "id": 106,
+    "slug": "pink-floyd-dark-side-tee",
+    "title": "Pink Floyd 'Dark Side' Graphic Tee",
+    "description": "A classic-fit cotton t-shirt featuring the iconic prism artwork from Pink Floyd's 'The Dark Side of the Moon' album. A must-have for any classic rock fan. Available in sizes S-XXL.",
+    "price": 39,
+    "details": [
+      "100% Ring-Spun Cotton",
+      "Official Band Merchandise",
+      "Crew Neck, Short Sleeve",
+      "Album Art Print",
+      "Machine Washable"
+    ],
+    "category": {
+      "id": 18,
+      "slug": "merchandise",
+      "name": "Merchandise"
+    },
+    "images": [
+      "/pink-floyd-dark-side-tee.webp",
+      "/pink-floyd-dark-side-tee-2.webp"
+    ]
+  },
+  {
+    "id": 107,
+    "slug": "nirvana-smiley-face-hoodie",
+    "title": "Nirvana 'Smiley Face' Graphic Hoodie",
+    "description": "Heavyweight black pull-over hoodie with the famous Nirvana 'Smiley Face' logo on the chest and back. Essential rock merch for cooler weather.",
+    "price": 69,
+    "details": [
+      "80% Cotton, 20% Polyester Fleece",
+      "Screen Printed Graphics",
+      "Drawstring Hood",
+      "Kangaroo Pocket",
+      "Unisex Sizing"
+    ],
+    "category": {
+      "id": 18,
+      "slug": "merchandise",
+      "name": "Merchandise"
+    },
+    "images": [
+      "/nirvana-smiley-face-hoodie.webp",
+      "/nirvana-smiley-face-hoodie-2.webp"
+    ]
+  },
+  {
+    "id": 108,
+    "slug": "rolling-stones-tongue-mug",
+    "title": "Rolling Stones Classic Tongue Coffee Mug",
+    "description": "Start your day with rock 'n' roll. This 11oz ceramic mug features the universally recognized Rolling Stones 'Hot Lips' logo. Microwave and dishwasher safe.",
+    "price": 18,
+    "details": [
+      "11 oz Ceramic Mug",
+      "Officially Licensed Logo",
+      "Dishwasher Safe",
+      "Microwave Safe",
+      "Glossy Finish"
+    ],
+    "category": {
+      "id": 18,
+      "slug": "merchandise",
+      "name": "Merchandise"
+    },
+    "images": [
+      "/rolling-stones-tongue-mug.webp",
+      "/rolling-stones-tongue-mug-2.webp"
+    ]
+  },
+  {
+    "id": 109,
+    "slug": "zeppelin-swan-song-patch",
+    "title": "Led Zeppelin 'Swan Song' Embroidered Patch",
+    "description": "High-quality embroidered patch featuring Led Zeppelin's iconic 'Swan Song' logo (Icarus). Perfect for customizing jackets, bags, or denim vests. Iron-on backing.",
+    "price": 8,
+    "details": [
+      "Woven/Embroidered Design",
+      "Iron-On Backing",
+      "Dimensions: 4\" x 3\"",
+      "Durable Material",
+      "Officially Licensed"
+    ],
+    "category": {
+      "id": 18,
+      "slug": "merchandise",
+      "name": "Merchandise"
+    },
+    "images": [
+      "/zeppelin-swan-song-patch.webp",
+      "/zeppelin-swan-song-patch-2.webp"
+    ]
+  },
+  {
+    "id": 110,
+    "slug": "beatles-abbey-road-poster",
+    "title": "The Beatles 'Abbey Road' Album Cover Poster",
+    "description": "A full-color poster featuring the timeless album cover of The Beatles' 'Abbey Road'. A perfect piece of decor for music lovers and collectors. Standard poster size.",
+    "price": 12,
+    "details": [
+      "Size: 24\" x 36\"",
+      "High-Quality Paper Stock",
+      "Officially Licensed Print",
+      "Vibrant, Full-Color Art",
+      "Suitable for Framing"
+    ],
+    "category": {
+      "id": 18,
+      "slug": "merchandise",
+      "name": "Merchandise"
+    },
+    "images": [
+      "/beatles-abbey-road-poster.webp",
+      "/beatles-abbey-road-poster-2.webp"
+    ]
+  },
+  {
+    "id": 111,
+    "slug": "vinyl-record-cleaning-kit",
+    "title": "Premium Vinyl Record Cleaning Kit",
+    "description": "A complete 4-in-1 kit for superior vinyl maintenance. Includes an antistatic velvet brush, cleaning liquid, stylus brush, and storage pouch to protect your cherished record collection.",
+    "price": 25,
+    "details": [
+      "Antistatic Velvet Brush",
+      "XL Cleaning Solution (Alcohol-Free)",
+      "Stylus Cleaning Brush",
+      "Reduces Static & Dust",
+      "Enhances Audio Clarity",
+      "Includes Storage Pouch"
+    ],
+    "category": {
+      "id": 18,
+      "slug": "merchandise",
+      "name": "Merchandise"
+    },
+    "images": [
+      "/vinyl-record-cleaning-kit.webp",
+      "/vinyl-record-cleaning-kit-2.webp"
+    ]
+  },
+  {
+    "id": 112,
+    "slug": "guitar-pick-punch",
+    "title": "Make Your Own Guitar Pick Punch",
+    "description": "Punch out custom guitar picks from old credit cards, plastic sheets, or any thin plastic material. A fun and eco-friendly gift for any guitar player.",
+    "price": 28,
+    "details": [
+      "Heavy Duty Metal Construction",
+      "Creates Standard 351 Shape Picks",
+      "Includes Starter Plastic Strips",
+      "Easy and Safe to Use",
+      "Great for Recycling Plastic"
+    ],
+    "category": {
+      "id": 18,
+      "slug": "merchandise",
+      "name": "Merchandise"
+    },
+    "images": ["/guitar-pick-punch.webp", "/guitar-pick-punch-2.webp"]
+  },
+  {
+    "id": 113,
+    "slug": "metallica-master-hoodie",
+    "title": "Metallica 'Master of Puppets' Album Hoodie",
+    "description": "Black, warm fleece hoodie featuring the iconic album art from Metallica's 'Master of Puppets'. Perfect for metal fans looking to stay warm.",
+    "price": 75,
+    "details": [
+      "Heavyweight 50/50 Cotton/Poly Blend",
+      "Front and Back Print",
+      "Official Band Merchandise",
+      "Ribbed Cuffs and Hem",
+      "Drawstring Hood"
+    ],
+    "category": {
+      "id": 18,
+      "slug": "merchandise",
+      "name": "Merchandise"
+    },
+    "images": [
+      "/metallica-master-hoodie.webp",
+      "/metallica-master-hoodie-2.webp"
+    ]
+  },
+  {
+    "id": 114,
+    "slug": "treble-clef-keychain",
+    "title": "Treble Clef Metal Keychain",
+    "description": "A durable, polished metal keychain shaped like a classic treble clef. A simple, elegant accessory for musicians, music students, or music lovers.",
+    "price": 10,
+    "details": [
+      "Polished Metal Alloy",
+      "Treble Clef Design",
+      "Split Ring Attachment",
+      "Dimensions: 2.5\" Tall",
+      "Scratch Resistant Coating"
+    ],
+    "category": {
+      "id": 18,
+      "slug": "merchandise",
+      "name": "Merchandise"
+    },
+    "images": ["/treble-clef-keychain.webp", "/treble-clef-keychain-2.webp"]
+  },
+  {
+    "id": 115,
+    "slug": "jazz-vinyl-lp-divider-set",
+    "title": "Wooden LP Dividers (A-Z) for Vinyl Storage",
+    "description": "Keep your record collection neatly organized. Set of 26 wooden dividers with engraved A-Z labels for quick and easy browsing of your LPs.",
+    "price": 35,
+    "details": [
+      "Set of 26 Dividers (A-Z)",
+      "High-Quality Engraved Wood",
+      "Fits Standard 12\" LP Crates",
+      "Organizes Vinyl Collection",
+      "Ideal for Serious Collectors"
+    ],
+    "category": {
+      "id": 18,
+      "slug": "merchandise",
+      "name": "Merchandise"
+    },
+    "images": [
+      "/jazz-vinyl-lp-divider-set.webp",
+      "/jazz-vinyl-lp-divider-set-2.webp"
+    ]
+  },
+  {
+    "id": 116,
+    "slug": "acdc-back-in-black-tee",
+    "title": "AC/DC 'Back In Black' Tour Graphic Tee",
+    "description": "Vintage-style concert tee commemorating the iconic 'Back In Black' tour. Features distressed print for a worn-in, classic rock look.",
+    "price": 39,
+    "details": [
+      "Soft Washed Cotton Fabric",
+      "Front and Back Tour Graphics",
+      "Distressed Print Effect",
+      "Officially Licensed",
+      "Unisex Fit"
+    ],
+    "category": {
+      "id": 18,
+      "slug": "merchandise",
+      "name": "Merchandise"
+    },
+    "images": ["/acdc-back-in-black-tee.webp", "/acdc-back-in-black-tee-2.webp"]
+  },
+  {
+    "id": 117,
+    "slug": "misunderstood-lyrics-coasters",
+    "title": "Misunderstood Song Lyrics Coasters (Set of 4)",
+    "description": "A fun set of four ceramic coasters featuring hilariously misheard song lyrics from classic songs. Protect your furniture with a musical laugh!",
+    "price": 24,
+    "details": [
+      "Set of 4 Ceramic Coasters",
+      "Cork Backing to Prevent Sliding",
+      "Wipe Clean Surface",
+      "Funny Misheard Lyrics Theme",
+      "Gift Box Included"
+    ],
+    "category": {
+      "id": 18,
+      "slug": "merchandise",
+      "name": "Merchandise"
+    },
+    "images": [
+      "/misunderstood-lyrics-coasters.webp",
+      "/misunderstood-lyrics-coasters-2.webp"
+    ]
+  },
+  {
+    "id": 118,
+    "slug": "grateful-dead-bear-pin",
+    "title": "Grateful Dead Dancing Bear Enamel Pin",
+    "description": "A colorful enamel lapel pin featuring one of the famous Grateful Dead Dancing Bears. Perfect for adding a touch of color to your jacket or backpack.",
+    "price": 10,
+    "details": [
+      "Hard Enamel Finish",
+      "Butterfly Clutch Backing",
+      "Official Band Art",
+      "Size: Approx. 1.25\"",
+      "Durable Zinc Alloy"
+    ],
+    "category": {
+      "id": 18,
+      "slug": "merchandise",
+      "name": "Merchandise"
+    },
+    "images": ["/grateful-dead-bear-pin.webp", "/grateful-dead-bear-pin-2.webp"]
+  },
+  {
+    "id": 119,
+    "slug": "classic-guitar-socks",
+    "title": "Classic Guitar Pattern Socks",
+    "description": "Soft and comfortable crew socks featuring a repeated pattern of vintage electric guitars. A subtle way to show off your passion for music. One size fits most adults.",
+    "price": 14,
+    "details": [
+      "Cotton Blend Material",
+      "Reinforced Heel and Toe",
+      "One Size Fits Most",
+      "Machine Washable",
+      "Vibrant Woven Pattern"
+    ],
+    "category": {
+      "id": 18,
+      "slug": "merchandise",
+      "name": "Merchandise"
+    },
+    "images": ["/classic-guitar-socks.webp", "/classic-guitar-socks-2.webp"]
+  },
+  {
+    "id": 120,
+    "slug": "radiohead-scribble-poster",
+    "title": "Radiohead 'Scribble' Wall Poster",
+    "description": "Modern art poster featuring the iconic 'Scribble' design often associated with Radiohead's unique aesthetic. Great for fans of alternative and experimental rock.",
+    "price": 12,
+    "details": [
+      "Size: 22\" x 34\"",
+      "High-Quality Paper Stock",
+      "Minimalist Black & White Design",
+      "Suitable for Dorms or Home Office",
+      "Unframed Rolled Print"
+    ],
+    "category": {
+      "id": 18,
+      "slug": "merchandise",
+      "name": "Merchandise"
+    },
+    "images": [
+      "/radiohead-scribble-poster.webp",
+      "/radiohead-scribble-poster-2.webp"
+    ]
+  },
+  {
+    "id": 122,
+    "slug": "classic-precision-bass",
+    "title": "Classic Precision Bass",
+    "description": "The foundation of countless genres. This bass delivers the powerful, thumping tone that defined modern music. Featuring a split single-coil pickup, it provides a punchy low-end and clear midrange. The comfortable maple neck and solid alder body ensure rock-solid stability and endless sustain. Simple, reliable, and ready to hold down the groove.",
+    "price": 599,
+    "details": [
+      "Alder body",
+      "Maple 'Modern C' neck",
+      "Rosewood fretboard",
+      "Split single-coil pickup",
+      "Master volume and tone controls",
+      "4-saddle standard bridge",
+      "Black polyurethane finish",
+      "Chrome hardware"
+    ],
+    "category": {
+      "id": 1,
+      "slug": "guitar-bass",
+      "name": "Guitar & Bass"
+    },
+    "images": [
+      "/classic-precision-bass.webp",
+      "/classic-precision-bass-2.webp",
+      "/classic-precision-bass-3.webp"
+    ]
+  },
+  {
+    "id": 123,
+    "slug": "dreadnought-acoustic-natural",
+    "title": "Dreadnought Acoustic Natural",
+    "description": "Big, bold, and resonant. This dreadnought acoustic is perfect for strumming chords and flatpicking. The solid spruce top provides crisp highs and excellent projection, while the mahogany back and sides add warmth and depth to the tone. A comfortable neck profile and natural gloss finish make it a joy to play and behold. Ideal for songwriters and performers.",
+    "price": 449,
+    "details": [
+      "Solid Sitka Spruce top",
+      "Mahogany back and sides",
+      "Dreadnought body shape",
+      "Nato neck",
+      "Rosewood fingerboard and bridge",
+      "Die-cast chrome tuners",
+      "Natural gloss finish",
+      "Scalloped X-bracing"
+    ],
+    "category": {
+      "id": 1,
+      "slug": "guitar-bass",
+      "name": "Guitar & Bass"
+    },
+    "images": [
+      "/dreadnought-acoustic-natural.webp",
+      "/dreadnought-acoustic-natural-2.webp",
+      "/dreadnought-acoustic-natural-3.webp"
+    ]
+  },
+  {
+    "id": 124,
+    "slug": "modern-5-string-bass-blue",
+    "title": "Modern 5-String Bass (Deep Blue)",
+    "description": "Extend your range with this versatile 5-string bass. Equipped with two active humbucking pickups and a 3-band EQ, it offers a vast array of tones, from deep, thunderous lows to articulate, cutting highs. The lightweight ash body and smooth maple neck provide excellent playability for long sessions. Perfect for modern rock, gospel, and fusion.",
+    "price": 899,
+    "details": [
+      "Ash body with quilt maple top",
+      "5-piece maple/walnut neck",
+      "Active 3-band EQ",
+      "Dual humbucking pickups",
+      "High-mass bridge for increased sustain",
+      "Deep blue burst finish",
+      "35-inch scale length"
+    ],
+    "category": {
+      "id": 1,
+      "slug": "guitar-bass",
+      "name": "Guitar & Bass"
+    },
+    "images": [
+      "/modern-5-string-bass-blue.webp",
+      "/modern-5-string-bass-blue-2.webp",
+      "/modern-5-string-bass-blue-3.webp"
+    ]
+  },
+  {
+    "id": 125,
+    "slug": "single-cutaway-mahogany-black",
+    "title": "Single-Cutaway Mahogany (Gloss Black)",
+    "description": "Unleash powerful, thick tones with this single-cutaway classic. The solid mahogany body and set neck construction provide incredible sustain and warmth, perfect for searing leads and heavy rhythms. Dual humbucking pickups deliver the punch and clarity needed to cut through any mix. A true rock machine with timeless style and modern performance.",
+    "price": 749,
+    "details": [
+      "Solid mahogany body",
+      "Set-in mahogany neck",
+      "Rosewood fretboard with trapezoid inlays",
+      "Dual high-output humbucking pickups",
+      "2 volume, 2 tone controls, 3-way toggle",
+      "Tune-O-Matic bridge",
+      "Stopbar tailpiece",
+      "Gloss black finish"
+    ],
+    "category": {
+      "id": 1,
+      "slug": "guitar-bass",
+      "name": "Guitar & Bass"
+    },
+    "images": [
+      "/single-cutaway-mahogany-black.webp",
+      "/single-cutaway-mahogany-black-2.webp",
+      "/single-cutaway-mahogany-black-3.webp"
+    ]
   }
 ]

@@ -1,62 +1,67 @@
 [
   {
-    "id": 9,
-    "slug": "automotive",
-    "name": "Automotive",
-    "logo": "directions_car"
-  },
-  {
-    "id": 5,
-    "slug": "beauty-personal-care",
-    "name": "Beauty & Personal Care",
-    "logo": "self_care"
-  },
-  {
-    "id": 4,
-    "slug": "books",
-    "name": "Books",
-    "logo": "auto_stories"
+    "id": 1,
+    "slug": "guitar-bass",
+    "name": "Guitar & Bass"
   },
   {
     "id": 2,
-    "slug": "clothing",
-    "name": "Clothing",
-    "logo": "apparel"
-  },
-  {
-    "id": 1,
-    "slug": "electronics",
-    "name": "Electronics",
-    "logo": "desktop_windows"
-  },
-  {
-    "id": 8,
-    "slug": "groceries",
-    "name": "Groceries",
-    "logo": "grocery"
+    "slug": "keyboards-pianos",
+    "name": "Keyboards & Pianos"
   },
   {
     "id": 3,
-    "slug": "home-goods",
-    "name": "Home Goods",
-    "logo": "blender"
+    "slug": "drums-percussion",
+    "name": "Drums & Percussion"
   },
   {
-    "id": 10,
-    "slug": "jewelry-watches",
-    "name": "Jewelry & Watches",
-    "logo": "diamond"
+    "id": 4,
+    "slug": "recording-equipment",
+    "name": "Recording Equipment"
+  },
+  {
+    "id": 5,
+    "slug": "live-sound",
+    "name": "Live Sound"
   },
   {
     "id": 6,
-    "slug": "sports-outdoors",
-    "name": "Sports & Outdoors",
-    "logo": "sports_and_outdoors"
+    "slug": "dj-equipment",
+    "name": "DJ Equipment"
   },
   {
     "id": 7,
-    "slug": "toys-games",
-    "name": "Toys & Games",
-    "logo": "toys_and_games"
+    "slug": "accessories",
+    "name": "Accessories"
+  },
+  {
+    "id": 9,
+    "slug": "vinyl-records",
+    "name": "Vinyl Records"
+  },
+  {
+    "id": 13,
+    "slug": "amplifiers",
+    "name": "Amplifiers"
+  },
+  {
+    "id": 14,
+    "slug": "pedals-effects",
+    "name": "Pedals & Effects"
+  },
+  {
+    "id": 16,
+    "slug": "music-software",
+    "name": "Music Software"
+  },
+  {
+    "id": 17,
+    "slug": "books-media",
+    "name": "Books & Media"
+  },
+  {
+    "id": 18,
+    "slug": "merchandise",
+    "name": "Merchandise"
   }
 ]

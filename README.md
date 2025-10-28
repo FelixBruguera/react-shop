@@ -6,28 +6,27 @@ https://react-shop-5lc.pages.dev/
 
 # Features:
 
-* Routing:
+- Routing:
+  - Two main routes: Home and Shop
 
-  * Two main routes: Home and Shop
+  - Nested routes within Shop: Product details and Checkout
 
-  * Nested routes within Shop: Product details and Checkout
+- Product filtering and sorting functionality
 
-* Product filtering and sorting functionality
+- Shopping cart management
 
-* Shopping cart management
-
-* Credit card number validation
+- Credit card number validation
 
 # Things I learned:
 
 During the development of this project, I gained experience with:
 
-* React, React Router and the basics of Cloudflare Functions
+- React, React Router and the basics of Cloudflare Functions
 
-* Using the View Transitions API
+- Using the View Transitions API
 
-* Using memoization to avoid unnecessary re-renders
+- Using memoization to avoid unnecessary re-renders
 
-* Using the React DevTools Profiler to measure the performance and the rendering order of all components
+- Using the React DevTools Profiler to measure the performance and the rendering order of all components
 
-* Mocking the API with MSW (Mock Service Worker) to test the frontend
+- Mocking the API with MSW (Mock Service Worker) to test the frontend

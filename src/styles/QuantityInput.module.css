@@ -1,45 +1,65 @@
 .quantity {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 70%;
+  margin-left: auto;
 }
 .input {
-    font-size: 0.75rem;
-    height: 3dvh;
-    width: max(25px, 2.5dvw);
-    padding: 2%;
-    border-radius: 5px;
-    outline: rgba(0, 0, 0, 0.2);
-    border: 1px solid transparent
+  font-size: 0.75rem;
+  height: 3dvh;
+  width: max(25px, 2.5dvw);
+  padding: 2%;
+  border-radius: 5px;
+  outline: rgba(0, 0, 0, 0.2);
+  border: 1px solid transparent;
+}
+.amount {
+  font-size: 0.75rem;
+  font-weight: 600;
 }
 .invalidInput {
-    composes: input;
-    outline: 1px solid red
+  composes: input;
+  outline: 1px solid red;
 }
-.input:hover, .input:active {
-    border: 1px solid rgba(0, 0, 0, 0.5);
+.input:hover,
+.input:active {
+  border: 1px solid rgba(0, 0, 0, 0.5);
 }
 .arrow {
-    cursor: pointer;
-    border-radius: 20px;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    font-weight: 600;
-    background-color: white;
-    height: 4dvh;
-    width: max(30px, 2dvw);
+  cursor: pointer;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  font-weight: 600;
+  background-color: transparent;
+  height: 4dvh;
+  max-height: 30px;
+  max-width: 35px;
+  width: 2dvw;
+  min-width: 25px;
+  transition:
+    background-color 0.15s ease-in-out,
+    color 0.15s ease-in-out,
+    0.15s ease-in-out;
 }
 .disabledArrow {
-    composes: arrow;
-    background-color: transparent;
+  composes: arrow;
+  background-color: transparent;
+  color: gray;
 }
 .disabledArrow:hover {
-    background-color: transparent;
-    color: black;
-    cursor: auto;
+  background-color: transparent;
+  color: gray;
+  cursor: auto;
 }
 .arrow:not(.disabledArrow):hover {
-    background-color: white;
-    color: black;
-    border: 1px solid black;
-    height: 4dvh;
+  background-color: var(--hover-black);
+  color: white;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  height: 4dvh;
+}
+@media (max-width: 900px) {
+  .quantity {
+    width: 90%;
+  }
 }

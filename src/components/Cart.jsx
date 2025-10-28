@@ -1,68 +1,79 @@
-import styles from '../styles/Cart.module.css'
-import { CreditCard } from 'lucide-react'
-import CartItem from './CartItem'
-import Button from './Button'
-import { Link, useLocation } from 'react-router'
+import styles from "../styles/Cart.module.css";
+import { CreditCard } from "lucide-react";
+import CartItem from "./CartItem";
+import Button from "./Button";
+import { Link, useLocation } from "react-router";
 
-const Cart = ({ cart, emptyCart, removeFromCart, updateQuantity, setCartOpen }) => {
-    let total = cart.reduce((prev, product) => {
-        if (isNaN(product.quantity)) { return prev + 0 }
-        return prev + (product.price * product.quantity)
-    }, 0)
-    const hasProducts = cart.length > 0
-    const location = useLocation()
+const Cart = ({
+  cart,
+  emptyCart,
+  removeFromCart,
+  updateQuantity,
+  setCartOpen,
+}) => {
+  let total = cart.reduce((prev, product) => {
+    if (isNaN(product.quantity)) {
+      return prev + 0;
+    }
+    return prev + product.price * product.quantity;
+  }, 0);
+  const hasProducts = cart.length > 0;
+  const location = useLocation();
 
-    return (
-        <>
-            <div className={styles.titleContainer}>
-                <h2 className={styles.title}>Cart</h2>
-                {hasProducts ? 
-                    <Button 
-                    style='light'
-                    label='clear your cart'
-                    title='clear your cart'
-                    onClick={() => emptyCart()}>
-                        <p className={styles.emptyButton}>Clear</p>
-                    </Button> 
-                : null}
+  return (
+    <>
+      <div className={styles.titleContainer}>
+        <h3 className={styles.title}>Your Cart</h3>
+        {hasProducts ? (
+          <Button
+            style="light"
+            label="clear your cart"
+            title="clear your cart"
+            onClick={() => emptyCart()}
+          >
+            <p className={styles.emptyButton}>Clear</p>
+          </Button>
+        ) : null}
+      </div>
+      {hasProducts ? (
+        <div className={styles.cartContent}>
+          <ul aria-label="cart products" className={styles.cartProducts}>
+            {cart.map((product) => (
+              <CartItem
+                key={product.id}
+                className={styles.cartItem}
+                product={product}
+                updateQuantity={updateQuantity}
+                removeFromCart={removeFromCart}
+                setCartOpen={setCartOpen}
+                previousUrl={location.pathname}
+              />
+            ))}
+          </ul>
+          <div className={styles.totalCheckout}>
+            <div className={styles.cartTotal}>
+              <p className={styles.total}>Total</p>
+              <h3 className={`${styles.title} ${styles.cartTotalAmount}`}>
+                ${total}
+              </h3>
             </div>
-            {hasProducts ?
-                <div className={styles.cartContent}>
-                    <ul aria-label='cart products' className={styles.cartProducts}>
-                        {cart.map((product) => 
-                            <CartItem 
-                                key={product.id} 
-                                className={styles.cartItem} 
-                                product={product} 
-                                updateQuantity={updateQuantity}
-                                removeFromCart={removeFromCart}
-                                setCartOpen={setCartOpen}
-                                previousUrl={location.pathname}
-                            />
-                        )}
-                    </ul>
-                        <div className={styles.totalCheckout}>
-                            <div className={styles.cartTotal}>
-                                <p className={styles.total}>Total</p>
-                                <h3 className={styles.title}>${total}</h3>
-                            </div>
-                            <Link 
-                                to={'shop/checkout'}
-                                className={`${styles.checkout} ${styles.button}`}
-                                onClick={() => {
-                                    setCartOpen(false)
-                                    document.startViewTransition()
-                                }}
-                                >
-                                <CreditCard className={styles.icon}></CreditCard>
-                                <p className={styles.checkoutText}>Checkout</p>
-                            </Link>
-                        </div>
-                </div>
-                : <p className={styles.empty}>Your cart is empty</p>
-                }
-        </>
-    )
-}
+            <Link
+              to={"shop/checkout"}
+              className={`${styles.checkout} ${styles.button}`}
+              onClick={() =>
+                document.startViewTransition(() => setCartOpen(false))
+              }
+            >
+              <CreditCard size={18} />
+              <p className={styles.checkoutText}>Checkout</p>
+            </Link>
+          </div>
+        </div>
+      ) : (
+        <p className={styles.empty}>Your cart is empty</p>
+      )}
+    </>
+  );
+};
 
-export default Cart
+export default Cart;

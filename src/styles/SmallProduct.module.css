@@ -1,137 +1,141 @@
 .smallProduct {
-    display: flex;
-    flex-direction: column;
-    gap: 1dvh;
-    align-items: center;
-    background-color: white;
-    width: clamp(170px, 20dvw, 500px);
-    border: 1px solid rgba(0,0,0, 0.1);
-    border-radius: 5px;
-    box-shadow: 0px 0px 0px #00000030, 0px 6px 6px #00000015;
-    transition: background-color 0.15s ease-in-out, transform 0.15s ease-in-out;
-    text-decoration: none;
-    padding-bottom: 1%;
+  display: flex;
+  flex-direction: column;
+  gap: 1dvh;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+  width: clamp(170px, 15dvw, 500px);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  box-shadow:
+    0px 0px 0px #00000030,
+    0px 6px 6px #00000015;
+  transition: background-color 0.2s ease-in-out;
+  text-decoration: none;
+  padding-bottom: 1%;
 }
 .productData {
-    width: 90%;
-    display: flex;
-    flex-direction: column;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
 }
 .productInfo {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
 }
 .link {
-    text-decoration: none;
-    color: black;
-    width: 100%;
-    transition: color 0.15s ease-in-out;
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  transition: color 0.15s ease-in-out;
 }
 .smallProduct:hover {
-    .link {
-        color: var(--accent-color);
-    }
-    border: 1px solid rgba(0,0,0, 0.15);
-    transform: scale(1.03);
+  .link {
+    color: var(--accent-color);
+  }
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.15);
 }
 .image {
-    width: 100%;
-    aspect-ratio: 4/3;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+  width: 100%;
+  aspect-ratio: 4/4;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+.mainImage {
+  composes: image;
 }
 .title {
-    width: 90%;
-    font-weight: 600;
-    text-align: start;
-    margin: 2% auto 0% auto;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
+  width: 90%;
+  font-weight: 600;
+  text-align: start;
+  margin: 2% auto 0% auto;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 0.75rem;
 }
 .category {
-    font-size: 0.6rem;
-    text-align: center;
-    background-color: rgba(0,0,0, 0.1);
-    color: rgba(0,0,0,0.75);
-    width: fit-content;
-    padding: 1.5dvh 1dvw;
-    border-radius: 10px;
-    transition: background-color 0.15s ease-in-out;
+  text-align: center;
+  background-color: transparent;
+  color: var(--secondary-text);
+  width: fit-content;
+  padding: 1.5dvh 1dvw;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  transition:
+    background-color 0.15s ease-in-out,
+    color 0.15s ease-in-out;
 }
 .price {
-    font-weight: 600;
-    font-size: 1rem;
-    text-align: end;
-    margin-right: 8%;
+  font-weight: 600;
+  font-size: 1rem;
+  text-align: end;
+  margin: 0;
 }
 .priceBuy {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 90%;
-    margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10%;
 }
 .button {
-    composes: button from './Button.module.css';
-    background-color: var(--accent-color);
-    color: white;
+  composes: button from "./Button.module.css";
+  border: 1px solid rgba(0, 0, 0, 0.1) !important;
 }
 .buttonRed {
-    composes: button;
-    background-color: darkred;
+  composes: button;
+  background-color: transparent;
+  color: rgba(139, 0, 0, 0.8);
 }
-.icon {
-    height: 3.5dvh;
-    width: fit-content;
+.cartIcon {
+  width: 1.3rem;
+  height: 1.3rem;
 }
 .loading {
-    background-color: lightgrey;
-    outline: none;
-    border-radius: 15px;
-    animation: loading-animation 2s ease-in-out infinite;
-    transition: background-color 0.3s ease-in-out;
+  background-color: lightgrey;
+  outline: none;
+  border-radius: 15px;
+  animation: loading-animation 2s ease-in-out infinite;
+  transition: background-color 0.3s ease-in-out;
 }
 .loadingImage {
-    composes: loading;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
+  composes: loading;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 .loadingTitle {
-    composes: loading;
-    display: flex;
-    height: 4dvh;
+  composes: loading;
+  display: flex;
+  height: 4dvh;
 }
 .loadingPrice {
-    composes: loading;
-    display: flex;
-    height: 60%;
-    width: 15%;
-    margin: 20px 0px;
+  composes: loading;
+  display: flex;
+  height: 2rem;
+  width: 3rem;
+  margin: 20px 0px;
 }
 .loadingCategory {
-    composes: loading;
-    display: flex;
-    width: 25%;
-    height: 2dvh;
-    margin: 12px 0px;
+  composes: loading;
+  display: flex;
+  width: 25%;
+  height: 2dvh;
+  margin: 12px 0px;
 }
 .loadingButton {
-    composes: loading;
-    width: 12%;
-    height: 55%;
-    padding: 0.5rem 1rem;
+  composes: loading;
+  width: 1.5rem;
+  height: 2rem;
+  padding: 0.5rem 1rem;
 }
 @keyframes loading-animation {
-    50% {
-        background-color: rgb(230, 230, 230);
-    }
-}
-@media (max-width: 700px) {
-    .icon {
-        height: 2.5dvh;
-    }
+  50% {
+    background-color: rgb(230, 230, 230);
+  }
 }

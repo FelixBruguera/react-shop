@@ -1,136 +1,334 @@
 .error {
-    composes: noResults from "./Shop.module.css"
-}
-.product {
-    padding: 5%;
-    display: flex;
-    justify-content: space-evenly;
-    height: 100%;
-    gap: 1.5dvw;
-}
-.productTop {
-    display: flex;
-    width: 70%;
-    gap: 1dvw;
-}
-.productContent {
-    display: flex;
-    flex-direction: column;
-    width: 95%;
-}
-.imageContainer {
-    grid-area: 1 / 2 / 4 / 2;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    
-}
-.image {
-    aspect-ratio: 4/3;
-    height: 100%;
-    width: 100%;
-    border-radius: 5px;
-}
-.title {
-    font-weight: 600;
-    margin-bottom: 3%;
-}
-.category {
-    height: auto;
-    padding: 2%;
-    margin: 0;
-    composes: category from "./SmallProduct.module.css"
-}
-.category:hover {
-    background-color: lightsteelblue;
-}
-.description {
-    text-align: justify;
-    color: rgba(0,0,0,0.65);
-}
-.priceCheckout {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-}
-.price {
-    font-weight: 600;
-    margin: 0;
-}
-.button, .buttonRed {
-    width: 7dvw;
-    height: 7dvh;
-}
-.button:hover, .buttonRed:hover {
-    cursor: pointer;
-    background-color: black;
-    color: white;
-}
-.goBack {
-    height: 100%;
-    border-radius: 10px;
-    transition: color 0.15s ease-in-out;
-}
-.goBack:hover {
-    color: var(--accent-color);
-}
-.button {
-    composes: button from "./SmallProduct.module.css"
-}
-.buttonRed {
-    composes: buttonRed from "./SmallProduct.module.css"
+  composes: noResults from "./Shop.module.css";
 }
 .icon {
-    composes: icon from "./Shop.module.css"
+  composes: icon from "./App.module.css";
+}
+.cartIcon {
+  composes: cartIcon from "./SmallProduct.module.css";
+}
+.product {
+  padding: 2.5% 5%;
+  display: flex;
+  justify-content: space-evenly;
+  height: 100%;
+  gap: 1.5dvw;
+  margin: 0 auto;
+}
+.loadingProduct {
+  width: 80%;
+}
+.productImageOpen {
+  composes: product;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.productTop {
+  display: flex;
+  width: 70%;
+  gap: 1dvw;
+}
+.productContent {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+}
+.imageContainer {
+  grid-area: 1 / 2 / 4 / 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.image {
+  aspect-ratio: 1/1;
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  border-radius: 0.5rem;
+}
+.image:hover {
+  cursor: pointer;
+}
+dialog {
+  width: 45%;
+  height: 80%;
+  border: 1px solid transparent;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.openImageContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.openImage {
+  aspect-ratio: 1/1;
+  width: 80%;
+}
+.arrow {
+  background-color: transparent;
+  border: none;
+  transition:
+    color 0.3s ease-in-out,
+    transform 0.3s ease-in-out;
+  height: fit-content;
+  width: fit-content;
+}
+.arrow:not(:disabled):hover {
+  background-color: transparent;
+  color: var(--accent-color);
+  transform: scale(1.2);
+}
+.arrow:disabled:hover {
+  background-color: transparent;
+  color: lightgray;
+  cursor: default;
+}
+.closeModal {
+  border: 1px solid transparent;
+  transition: border 0.15s ease-in-out;
+  border-radius: 0.5rem;
+  padding: 0.1rem;
+}
+.closeModal:hover {
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+}
+.smallImage {
+  aspect-ratio: 4/3;
+  width: 50%;
+  border: 2px solid transparent;
+  border-radius: 0.5rem;
+  transition: border 0.15s ease-in-out;
+}
+.imageSelector {
+  list-style: none;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  padding: 0;
+  width: 70%;
+  margin: auto;
+  margin-top: 0.5rem;
+}
+.smallImageContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.selectedSmallImage {
+  composes: smallImageContainer;
+}
+.selectedSmallImage > img {
+  border: 2px solid var(--accent-color);
+}
+.smallImage:hover {
+  border: 2px solid var(--accent-color);
+  cursor: pointer;
+}
+.title {
+  font-weight: 600;
+  margin: 0rem 0;
+  font-size: 2rem;
+}
+.subtitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0;
+}
+.category {
+  height: auto;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.7rem;
+  margin: 0;
+  composes: category from "./SmallProduct.module.css";
+}
+.category:hover {
+  background-color: var(--accent-color);
+  color: white;
+}
+.description {
+  font-size: 0.875rem;
+  text-align: justify;
+  color: var(--secondary-text);
+  margin: 0.5rem 0;
+  max-width: 95%;
+}
+.detailsContainer {
+  margin: 0.5rem 0;
+}
+.detailList {
+  padding-left: 3%;
+  margin: 0.5rem 0;
+}
+.detailContainer:hover {
+  .detail {
+    color: black;
+  }
+}
+.detail {
+  font-size: 0.875rem;
+  color: var(--secondary-text);
+  margin: 0.5rem 0;
+  transition: color 0.3s ease-in-out;
+}
+.priceCheckout {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.price {
+  font-weight: 600;
+  margin: 0;
+  font-size: 1.5rem;
+}
+.button,
+.buttonRed {
+  composes: button from "./Button.module.css";
+  width: 6dvw;
+  height: 6dvh;
+}
+.button:hover,
+.buttonRed:hover {
+  cursor: pointer;
+  background-color: var(--hover-black);
+  color: white;
+}
+.goBack {
+  height: fit-content;
+  border-radius: 10px;
+  transition: color 0.15s ease-in-out;
+}
+.goBack:hover {
+  color: var(--accent-color);
+}
+.button {
+  composes: button from "./SmallProduct.module.css";
+}
+.buttonRed {
+  composes: buttonRed from "./SmallProduct.module.css";
+}
+.icon {
+  composes: icon from "./Shop.module.css";
 }
 .loading {
-    composes: loading from "./SmallProduct.module.css";
+  composes: loading from "./SmallProduct.module.css";
 }
 .loadingImage {
-    composes: loading;
-    aspect-ratio: 4/3;
-    height: 100%;
-    width: 100%;
+  composes: loading;
+  aspect-ratio: 4/4;
+  height: 100%;
+  width: 100%;
 }
 .loadingTitle {
-    composes: loading;
-    height: 5dvh;
-    margin: 3% 0;
-    width: 40%;
+  composes: loading;
+  composes: title;
+  height: 3rem;
+  width: 15rem;
 }
 .loadingCategory {
-    composes: loading;
-    height: 5dvh;
-    width: 6dvw;
+  composes: loading;
+  height: 2.5rem;
+  width: 6rem;
+  margin: 0.5em 0;
 }
 .loadingDescription {
-    composes: loading;
-    height: 15dvh;
-    margin: 1em 0;
-    width: 100%;
+  composes: loading;
+  composes: description;
+  height: 6rem;
+  width: 100%;
+}
+.loadingDetail {
+  composes: loading;
+  composes: detail;
+  height: 2rem;
+  width: 20rem;
 }
 .loadingButton {
-    composes: loading;
-    height: 7dvh;
-    width: 10%;
+  composes: loading;
+  width: 8rem;
+  height: 3rem;
 }
 .loadingPrice {
-    composes: loading;
-    width: 6%;
-    height: 8dvh;
+  composes: loading;
+  width: 6rem;
+  height: 3rem;
 }
+:root {
+  --vt-anim-multiplier: 1;
+}
+html:active-view-transition-type(image) {
+  &::view-transition-group(*) {
+    animation-duration: calc(0.25s * var(--vt-anim-multiplier));
+  }
+  &::view-transition-old(root) {
+    animation:
+      --view-transition-delay --view-transition-curve both fade-out,
+      calc(var(--vt-anim-multiplier) * 300ms) cubic-bezier(0.4, 0, 0.2, 1) both;
+  }
+  &::view-transition-new(root) {
+    animation:
+      calc(var(--vt-anim-multiplier) * 210ms) cubic-bezier(0, 0, 0.2, 1)
+        calc(var(--vt-anim-multiplier) * 90ms) both fade-in,
+      calc(var(--vt-anim-multiplier) * 300ms) cubic-bezier(0.4, 0, 0.2, 1) both;
+  }
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+
+@keyframes fade-out {
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes slide-from-right {
+  from {
+    transform: translateX(30px);
+  }
+}
+
+@keyframes slide-to-left {
+  to {
+    transform: translateX(-30px);
+  }
+}
+
 @media (max-width: 700px) {
-    .product {
-        flex-direction: column;
-    }
-    .productTop {
-        flex-direction: column;
-        width: 100%;
-    }
-    p.category {
-        padding: 1.2dvh 2.5dvw;
-    }
+  .product {
+    flex-direction: column;
+  }
+  .smallImageContainer {
+    margin-bottom: 0.5rem;
+  }
+  .description,
+  .detailsContainer {
+    margin: 0.875rem 0;
+  }
+  .productTop {
+    flex-direction: column;
+    width: 100%;
+  }
+  .detailList {
+    padding-left: 6%;
+  }
+  dialog {
+    width: 100%;
+    height: fit-content;
+  }
+  .button,
+  .buttonRed {
+    width: 18dvw;
+  }
 }
