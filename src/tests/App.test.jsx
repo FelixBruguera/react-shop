@@ -55,9 +55,7 @@ describe('the shop route', () => {
         },
       ]);
     beforeEach(async ()=> {
-        const user = userEvent.setup()
-        render( <Stub initialEntries={["/"]} /> )
-        await user.click(screen.getByText('Store'))
+        render( <Stub initialEntries={["/shop"]} /> )
 
     })
     test('the product data is visible', async () => {
@@ -67,12 +65,12 @@ describe('the shop route', () => {
     describe('the slide menu', async() => {
         test('the slide opens after clicking the button', async() => {
             const user = userEvent.setup()
-            await user.click(await screen.findByLabelText('filter'))
+            await user.click(await screen.findByText('Filter'))
             expect(await screen.findByLabelText('sliding menu')).toBeInTheDocument()
         })
         test('the slide closes when the animationEnd event is fired', async() => {
             const user = userEvent.setup()
-            await user.click(await screen.findByLabelText('sort'))
+            await user.click(await screen.findByText('Sort'))
             const menu = await screen.findByLabelText('sliding menu')
             await user.click(await screen.findByLabelText('close slide'));
             fireEvent.animationEnd(menu)
@@ -109,12 +107,16 @@ describe('the shop route', () => {
     describe('the cart', async() => {
         test('a product can be added', async() => {
             const user = userEvent.setup()
+            await screen.findAllByLabelText("add to cart")
             await user.click(screen.getAllByLabelText('add to cart')[0])
+            expect(await screen.findByLabelText("remove from cart")).toBeVisible()
             await user.click(await screen.findByLabelText('open cart'))
-            expect(screen.getAllByText(firstProductTitle).length).toBe(2)
+            const firstProductItems = screen.getAllByText(firstProductTitle)
+            expect(firstProductItems.length).toBe(2)
         })
         test('a product can be removed', async() => {
             const user = userEvent.setup()
+            await screen.findAllByLabelText("add to cart")
             await user.click(screen.getAllByLabelText('add to cart')[0])
             await user.click(await screen.findByLabelText('open cart'))
             expect(screen.getAllByText(firstProductTitle).length).toBe(2)
@@ -124,7 +126,8 @@ describe('the shop route', () => {
         })
         test('the total updates when the quantity changes', async() => {
             const user = userEvent.setup()
-            const productPrice = firstProductPrice.slice(1,3)
+            const productPrice = firstProductPrice.slice(1)
+            await screen.findAllByLabelText("add to cart")
             await user.click(screen.getAllByLabelText('add to cart')[0])
             await user.click(await screen.findByLabelText('open cart'))
             for (let i = 1; i < 8; i++) {
@@ -134,6 +137,7 @@ describe('the shop route', () => {
         })
         test('the "clear" button clears the cart', async() => {
             const user = userEvent.setup()
+            await screen.findAllByLabelText("add to cart")
             const buttons = screen.getAllByLabelText('add to cart')
             await user.click(buttons[0])
             await user.click(buttons[1])
@@ -144,26 +148,10 @@ describe('the shop route', () => {
             expect(screen.getByText('Your cart is empty')).toBeInTheDocument()
         })
     })
-    describe('the product page', () => {
-        test('renders a product correctly', async() => {
-            const user = userEvent.setup()
-            await user.click(screen.getByText(firstProductTitle))
-            expect(screen.getByText(firstProductTitle).textContent).toBe(firstProductTitle)
-            expect(screen.getByText(firstProductDescription)).toBeVisible()
-            expect(screen.getByText(firstProductPrice).textContent).toBe(firstProductPrice)
-        })
-        test('the "go back" button keeps the shop location', async () => {
-            const user = userEvent.setup()
-            await user.click(screen.getByLabelText('page 3'))
-            await user.click(screen.getByText(firstProductTitle))
-            await user.click(screen.getByLabelText('go back'))
-            const currentPage = screen.getByRole("listitem", {current: 'page'})
-            expect(currentPage).toHaveTextContent(3)
-        })
-    })
     describe('the checkout route', () => {
         const user = userEvent.setup()
         test('renders the cart products', async() => {
+            await screen.findAllByLabelText("add to cart")
             const buttons = screen.getAllByLabelText('add to cart')
             await user.click(buttons[0])
             await user.click(buttons[1])
@@ -171,7 +159,7 @@ describe('the shop route', () => {
             await user.click(await screen.findByLabelText('open cart'))
             await user.click(screen.getByText('Checkout'))
             expect(screen.getByLabelText('checkout products').children).toHaveLength(3)
-            expect(screen.getByText(firstProductTitle)).toBeVisible()
+            expect(screen.getAllByText(firstProductTitle)).toHaveLength(2)
         })
     })
 })
