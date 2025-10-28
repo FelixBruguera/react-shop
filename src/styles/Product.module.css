@@ -15,6 +15,9 @@
     gap: 1.5dvw;
     margin: 0 auto;
 }
+.loadingProduct {
+    width: 80%;
+}
 .productImageOpen {
     composes: product;
     background-color: rgba(0,0,0,0.9);
@@ -218,36 +221,43 @@ dialog::backdrop {
 }
 .loadingImage {
     composes: loading;
-    aspect-ratio: 4/3;
+    aspect-ratio: 4/4;
     height: 100%;
     width: 100%;
 }
 .loadingTitle {
     composes: loading;
-    height: 5dvh;
-    margin: 3% 0;
-    width: 40%;
+    composes: title;
+    height: 3rem;
+    width: 15rem;
 }
 .loadingCategory {
     composes: loading;
-    height: 5dvh;
-    width: 6dvw;
+    height: 2.5rem;
+    width: 6rem;
+    margin: 0.5em 0;
 }
 .loadingDescription {
     composes: loading;
-    height: 15dvh;
-    margin: 1em 0;
+    composes: description;
+    height: 6rem;
     width: 100%;
+}
+.loadingDetail {
+    composes: loading;
+    composes: detail;
+    height: 2rem;
+    width: 20rem;
 }
 .loadingButton {
     composes: loading;
-    height: 7dvh;
-    width: 10%;
+    width: 8rem;
+    height: 3rem;
 }
 .loadingPrice {
     composes: loading;
-    width: 6%;
-    height: 8dvh;
+    width: 6rem;
+    height: 3rem;
 }
 :root {
     --vt-anim-multiplier: 1;

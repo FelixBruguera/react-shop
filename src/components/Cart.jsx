@@ -15,7 +15,7 @@ const Cart = ({ cart, emptyCart, removeFromCart, updateQuantity, setCartOpen }) 
     return (
         <>
             <div className={styles.titleContainer}>
-                <h2 className={styles.title}>Your Cart</h2>
+                <h3 className={styles.title}>Your Cart</h3>
                 {hasProducts ? 
                     <Button 
                     style='light'
@@ -44,7 +44,7 @@ const Cart = ({ cart, emptyCart, removeFromCart, updateQuantity, setCartOpen }) 
                         <div className={styles.totalCheckout}>
                             <div className={styles.cartTotal}>
                                 <p className={styles.total}>Total</p>
-                                <h3 className={styles.title}>${total}</h3>
+                                <h3 className={`${styles.title} ${styles.cartTotalAmount}`}>${total}</h3>
                             </div>
                             <Link 
                                 to={'shop/checkout'}

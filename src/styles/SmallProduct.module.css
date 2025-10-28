@@ -115,8 +115,8 @@
 .loadingPrice {
     composes: loading;
     display: flex;
-    height: 60%;
-    width: 15%;
+    height: 2rem;
+    width: 3rem;
     margin: 20px 0px;
 }
 .loadingCategory {
@@ -128,8 +128,8 @@
 }
 .loadingButton {
     composes: loading;
-    width: 12%;
-    height: 55%;
+    width: 1.5rem;
+    height: 2rem;
     padding: 0.5rem 1rem;
 }
 @keyframes loading-animation {

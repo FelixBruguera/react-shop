@@ -10,7 +10,6 @@ const HomePage = () => {
         <div className={styles.mainTextContainer}>
           <div className={styles.imageText}>
             <h1>Music Shop</h1>
-            <p>Affordable quality</p>
           </div>
           <Link to={"/shop"} viewTransition className={styles.link}>
             <button className={styles.lightButton}>Explore</button>

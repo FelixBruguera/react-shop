@@ -12,16 +12,13 @@ const ShopSkeleton = () => {
             </div>
             <ul className={styles.products}>
                 {
-                    [...Array(8).keys()].map(() => {
-                       return( <li className={productStyles.smallProduct}>
+                    [...Array(8).keys()].map((i) => {
+                       return( <li key={i} className={productStyles.smallProduct}>
                             <div className={productStyles.link}>
                                 <span className={`${productStyles.image} ${productStyles.loadingImage}`} />
                                 <span className={`${productStyles.title} ${productStyles.loadingTitle}`} />
                             </div>
                             <div className={productStyles.productData}>
-                                <div className={productStyles.productInfo}>
-                                    <span className={`${productStyles.category} ${productStyles.loadingCategory}`} />
-                                </div>
                                 <div className={productStyles.priceBuy}>
                                     <span className={`${productStyles.price} ${productStyles.loadingPrice}`} />
                                     <span className={productStyles.loadingButton} />

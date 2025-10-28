@@ -1,7 +1,7 @@
 import { useState } from "react"
 import Button from "./Button"
 import styles from '../styles/Filters.module.css'
-import { ArrowDownAZ, TrendingDown, TrendingUp } from "lucide-react"
+import { ArrowDownAZ, ArrowDownUp, TrendingDown, TrendingUp } from "lucide-react"
 
 const Sort = ({ handleSort, currentSort }) => {
     const [option, setOption] = useState(currentSort)
@@ -9,7 +9,7 @@ const Sort = ({ handleSort, currentSort }) => {
     const options = [
         {slug: 'lowest', name: 'Lowest price', logo: <TrendingDown size={iconSize}/>}, 
         {slug: 'highest', name: 'Highest price', logo: <TrendingUp size={iconSize}/>},
-        {slug: 'category', name: 'Category (A-Z)', logo: <ArrowDownAZ size={iconSize}/>}, 
+        {slug: 'category', name: 'Default', logo: <ArrowDownUp size={iconSize}/>}, 
         {slug: 'name', name: 'Name (A-Z)', logo: <ArrowDownAZ size={iconSize}/>}
     ]
     const handleSubmit = (e) => {
