@@ -1,7 +1,5 @@
 import styles from "../styles/HomePage.module.css";
-import image from "../assets/furniture.jpg";
 import { Link } from "react-router";
-import Button from "./Button";
 
 const HomePage = () => {
   return (
@@ -187,10 +185,10 @@ const HomePage = () => {
             <a
               rel="noreferrer"
               target="_blank"
-              href="https://www.istockphoto.com/portfolio/xavigm?mediatype=photography"
+              href="https://unsplash.com/es/@evs_nd"
               className={styles.link}
             >
-              xavigm
+              Evgeny Ndn
             </a>
           </li>
           <li>
